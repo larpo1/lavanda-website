@@ -1,13 +1,16 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
+import Nav from '../../components/nav'
 import BlogRoll from '../../components/BlogRoll'
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
+                <Nav />
+
+        {/* <div
           className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `url('/img/blog-index.jpg')`,
@@ -24,9 +27,10 @@ export default class BlogIndexPage extends React.Component {
           >
             Latest Stories
           </h1>
-        </div>
-        <section className="section">
+        </div> */}
+        <section className="section has-navbar-fixed-top">
           <div className="container">
+
             <div className="content">
               <BlogRoll />
             </div>

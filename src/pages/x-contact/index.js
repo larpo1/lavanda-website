@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import Nav from '../../components/nav'
 
 function encode(data) {
   return Object.keys(data)
@@ -36,6 +37,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
+        <Nav />
         <section className="section">
           <div className="container">
             <div className="content">
