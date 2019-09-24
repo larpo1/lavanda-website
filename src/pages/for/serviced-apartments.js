@@ -5,9 +5,9 @@ import SEO from "../../components/seo"
 import Nav from "../../components/nav"
 import { Link } from "gatsby"
 import Feature from "../../components/feature"
-import featureCM from "../../../static/images/features/multi-channel-manager.png"
-import featureOps from "../../../static/images/features/feature-operations.png"
-import featureGuestComms from "../../../static/images/features/feature-guest-comms.png"
+import featureCM from "../../../static/img/features/multi-channel-manager.png"
+import featureOps from "../../../static/img/features/feature-operations.png"
+import featureGuestComms from "../../../static/img/features/feature-guest-comms.png"
 const ServicedApartmentsPage = () => (
   <Layout>
     <SEO title="Serviced Apartment Management Software" />

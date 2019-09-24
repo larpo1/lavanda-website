@@ -5,7 +5,7 @@ import SEO from "../../components/seo"
 import Nav from "../../components/nav"
 import { Link } from "gatsby"
 //import Feature from "../../components/feature"
-//import PlaceholderImage from "../../../static/images/placeholders/350x250.png"
+//import PlaceholderImage from "../../../static/img/placeholders/350x250.png"
 
 const ServicedApartmentsPage = () => (
   <Layout>

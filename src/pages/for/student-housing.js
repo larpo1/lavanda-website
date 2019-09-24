@@ -6,10 +6,10 @@ import SEO from "../../components/seo"
 import Nav from "../../components/nav"
 import { Link } from "gatsby"
 import Feature from "../../components/feature"
-//import PlaceholderImage from "../../../static/images/placeholders/350x250.png"
-import featureCM from "../../../static/images/features/multi-channel-manager.png"
-import featureOps from "../../../static/images/features/feature-operations.png"
-import featureGuestComms from "../../../static/images/features/feature-guest-comms.png"
+//import PlaceholderImage from "../../../static/img/placeholders/350x250.png"
+import featureCM from "../../../static/img/features/multi-channel-manager.png"
+import featureOps from "../../../static/img/features/feature-operations.png"
+import featureGuestComms from "../../../static/img/features/feature-guest-comms.png"
 
 const ServicedApartmentsPage = () => (
   <Layout>

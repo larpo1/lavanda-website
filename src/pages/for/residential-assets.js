@@ -5,8 +5,8 @@ import SEO from "../../components/seo"
 import Nav from "../../components/nav"
 import { Link } from "gatsby"
 import Feature from "../../components/feature"
-import featureCM from "../../../static/images/features/multi-channel-manager.png"
-import featureIA from "../../../static/images/features/feature-ia.png"
+import featureCM from "../../../static/img/features/multi-channel-manager.png"
+import featureIA from "../../../static/img/features/feature-ia.png"
 
 const ServicedApartmentsPage = () => (
   <Layout>

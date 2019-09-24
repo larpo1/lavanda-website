@@ -1,11 +1,11 @@
 import { Link } from "gatsby"
 import React from "react"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
-import iconTwitter from "../../static/images/icon-twitter.svg"
-import iconLinkedin from "../../static/images/icon-linkedin.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
-import iconInstagram from "../../static/images/icon-instagram.svg"
+import logo from "../../static/img/logo.svg"
+import iconTwitter from "../../static/img/icon-twitter.svg"
+import iconLinkedin from "../../static/img/icon-linkedin.svg"
+import iconGitHub from "../../static/img/icon-github.svg"
+import iconInstagram from "../../static/img/icon-instagram.svg"
 
 const Footer = () => (
   <footer>
