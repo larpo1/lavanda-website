@@ -14,7 +14,7 @@ const NavbarBurger = props => (
   </div>
 )
 
-export default class Navbar extends React.Component {
+export default class Nav extends React.Component {
 
 componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll);

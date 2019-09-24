@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
-import Layout from '../../components/Layout'
+import Layout from '../../components/layout'
 import Nav from '../../components/nav'
 
 function encode(data) {
