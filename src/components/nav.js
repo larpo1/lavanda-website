@@ -26,9 +26,7 @@ componentWillUnmount = () => {
 
 handleScroll = () => {
     let position = window.scrollY
-    console.log(position)
     const nav = document.querySelector('#navbar');
-    //if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
     if(position <= 200) nav.classList.remove('filled'); else nav.classList.add('filled');
   }
 
@@ -171,9 +169,9 @@ handleScroll = () => {
                 </Link>
 
                 <div className={"navbar-dropdown"}>
-                  {/* <Link to="/" className={"navbar-item"}>
+                  <Link to="/blog" className={"navbar-item"}>
                     Blog
-                  </Link> */}
+                  </Link>
                   <Link to="/careers" className={"navbar-item"}>
                     Careers
                   </Link>

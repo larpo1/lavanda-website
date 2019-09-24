@@ -2,7 +2,7 @@ import React from "react"
 import Nav from "../components/nav"
 import SEO from "../components/seo"
 import HubspotMeeting from "../components/hubspot-meeting-api"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const BookMeetingPage = () => (
   <Layout>
