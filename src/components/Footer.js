@@ -9,19 +9,11 @@ import iconInstagram from "../../static/img/icon-instagram.svg"
 
 const Footer = () => (
   <footer>
-    <section className={"hero is-medium"}>
-      <div className={"hero-body"}>
+    <section className={"hero is-medium is-light"}>
+      <div className={"container hero-body"}>
         <div className={"columns"}>
           <div className={"column"}>
-            <Link to="/" title={"Lavanda"}>
-              <img alt={"Logo"} className={"footer-logo"} src={logo} />
-            </Link>
-            <div className={"about"}>
-              <p>Lavanda is an award winning SaaS proptech platform. Lavanda is a member of ARLA and registered with the Property Redress Scheme.</p>
-            </div>
-          </div>
-          <div className={"column"}>
-            <div className={"links"}>
+          <div className={"links"}>
               <ul>
                 <li>
                   <Link to="/contact" title={"Contact Us"}>
@@ -46,7 +38,16 @@ const Footer = () => (
               </ul>
             </div>
           </div>
-          <div className={"column"}>
+          <div className={"column has-text-centered"}>
+          <Link to="/" title={"Lavanda"}>
+              <img alt={"Logo"} className={"footer-logo"} src={logo} />
+            </Link>
+            <div className={"about"}>
+              <p>Lavanda is a member of ARLA and registered with the Property Redress Scheme.</p>
+            </div>
+            
+          </div>
+          <div className={"column has-text-right"}>
             <div className={"social"}>
               <a
                 href="https://twitter.com/getlavanda"
