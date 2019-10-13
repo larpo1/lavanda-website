@@ -9,7 +9,7 @@ description: >-
   unaffordable mortgage, our evolution as a more transient, multi-cultural
   society, etc.
 featuredpost: false
-featuredimage: /img/Macbook@2x.png
+featuredimage: /img/svslong.jpg
 tags:
   - multi-channel
   - HomeAway
