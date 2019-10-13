@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: A guide to the winning multi-channel strategies in 2019
+title: A guide to a winning multi-channel strategy in 2019
 date: 2019-10-12T23:00:00.000Z
 description: >-
   The short-term rental industry is experiencing a phase of astronomical growth.
