@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Lavanda wins Best Short-Term Rental Platform
+title: Lavanda wins "Best Short-Term Rental Platform" 2018
 date: 2018-03-21T18:03:05.245Z
 description: >-
   We are hugely honoured to have been selected as Best Short-Term Rental
