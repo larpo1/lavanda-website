@@ -2,12 +2,7 @@
 templateKey: blog-post
 title: A guide to a winning multi-channel strategy in 2019
 date: 2019-10-12T23:00:00.000Z
-description: >-
-  The short-term rental industry is experiencing a phase of astronomical growth.
-  This is further boosted by macro societal trends; the unstoppable rise of the
-  sharing economy, the growing need to monetise property to support an
-  unaffordable mortgage, our evolution as a more transient, multi-cultural
-  society, etc.
+description: ' '
 featuredpost: false
 featuredimage: /img/svslong.jpg
 tags:
@@ -18,6 +13,8 @@ tags:
   - Airbnb
   - distribution
 ---
+The short-term rental industry is experiencing a phase of astronomical growth. This is further boosted by macro societal trends; the unstoppable rise of the sharing economy, the growing need to monetise property to support an unaffordable mortgage, our evolution as a more transient, multi-cultural society, etc.
+
 Assuming occupancy and rental yield are your main goals, then marketing your listing across multiple channels and platforms is generally always a better strategy than opting for a single channel like Airbnb. More eyeballs on your property leads to more enquiries, which lead to more bookings and higher occupancy rates. It can be a little more complex to set up, but it doesn’t even need to be any more time-consuming once you are up and running.
 
 Before we explore the multitude of channels and platforms available, you first need to think about the kind of renter you are, what kind of property you are marketing, and what are your goals and preferences.
