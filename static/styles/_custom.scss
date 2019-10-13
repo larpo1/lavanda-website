@@ -174,3 +174,32 @@ $navbar-height: 5rem;
 .navbar-item img {
   max-height: 2.8rem !important;
 }
+article.blog-list-item.is-child {
+  text-align: center;
+}
+p.post-meta {
+  margin: 40px auto;
+}
+a.blog-roll-title { 
+  font-family: $bg;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: .065em;
+    color: #3373b4;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 270px;
+    margin: 40px auto;
+    text-align: center;
+}
+.article-body p:first-child:first-letter {
+  color: #3373b4;
+  float: left;
+  font-family: $bg;
+  font-size: 7.5em;
+  line-height: 90px;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-left: 3px;
+  font-weight: 400;
+}

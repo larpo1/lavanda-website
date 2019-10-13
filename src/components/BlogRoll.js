@@ -12,9 +12,9 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-4" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`blog-list-item tile is-child ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -25,20 +25,20 @@ class BlogRoll extends React.Component {
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${
-                            post.title
+                            post.frontmatter.title
                           }`,
                         }}
                       />
+                    {/* <img src={post.frontmatter.featuredimage} alt={`featured image for post ` + post.frontmatter.title} /> */}
                     </div>
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="blog-roll-title"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
@@ -78,7 +78,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 140)
               id
               fields {
                 slug
@@ -90,7 +90,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 400, maxHeight: 200, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }

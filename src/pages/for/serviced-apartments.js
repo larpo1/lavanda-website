@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
-import Nav from "../../components/nav"
+import Nav from "../../components/Nav"
 import { Link } from "gatsby"
 import Feature from "../../components/Feature"
 import featureCM from "../../../static/img/features/multi-channel-manager.png"

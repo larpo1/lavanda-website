@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import Nav from "../components/nav"
+import Nav from "../components/Nav"
 
 const FeedbackPage = () => (
   <Layout>

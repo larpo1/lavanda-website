@@ -1,5 +1,5 @@
 import React from "react"
-import Nav from "../components/nav"
+import Nav from "../components/Nav"
 import SEO from "../components/seo"
 import HubspotMeeting from "../components/hubspot-meeting-widget"
 import Layout from "../components/Layout"

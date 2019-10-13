@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
-import Nav from "../../components/nav"
+import Nav from "../../components/Nav"
 import { Link } from "gatsby"
 import Feature from "../../components/Feature"
 //import PlaceholderImage from "../../../static/img/placeholders/350x250.png"

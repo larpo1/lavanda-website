@@ -1,7 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import Nav from '../../components/nav'
+import Nav from '../../components/Nav'
 
 function encode(data) {
   return Object.keys(data)
