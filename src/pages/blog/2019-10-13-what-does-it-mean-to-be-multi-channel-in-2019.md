@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: What does it mean to be multi-channel in 2019?
+title: What are the winning multi-channel strategies in 2019?
 date: 2019-10-12T23:00:00.000Z
 description: >-
   The short-term rental industry is experiencing a phase of astronomical growth.
@@ -46,15 +46,11 @@ Direct booking: Allowing guests and tenants to book direct without going through
 
 ## Tips for better multi-channel distribution for your short term rental assets
 
-1. Success is defined by how well you understand the platform and the audience The nature of the audience determines how you should market your listing, and that in turn is what wins occupancy. From pricing, to knowing how to categorise your listing to the tailoring of the property description, to the hospitality services that you offer your guests…
-
-2. Syncing calendars to avoid duplicate bookings You need to have a single universal calendar for your listing that integrates with the various platforms you choose to market your property across. If not you will constantly be taking bookings on one platform and then having to remember to manually block out the dates on others. It will drive you mad. If you get it wrong and a booking slips through, then you could be liable for having to pay a cancellation fee.
-
-3. Managing guest communications This can be hard work if you don’t get appropriate technology in place to help. It can often require an extra layer of communication too, if you do not live at the property and rely on someone on the ground to let your guests in, etc.
-
-4. Setting up and taking payment No two channels are the same. Some charge per transaction. Some charge a yearly fee. Some pay mostly upfront, others pay after the guest has departed. Some even rely on you to take cash upon arrival by default.
-
-5. Setting cancellation policies Make sure you know how to set these up, and importantly how they differ across the platforms you use. Read the Ts&Cs!
+* Success is defined by how well you understand the platform and the audience The nature of the audience determines how you should market your listing, and that in turn is what wins occupancy. From pricing, to knowing how to categorise your listing to the tailoring of the property description, to the hospitality services that you offer your guests…
+* Syncing calendars to avoid duplicate bookings You need to have a single universal calendar for your listing that integrates with the various platforms you choose to market your property across. If not you will constantly be taking bookings on one platform and then having to remember to manually block out the dates on others. It will drive you mad. If you get it wrong and a booking slips through, then you could be liable for having to pay a cancellation fee.
+* Managing guest communications This can be hard work if you don’t get appropriate technology in place to help. It can often require an extra layer of communication too, if you do not live at the property and rely on someone on the ground to let your guests in, etc.
+* Setting up and taking payment No two channels are the same. Some charge per transaction. Some charge a yearly fee. Some pay mostly upfront, others pay after the guest has departed. Some even rely on you to take cash upon arrival by default.
+* Setting cancellation policies Make sure you know how to set these up, and importantly how they differ across the platforms you use. Read the Ts&Cs!
 
 ## Conclusion
 
