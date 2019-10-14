@@ -1,4 +1,174 @@
 // Typography
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir/AvenirLTStd-Book.eot');
+    src: url('../fonts/avenir/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/avenir/AvenirLTStd-Book.woff2') format('woff2'),
+        url('../fonts/avenir/AvenirLTStd-Book.woff') format('woff'),
+        url('../fonts/avenir/AvenirLTStd-Book.ttf') format('truetype'),
+        url('../fonts/avenir/AvenirLTStd-Book.svg#avenir/AvenirLTStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir/AvenirLTStd-Medium.eot');
+    src: url('../fonts/avenir/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/avenir/AvenirLTStd-Medium.woff2') format('woff2'),
+        url('../fonts/avenir/AvenirLTStd-Medium.woff') format('woff'),
+        url('../fonts/avenir/AvenirLTStd-Medium.ttf') format('truetype'),
+        url('../fonts/avenir/AvenirLTStd-Medium.svg#avenir/AvenirLTStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BlackItalic.eot');
+	src: local('../fonts/brandon Grotesque Black Italic'), local('../fonts/brandonGrotesque-BlackItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BlackItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BlackItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BlackItalic.svg#BrandonGrotesque-BlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-RegularItalic.eot');
+	src: local('../fonts/brandon Grotesque Regular Italic'), local('../fonts/brandonGrotesque-RegularItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-RegularItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-RegularItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-RegularItalic.svg#BrandonGrotesque-RegularItalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-MediumItalic.eot');
+	src: local('../fonts/brandon Grotesque Medium Italic'), local('../fonts/brandonGrotesque-MediumItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-MediumItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-MediumItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-MediumItalic.svg#BrandonGrotesque-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Medium.eot');
+	src: local('../fonts/brandon Grotesque Medium'), local('../fonts/brandonGrotesque-Medium'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Medium.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Medium.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Black.eot');
+	src: local('../fonts/brandon Grotesque Black'), local('../fonts/brandonGrotesque-Black'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Black.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Black.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Black.svg#BrandonGrotesque-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Thin.eot');
+	src: local('../fonts/brandon Grotesque Thin'), local('../fonts/brandonGrotesque-Thin'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Thin.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Thin.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Thin.svg#BrandonGrotesque-Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-LightItalic.eot');
+	src: local('../fonts/brandon Grotesque Light Italic'), local('../fonts/brandonGrotesque-LightItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-LightItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-LightItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-LightItalic.svg#BrandonGrotesque-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BoldItalic.eot');
+	src: local('../fonts/brandon Grotesque Bold Italic'), local('../fonts/brandonGrotesque-BoldItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BoldItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BoldItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-BoldItalic.svg#BrandonGrotesque-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Bold.eot');
+	src: local('../fonts/brandon Grotesque Bold'), local('../fonts/brandonGrotesque-Bold'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Bold.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Bold.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-ThinItalic.eot');
+	src: local('../fonts/brandon Grotesque Thin Italic'), local('../fonts/brandonGrotesque-ThinItalic'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-ThinItalic.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-ThinItalic.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-ThinItalic.svg#BrandonGrotesque-ThinItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Light.eot');
+	src: local('../fonts/brandon Grotesque Light'), local('../fonts/brandonGrotesque-Light'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Light.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Light.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Regular.eot');
+	src: local('../fonts/brandon Grotesque Regular'), local('../fonts/brandonGrotesque-Regular'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Regular.woff') format('woff'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Regular.ttf') format('truetype'),
+		url('../fonts/brandon-grotesque/hinted-BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 $avenir: 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 $bg: 'Brandon Grotesque', Helvetica, Arial, sans-serif;
 
