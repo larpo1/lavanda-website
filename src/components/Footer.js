@@ -4,7 +4,6 @@ import "../../static/styles/main.scss"
 import logo from "../../static/img/logo.svg"
 import iconTwitter from "../../static/img/icon-twitter.svg"
 import iconLinkedin from "../../static/img/icon-linkedin.svg"
-import iconGitHub from "../../static/img/icon-github.svg"
 import iconInstagram from "../../static/img/icon-instagram.svg"
 
 const Footer = () => (
@@ -62,13 +61,6 @@ const Footer = () => (
                 title={"LinkedIn"}
               >
                 <img alt={"LinkedIn"} src={iconLinkedin} />
-              </a>
-              <a
-                href="https://github.com/lavanda-uk"
-                target={"_blank"}
-                title={"GitHub"}
-              >
-                <img alt={"GitHub"} src={iconGitHub} />
               </a>
               <a
                 href="https://www.instagram.com/getlavanda/"
