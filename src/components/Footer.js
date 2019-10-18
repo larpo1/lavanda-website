@@ -9,7 +9,8 @@ import iconInstagram from "../../static/img/icon-instagram.svg"
 const Footer = () => (
   <footer>
     <section className={"hero is-medium is-light"}>
-      <div className={"container hero-body"}>
+      <div className={"hero-body"}>
+        <div className="container">
         <div className={"columns"}>
           <div className={"column"}>
           <div className={"links"}>
@@ -40,11 +41,7 @@ const Footer = () => (
           <div className={"column has-text-centered"}>
           <Link to="/" title={"Lavanda"}>
               <img alt={"Logo"} className={"footer-logo"} src={logo} />
-            </Link>
-            <div className={"about"}>
-              <p>Lavanda is a member of ARLA and registered with the Property Redress Scheme.</p>
-            </div>
-            
+            </Link> 
           </div>
           <div className={"column has-text-right"}>
             <div className={"social"}>
@@ -72,16 +69,15 @@ const Footer = () => (
             </div>
           </div>
         </div>
-
         <div className={"copyright"}>
-          <p>
+          <p>Lavanda is a member of ARLA and registered with the Property Redress Scheme.</p>
+          <p> 
             Copyright {new Date().getFullYear()}, {` `}{" "}
             <a href="https://getlavanda.com" title={"Lavanda"}>
-              Lavanda
-            </a>
-            . All rights reserved.
+              Lavanda</a>. All rights reserved.
           </p>
         </div>
+      </div>
       </div>
     </section>
   </footer>
