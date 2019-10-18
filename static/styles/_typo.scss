@@ -22,6 +22,18 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir/hinted-Avenir-Heavy.eot');
+    src: local('Avenir Heavy'), local('Avenir-Heavy'),
+        url('../fonts/avenir/hinted-Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/avenir/hinted-Avenir-Heavy.woff2') format('woff2'),
+        url('../fonts/avenir/hinted-Avenir-Heavy.woff') format('woff'),
+        url('../fonts/avenir/hinted-Avenir-Heavy.ttf') format('truetype'),
+        url('../fonts/avenir/hinted-Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
 
 
 @font-face {
@@ -189,8 +201,8 @@ $size-7: 0.75rem !default;
 $weight-light: 300 !default;
 $weight-normal: 400 !default;
 $weight-medium: 500 !default;
-$weight-semibold: 600 !default;
-$weight-bold: 700 !default;
+$weight-semibold: 900 !default;
+$weight-bold: 900 !default;
 
 
 

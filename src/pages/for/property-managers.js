@@ -20,11 +20,10 @@ const PropertyManagersPage = () => (
       <div className={"hero-body Aligner"}>
         <div className={"hero-text Aligner-item has-text-centered"}>
           <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
-            Technology for scale.<br/>
-            Partnership for growth.
+            The PMS that actively grows your business.
           </h1>
           <h2 className={"subtitle"}>
-          Lavanda PMS (property management system) has been built to power seamless hospitality operations boost profitability and unlock growth opportunities for your short-term rental business.
+          Lavanda PMS (property management system) is a complete end-to-end management platform that unlocks efficiency while actively growing your short-term rental business.
           </h2>
           <Link to="/book-a-demo" className={"button is-primary is-medium"}>
             <strong>Request A Demo</strong>
