@@ -1,6 +1,6 @@
 ---
 templateKey: terms
-title: Lavanda General Terms and Conditions for Introducer Agreements
+title: General Terms and Conditions for Introducer Agreements
 date: 2019-10-18T20:40:23.175Z
 ---
 <p>This agreement is dated on the date as per the specific Software License Agreement &amp; Introducer Agreement terms agreed with the customer. <br></p>
