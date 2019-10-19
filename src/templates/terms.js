@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 import Content, { HTMLContent } from '../components/Content'
@@ -10,12 +9,10 @@ import Content, { HTMLContent } from '../components/Content'
 export const TermsTemplate = ({
   content,
   contentComponent,
-  description,
-  tags,
   title,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
+  const TermsContent = contentComponent || Content
 
   return (
     <Layout>
@@ -28,20 +25,7 @@ export const TermsTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p className="article-body">{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
+            <TermsContent content={content} />
           </div>
         </div>
       </div>
@@ -53,31 +37,30 @@ export const TermsTemplate = ({
 TermsTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
 
 const Terms = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: terms } = data
 
   return (
     <Layout>
       <TermsTemplate
-        content={post.html}
+        content={terms.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        description={terms.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Terms">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${terms.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${terms.frontmatter.description}`}
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        tags={terms.frontmatter.tags}
+        title={terms.frontmatter.title}
       />
     </Layout>
   )
@@ -99,7 +82,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         tags
       }
     }
