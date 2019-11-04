@@ -3,19 +3,16 @@ templateKey: blog-post
 title: Lavanda launches the Professional Host Alliance
 date: 2019-11-01T14:32:20.723Z
 description: >-
-  Lavanda launches the Professional Host Alliance; the independent global body
-  of short-term rental operators and property managers whose mission is to build
-  trust and accelerate professionalisation of a sustainable global alternative
-  accommodation sector.
+  At Lavanda our mission is to develop, enable and accelerate a trusted,
+  professional and sustainable short-term rental sector.
+
+
+  We’re now taking that mission to the next level.
 featuredpost: true
 featuredimage: /img/logotype-orange-3x.png
 tags:
   - ''
 ---
-At Lavanda our mission is to develop, enable and accelerate a trusted, professional and sustainable short-term rental sector. 
-
-We’re now taking that mission to the next level.
-
 Today Lavanda is launching the **Professional Host Alliance**, a global initiative that recognises short-term rental operators and property managers as key stakeholders in alternative accommodation ecosystem - and critically an audience that is both platform-agnostic and independent of the major OTAs. 
 
 ## What is the Professional Host Alliance?
@@ -38,7 +35,7 @@ Membership is free, and members have access to the following benefits:
 * Opportunities to participate in PR, events and awards that recognise industry best practice and innovation in short-term rental management
 * Display the Professional Host Alliance logo on your website and marketing collateral
 
-## What agenda will Professional Host Alliance pursue?
+## What agenda will the Professional Host Alliance pursue?
 
 The Professional Host Alliance is not a talking shop. We are committed to accelerating real industry-wide innovation and change, and most importantly putting professional hosts at the heart of that of that change: 
 
@@ -58,5 +55,3 @@ Thank you in advance to all who support the Professional Host Alliance, and for 
 > “The Professional Host Alliance is the missing catalyst needed to professionalise the short-term rental industry, and unlock a step-change in the experiences of guests and hosts globally. With better support, partnerships, tools and access to information, professional hosts will be able to innovate faster and realise the hugely exciting potential in this sector.” 
 >
 > **Guy Westlake, Founder of Lavanda and Chairman of the Professional Host Alliance.**
->
->
