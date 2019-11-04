@@ -20,14 +20,26 @@ Today Lavanda is launching the **Professional Host Alliance**, a global initiati
 The Professional Host Alliance is a global community of short-term rental operators and property managers in pursuit of a common mission:
 
 * To continuously improve the experience for guests and hosts within the alternative accommodation sector.
-* To support this, we believe there is a need to professionalise the alternative accommodation sector.
+* To support this, we believe there is a need to professionalise and standardise the alternative accommodation sector.
 * To build a sustainable and futureproof short-term rental ecosystem with real social and economic impact.
 
 If you share these beliefs, and want to play an active role in shaping the future of this industry - both in your immediate local market, and at a global level - we welcome you to come and join us.
 
+
+
+## Why now?
+
+There are a number of trends happening which have led to the launch of the Professional Host Alliance. FIrstly, the global community of short-term rental managers is both highly fragmented and growing fast.  Secondly, in parallel with the fragmented growth of this key stakeholder group, we see multiple disparate initiatives by OTAs and technology providers seeking to engage with them.  We believe a continuation of the current context can only lead to a number of sub-optimal outcomes for property managers, and for the industry as a whole:
+
+* The pursuit of different, unconnected initiatives by the primary influencers of the short-term rental ecosystem _**in reality only ends up further complicating the business of their target audience** _(i.e. the property managers themselves). This has the unwanted knock-on effect of making better experiences for guests and hosts even harder to deliver -  rather than having the desired effect of accelerating the professionalisation of the industry.
+* Many initiatives being pursued in the market fail to show a deep enough understanding of the nuanced wants and needs of property managers themselves.  We put this down to a simple communication failure, and the lack of an efficient interface to enable more effective collaboration between property managers and external stakeholder groups. The PHA can become this interface, and represent the priorities, needs and challenges of our membership.
+* All of the above is largely the result of property managers being a histoprically reactive community, who have waited for OTAs and technology providers to announce their initiatives, rather than seeking to inform them actively and/or lobby them for better support.  This is because there has been no formal structure to support more effective collaboration, enable the property management community to better flex its muscle within the ecosystem. Again, a problem that the PHA can solve by putting an effective structure in place.
+
+
+
 ## How do members benefit?
 
-Membership is free, and members have access to the following benefits:
+Membership of the Professional Host Alliance is free, and members have access to the following benefits:
 
 * Access to business growth opportunities
 * Access to educational and networking events
