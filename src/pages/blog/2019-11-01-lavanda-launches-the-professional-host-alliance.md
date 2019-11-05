@@ -13,11 +13,11 @@ featuredimage: /img/logotype-orange-3x.png
 tags:
   - ''
 ---
-Today Lavanda is launching the **Professional Host Alliance**, a global initiative that recognises short-term rental operators and property managers as key stakeholders in alternative accommodation ecosystem - and critically an audience that is both platform-agnostic and independent of the major OTAs. 
+Lavanda has launched the **Professional Host Alliance**, a global initiative that recognises short-term rental operators and property managers as key stakeholders in the alternative accommodation ecosystem - and critically an audience that is both platform-agnostic and independent of the major OTAs. 
 
 ## What is the Professional Host Alliance?
 
-The Professional Host Alliance is a global community of short-term rental operators and property managers in pursuit of a common mission:
+The Professional Host Alliance is a global community of like-minded short-term rental operators and property managers in pursuit of a common mission:
 
 * To continuously improve the experience for guests and hosts within the alternative accommodation sector.
 * To support this, we believe there is a need to professionalise and standardise the alternative accommodation sector.
@@ -29,11 +29,11 @@ If you share these beliefs, and want to play an active role in shaping the futur
 
 ## Why now?
 
-There are a number of trends happening which have led to the launch of the Professional Host Alliance. FIrstly, the global community of short-term rental managers is both highly fragmented and growing fast.  Secondly, in parallel with the fragmented growth of this key stakeholder group, we see multiple disparate initiatives by OTAs and technology providers seeking to engage with them.  We believe a continuation of the current context can only lead to a number of sub-optimal outcomes for property managers, and for the industry as a whole:
+There are a number of trends happening which have led to the launch of the Professional Host Alliance. Firstly, the highly-fragmented global community of short-term rental managers is now growing fast.  Secondly, in parallel with the fragmented growth of this key stakeholder group, we see multiple disparate initiatives by OTAs and technology providers seeking to engage with them.  We believe a continuation of the current context can only lead to a number of sub-optimal outcomes for property managers, and moreover for the industry as a whole. Here's why:
 
 * The pursuit of different, unconnected initiatives by the primary influencers of the short-term rental ecosystem _**in reality only ends up further complicating the business of their target audience** _(i.e. the property managers themselves). This has the unwanted knock-on effect of making better experiences for guests and hosts even harder to deliver -  rather than having the desired effect of accelerating the professionalisation of the industry.
-* Many initiatives being pursued in the market fail to show a deep enough understanding of the nuanced wants and needs of property managers themselves.  We put this down to a simple communication failure, and the lack of an efficient interface to enable more effective collaboration between property managers and external stakeholder groups. The PHA can become this interface, and represent the priorities, needs and challenges of our membership.
-* All of the above is largely the result of property managers being a histoprically reactive community, who have waited for OTAs and technology providers to announce their initiatives, rather than seeking to inform them actively and/or lobby them for better support.  This is because there has been no formal structure to support more effective collaboration, enable the property management community to better flex its muscle within the ecosystem. Again, a problem that the PHA can solve by putting an effective structure in place.
+* Many initiatives being pursued in the market fail to show a deep enough understanding of the nuanced wants and needs of property managers themselves.  We put this down to simple communication failure, or more specifically the lack of an efficient interface to enable more effective collaboration between property managers and external stakeholder groups. The PHA will become this interface, and is tasked with understanding and representing the priorities, needs and challenges of our membership.
+* All of the above is largely the result of property managers being a historically reactive community who have waited for OTAs and technology providers to announce their initiatives, rather than seeking to inform them more actively and/or lobby them for better support.  This is because there has been no formal structure to support more effective collaboration, and enable the property management community to better flex its collective muscle within the ecosystem. Again, a problem that the PHA can solve by putting an effective structure in place.
 
 
 
@@ -49,7 +49,7 @@ Membership of the Professional Host Alliance is free, and members have access to
 
 ## What agenda will the Professional Host Alliance pursue?
 
-The Professional Host Alliance is not a talking shop. We are committed to accelerating real industry-wide innovation and change, and most importantly putting professional hosts at the heart of that of that change: 
+The Professional Host Alliance is not a talking shop. We are committed to accelerating real industry-wide innovation and change, and most importantly putting professional hosts at the heart of that change: 
 
 * We will develop and promote a shared vision for a sustainable global industry.
 * We will work with OTAs and technology providers to realise that vision and create the missing tools needed to overcome key challenges around professional hosting.
@@ -60,7 +60,7 @@ The Professional Host Alliance is not a talking shop. We are committed to accele
 
 Visit the Professional Host Alliance [website](https://professionalhostalliance.com/) to register for membership. Please note that we welcome members from all around the world, however membership is strictly limited to professional property managers and short-term rental operators. 
 
-Anyone who registers will be contacted within 7 days to authenticate their status as a professional host, and then set up and welcomed into the community.
+Anyone who registers will be contacted within 7 days to authenticate their status as a professional host, and will then be set up and welcomed into our friendly community of progressive hosts.
 
 Thank you in advance to all who support the Professional Host Alliance, and for playing an active role in realising the exciting potential in this industry.
 
