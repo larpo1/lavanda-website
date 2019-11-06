@@ -88,7 +88,7 @@ handleScroll = () => {
                   </Link>
                   <hr className={"navbar-divider"} />
                   <Link to="/features/developer-api" className={"navbar-item"}>
-                    For software developers
+                    For integration partners
                   </Link>
                 </div>
               </div>
