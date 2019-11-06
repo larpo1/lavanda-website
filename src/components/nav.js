@@ -169,6 +169,9 @@ handleScroll = () => {
                 </Link>
 
                 <div className={"navbar-dropdown"}>
+                  <Link to="/blog" className={"navbar-item"}>
+                    Blog
+                  </Link>
                   <Link to="/careers" className={"navbar-item"}>
                     Careers
                   </Link>
