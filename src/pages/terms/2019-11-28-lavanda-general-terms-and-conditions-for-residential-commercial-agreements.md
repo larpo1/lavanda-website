@@ -3,19 +3,13 @@ templateKey: terms
 title: Lavanda General Terms and Conditions for Residential Commercial Agreements
 date: 2019-11-28T12:04:44.356Z
 ---
-<br />
-
 <p>This agreement is dated on the date as per the specific Lavanda Residential Commercial Agreement terms agreed with the Client. </p>
-
-<br />
 
 **<p>Parties </p>**
 
 <p>Party 1 LAVANDA VENTURES LTD a company incorporated and registered in England and Wales with company number 09059982 and whose registered office is at The Record Hall Business Centre, 16-16a Baldwin’s Gardens, London EC1N 7RJ (the “Provider”)</p>
 
 <p>Party 2 The Client as defined per the detail in the specific Lavanda Residential Commercial Agreement (the “Client”)</p>
-
-<br />
 
 ## 1. INTERPRETATION
 
@@ -65,8 +59,6 @@ date: 2019-11-28T12:04:44.356Z
 
 **“Works”** has the meaning given to it in clause 4.3. </p>
 
-<br />
-
 ## 2. CLIENT INTRODUCTIONS
 
 <p>2.1 The Client hereby appoints Lavanda as the sole provider of the Services or similar property management activities in respect of the Property for the duration of this Contract. </p>
@@ -84,8 +76,6 @@ date: 2019-11-28T12:04:44.356Z
 <p>2.4.3 create Client Profiles on your behalf or provide us with access to any Client Profile created by you by disclosing your current username and password from time to time to us in writing immediately on request and you hereby consent for us to provide the Property Manager and/or Lavanda with access to your Client Profiles for their internal business purposes. For the avoidance of doubt, upon creation of the Client Profiles ownership of all intellectual property rights and interests contained therein shall vest in Lavanda. </p>
 
 <p>2.4.4 The Client shall not engage with third parties or directly, across their entire portfolio of residential assets owned or operated, in relation to the provision of short-term letting and management of properties on Airbnb, Booking.com, HomeAway, Expedia and similar short-term accommodation booking platforms during the term of this contract.</p>
-
-<br />
 
 ## 3. WARRANTIES AND CLIENT RESPONSIBILITIES
 
@@ -106,8 +96,6 @@ date: 2019-11-28T12:04:44.356Z
 <p>3.3.5 receive any tax or legal advice in relation to all taxes required to be paid (including eg. income tax or VAT). For the avoidance of doubt, Lavanda will pay all Client Fees gross of taxation, i.e. including VAT, to the Client.</p>
 
 <p>3.4 If Lavanda’s performance of our obligations under this Contract is prevented or delayed by any act or omission by you, your agents, subcontractors or employees, then, without prejudice to any other right or remedy we may have, we will be allowed an extension of time to perform our obligations equal to the delay that you have caused.</p>
-
-<br />
 
 ## 4. SERVICES
 
@@ -163,8 +151,6 @@ date: 2019-11-28T12:04:44.356Z
 
 <p>4.5 The Client must maintain sufficient insurance for the Property and contents belonging to you including specialised cover for short-term rental in accordance with clause 9.3. </p>
 
-<br />
-
 ## 5. USE OF HIRED ITEMS
 
 <p>5.1 The Hired Items are only permitted for use by the Guest at the Property and for the purpose for which those Hired Items were designed.</p>
@@ -183,8 +169,6 @@ date: 2019-11-28T12:04:44.356Z
 
 <p>6.4 The Client will provide Lavanda with at least four sets of keys and access fobs (if applicable) to the Property, or grant us the right to copy up to at least four full sets at your expense. Lavanda will hold one set of keys and an access fob (if applicable) in a secure third-party location near the Property to be used for operational purposes, and may be used to give Guests access to the Property.</p>
 
-<br />
-
 ## 7. PAYMENT TERMS
 
 <p>7.1 The Client permits Lavanda to manage the price for letting the Property and to collect the Guest Fees in our client bank account on your behalf. </p>
@@ -198,8 +182,6 @@ date: 2019-11-28T12:04:44.356Z
 <p>7.4.1 you will pay interest on the overdue sum from the due date until payment of the overdue sum, whether before or after judgment. Interest under this clause 9.5.1 will accrue each day at 4% a year above the Bank of England’s base rate from time to time, but at 4% a year for any period when that base rate is below 0%; and </p>
 
 <p>7.4.2 we may suspend all or part of the Services until payment has been made in full.</p>
-
-<br />
 
 ## 8. TERMINATION
 
