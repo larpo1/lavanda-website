@@ -13,7 +13,7 @@ featuredimage: /img/logotype-orange-3x.png
 tags:
   - ''
 ---
-Lavanda has launched the **Professional Host Alliance**, a global initiative that recognises short-term rental operators and property managers as key stakeholders in the alternative accommodation ecosystem - and critically an audience that is both platform-agnostic and independent of the major OTAs. 
+Lavanda has launched the [**Professional Host Alliance**](https://www.professionalhostalliance.com/), a global initiative that recognises short-term rental operators and property managers as key stakeholders in the alternative accommodation ecosystem - and critically an audience that is both platform-agnostic and independent of the major OTAs. 
 
 ## What is the Professional Host Alliance?
 
@@ -25,8 +25,6 @@ The Professional Host Alliance is a global community of like-minded short-term r
 
 If you share these beliefs, and want to play an active role in shaping the future of this industry - both in your immediate local market, and at a global level - we welcome you to come and join us.
 
-
-
 ## Why now?
 
 There are a number of trends happening which have led to the launch of the Professional Host Alliance. Firstly, the highly-fragmented global community of short-term rental managers is now growing fast.  Secondly, in parallel with the fragmented growth of this key stakeholder group, we see multiple disparate initiatives by OTAs and technology providers seeking to engage with them.  We believe a continuation of the current context can only lead to a number of sub-optimal outcomes for property managers, and moreover for the industry as a whole. Here's why:
@@ -34,8 +32,6 @@ There are a number of trends happening which have led to the launch of the Profe
 * The pursuit of different, unconnected initiatives by the primary influencers of the short-term rental ecosystem _in reality only ends up further complicating the business of their target audience_ (i.e. the property managers themselves). This has the unwanted knock-on effect of making better experiences for guests and hosts even harder to deliver -  rather than having the desired effect of accelerating the professionalisation of the industry.
 * Many initiatives being pursued in the market fail to show a deep enough understanding of the nuanced wants and needs of property managers themselves.  We put this down to simple communication failure, or more specifically the lack of an efficient interface to enable more effective collaboration between property managers and external stakeholder groups. The PHA will become this interface, and is tasked with understanding and representing the priorities, needs and challenges of our membership.
 * All of the above is largely the result of property managers being a historically reactive community who have waited for OTAs and technology providers to announce their initiatives, rather than seeking to inform them more actively and/or lobby them for better support.  This is because there has been no formal structure to support more effective collaboration, and enable the property management community to better flex its collective muscle within the ecosystem. Again, a problem that the PHA can solve by putting an effective structure in place.
-
-
 
 ## How do members benefit?
 
@@ -58,7 +54,7 @@ The Professional Host Alliance is not a talking shop. We are committed to accele
 
 ## How do I join the Professional Host Alliance?
 
-Visit the Professional Host Alliance [website](https://professionalhostalliance.com/) to register for membership. Please note that we welcome members from all around the world, however membership is strictly limited to professional property managers and short-term rental operators. 
+Visit the Professional Host Alliance [website](https://www.professionalhostalliance.com/) to register for membership. Please note that we welcome members from all around the world, however membership is strictly limited to professional property managers and short-term rental operators. 
 
 Anyone who registers will be contacted within 7 days to authenticate their status as a professional host, and will then be set up and welcomed into our friendly community of progressive hosts.
 
