@@ -12,4 +12,4 @@ tags:
   - Lavanda
   - Serviced Apartments
 ---
-Let's rewrite some blurb here that is less focused on Agent.
+We could not be more proud of our incredibly talented team.
