@@ -11,4 +11,4 @@ tags:
   - UKPA
   - Awards
 ---
-Some blurb needed here.
+We could not be more proud of our incredibly talented team.
