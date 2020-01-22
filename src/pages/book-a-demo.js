@@ -8,7 +8,7 @@ const BookMeetingPage = () => (
   <Layout>
     <SEO title="Book a demo meeting with Lavanda Sales." />
     <Nav />
-    <div className={"has-margin-top-100 has margin-bottom-100"}>
+    <div className={"has-margin-top-100 has-margin-bottom-100"}>
       <HubspotMeeting />
     </div>
   </Layout>
