@@ -7,6 +7,9 @@ const NavbarBurger = props => (
   <div
     onClick={props.toggleMenu}
     className={`navbar-burger burger ${props.active ? "is-active" : ""}`}
+    role="button"
+    onKeyDown={props.toggleMenu}
+    tabIndex={0}
   >
     <span />
     <span />
@@ -88,7 +91,7 @@ handleScroll = () => {
                   </Link>
                   <hr className={"navbar-divider"} />
                   <Link to="/features/developer-api" className={"navbar-item"}>
-                    For software developers
+                    For integration partners
                   </Link>
                 </div>
               </div>
@@ -169,8 +172,11 @@ handleScroll = () => {
                 </Link>
 
                 <div className={"navbar-dropdown"}>
+                  <Link to="/blog" className={"navbar-item"}>
+                    Blog
+                  </Link>
                   <Link to="/careers" className={"navbar-item"}>
-                    Careers
+                    Work at Lavanda
                   </Link>
                   <Link to="/contact" className={"navbar-item"}>
                     Contact
