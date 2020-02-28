@@ -6,13 +6,13 @@ import Nav from "../components/Nav"
 const CareersPage = () => (
   <Layout>
     <SEO title="We are hiring." />
-    <div className={"hero is-fullheight bg-blob"}>
+    <div className={"hero is-fullheight"}>
     <Nav />
       <div className={"hero-body"}>
         <div className={"container has-margin-top-100"}>
         <div id="BambooHR">
-          <object data="https://lavanda.bamboohr.com/jobs/" title="Bamboo" className="bamboo-embed">
-          </object>
+          <iframe src="https://lavanda.bamboohr.com/jobs/" scrolling="no" title="Bamboo" className="bamboo-embed">
+          </iframe>
         </div>
         </div>
       </div>

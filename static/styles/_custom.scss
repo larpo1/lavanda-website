@@ -206,5 +206,6 @@ a.blog-roll-title {
 .bamboo-embed {
   font-family: $avenir;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 2500px;
+  overflow-y: hidden;
 }
