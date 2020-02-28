@@ -10,29 +10,12 @@ const CareersPage = () => (
     <Nav />
       <div className={"hero-body"}>
         <div className={"container has-margin-top-100"}>
-          <div className={"columns"}>
-            <div className={"column"}>
-              <h1 className={"title"}>We are hiring!</h1>
-              <p className={"subtitle"}>
-                We are currently hiring for the following roles:
-              </p>
-              <ul className={"subtitle"}>
-                <li>Talented Ruby on Rails Engineers</li>
-                <li>Talented Frontend Engineers with experience in Typescript and any modern FE framework (React, Angular 2+, Vue)</li>
-                <li>Talented data scientists (Python, ETL, webscraping, warehousing, predictive modelling, visualisation, Tableau, Data Studio etc.)</li>
-                <li>Experienced QA/engineers in test</li>
-                <li>Experienced DevOps </li>
-              </ul>
+        <div id="BambooHR"><script src="https://lavanda.bamboohr.com/js/jobs2.php" type="text/javascript"></script><div id="BambooHR-Footer">Powered by<a href="http://www.bamboohr.com" target="_blank" rel="noopener external nofollow noreferrer"><img src="https://resources.bamboohr.com/images/footer-logo.png" alt="BambooHR - HR software"/></a></div></div>
 
-            </div>
-            <div className={"column"}>
-              <h1 className={"title"}>How to apply</h1>
-              <p className={"subtitle"}>
-                Please reach out to us with an update copy of your CV or LinkedIn profile. 
-              </p>
-              <h2 className={"is-size-3"}>people@getlavanda.com</h2>
-            </div>
-          </div>
+        {/* <div id="BambooHR">
+          <object data="https://lavanda.bamboohr.com/jobs/embed2.php" title="Bamboo" className="bamboo-embed">
+          </object>
+        </div> */}
         </div>
       </div>
     </div>
