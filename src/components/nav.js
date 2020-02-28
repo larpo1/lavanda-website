@@ -173,7 +173,7 @@ handleScroll = () => {
                     Blog
                   </Link>
                   <Link to="/careers" className={"navbar-item"}>
-                    Careers
+                    Work at Lavanda
                   </Link>
                   <Link to="/contact" className={"navbar-item"}>
                     Contact
