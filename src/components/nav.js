@@ -7,6 +7,9 @@ const NavbarBurger = props => (
   <div
     onClick={props.toggleMenu}
     className={`navbar-burger burger ${props.active ? "is-active" : ""}`}
+    role="button"
+    onKeyDown={props.toggleMenu}
+    tabIndex={0}
   >
     <span />
     <span />

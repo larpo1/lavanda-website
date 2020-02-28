@@ -1,8 +1,12 @@
 $break-small: 719px;
 
 body {
-  font-family: $poppins;
+  font-family: $avenir;
   color: $lav-text;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 
   p {
     font-family: $avenir;

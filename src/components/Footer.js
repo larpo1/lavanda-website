@@ -48,6 +48,7 @@ const Footer = () => (
               <a
                 href="https://twitter.com/getlavanda"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 title={"Twitter"}
               >
                 <img alt={"Twitter"} src={iconTwitter} />
@@ -55,6 +56,7 @@ const Footer = () => (
               <a
                 href="https://www.linkedin.com/company/lavanda"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 title={"LinkedIn"}
               >
                 <img alt={"LinkedIn"} src={iconLinkedin} />
@@ -62,6 +64,7 @@ const Footer = () => (
               <a
                 href="https://www.instagram.com/getlavanda/"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 title={"Instagram"}
               >
                 <img alt={"Instagram"} src={iconInstagram} />
