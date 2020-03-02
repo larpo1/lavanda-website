@@ -1,7 +1,7 @@
 import React from "react"
 import Nav from "../components/Nav"
 import SEO from "../components/seo"
-import HubspotMeeting from "../components/hubspot-meeting-widget"
+import Calendly from "../components/calendly-book-demo"
 import Layout from "../components/Layout"
 
 const BookMeetingPage = () => (
@@ -9,7 +9,7 @@ const BookMeetingPage = () => (
     <SEO title="Book a demo meeting with Lavanda Sales." />
     <Nav />
     <div className={"has-margin-top-100 has-margin-bottom-100"}>
-      <HubspotMeeting />
+      <Calendly />
     </div>
   </Layout>
 )

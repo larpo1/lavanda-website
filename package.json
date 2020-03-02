@@ -30,6 +30,7 @@
     "parcel-bundler": "^1.12.4",
     "prop-types": "^15.6.0",
     "react": "^16.8.4",
+    "react-calendly": "^0.0.3",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-rotating-text": "^1.4.1",
