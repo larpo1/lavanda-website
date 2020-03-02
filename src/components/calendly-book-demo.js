@@ -27,7 +27,8 @@ export default class Calendly extends Component
           <div 
             className="calendly-inline-widget"
             data-url="https://calendly.com/book-lavanda/discovery-call?primary_color=0989d4"
-            style={{ minWidth: '320px', height: '580px' }} />
+            style={{ position: 'relative', minWidth: '320px', height: '750px' }}
+             />
         </div>
       </div>
     )
