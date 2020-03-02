@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-//import { InlineWidget } from "react-calendly";
-
 export default class Calendly extends Component
 { 
   componentDidMount() {
@@ -18,10 +16,6 @@ export default class Calendly extends Component
 
   render = () => {
     return ( 
-      // <div className="container">
-      //   <InlineWidget url="https://calendly.com/book-lavanda/discovery-call?primary_color=0989d4" />
-      // </div>
-
       <div>
         <div id="schedule_form">
           <div 
