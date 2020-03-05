@@ -1,7 +1,7 @@
 ---
 templateKey: terms
 title: General Terms and Conditions for Introducer Agreements
-date: 2019-10-18T20:40:23.175Z
+date: 2020-03-05T21:40:23.175Z
 ---
 <p>This agreement is dated on the date as per the specific Software License Agreement &amp; Introducer Agreement terms agreed with the customer. <br></p>
 <h3>PARTIES<br></h3>
