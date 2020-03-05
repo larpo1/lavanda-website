@@ -22,7 +22,7 @@ const IndexPage = () => (
         <div className={"container has-text-centered-mobile"}>
           <div className={"hero-text"}>
             <h1 className={"title is-size-1-tablet has-margin-bottom-35"}>
-              Where real estate meets hospitality.
+              Hi Brandon
             </h1>
             <h2 className={"subtitle text-rotator"}>
               Lavanda is a next-generation proptech platform. Our award-winning
