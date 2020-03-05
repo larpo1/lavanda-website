@@ -1,7 +1,7 @@
 ---
 templateKey: terms
 title: General Terms and Conditions for Software Licences
-date: 2019-10-19T20:27:47.696Z
+date: 2020-03-05T21:27:47.696Z
 ---
 <p>This agreement is dated on the date as per the specific Software License Agreement terms agreed with the customer. </p>
 
@@ -75,7 +75,7 @@ date: 2019-10-19T20:27:47.696Z
 
 <p><strong>Short Term Let</strong>: means the letting of a Relevant Property on a short term basis to a Guest by a Client Customer during the Subscription Term.<br></p>
 
-<p><strong>Software</strong>: the Lavanda PMS online software application (or such other name as the Provider may adopt for it from time to time) provided by the Provider via https://ops.lavanda.co.uk (or such other web address notified by the Provider to the Client from time to time). This will be clarified in the specific Software License Agreement agreed with the customer.<br></p>
+<p><strong>Software</strong>: the Lavanda PMS online software application (or such other name as the Provider may adopt for it from time to time) provided by the Provider via <https://pms.lavanda.app/> (or such other web address notified by the Provider to the Client from time to time). This will be clarified in the specific Software License Agreement agreed with the customer.<br></p>
 
 <p><strong>Software License Agreement:</strong> the specific client contract outlining key terms and conditions that accompany and complete this set of general terms. The terms in this general document will govern the agreement with the Client, unless where specifically written and/or clarified in the specific client contract.<br></p>
 
@@ -83,7 +83,7 @@ date: 2019-10-19T20:27:47.696Z
 
 <p><strong>Subscription Term</strong>: has the meaning given in clause 13.1.<br></p>
 
-<p><strong>Support Policy</strong>: the Provider’s policy setting out the terms of the technical helpdesk support service in relation to the use of the Software as made available online via https://ops.lavanda.co.uk or such other web address notified by the Provider to the Client from time to time.<br></p>
+<p><strong>Support Policy</strong>: the Provider’s policy setting out the terms of the technical helpdesk support service in relation to the use of the Software as made available online via <https://pms.lavanda.app/> or such other web address notified by the Provider to the Client from time to time.<br></p>
 
 <p><strong>Support Services</strong>: the technical helpdesk support services to be provided by the Provider to all Authorised Users in accordance with clause 3.3 and the terms of the Support Policy. <br></p>
 
@@ -181,7 +181,7 @@ date: 2019-10-19T20:27:47.696Z
 
 <p>4.4	Without prejudice to the generality of clause 4.1, the Provider shall, in relation to any Personal Data processed in connection with the performance by the Provider of its obligations under this agreement:</p>
 
-<p>4.4.1	process that Personal Data solely to the extent necessary to provide the Services in accordance with the terms of this agreement and shall not process the Personal Data for any other purpose other than on the documented written instructions of the Provider, unless the Provider is required by Applicable Laws to otherwise process that Personal Data. Where the Provider is relying on laws of a member of the European Union or European Union law as the basis for processing Personal Data, the Provider shall promptly notify the Client of this before performing the processing required by the Applicable Laws unless those Applicable Laws prohibit the Provider from so notifying the Client;</p>
+<p>4.4.1	process that Personal Data solely to the extent necessary to provide the Services in accordance with the terms of this agreement and shall not process the Personal Data for any other purpose other than on the documented written instructions of the Client (not the Provider), unless the the Provider is required by Applicable Laws to otherwise process that Personal Data. Where the Provider is relying on laws of a member of the European Union or European Union law as the basis for processing Personal Data, the Provider shall promptly notify the Client of this before performing the processing required by the Applicable Laws unless those Applicable Laws prohibit the Provider from so notifying the Client;;</p>
 
 <p>4.4.2	ensure that it has in place appropriate technical and organisational measures to protect against unauthorised or unlawful processing of Personal Data and against accidental loss or destruction of, or damage to, Personal Data, appropriate to the harm that might result from the unauthorised or unlawful processing or accidental loss, destruction or damage and the nature of the data to be protected, having regard to the state of technological development and the cost of implementing any measures (those measures may include, where appropriate, pseudonymising and encrypting Personal Data, ensuring confidentiality, integrity, availability and resilience of its systems and services, ensuring that availability of and access to Personal Data can be restored in a timely manner after an incident, and regularly assessing and evaluating the effectiveness of the technical and organisational measures adopted by it);</p>
 
