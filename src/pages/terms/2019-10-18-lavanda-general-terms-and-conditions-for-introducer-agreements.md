@@ -239,10 +239,29 @@ date: 2019-10-18T20:40:23.175Z
 <h4><strong>28. </strong><strong> </strong><strong>JURISDICTION</strong><br></h4>
 <p>28.1 Each party irrevocably agrees that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this agreement or its subject matter or formation (including non-contractual disputes or claims). </p>
 <h4><strong>SCHEDULE 1</strong><br></h4>
-<p>The Client Contract / LVL Client Contract can be found <a href="https://staging1.lavanda.co.uk/wp-content/uploads/2019/02/general-introduced-customer-service-terms.pdf">here</a>.<br></p>
-<p>Note the only variation in understanding is as per below, where clause 14.2 in the linked document varies as per below on whether the end Customer is Lavanda, for Block Prospective Customers, or not Lavanda, for any other situation. <br></p>
-<p><strong>14.2 </strong><strong> </strong><strong>Assignment: [[</strong><strong><em>where the Customer is Lavanda</em></strong><strong>] </strong>we shall not assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement without your prior written consent, save in respect of the check-in support and housekeeping components of the Services set out in clauses 6.1.1 and 6.1.2 respectively, which we may subcontract without your prior written consent. You may at any time assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement.<strong>]</strong> <strong><em>OR</em></strong><br></p>
-<p><strong>[[</strong><strong><em>where the Customer is not Lavanda</em></strong><strong>]</strong> neither party shall assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement without the prior written consent of the other party, save in respect of the check-in support and housekeeping components of the Services set out in clauses 6.1.1 and 6.1.2 respectively, which we may subcontract without your prior written consent.<strong>]</strong> <br></p>
+<p>The Client Contract / LVL Client Contract can be found <a href="https://getlavanda.com/terms/2019-11-28-lavanda-general-terms-and-conditions-for-residential-commercial-agreements/">here</a>.<br></p>
+Note the only variation in understanding areas per below:<br></p>
+
+
+
+Lavanda cannot accept any liability for any bookings the Client is negotiating, confirmed or in any way processing.
+
+* The Client is responsible for ensuring itself and the properties it operates on have all necessary consents, licenses, in accordance with applicable laws and regulations.
+* The Client is responsible for health and safety and certification in relation to the properties and any operations at the properties.
+* The Client is responsible if the Property is not available on the date booked, and may be responsible for the cost of alternative accommodation for the Guest.
+
+
+Clause 12.2 in the linked document varies as per below on whether the end Customer is Lavanda, for Block Prospective Customers, or not Lavanda, for any other situation. 
+
+
+
+12.2 	Assignment: \[[where the Customer is Lavanda] we shall not assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement without your prior written consent, save in respect of the check-in support and housekeeping components of the Services set out in clauses 4.1.1 and 4.1.2 respectively, which we may subcontract without your prior written consent. You may at any time assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement.] OR
+
+
+
+\[[where the Customer is not Lavanda] neither party shall assign, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement without the prior written consent of the other party, save in respect of the check-in support and housekeeping components of the Services set out in clauses 4.1.1 and 4.1.2 respectively, which we may subcontract without your prior written consent.]  <br></p>
+
+
 <h4><strong>SCHEDULE 2 – KPI’S</strong><br></h4>
 <p><strong>1.</strong><strong> </strong><strong>Area acceptance:</strong> The Lead Conversion Services must be provided in respect of every Landlord Prospective Customer Introduced by LVL where the relevant property is in an Active Coverage Area. <br></p>
 <p><strong>2.</strong><strong> </strong><strong>No contract breach:</strong> The Client must not breach the terms of any Client Contract or Client Relevant Contract. <br></p>
