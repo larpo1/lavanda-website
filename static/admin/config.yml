@@ -32,6 +32,22 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author Image", name: "image", widget: "image"}
+      - {label: "Testimonial", name: "testimonial", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Company", name: "company", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+
+
   - name: "pages"
     label: "Pages"
     files:
