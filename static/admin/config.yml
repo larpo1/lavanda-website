@@ -28,6 +28,12 @@ collections:
             fields: 
               - { label: Heros, name: hero, widget: relation, collection: heros, searchFields: ["title"], valueField: "title", required: false}
 
+          - label: 'Testimonial Section'
+            name: 'testimonials'
+            widget: object
+            fields: 
+              - { label: Testimonials, name: testimonials, widget: relation, collection: testimonials, searchFields: ["title"], valueField: "title", multiple: true, required: false}
+
           - label: 'Benefits Grid'
             name: 'benefits'
             widget: object
