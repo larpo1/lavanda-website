@@ -1,15 +1,19 @@
-import React from "react";
+import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from "react-helmet";
-import Layout from "../components/Layout";
-import Nav from "../components/Nav";
-import Content, { HTMLContent } from "../components/Content";
+import { kebabCase } from 'lodash'
+import Helmet from 'react-helmet'
+import { graphql, Link } from 'gatsby'
+import Layout from '../components/Layout'
+import Nav from '../components/Nav'
+import Content, { HTMLContent } from '../components/Content'
 
 export const FeaturePageTemplate = ({
   content,
   contentComponent,
+  description,
+  tags,
   title,
-  helmet
+  helmet,
 }) => {
   const FeatureContent = contentComponent || Content;
 
@@ -22,7 +26,20 @@ export const FeaturePageTemplate = ({
           <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
             {title}
           </h1>
+          <p className="article-body">{description}</p>
           <FeatureContent content={content} />
+          {tags && tags.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>Tags</h4>
+                <ul className="taglist">
+                  {tags.map(tag => (
+                    <li key={tag + `tag`}>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
         </div>
       </section>
     </Layout>
@@ -30,32 +47,33 @@ export const FeaturePageTemplate = ({
 };
 
 FeaturePageTemplate.propTypes = {
-    title: PropTypes.string.isRequired,
-    content: PropTypes.string,
-    contentComponent: PropTypes.func,
+  content: PropTypes.node.isRequired,
+  contentComponent: PropTypes.func,
+  description: PropTypes.string,
+  title: PropTypes.string,
+  helmet: PropTypes.object,
 }
 
 const FeaturePage = ({ data }) => {
     const { markdownRemark: feature } = data
 
     return (
-        <Layout>
-            <FeaturePageTemplate
-                contentComponent={HTMLContent}
-                title={feature.frontmatter.title}
-                content={feature.html}
-                helmet={
-                    <Helmet titleTemplate="%s | Blog">
-                      <title>{`${feature.frontmatter.title}`}</title>
-                      <meta
-                        name="description"
-                        content={`${feature.frontmatter.description}`}
-                      />
-                    </Helmet>
-                  }
-            
+      <FeaturePageTemplate
+        content={feature.html}
+        contentComponent={HTMLContent}
+        description={feature.frontmatter.description}
+        helmet={
+          <Helmet titleTemplate="%s | Page">
+            <title>{`${feature.frontmatter.title}`}</title>
+            <meta
+              name="description"
+              content={`${feature.frontmatter.description}`}
             />
-        </Layout>
+          </Helmet>
+        }
+        tags={feature.frontmatter.tags}
+        title={feature.frontmatter.title}
+      />
     )
 }
 
@@ -66,7 +84,7 @@ FeaturePage.propTypes = {
   }
   
   export default FeaturePage
-  
+
   export const pageQuery = graphql`
     query FeaturePageByID($id: String!) {
       markdownRemark(id: { eq: $id }) {
@@ -75,6 +93,8 @@ FeaturePage.propTypes = {
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          description
+          tags
         }
       }
     }
