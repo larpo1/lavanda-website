@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Test 2
+title: Testy McTestFace
 sections:
   - hero: Hello I'm a Hero
     type: hero
