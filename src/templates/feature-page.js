@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import PropTypes from 'prop-types'
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
@@ -46,10 +46,10 @@ const FeaturePage = ({ data }) => {
                 content={feature.html}
                 helmet={
                     <Helmet titleTemplate="%s | Blog">
-                      <title>{`${post.frontmatter.title}`}</title>
+                      <title>{`${feature.frontmatter.title}`}</title>
                       <meta
                         name="description"
-                        content={`${post.frontmatter.description}`}
+                        content={`${feature.frontmatter.description}`}
                       />
                     </Helmet>
                   }
