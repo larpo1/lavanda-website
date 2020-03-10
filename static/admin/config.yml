@@ -1,13 +1,62 @@
 backend:
   name: git-gateway
   branch: master
-
+site_url: https://getlavanda.com
+logo_url: https://raw.githubusercontent.com/larpo1/lavanda-blog/master/static/img/lavanda-logo.svg?sanitize=true
 media_folder: static/img
 public_folder: /img
-
+publish_mode: editorial_workflow  
 collections:
+
+  - name: "feature-pages"
+    label: "Feature Pages"
+    label_singular: "Feature Page"
+    folder: "src/pages/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
+      - {label: "Feature Title", name: "title", widget: "string"}
+      - label: 'Sections'
+        label_singular: "Section"
+        name: 'sections'
+        widget: 'list'
+        types:
+          - label: 'Hero'
+            name: 'hero'
+            widget: object
+            fields: 
+              - { label: Heros, name: hero, widget: relation, collection: heros, searchFields: ["title"], valueField: "title", required: false}
+
+          - label: 'Testimonial Section'
+            name: 'testimonials'
+            widget: object
+            fields: 
+              - { label: Testimonials, name: testimonials, widget: relation, collection: testimonials, searchFields: ["title"], valueField: "title", multiple: true, required: false}
+
+          - label: 'Benefits Grid'
+            name: 'benefits'
+            widget: object
+            fields:
+              - { label: Header, name: header, widget: string, default: 'Some Pretty Cool Benefits' }
+              - label: Benefits
+                name: benefits
+                widget: list
+                fields: 
+                  - { label: Icon, name: icon, widget: image, default: "/ad8a3f95-a846-42b5-aa5b-27020d8d69f2"}
+                  - { label: Blurb, name: blurb, widget: string }
+          - label: 'Spotlight'
+            name: 'spotlight'
+            widget: object
+            fields:
+              - { label: Header, name: header, widget: string, default: 'Spotlight' }
+              - { label: Template, name: template, widget: string, default: 'spotlight.html' }
+              - { label: Text, name: text, widget: text, default: 'Hello World' }
+
+
   - name: "blog"
-    label: "Blog"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -16,7 +65,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
@@ -31,6 +80,36 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "heros"
+    label: "Heros"
+    label_singular: "Hero"
+    folder: "src/content/heros"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "heros"}
+      - {label: "H1", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Background Image", name: "backgroundImage", widget: "image"}
+      - {label: "Foreground Image", name: "foregroundImage", widget: "image"}
+
+  - name: "testimonials"
+    label: "Testimonials"
+    label_singular: "Testimonial"
+    folder: "src/content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author Image", name: "image", widget: "image"}
+      - {label: "Testimonial", name: "testimonial", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Company", name: "company", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+
 
   - name: "pages"
     label: "Pages"
