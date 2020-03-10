@@ -58,3 +58,24 @@ const FeaturePage = ({ data }) => {
         </Layout>
     )
 }
+
+FeaturePage.propTypes = {
+    data: PropTypes.shape({
+      markdownRemark: PropTypes.object,
+    }),
+  }
+  
+  export default FeaturePage
+  
+  export const pageQuery = graphql`
+    query FeaturePageByID($id: String!) {
+      markdownRemark(id: { eq: $id }) {
+        id
+        html
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+        }
+      }
+    }
+  `
