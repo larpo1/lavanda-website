@@ -12,6 +12,8 @@ import featureCM from "../../static/img/features/multi-channel-manager.png"
 import featureIA from "../../static/img/features/feature-ia.png"
 import featureOps from "../../static/img/features/feature-operations.png"
 import featureGuestComms from "../../static/img/features/feature-guest-comms.png"
+import { Parallax } from 'react-scroll-parallax';
+
 
 const IndexPage = () => (
   <Layout className={"bg-blob"}>
@@ -22,11 +24,12 @@ const IndexPage = () => (
         <div className={"container has-text-centered-mobile"}>
           <div className={"hero-text"}>
             <h1 className={"title is-size-1-tablet has-margin-bottom-35"}>
-              Hi Brandon
+              Short-term Rental Technology
             </h1>
             <h2 className={"subtitle text-rotator"}>
-              Lavanda is a next-generation proptech platform. Our award-winning
-              SaaS is shaping the future of{" "}
+              Award-winning
+              SaaS platform for<br/> 
+              {" "}
               <ReactRotatingText
                 items={[
                   "residential multi-family and BTR.",
@@ -41,7 +44,9 @@ const IndexPage = () => (
               <strong>Request A Demo</strong>
             </Link>
           </div>
-          <img src={HomeMocks} alt="PMS" className={"homepage-mocks"} />
+          <Parallax y={[-50, 50]}>
+            <img src={HomeMocks} alt="PMS" className={"homepage-mocks"} />
+          </Parallax>
         </div>
       </div>
 
