@@ -18,7 +18,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
           - {label: "Feature Title", name: "title", widget: "string"}
           - {label: "Hero", name: "hero", widget: code }
-          - {label: "Logo bar", name: "logos", widget: list
+          - {label: "Logo bar", name: "logos", widget: list,
               fields: 
                     - { label: Logo, name: logo, widget: image, default: "https://www.fillmurray.com/640/360"}
                     - { label: Link, name: link, widget: string }}
