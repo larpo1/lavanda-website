@@ -5,7 +5,7 @@ site_url: https://getlavanda.com
 logo_url: https://raw.githubusercontent.com/larpo1/lavanda-blog/master/static/img/lavanda-logo.svg?sanitize=true
 media_folder: static/img
 public_folder: /img
-# publish_mode: editorial_workflow  
+publish_mode: editorial_workflow  
 collections:
 
   - name: "feature-pages"
