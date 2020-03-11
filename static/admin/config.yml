@@ -15,43 +15,82 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
-      - {label: "Feature Title", name: "title", widget: "string"}
-      - label: 'Sections'
-        label_singular: "Section"
-        name: 'sections'
-        widget: 'list'
-        types:
-          - label: 'Hero'
-            name: 'hero'
-            widget: object
-            fields: 
-              - { label: Heros, name: hero, widget: relation, collection: heros, searchFields: ["title"], valueField: "title", required: false}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
+          - {label: "Feature Title", name: "title", widget: "string"}
+          - label: 'Sections'
+            label_singular: "Section"
+            name: 'sections'
+            widget: 'list'
+            types:
+              - label: 'Hero'
+                name: 'hero'
+                widget: code
 
-          - label: 'Testimonial Section'
-            name: 'testimonials'
-            widget: object
-            fields: 
-              - { label: Testimonials, name: testimonials, widget: relation, collection: testimonials, searchFields: ["title"], valueField: "title", multiple: true, required: false}
 
-          - label: 'Benefits Grid'
-            name: 'benefits'
-            widget: object
-            fields:
-              - { label: Header, name: header, widget: string, default: 'Some Pretty Cool Benefits' }
-              - label: Benefits
-                name: benefits
-                widget: list
-                fields: 
-                  - { label: Icon, name: icon, widget: image, default: "/ad8a3f95-a846-42b5-aa5b-27020d8d69f2"}
-                  - { label: Blurb, name: blurb, widget: string }
-          - label: 'Spotlight'
-            name: 'spotlight'
-            widget: object
-            fields:
-              - { label: Header, name: header, widget: string, default: 'Spotlight' }
-              - { label: Template, name: template, widget: string, default: 'spotlight.html' }
-              - { label: Text, name: text, widget: text, default: 'Hello World' }
+              # - label: 'Testimonial Section'
+              #   name: 'testimonials'
+              #   widget: object
+              #   fields: 
+              #     - { label: Testimonials, name: testimonials, widget: relation, collection: testimonials, searchFields: ["title"], valueField: "title", multiple: true, required: false}
+
+              # - label: 'Benefits Grid'
+              #   name: 'benefits'
+              #   widget: object
+              #   fields:
+              #     - { label: Header, name: header, widget: string, default: 'Some Pretty Cool Benefits' }
+              #     - label: Benefits
+              #       name: benefits
+              #       widget: list
+              #       fields: 
+              #         - { label: Icon, name: icon, widget: image, default: "/ad8a3f95-a846-42b5-aa5b-27020d8d69f2"}
+              #         - { label: Blurb, name: blurb, widget: string }
+
+              # - label: 'Spotlight'
+              #   name: 'spotlight'
+              #   widget: object
+              #   fields:
+              #     - { label: Header, name: header, widget: string, default: 'Spotlight' }
+              #     - { label: Template, name: template, widget: string, default: 'spotlight.html' }
+              #     - { label: Text, name: text, widget: text, default: 'Hello World' }
+    # fields:
+    #   - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
+    #   - {label: "Feature Title", name: "title", widget: "string"}
+    #   - label: 'Sections'
+    #     label_singular: "Section"
+    #     name: 'sections'
+    #     widget: 'list'
+    #     types:
+    #       - label: 'Hero'
+    #         name: 'hero'
+    #         widget: object
+    #         fields: 
+    #           - { label: Heros, name: hero, widget: relation, collection: heros, searchFields: ["title"], valueField: "title", required: false}
+
+    #       - label: 'Testimonial Section'
+    #         name: 'testimonials'
+    #         widget: object
+    #         fields: 
+    #           - { label: Testimonials, name: testimonials, widget: relation, collection: testimonials, searchFields: ["title"], valueField: "title", multiple: true, required: false}
+
+    #       - label: 'Benefits Grid'
+    #         name: 'benefits'
+    #         widget: object
+    #         fields:
+    #           - { label: Header, name: header, widget: string, default: 'Some Pretty Cool Benefits' }
+    #           - label: Benefits
+    #             name: benefits
+    #             widget: list
+    #             fields: 
+    #               - { label: Icon, name: icon, widget: image, default: "/ad8a3f95-a846-42b5-aa5b-27020d8d69f2"}
+    #               - { label: Blurb, name: blurb, widget: string }
+
+    #       - label: 'Spotlight'
+    #         name: 'spotlight'
+    #         widget: object
+    #         fields:
+    #           - { label: Header, name: header, widget: string, default: 'Spotlight' }
+    #           - { label: Template, name: template, widget: string, default: 'spotlight.html' }
+    #           - { label: Text, name: text, widget: text, default: 'Hello World' }
 
 
   - name: "blog"

@@ -14,12 +14,16 @@ export const FeaturePageTemplate = ({
   tags,
   title,
   helmet,
+  hero,
 }) => {
   const FeatureContent = contentComponent || Content;
 
   return (
     <Layout>
       <Nav />
+      <section>
+        {hero}
+      </section>
       <section className="section has-margin-top-100">
         {helmet || ""}
         <div className="container content">
@@ -52,6 +56,7 @@ FeaturePageTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  hero: PropTypes.object,
 }
 
 const FeaturePage = ({ data }) => {
@@ -73,6 +78,7 @@ const FeaturePage = ({ data }) => {
         }
         tags={feature.frontmatter.tags}
         title={feature.frontmatter.title}
+        hero={feature.frontmatter.hero}
       />
     )
 }
