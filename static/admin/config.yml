@@ -1,6 +1,9 @@
 backend:
   name: git-gateway
   branch: brandon-changes
+# when using the default proxy server port
+local_backend: true
+
 site_url: https://getlavanda.com
 logo_url: https://raw.githubusercontent.com/larpo1/lavanda-blog/master/static/img/lavanda-logo.svg?sanitize=true
 media_folder: static/img
@@ -17,14 +20,17 @@ collections:
     fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
           - {label: "Feature Title", name: "title", widget: "string"}
-          - {label: "Hero", name: "hero", widget: 'code' }
+          - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Hero", name: "hero", widget: "code" }
+          - {label: "Tags", name: "tags", widget: "list"}
           - label: "Logo bar"
             label_singular: "Logo" 
             name: "logos"
             widget: list
             fields: 
+                    - { label: Title, name: title, widget: string }
                     - { label: Logo, name: logo, widget: image, default: "https://www.fillmurray.com/640/360"}
-                    - { label: Link, name: link, widget: string }
+                    - { label: URL, name: url, widget: string, required: false }
 
   - name: "blog"
     label: "Blog Posts"

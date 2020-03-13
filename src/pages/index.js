@@ -12,7 +12,7 @@ import featureCM from "../../static/img/features/multi-channel-manager.png"
 import featureIA from "../../static/img/features/feature-ia.png"
 import featureOps from "../../static/img/features/feature-operations.png"
 import featureGuestComms from "../../static/img/features/feature-guest-comms.png"
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 
 const IndexPage = () => (
@@ -24,9 +24,9 @@ const IndexPage = () => (
         <div className={"container has-text-centered-mobile"}>
           <div className={"hero-text"}>
             <h1 className={"title is-size-1-tablet has-margin-bottom-35"}>
-              Short-term Rental Technology
+              A PMS made by Property Managers
             </h1>
-            <h2 className={"subtitle text-rotator"}>
+            {/* <h2 className={"subtitle text-rotator"}>
               Award-winning
               SaaS platform for<br/> 
               {" "}
@@ -39,14 +39,14 @@ const IndexPage = () => (
                   "property management.",
                 ]}
               />
-            </h2>
+            </h2> */}
+            <h2 className="subtitle">Lavanda is an industry-awarded, easy-to-use property management system, designed to help streamline and grow property businesses across short-term rentals, assured shorthold tenancies, serviced apartments and more.</h2>
+            <h2 className="subtitle">As a company who started out as a Property Manager, we understand the daily pressures around managing staff, profits, advertising, guest experience and financial reporting. So, we built a platform to automate your day-to-day, ready to integrate with you. </h2>
             <Link to="/book-a-demo" className={"button is-primary is-medium"}>
               <strong>Request A Demo</strong>
             </Link>
           </div>
-          <Parallax y={[-50, 50]}>
             <img src={HomeMocks} alt="PMS" className={"homepage-mocks"} />
-          </Parallax>
         </div>
       </div>
 
