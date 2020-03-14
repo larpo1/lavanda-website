@@ -29,7 +29,6 @@ class BlogRoll extends React.Component {
                           }`,
                         }}
                       />
-                    {/* <img src={post.frontmatter.featuredimage} alt={`featured image for post ` + post.frontmatter.title} /> */}
                     </div>
                   ) : null}
                   <p className="post-meta">

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Nav from "../components/Nav"
-import ReactRotatingText from "react-rotating-text"
+//import ReactRotatingText from "react-rotating-text"
 import HomeMocks from "../../static/img/mockups/homepage-mocks@2x.png"
 import Awards from "../../static/img/awards.png"
 import Feature from "../components/Feature"
@@ -43,7 +43,7 @@ const IndexPage = () => (
             <h2 className="subtitle">Lavanda is an industry-awarded, easy-to-use property management system, designed to help streamline and grow property businesses across short-term rentals, assured shorthold tenancies, serviced apartments and more.</h2>
             <h2 className="subtitle">As a company who started out as a Property Manager, we understand the daily pressures around managing staff, profits, advertising, guest experience and financial reporting. So, we built a platform to automate your day-to-day, ready to integrate with you. </h2>
             <Link to="/book-a-demo" className={"button is-primary is-medium"}>
-              <strong>Request A Demo</strong>
+              <strong>Find Out More</strong>
             </Link>
           </div>
             <img src={HomeMocks} alt="PMS" className={"homepage-mocks"} />

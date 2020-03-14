@@ -6895,6 +6895,15 @@ gatsby-core-utils@^1.0.26:
     ci-info "2.0.0"
     node-object-hash "^2.0.0"
 
+gatsby-core-utils@^1.0.33:
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.33.tgz#bd0d1ed0afed7f90c82c6da5b9ba13b727bcf1e9"
+  integrity sha512-eQkOQumfbMLdbKJN0E1dlnBjAKWAzexxuNdpL88yCIaqHGOMogGTmAmhG1Hs0sz9bMrNPxuIgEyDNQe3IDfJXw==
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.0"
+    node-object-hash "^2.0.0"
+
 gatsby-graphiql-explorer@^0.2.32:
   version "0.2.32"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-0.2.32.tgz#0664d32e6ae81d42689967141acfa2783c1a3478"
@@ -7053,24 +7062,24 @@ gatsby-remark-copy-linked-files@^2.0.7:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-images@^3.1.6:
-  version "3.1.23"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.23.tgz#4cc72a71f6342b8b2780841a979ccff0da5b7c2b"
-  integrity sha512-s6CPKtfZRQp2ARHKPNFUC93Wjp7kN9UTxlqkMOSG2KoCRVIsPR32hibWgSUxk8apKZa7wiHeWq4iuuRPASaPXw==
+gatsby-remark-images@^3.1.49:
+  version "3.1.49"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.49.tgz#78748520f3bf3bdec418f166dc52208af3e3f7b4"
+  integrity sha512-KfBGUaK/hfxKtaJWdQvjpROG45Jl/dcu1SQdYx+kV4eh8A3oen7FoTURe55sS+07DsLV68vmt28d3kYRatKc/g==
   dependencies:
-    "@babel/runtime" "^7.6.0"
+    "@babel/runtime" "^7.7.6"
     chalk "^2.4.2"
     cheerio "^1.0.0-rc.3"
+    gatsby-core-utils "^1.0.33"
     is-relative-url "^3.0.0"
     lodash "^4.17.15"
-    mdast-util-definitions "^1.2.4"
+    mdast-util-definitions "^1.2.5"
     potrace "^2.1.2"
-    query-string "^6.8.3"
-    slash "^3.0.0"
+    query-string "^6.9.0"
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
-gatsby-remark-relative-images@^0.2.1:
+gatsby-remark-relative-images@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.2.3.tgz#35e0a2a3f37e54aa8e305ff178edda95ec227df7"
   integrity sha512-pxvFgCUfJrQ/ezwSpvdzrvJGyESleGsUetHXyQ7ybNlMxQvkrK6GYjit5nkuk6x+2UEiOhIBgkBEpaZ9xZCLpQ==
@@ -10055,10 +10064,17 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdast-util-definitions@^1.2.0, mdast-util-definitions@^1.2.3, mdast-util-definitions@^1.2.4:
+mdast-util-definitions@^1.2.0, mdast-util-definitions@^1.2.3:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-1.2.4.tgz#2b54ad4eecaff9d9fcb6bf6f9f6b68b232d77ca7"
   integrity sha512-HfUArPog1j4Z78Xlzy9Q4aHLnrF/7fb57cooTHypyGoe2XFNbcx/kWZDoOz+ra8CkUzvg3+VHV434yqEd1DRmA==
+  dependencies:
+    unist-util-visit "^1.0.0"
+
+mdast-util-definitions@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-1.2.5.tgz#3fe622a4171c774ebd06f11e9f8af7ec53ea5c74"
+  integrity sha512-CJXEdoLfiISCDc2JB6QLb79pYfI6+GcIH+W2ox9nMc7od0Pz+bovcHsiq29xAQY6ayqe/9CsK2VzkSJdg1pFYA==
   dependencies:
     unist-util-visit "^1.0.0"
 
@@ -12906,10 +12922,10 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.8.3:
-  version "6.8.3"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.8.3.tgz#fd9fb7ffb068b79062b43383685611ee47777d4b"
-  integrity sha512-llcxWccnyaWlODe7A9hRjkvdCKamEKTh+wH8ITdTc3OhchaqUZteiSCX/2ablWHVrkVIe04dntnaZJ7BdyW0lQ==
+query-string@^6.9.0:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.11.1.tgz#ab021f275d463ce1b61e88f0ce6988b3e8fe7c2c"
+  integrity sha512-1ZvJOUl8ifkkBxu2ByVM/8GijMIPx+cef7u3yroO3Ogm4DOdZcF5dcrWTIlSHe3Pg/mtlt6/eFjObDfJureZZA==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"

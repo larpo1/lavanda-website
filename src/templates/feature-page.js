@@ -6,7 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import Content, { HTMLContent } from "../components/Content";
-// import PreviewCompatibleImage from "../components/PreviewCompatibleImage"
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage"
 
 export const FeaturePageTemplate = ({
   content,
@@ -29,7 +29,7 @@ export const FeaturePageTemplate = ({
           <div dangerouslySetInnerHTML={{ __html: hero.code }} />
           {/* <Fragment>{hero.code}</Fragment> */}
 
-          <h1 className="title I is-size-2 has-text-weight-bold is-bold-light">
+          <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
             {title}
           </h1>
           <div>
@@ -37,18 +37,18 @@ export const FeaturePageTemplate = ({
               <ul>
                 {logos.map((logo, index) => (
                   <li key={index}>
-                    <img src={logo.childImageSharp.fluid.src} alt={logo.title} />
-                    {logo.src}
-                    {/* {logo.publicURL ? (
+                    {/* <img src={logo.logo} alt={logo.title} />
+                    {logo.title} */}
+                    {logo.logo ? (
                       <div className="logo">
                         <PreviewCompatibleImage
                           imageInfo={{
-                            image: logo.publicURL,
+                            image: logo.logo,
                             alt: `logo for ${logo.title}`
                           }}
                         />
                       </div>
-                    ) : null} */}
+                    ) : null}
                   </li>
                 ))}
               </ul>
@@ -81,7 +81,7 @@ FeaturePageTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   hero: PropTypes.object,
-  logos: PropTypes.array
+  logos: PropTypes.object,
 };
 
 const FeaturePage = ({ data }) => {
@@ -123,22 +123,16 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        logos {
-          logo {
-            childImageSharp {
-              fluid {
-                src
-              }
-            }
-          }
-          title
-        }
+        description
         hero {
           code
         }
+        logos {
+          logo 
+          title
+        }
         tags
         title
-        description
       }
     }
   }
