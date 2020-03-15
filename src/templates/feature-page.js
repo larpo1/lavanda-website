@@ -6,7 +6,8 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import Content, { HTMLContent } from "../components/Content";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage"
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Feature from "../components/Feature";
 
 export const FeaturePageTemplate = ({
   content,
@@ -16,60 +17,98 @@ export const FeaturePageTemplate = ({
   title,
   helmet,
   hero,
-  logos
+  logos,
+  galleryImages,
+  highlights
 }) => {
   const FeatureContent = contentComponent || Content;
 
   return (
     <Layout>
       <Nav />
-      <section className="section has-margin-top-100">
-        {helmet || ""}
-        <div className="container content">
-          <div dangerouslySetInnerHTML={{ __html: hero.code }} />
-          {/* <Fragment>{hero.code}</Fragment> */}
+      <section className="hero is-large">
+        <div className="hero-body">
+          {helmet || ""}
+          <div className="container content">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered">
+              {title}
+            </h1>
+            <div dangerouslySetInnerHTML={{ __html: hero.code }} />
 
-          <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-            {title}
-          </h1>
-          <div>
-            {logos && logos.length ? (
-              <ul>
-                {logos.map((logo, index) => (
-                  <li key={index}>
-                    {/* <img src={logo.logo} alt={logo.title} />
-                    {logo.title} */}
-                    {logo.logo ? (
-                      <div className="logo">
+            <div className="gallery">
+              {galleryImages && galleryImages.length ? (
+                <ul>
+                  {galleryImages.map((image, index) => (
+                    <li key={index}>
+                      {image ? (
                         <PreviewCompatibleImage
                           imageInfo={{
-                            image: logo.logo,
-                            alt: `logo for ${logo.title}`
+                            image: image,
+                            alt: `image`
                           }}
                         />
-                      </div>
-                    ) : null}
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
-          <p className="article-body">{description}</p>
-          <FeatureContent content={content} />
-          {tags && tags.length ? (
-            <div style={{ marginTop: `4rem` }}>
-              <h4>Tags</h4>
-              <ul className="taglist">
-                {tags.map(tag => (
-                  <li key={tag + `tag`}>
-                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                  </li>
-                ))}
-              </ul>
+                      ) : null}
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </div>
-          ) : null}
+
+            <FeatureContent content={content} />
+          </div>
         </div>
       </section>
+
+      {highlights && highlights.length ? (
+        <div>
+          {highlights.map((hl) => (
+            <Feature
+              key={hl}
+              titleContent={hl.titleContent}
+              textContent={hl.textContent}
+              linkTarget={hl.linkTarget}
+              imageAlign={hl.imageAlign}
+              featureImage={hl.image}
+            />
+          ))}
+        </div>
+      ) : null}
+
+      <section>
+        {logos && logos.length ? (
+          <ul>
+            {logos.map((logo, index) => (
+              <li key={index}>
+                {logo.logo ? (
+                  <div className="logo">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: logo.logo,
+                        alt: `logo for ${logo.title}`
+                      }}
+                    />
+                  </div>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </section>
+
+      {tags && tags.length ? (
+        <section>
+          <h4>Tags</h4>
+          <ul className="taglist">
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      
     </Layout>
   );
 };
@@ -81,7 +120,8 @@ FeaturePageTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   hero: PropTypes.object,
-  logos: PropTypes.object,
+  galleryImages: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  highlights: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const FeaturePage = ({ data }) => {
@@ -105,6 +145,8 @@ const FeaturePage = ({ data }) => {
       title={feature.frontmatter.title}
       hero={feature.frontmatter.hero}
       logos={feature.frontmatter.logos}
+      galleryImages={feature.frontmatter.galleryImages}
+      highlights={feature.frontmatter.highlights}
     />
   );
 };
@@ -123,13 +165,32 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        title
         description
         hero {
           code
         }
-        logos {
-          logo 
-          title
+        galleryImages {
+          childImageSharp {
+            id
+            fluid(maxWidth: 650, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        highlights {
+          titleContent
+          textContent
+          linkTarget
+          imageAlign
+          image {
+            childImageSharp {
+              id
+              fluid(maxWidth: 450, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         tags
         title

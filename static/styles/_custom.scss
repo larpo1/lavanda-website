@@ -210,8 +210,14 @@ a.blog-roll-title {
   overflow-y: hidden;
 }
 
+.gallery {
+  max-width: 650px;
+  margin: 50px auto;
+}
+
 .calendly-inline-widget {
   iframe {
     height: 100%;
   }
 }
+

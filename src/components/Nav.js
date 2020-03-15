@@ -119,7 +119,7 @@ handleScroll = () => {
                   </Link>
                   <hr className={"navbar-divider"} />
                   <p className={"heading has-padding-left-10"}>Distribution</p>
-                  <Link to="/" className={"navbar-item"}>
+                  <Link to="/features/channel-manager" className={"navbar-item"}>
                     Channel Manager
                   </Link>
                   <Link to="/" className={"navbar-item"}>
@@ -193,7 +193,7 @@ handleScroll = () => {
               <div className={"navbar-item"}>
                 <div className={"buttons"}>
                   <Link to="/book-a-demo" className={"button is-primary"}>
-                    <strong>Request A Demo</strong>
+                    <strong>Talk to Us</strong>
                   </Link>
                   <Link to="/apps" className={"button is-light"}>
                     Sign In

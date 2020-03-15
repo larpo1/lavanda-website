@@ -6,6 +6,7 @@
   "dependencies": {
     "bulma": "^0.7.0",
     "bulma-helpers": "^0.3.8",
+    "embla-carousel-react": "^1.2.18",
     "gatsby": "^2.19.1",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-netlify": "^2.0.6",

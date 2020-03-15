@@ -2,7 +2,6 @@
 templateKey: heros
 title: 'Hello, I''m a hero'
 subtitle: blah
-backgroundImage: /img/bg-blob-green.svg
+backgroundImage: /img/svslong.jpg
 foregroundImage: /img/Macbook@2x.png
 ---
-
