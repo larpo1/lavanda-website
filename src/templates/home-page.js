@@ -46,9 +46,9 @@ export const IndexPageTemplate = ({
       <div className={"hero-foot"}>
         <div className={"container has-text-centered-mobile"}>
           {awards && awards.length ? (
-            <div>
+            <div className="awards">
               {awards.map((award, index) => (
-                <div className="awards awards-small" alt="awards" key={index}>
+                <div className="award" alt={award.awardTitle} key={index}>
                   {award ? (
                     <PreviewCompatibleImage
                       imageInfo={{
@@ -57,6 +57,7 @@ export const IndexPageTemplate = ({
                       }}
                     />
                   ) : null}
+                  <p className="award-title">{award.awardTitle}</p>
                 </div>
               ))}
             </div>
@@ -236,7 +237,7 @@ export const pageQuery = graphql`
         awards {
           awardImage {
             childImageSharp {
-              fluid(maxWidth: 400, quality: 100) {
+              fluid(maxWidth: 400, quality: 90, grayscale: true) {
                 ...GatsbyImageSharpFluid
               }
             }

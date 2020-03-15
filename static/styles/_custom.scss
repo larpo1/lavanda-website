@@ -39,16 +39,25 @@ img.footer-logo {
 section.segmenter {
   padding: 1.5rem;
 }
-img.awards {
-  width: 600px;
-  margin: 0 auto;
+.awards {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: baseline;
+  min-height: calc(100%);
+  justify-content: left;
+  overflow-x:auto;
 }
-img.awards-small {
-  width: 400px;
-  padding: 0 0 30px 0;
-  max-width:90%;
+.awards::-webkit-scrollbar {display: none;}
+.award {
+  min-width: 250px;
+  width: 250px;
+  margin-right: 40px;
+  opacity: 70%;
 }
-
+p.award-title {
+  font-weight: 500;
+  margin-top: 5px;
+}
 .container.spaced {
   width: auto;
   max-width: calc(100vw - 2rem);
