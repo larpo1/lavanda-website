@@ -7,7 +7,8 @@ import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Feature from "../components/Feature";
+import Feature from "../components/Feature"
+
 
 export const FeaturePageTemplate = ({
   content,
@@ -15,6 +16,7 @@ export const FeaturePageTemplate = ({
   description,
   tags,
   title,
+  category,
   helmet,
   hero,
   logos,
@@ -30,16 +32,22 @@ export const FeaturePageTemplate = ({
         <div className="hero-body">
           {helmet || ""}
           <div className="container content">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
               {title}
             </h1>
-            <div dangerouslySetInnerHTML={{ __html: hero.code }} />
+
+            {hero.code && hero.code.length ? (
+              <div
+                className="has-text-centered"
+                dangerouslySetInnerHTML={{ __html: hero.code }}
+              />
+            ) : null}
 
             <div className="gallery">
               {galleryImages && galleryImages.length ? (
-                <ul>
+                <div>
                   {galleryImages.map((image, index) => (
-                    <li key={index}>
+                    <div key={index}>
                       {image ? (
                         <PreviewCompatibleImage
                           imageInfo={{
@@ -48,9 +56,9 @@ export const FeaturePageTemplate = ({
                           }}
                         />
                       ) : null}
-                    </li>
+                    </div>
                   ))}
-                </ul>
+                </div>
               ) : null}
             </div>
 
@@ -61,7 +69,7 @@ export const FeaturePageTemplate = ({
 
       {highlights && highlights.length ? (
         <div>
-          {highlights.map((hl) => (
+          {highlights.map(hl => (
             <Feature
               key={hl}
               titleContent={hl.titleContent}
@@ -107,8 +115,6 @@ export const FeaturePageTemplate = ({
           </ul>
         </section>
       ) : null}
-
-      
     </Layout>
   );
 };
@@ -118,8 +124,9 @@ FeaturePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  category: PropTypes.string,
   helmet: PropTypes.object,
-  hero: PropTypes.object,
+  hero: PropTypes.string,
   galleryImages: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   highlights: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
@@ -143,6 +150,7 @@ const FeaturePage = ({ data }) => {
       }
       tags={feature.frontmatter.tags}
       title={feature.frontmatter.title}
+      category={feature.frontmatter.category}
       hero={feature.frontmatter.hero}
       logos={feature.frontmatter.logos}
       galleryImages={feature.frontmatter.galleryImages}

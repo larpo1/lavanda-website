@@ -1,6 +1,8 @@
 ---
 templateKey: feature-page
+logos: []
 title: Channel Manager
+category: Distribution
 hero:
   code: >-
     <h1 class="has-text-centered">One Channel Manager to rule them all.</h1>
@@ -24,6 +26,5 @@ tags:
 description: >-
   Lavanda Channel Manager is enables seamless multi-channel distribution on
   Airbnb, Booking.com, Tripadviser, VRBO and Expedia, while also connecting to
-  Rentals United and Bookingpal for further distribution options. 
-logos: []
+  Rentals United and Bookingpal for further distribution options.
 ---

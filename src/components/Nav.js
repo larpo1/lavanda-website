@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import React from "react"
-import "../../static/styles/main.scss"
-import logo from "../../static/img/logo.svg"
+import { Link } from "gatsby";
+import React from "react";
+import "../../static/styles/main.scss";
+import logo from "../../static/img/lavanda-logo.svg";
 
 const NavbarBurger = props => (
   <div
@@ -15,32 +15,33 @@ const NavbarBurger = props => (
     <span />
     <span />
   </div>
-)
+);
 
 export default class Nav extends React.Component {
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.handleScroll);
+  };
 
-componentDidMount = () => {
-    window.addEventListener('scroll', this.handleScroll);
-}
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
 
-componentWillUnmount = () => {
-    window.removeEventListener('scroll', this.handleScroll);
-}
-
-handleScroll = () => {
-    let position = window.scrollY
-    const nav = document.querySelector('#navbar');
-    if(position <= 200) nav.classList.remove('filled'); else nav.classList.add('filled');
-  }
+  handleScroll = () => {
+    let position = window.scrollY;
+    const nav = document.querySelector("#navbar");
+    if (position <= 200) nav.classList.remove("filled");
+    else nav.classList.add("filled");
+  };
 
   state = {
-    activeMenu: false,
-  }
+    activeMenu: false
+  };
   toggleMenu = () => {
     this.setState({
-      activeMenu: !this.state.activeMenu,
-    })
-  }
+      activeMenu: !this.state.activeMenu
+    });
+  };
+  
   render() {
     return (
       <nav
@@ -69,13 +70,37 @@ handleScroll = () => {
             }`}
           >
             <div className={"navbar-end"}>
+
+            {/* Product Section */}
+
+            <div className={"navbar-item has-dropdown is-hoverable"}>
+                <Link
+                  to="/"
+                  className={
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
+                  }>Product
+                  </Link>
+                <div className={"navbar-dropdown"}>
+                  <p className={"heading has-padding-left-10"}>Growth</p>
+                  <Link to="/features/customer-relationship-manager-crm" className={"navbar-item"}>
+                    Customer Relationship Manager (CRM)
+                  </Link>
+                  <p className={"heading has-padding-left-10"}>Distribution</p>
+                  <Link to="/features/channel-manager" className={"navbar-item"}>
+                    Channel Manager
+                  </Link>
+                </div>
+              </div>
+
+              {/*  Solutions section */}
+
               <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
-                  className={ "navbar-link is-uppercase is-family-secondary has-text-weight-medium" }>
-                  Solutions
+                  className={
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
+                  }>Solutions
                 </Link>
-
                 <div className={"navbar-dropdown"}>
                   <Link to="/for/property-managers" className={"navbar-item"}>
                     For property managers
@@ -96,79 +121,14 @@ handleScroll = () => {
                 </div>
               </div>
 
-              <div className={"navbar-item has-dropdown is-hoverable"}>
-                <Link
-                  to="/"
-                  className={
-                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
-                  }
-                >
-                  Features
-                </Link>
-
-                <div className={"navbar-dropdown"}>
-                  <p className={"heading has-padding-left-10"}>Growth</p>
-                  <Link to="/" className={"navbar-item"}>
-                    CRM
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Integrated Valuations
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Web Sales Toolkit
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>Distribution</p>
-                  <Link to="/features/channel-manager" className={"navbar-item"}>
-                    Channel Manager
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Corporate Travel
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Lavanda Affiliate Network
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>Operations</p>
-                  <Link to="/" className={"navbar-item"}>
-                    Multi-Calendar
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Integrated Tickets
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Task Automation
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Workflow Automation
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>
-                    Guest Experience
-                  </p>
-                  <Link to="/" className={"navbar-item"}>
-                    Direct Booking Website
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Unified Inbox
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Automated Guest Messaging
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Guest Interface
-                  </Link>
-                </div>
-              </div> 
+              {/* Company Section */}
 
               <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
                   className={
                     "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
-                  }
-                >
-                  Company
+                  }>Company
                 </Link>
 
                 <div className={"navbar-dropdown"}>
@@ -204,6 +164,6 @@ handleScroll = () => {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }

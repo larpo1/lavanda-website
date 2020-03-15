@@ -33,9 +33,14 @@
     "react": "^16.8.4",
     "react-calendly": "^0.0.3",
     "react-dom": "^16.8.4",
+    "react-gradient-text": "^0.1.0",
+    "react-happytext": "^1.0.1",
     "react-helmet": "^5.2.0",
     "react-rotating-text": "^1.4.1",
     "react-scroll-parallax": "^2.3.1",
+    "react-textgradient": "^0.0.2",
+    "styled-components": "^5.0.1",
+    "uigradients": "^1.0.0",
     "uuid": "^3.2.1"
   },
   "keywords": [

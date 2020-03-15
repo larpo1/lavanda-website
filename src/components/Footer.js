@@ -1,10 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
 import "../../static/styles/main.scss"
-import logo from "../../static/img/logo.svg"
-import iconTwitter from "../../static/img/icon-twitter.svg"
-import iconLinkedin from "../../static/img/icon-linkedin.svg"
-import iconInstagram from "../../static/img/icon-instagram.svg"
+import logo from "../../static/img/lavanda-logo.svg"
+// import iconTwitter from "../../static/img/icon-twitter.svg"
+// import iconLinkedin from "../../static/img/icon-linkedin.svg"
+// import iconInstagram from "../../static/img/icon-instagram.svg"
 
 const Footer = () => (
   <footer>
@@ -44,7 +44,7 @@ const Footer = () => (
             </Link> 
           </div>
           <div className={"column has-text-right"}>
-            <div className={"social"}>
+            {/* <div className={"social"}>
               <a
                 href="https://twitter.com/getlavanda"
                 target={"_blank"}
@@ -69,7 +69,7 @@ const Footer = () => (
               >
                 <img alt={"Instagram"} src={iconInstagram} />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={"copyright"}>
