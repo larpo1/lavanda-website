@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -39,12 +39,22 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          {
+          { 
             resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads"
             }
           },
+          // {
+          //   resolve: 'gatsby-transformer-remark-frontmatter',
+          //   // default: { blacklist: [] }
+          //   options: {
+          //     // frontmatter fields to exclude, including all others
+          //     blacklist: ['templateKey']
+          //     // frontmatter fields to include, excluding all others
+          //     // whitelist: ['markdownField']
+          //   }
+          // },
           {
             resolve: "gatsby-remark-images",
             options: {

@@ -109,7 +109,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: Meta Description, name: description, widget: string}
           - {label: Hero H1, name: title, widget: string}
-          - {label: Hero Subtitle, name: subtitle, widget: markdown}
+          - {label: Hero Content, name: subtitle, widget: code}
           - {label: Hero Foreground Image, name: fgImage, widget: image}
           - {label: Hero Background Image, name: bgImage, widget: image}
           - {label: CTA Text, name: ctaText, widget: string}

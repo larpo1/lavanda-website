@@ -8,12 +8,12 @@ import logo from "../../static/img/lavanda-logo.svg"
 
 const Footer = () => (
   <footer>
-    <section className={"hero is-medium is-light"}>
+    <section className={"hero is-medium is-dark"}>
       <div className={"hero-body"}>
         <div className="container">
         <div className={"columns"}>
           <div className={"column"}>
-          <div className={"links"}>
+          <div className={"footer-links"}>
               <ul>
                 <li>
                   <Link to="/contact" title={"Contact Us"}>

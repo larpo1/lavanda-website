@@ -15,6 +15,11 @@ img.footer-logo {
   padding: 10px;
 }
 
+iframe.video-frame {
+  height: 606px;
+  width: 1080px;
+  max-width: 100%;
+}
 
 .react-rotating-text-cursor {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
@@ -49,14 +54,15 @@ section.segmenter {
 }
 .awards::-webkit-scrollbar {display: none;}
 .award {
-  min-width: 250px;
-  width: 250px;
-  margin-right: 40px;
-  opacity: 70%;
+  min-width: 210px;
+  width: 210px;
+  margin-right: 50px;
+  opacity: 100%;
 }
 p.award-title {
   font-weight: 500;
   margin-top: 5px;
+  color: whitesmoke;
 }
 .container.spaced {
   width: auto;
@@ -120,23 +126,36 @@ p.award-title {
 }
 
 section.hero.home .hero-text {
-  max-width: 435px;
+  max-width: 537px;
 }
 
 .text-rotator {
   height: 90px;
 }
 
-.homepage-mocks {
+.city-graphic {
   position: absolute;
-  //top: calc(50% - calc(0.5 * calc(100vh - 100px)));
   right: 0;
   max-height: calc(100vh - 100px);
   max-width: 60%;
   object-fit: contain;
   overflow: visible;
   z-index: 0;
-  margin-top:-390px;
+  margin-top:-550px;
+}
+
+.hero.is-dark {
+  background: rgb(17,37,59);
+  background: linear-gradient(90deg, rgba(17,37,59,1) 0%, rgba(24,54,86,1) 51%, rgba(71,127,186,1) 100%);
+}
+
+.wave-container {
+  position:relative;
+  overflow: hidden;
+}
+.hero-foot > svg {
+  position: absolute;
+  bottom: 0px;
 }
 
 section.feature-item {
@@ -230,3 +249,7 @@ a.blog-roll-title {
   }
 }
 
+.footer-links a {
+  color: white;
+  font-weight: 500;
+}
