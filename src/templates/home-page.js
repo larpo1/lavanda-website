@@ -163,14 +163,12 @@ export const IndexPageTemplate = ({
             </div>
             <div className={"column is-half-tablet"}>
               <article className={"is-child notification box-shadow is-white"}>
-                <h2 className={"title is-size-4"}>For student housing</h2>
+                <h2 className={"title is-size-3"}>Pain Point #2</h2>
                 <p className={"subtitle"}>
-                  Boost returns across your purpose built student housing
-                  portfolio all year round, while offering student residents
-                  unprecedented value and flexibility.
+                  Lots of problems and excruciating pain that we can solve with something clever like our owner leads funnel. 
                 </p>
                 <Link
-                  to="/for/student-housing"
+                  to="/tags/growth"
                   className={"button is-secondary"}
                 >
                   Learn More &#10511;
@@ -181,14 +179,12 @@ export const IndexPageTemplate = ({
           <div className={"columns"}>
             <div className={"column is-half-tablet"}>
               <article className={"is-child notification box-shadow is-white"}>
-                <h2 className={"title is-size-4"}>For serviced apartments</h2>
+              <h2 className={"title is-size-3"}>Pain Point #3</h2>
                 <p className={"subtitle"}>
-                  Unlock operational efficiencies with intelligent automation
-                  whilst attracting more profitable guests from unique
-                  distribution channels.
+                Lots of problems and excruciating pain that we can solve with something clever like our direct bookings sites. 
                 </p>
                 <Link
-                  to="/for/serviced-apartments"
+                  to="/tags/direct-bookings"
                   className={"button is-secondary"}
                 >
                   Learn More &#10511;
@@ -197,14 +193,12 @@ export const IndexPageTemplate = ({
             </div>
             <div className={"column is-half-tablet"}>
               <article className={"is-child notification box-shadow is-white"}>
-                <h2 className={"title is-size-4"}>For property managers</h2>
+              <h2 className={"title is-size-3"}>Pain Point #4</h2>
                 <p className={"subtitle"}>
-                  Discover a comprehensive SaaS toolkit designed to unlock scale
-                  and profitability, whilst accelerating your growth through
-                  industry partnerships.
+                Lots of problems and excruciating pain that we can solve with something clever like our owner workflow tools. 
                 </p>
                 <Link
-                  to="/for/property-managers"
+                  to="/tags/workflows"
                   className={"button is-secondary"}
                 >
                   Learn More &#10511;
