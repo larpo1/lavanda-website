@@ -153,6 +153,10 @@ section.hero.home .hero-text {
   position:relative;
   overflow: hidden;
 }
+.wave-container > svg {
+  position: absolute;
+  bottom: 0px;
+}
 .hero-foot > svg {
   position: absolute;
   bottom: 0px;

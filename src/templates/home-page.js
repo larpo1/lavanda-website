@@ -27,15 +27,18 @@ export const IndexPageTemplate = ({
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
           <div className={"hero-text"}>
-            <h1 className={"title is-size-1-tablet has-margin-bottom-35"}>
+            <h1 className={"title is-size-1-tablet has-margin-bottom-35 lav-blue"}>
               {title}
             </h1>
             <div
               className="subtitle"
               dangerouslySetInnerHTML={{ __html: subtitle.code }}
             />
-            <Link to={ctaTarget} className={"button is-primary is-medium"}>
+            <Link to={ctaTarget} className={"button is-primary is-medium has-margin-right-10"}>
               <strong>{ctaText}</strong>
+            </Link>
+            <Link to="#video" className={"button is-medium"}>
+              <strong>Learn More</strong>
             </Link>
           </div>
           <img
@@ -100,7 +103,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className={"hero is-medium is-dark wave-container"}>
+    <section className={"hero is-fullheight is-dark wave-container"} id="video">
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
           <h1 className={"title is-size-1 has-margin-bottom-50"}>
@@ -114,6 +117,7 @@ export const IndexPageTemplate = ({
             allow="autoplay; fullscreen"
             allowFullScreen
           ></iframe>
+          <p className="subtitle is-size-4-tablet has-margin-top-50 column is-half is-offset-one-quarter">As a company who started out as a Property Manager, we understand the daily pressures around managing staff, profits, advertising, guest experience and financial reporting. So, we built a platform to automate your day-to-day, ready to integrate with you.</p>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

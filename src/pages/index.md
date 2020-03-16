@@ -7,12 +7,12 @@ description: >-
 title: 'Property Management Software '
 subtitle:
   code: >-
-    <h2 class="title">...built by people who have been there.</h2> 
+    <h2 class="title lav-grey">...built by people who have been there.</h2> 
 
-    <p class="subtitle has-margin-top-20">Lavanda is an industry-awarded,
-    easy-to-use property management system, designed to help streamline and grow
-    property businesses across short-term rentals, assured short-hold tenancies,
-    serviced apartments and more.</p>
+    <p class="subtitle has-margin-top-20 is-hidden-mobile">Lavanda is an
+    industry-awarded, easy-to-use property management system, designed to help
+    streamline and grow property businesses across short-term rentals, assured
+    short-hold tenancies, serviced apartments and more.</p>
   lang: html
 fgImage: /img/lavandagraphic.png
 bgImage: /img/blob-blue-1.svg
