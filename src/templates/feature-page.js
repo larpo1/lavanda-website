@@ -125,10 +125,7 @@ FeaturePageTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   category: PropTypes.string,
-  helmet: PropTypes.object,
-  hero: PropTypes.string,
-  galleryImages: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  highlights: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  helmet: PropTypes.object
 };
 
 const FeaturePage = ({ data }) => {
