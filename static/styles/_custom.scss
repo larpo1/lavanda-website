@@ -57,7 +57,7 @@ section.segmenter {
   min-width: 210px;
   width: 210px;
   margin-right: 50px;
-  opacity: 100%;
+  opacity:100%;
 }
 p.award-title {
   font-weight: 500;
@@ -156,6 +156,7 @@ section.hero.home .hero-text {
 .wave-container > svg {
   position: absolute;
   bottom: 0px;
+  z-index: -1;
 }
 .hero-foot > svg {
   position: absolute;

@@ -13,7 +13,6 @@ export const IndexPageTemplate = ({
   title,
   subtitle,
   fgImage,
-  // bgImage,
   ctaText,
   ctaTarget,
   awards,
@@ -50,7 +49,28 @@ export const IndexPageTemplate = ({
       </div>
 
       <div className={"hero-foot"}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <div className={"container has-text-centered-mobile"}>
+          {awards && awards.length ? (
+            <div className="awards">
+              {awards.map((award, index) => (
+                <div className="award" alt={award.awardTitle} key={index}>
+                  {award ? (
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: award.awardImage,
+                        alt: award.awardImageAlt
+                      }}
+                    />
+                  ) : null}
+                  <p className="award-title">{award.awardTitle}</p>
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <defs>
             <linearGradient id="myGradient" gradientTransform="rotate(0)">
               <stop offset="0%" stop-color="#11253b" />
@@ -80,27 +100,6 @@ export const IndexPageTemplate = ({
             d="M0,96L40,90.7C80,85,160,75,240,64C320,53,400,43,480,64C560,85,640,139,720,133.3C800,128,880,64,960,58.7C1040,53,1120,107,1200,122.7C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
           ></path>
         </svg>
-
-        <div className={"container has-text-centered-mobile"}>
-          {awards && awards.length ? (
-            <div className="awards">
-              {awards.map((award, index) => (
-                <div className="award" alt={award.awardTitle} key={index}>
-                  {award ? (
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: award.awardImage,
-                        alt: award.awardImageAlt
-                      }}
-                    />
-                  ) : null}
-                  <p className="award-title">{award.awardTitle}</p>
-                </div>
-              ))}
-            </div>
-          ) : null}
-        </div>
-      </div>
     </section>
 
     <section className={"hero is-fullheight is-dark wave-container"} id="video">
