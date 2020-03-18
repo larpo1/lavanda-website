@@ -36,7 +36,34 @@ collections:
             - {label: Title Content, name: titleContent, widget: "string"}
             - {label: Text Content, name: textContent, widget: "string"}
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
-            - {label: Align Image, name: imageAlign, widget: "select", options: ["left", "right"]}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
+            - {label: Image, name: image, widget: image}
+          - {label: "Tags", name: "tags", widget: "list"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+
+  - name: "landing-pages"
+    label: "Landing Pages"
+    identifier_field: "url"
+    label_singular: "Landing Page"
+    folder: "src/pages/lp"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "lp/{{slug}}"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "landing-page"}
+          - {label: "Custom URL", name: "url", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero Content", name: "hero", widget: "code", default_language: "HTML"}
+          - {label: Hero Background Image, name: bgImage, widget: image}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+            - {label: Title Content, name: titleContent, widget: "string"}
+            - {label: Text Content, name: textContent, widget: "string"}
+            - {label: Link Target, name: linkTarget, widget: "string", required: false}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
             - {label: Image, name: image, widget: image}
           - {label: "Tags", name: "tags", widget: "list"}
           - {label: "Meta Description", name: "description", widget: "text"}
@@ -131,7 +158,7 @@ collections:
               - {label: Title Content, name: titleContent, widget: "string"}
               - {label: Text Content, name: textContent, widget: "string"}
               - {label: Link Target, name: linkTarget, widget: "string", required: false}
-              - {label: Align Image, name: imageAlign, widget: "select", options: ["left", "right"]}
+              - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
               - {label: Image, name: image, widget: image}
 
       - file: "src/pages/about/index.md"
