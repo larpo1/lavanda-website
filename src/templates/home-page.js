@@ -26,14 +26,19 @@ export const IndexPageTemplate = ({
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
           <div className={"hero-text"}>
-            <h1 className={"title is-size-1-tablet has-margin-bottom-35 lav-blue"}>
+            <h1
+              className={"title is-size-1-tablet has-margin-bottom-35 lav-blue"}
+            >
               {title}
             </h1>
             <div
               className="subtitle"
               dangerouslySetInnerHTML={{ __html: subtitle.code }}
             />
-            <Link to={ctaTarget} className={"button is-primary is-medium has-margin-right-10"}>
+            <Link
+              to={ctaTarget}
+              className={"button is-primary is-medium has-margin-right-10"}
+            >
               <strong>{ctaText}</strong>
             </Link>
             <Link to="#video" className={"button is-medium"}>
@@ -71,14 +76,14 @@ export const IndexPageTemplate = ({
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <defs>
-            <linearGradient id="myGradient" gradientTransform="rotate(0)">
-              <stop offset="0%" stopColor="#11253b" />
-              <stop offset="50%" stopColor="#183656" />
-              <stop offset="100%" stopColor="#477fba" />
-            </linearGradient>
-          </defs>
-          <path
+        <defs>
+          <linearGradient id="myGradient" gradientTransform="rotate(0)">
+            <stop offset="0%" stopColor="#11253b" />
+            <stop offset="50%" stopColor="#183656" />
+            <stop offset="100%" stopColor="#477fba" />
+          </linearGradient>
+        </defs>
+        {/* <path
             fill="url('#myGradient')"
             gradientTransform="rotate(180)"
             fillOpacity="1"
@@ -98,8 +103,38 @@ export const IndexPageTemplate = ({
             fill="url('#myGradient')"
             fillOpacity="0.6"
             d="M0,96L40,90.7C80,85,160,75,240,64C320,53,400,43,480,64C560,85,640,139,720,133.3C800,128,880,64,960,58.7C1040,53,1120,107,1200,122.7C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
+          ></path> */}
+        <path
+          fill="url('#myGradient')"
+          gradientTransform="rotate(180)"
+          fillOpacity="0.5"
+          d="M0,288L80,282.7C160,277,320,267,480,250.7C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+        <path
+          fill="url('#myGradient')"
+          gradientTransform="rotate(180)"
+          fillOpacity="0.7"
+          d="M0,320L80,288C160,256,320,192,480,192C640,192,800,256,960,282.7C1120,309,1280,299,1360,293.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+        <path
+          fill="url('#myGradient')"
+          gradientTransform="rotate(180)"
+          fillOpacity="0.2"
+          d="M0,288L80,288C160,288,320,288,480,272C640,256,800,224,960,229.3C1120,235,1280,277,1360,298.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+        <path
+          fill="url('#myGradient')"
+          gradientTransform="rotate(180)"
+          fillOpacity="0.2"
+          d="M0,256L80,224C160,192,320,128,480,133.3C640,139,800,213,960,240C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+        <path
+          fill="url('#myGradient')"
+          gradientTransform="rotate(180)"
+          fillOpacity="1"
+          d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
     </section>
 
     <section className={"hero is-fullheight is-dark wave-container"} id="video">
@@ -116,7 +151,12 @@ export const IndexPageTemplate = ({
             allow="autoplay; fullscreen"
             allowFullScreen
           ></iframe>
-          <p className="subtitle is-size-4-tablet has-margin-top-50 column is-half is-offset-one-quarter">As a company who started out as a Property Manager, we understand the daily pressures around managing staff, profits, advertising, guest experience and financial reporting. So, we built a platform to automate your day-to-day, ready to integrate with you.</p>
+          <p className="subtitle is-size-4-tablet has-margin-top-50 column is-half is-offset-one-quarter">
+            As a company who started out as a Property Manager, we understand
+            the daily pressures around managing staff, profits, advertising,
+            guest experience and financial reporting. So, we built a platform to
+            automate your day-to-day, ready to integrate with you.
+          </p>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -164,12 +204,10 @@ export const IndexPageTemplate = ({
               <article className={"is-child notification box-shadow is-white"}>
                 <h2 className={"title is-size-3"}>Pain Point #2</h2>
                 <p className={"subtitle"}>
-                  Lots of problems and excruciating pain that we can solve with something clever like our owner leads funnel. 
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our owner leads funnel.
                 </p>
-                <Link
-                  to="/tags/growth"
-                  className={"button is-secondary"}
-                >
+                <Link to="/tags/growth" className={"button is-secondary"}>
                   Learn More &#10511;
                 </Link>
               </article>
@@ -178,9 +216,10 @@ export const IndexPageTemplate = ({
           <div className={"columns"}>
             <div className={"column is-half-tablet"}>
               <article className={"is-child notification box-shadow is-white"}>
-              <h2 className={"title is-size-3"}>Pain Point #3</h2>
+                <h2 className={"title is-size-3"}>Pain Point #3</h2>
                 <p className={"subtitle"}>
-                Lots of problems and excruciating pain that we can solve with something clever like our direct bookings sites. 
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our direct bookings sites.
                 </p>
                 <Link
                   to="/tags/direct-bookings"
@@ -192,14 +231,12 @@ export const IndexPageTemplate = ({
             </div>
             <div className={"column is-half-tablet"}>
               <article className={"is-child notification box-shadow is-white"}>
-              <h2 className={"title is-size-3"}>Pain Point #4</h2>
+                <h2 className={"title is-size-3"}>Pain Point #4</h2>
                 <p className={"subtitle"}>
-                Lots of problems and excruciating pain that we can solve with something clever like our owner workflow tools. 
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our owner workflow tools.
                 </p>
-                <Link
-                  to="/tags/workflows"
-                  className={"button is-secondary"}
-                >
+                <Link to="/tags/workflows" className={"button is-secondary"}>
                   Learn More &#10511;
                 </Link>
               </article>
@@ -213,11 +250,11 @@ export const IndexPageTemplate = ({
           fillOpacity="0.9"
           d="M0,192L80,213.3C160,235,320,277,480,272C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
-          <path
-            fill="#ffffff"
-            fillOpacity="0.5"
-            d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
+        <path
+          fill="#ffffff"
+          fillOpacity="0.5"
+          d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
       </svg>
     </section>
 
