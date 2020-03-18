@@ -131,6 +131,14 @@ section.hero.home .hero-text {
   max-width: 537px;
 }
 
+.hero.overlay:before {
+  background-color: #333c4e;
+}
+
+.hero.overlay::before {
+  opacity: 0.5;
+}
+
 .text-rotator {
   height: 90px;
 }

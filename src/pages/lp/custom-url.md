@@ -13,8 +13,25 @@ hero:
 
     <a class="button is-primary is-medium has-margin-right-10">Get Started</a>
       <a class="button is-medium">Learn More</a>
-bgImage: /img/bg-blob-green-2x.png
+bgImage: /img/cdc-w9keokhajkw-unsplash.jpg
+heroSize: is-fullheight
+highlights:
+  - titleContent: This is a Section
+    textContent: >-
+      Some text here spanning three or four lines talking to something
+      interesting. If you add a link target below this section can link to
+      anywhere on the site.
+    linkTarget: /lp/custom-url
+    imageAlign: img-left
+    image: /img/awards-shortz-2020.jpg
+  - titleContent: This is a Another Section
+    textContent: >-
+      Some text here spanning three or four lines talking to something
+      interesting. This one does not have a link set
+    imageAlign: img-right
+    image: /img/awards-saa-2020.png
 tags:
-  - test
+  - Awards
+  - Corona
 description: test meta
 ---
