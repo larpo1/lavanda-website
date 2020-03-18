@@ -47,17 +47,17 @@ section.segmenter {
   padding: 1.5rem;
 }
 .awards {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
   align-items: baseline;
   min-height: calc(100%);
   justify-content: left;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 .awards::-webkit-scrollbar {display: none;}
 .award {
-  min-width: 210px;
-  width: 210px;
+  min-width: 170px;
+  width: 150px;
   margin-right: 50px;
 }
 p.award-title {
