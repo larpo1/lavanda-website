@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
           <img
             src={fgImage.childImageSharp.fluid.src}
             alt="PMS"
-            className={"city-graphic"}
+            className={"city-graphic is-hidden-mobile"}
           />
         </div>
       </div>
@@ -56,7 +56,7 @@ export const IndexPageTemplate = ({
       <div className={"hero-foot"}>
         <div className={"container has-text-centered-mobile"}>
           {awards && awards.length ? (
-            <div className="awards">
+            <div className="awards has-padding-40-mobile">
               {awards.map((award, index) => (
                 <div className="award" alt={award.awardTitle} key={index}>
                   {award ? (
