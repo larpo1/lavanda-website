@@ -22,6 +22,7 @@ export const LandingPageTemplate = ({
   highlights,
   bgImage,
   fgImage,
+  awards,
   heroLightOrDark
 }) => {
   const LandingContent = contentComponent || Content;
@@ -38,22 +39,6 @@ export const LandingPageTemplate = ({
           backgroundPosition: `center center`
         }}
       >
-        {/* <nav
-          className={"navbar"}
-          role="navigation"
-          aria-label="main navigation"
-          id="navbar"
-        >
-          <div className="container">
-            <div className={"navbar-brand"}>
-              <Link to="/" className={"navbar-item"}>
-                <div className={"logo"}>
-                  <img alt={"Logo"} src={logo} />
-                </div>
-              </Link>
-            </div>
-          </div>
-        </nav> */}
         <div className="hero-head ">
           <div className="container has-text-centered">
           <Link to="/" className={"navbar-item"}>
@@ -95,6 +80,28 @@ export const LandingPageTemplate = ({
             </div>
           </div>
         </div>
+
+        <div className={"hero-foot"}>
+        <div className={"container has-text-centered-mobile"}>
+          {awards && awards.length ? (
+            <div className="awards has-padding-40-mobile">
+              {awards.map((award, index) => (
+                <div className="award" alt={award.awardTitle} key={index}>
+                  {award ? (
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: award.awardImage,
+                        alt: award.awardImageAlt
+                      }}
+                    />
+                  ) : null}
+                  <p className="award-title">{award.awardTitle}</p>
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -194,6 +201,7 @@ const LandingPage = ({ data }) => {
       heroSize={lp.frontmatter.heroSize}
       logos={lp.frontmatter.logos}
       highlights={lp.frontmatter.highlights}
+      awards={lp.frontmatter.awards}
       heroLightOrDark={lp.frontmatter.heroLightOrDark}
     />
   );
@@ -233,6 +241,22 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        awards {
+          awardImage {
+            childImageSharp {
+              fluid(maxWidth: 400, quality: 100, grayscale: true) {
+                src
+                sizes
+                srcSet
+                base64
+                aspectRatio
+              }
+            }
+          }
+          awardURLTarget
+          awardImageAlt
+          awardTitle
         }
         highlights {
           titleContent

@@ -58,6 +58,15 @@ collections:
           - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
           - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}
           - {label: Hero Size, name: heroSize, widget: select, options: ["is-fullheight", "is-large", "is-medium", "is-small"]}
+          - label: "Awards"
+            label_singular: "Award"
+            name: "awards"
+            widget: "list"
+            fields: 
+              - {label: Award, name: awardTitle, widget: string}
+              - {label: Image, name: awardImage, widget: image}
+              - {label: Alt, name: awardImageAlt, widget: string}
+              - {label: Target, name: awardURLTarget, widget: string}
           - label: "Highlights"
             name: "highlights"
             label_singular: "Highlight Section"
