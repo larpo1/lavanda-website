@@ -20,25 +20,25 @@ export const LandingPageTemplate = ({
   heroSize,
   logos,
   highlights,
-  bgImage
+  bgImage,
+  fgImage,
+  heroLightOrDark
 }) => {
   const LandingContent = contentComponent || Content;
 
   return (
     <Layout>
       <section
-        className={"hero is-dark overlay " + heroSize}
+        className={heroLightOrDark + " hero overlay " + heroSize}
         style={{
           backgroundImage: `url(${
-            !!bgImage.childImageSharp
-            ? bgImage.childImageSharp.fluid.src
-            : bgImage
+            !!bgImage ? bgImage.childImageSharp.fluid.src : bgImage
           })`,
           backgroundSize: `cover`,
-          backgroundPosition: `center center`,
+          backgroundPosition: `center center`
         }}
       >
-        <nav
+        {/* <nav
           className={"navbar"}
           role="navigation"
           aria-label="main navigation"
@@ -53,39 +53,61 @@ export const LandingPageTemplate = ({
               </Link>
             </div>
           </div>
-        </nav>
+        </nav> */}
+        <div className="hero-head ">
+          <div className="container has-text-centered">
+          <Link to="/" className={"navbar-item"}>
+            <div className={"logo"}>
+              <img alt={"Logo"} src={logo} />
+            </div>
+          </Link>
+          </div>
+        </div>
         <div className="hero-body">
           {helmet || ""}
+
           <div className="container content">
-            <div className="column is-half is-offset-one-quarter">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
-                {title}
-              </h1>
+            <div className="columns">
+              <div className="column is-half">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
+                  {title}
+                </h1>
 
-              {hero.code && hero.code.length ? (
-                <div
-                  className="has-text-centered"
-                  dangerouslySetInnerHTML={{ __html: hero.code }}
-                />
-              ) : null}
+                {hero.code && hero.code.length ? (
+                  <div
+                    className="has-text-centered"
+                    dangerouslySetInnerHTML={{ __html: hero.code }}
+                  />
+                ) : null}
 
-              <LandingContent content={content} />
+                <LandingContent content={content} />
+              </div>
+              <div className="column is-half">
+                {fgImage ? (
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: fgImage,
+                      alt: `image`
+                    }}
+                  />
+                ) : null}
+              </div>
             </div>
           </div>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fillOpacity="0.9"
-          d="M0,192L80,213.3C160,235,320,277,480,272C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-        <path
-          fill="#ffffff"
-          fillOpacity="0.5"
-          d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
+          <path
+            fill="#ffffff"
+            fillOpacity="0.9"
+            d="M0,192L80,213.3C160,235,320,277,480,272C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+          ></path>
+          <path
+            fill="#ffffff"
+            fillOpacity="0.5"
+            d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+          ></path>
+        </svg>
       </section>
 
       {highlights && highlights.length ? (
@@ -164,6 +186,7 @@ const LandingPage = ({ data }) => {
         </Helmet>
       }
       bgImage={lp.frontmatter.bgImage}
+      fgImage={lp.frontmatter.fgImage}
       tags={lp.frontmatter.tags}
       title={lp.frontmatter.title}
       category={lp.frontmatter.category}
@@ -171,6 +194,7 @@ const LandingPage = ({ data }) => {
       heroSize={lp.frontmatter.heroSize}
       logos={lp.frontmatter.logos}
       highlights={lp.frontmatter.highlights}
+      heroLightOrDark={lp.frontmatter.heroLightOrDark}
     />
   );
 };
@@ -194,10 +218,18 @@ export const pageQuery = graphql`
         hero {
           code
         }
+        heroLightOrDark
         heroSize
         bgImage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        fgImage {
+          childImageSharp {
+            fluid(maxWidth: 650, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

@@ -53,10 +53,12 @@ section.segmenter {
   min-height: calc(100%);
   justify-content: left;
   overflow-x: auto;
+  position: absolute;
+  bottom: 0;
 }
 .awards::-webkit-scrollbar {display: none;}
 .award {
-  min-width: 170px;
+  min-width: 175px;
   width: 150px;
   margin-right: 50px;
 }
@@ -65,6 +67,7 @@ p.award-title {
   margin-top: 5px;
   color: #a9a9a9;
   text-align: left;
+  font-size: small;
 }
 .container.spaced {
   width: auto;

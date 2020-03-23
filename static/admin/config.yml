@@ -53,21 +53,23 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "landing-page"}
           - {label: "Custom URL", name: "url", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Hero Content", name: "hero", widget: "code", default_language: "HTML"}
-          - {label: Hero Background Image, name: bgImage, widget: image}
+          - {label: "Hero Content", name: "hero", widget: "code", default_language: "HTML", required: false}
+          - {label: Hero Background Image, name: bgImage, widget: image, required: false}
+          - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
+          - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}
           - {label: Hero Size, name: heroSize, widget: select, options: ["is-fullheight", "is-large", "is-medium", "is-small"]}
           - label: "Highlights"
             name: "highlights"
             label_singular: "Highlight Section"
             widget: "list"
             fields: 
-            - {label: Title Content, name: titleContent, widget: "string"}
-            - {label: Text Content, name: textContent, widget: "string"}
+            - {label: Title Content, name: titleContent, widget: "string", required: false}
+            - {label: Text Content, name: textContent, widget: "string", required: false}
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
-            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
-            - {label: Image, name: image, widget: image}
-          - {label: "Tags", name: "tags", widget: "list"}
-          - {label: "Meta Description", name: "description", widget: "text"}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], required: false}
+            - {label: Image, name: image, widget: image, required: false}
+          - {label: "Tags", name: "tags", widget: "list", required: false}
+          - {label: "Meta Description", name: "description", widget: "text", required: true}
 
   - name: "blog"
     label: "Blog Posts"
