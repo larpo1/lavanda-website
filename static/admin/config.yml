@@ -66,7 +66,15 @@ collections:
               - {label: Award, name: awardTitle, widget: string}
               - {label: Image, name: awardImage, widget: image}
               - {label: Alt, name: awardImageAlt, widget: string}
-              - {label: Target, name: awardURLTarget, widget: string}
+              - {label: Target, name: awardURLTarget, widget: string, required: false }
+          - label: "Video Section"
+            name: "videoSection"
+            widget: object
+            fields:
+              - {label: Section Title, name: title, widget: string}
+              - {label: Subtitle, name: topText, widget: text, required: false}
+              - {label: Vimeo URL, name: vimeoURL, widget: string}
+              - {label: Bottom Text, name: bottomText, widget: text, required: false}
           - label: "Highlights"
             name: "highlights"
             label_singular: "Highlight Section"
