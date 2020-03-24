@@ -28,14 +28,14 @@ awards:
     awardImage: /img/awards-shortz-2020.jpg
     awardImageAlt: 'WINNER: Best Property Management Solution 2020'
 videoSection:
-  title: See how we can help
+  title: What can Lavanda PMS do?
   topText: >-
-    Watch the video and see what you will be receiving free-of-charge for the
-    next 3 months. 
+    See for yourself! We were once a property management company, so we know a
+    thing or two about what features make a great PMS. 
   vimeoURL: 'https://player.vimeo.com/video/371912890'
   bottomText: ''
 highlights:
-  - titleContent: CRM
+  - titleContent: How can Lavanda help my business right now?
     textContent: >-
       Lavanda PMS provides you with a fully integrated CRM and tools to help
       manage your owner sales funnel. Save time and effort in finding customers,
