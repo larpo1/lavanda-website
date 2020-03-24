@@ -54,7 +54,7 @@ export const LandingPageTemplate = ({
         <div className="hero-body">
           {helmet || ""}
 
-          <div className="container content" style={{ marginTop: "-140px" }}>
+          <div className="container content">
             <div className="columns is-vcentered">
               <div className="column is-half">
                 <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered ">

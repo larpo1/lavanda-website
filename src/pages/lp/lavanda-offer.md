@@ -6,10 +6,10 @@ hero:
   lang: html
   code: >-
 
-    <p class="subtitle has-margin-top-20">In support of our industry, we are
-    giving away our award-winning Lavanda PMS completely free-of-charge for the
-    next 3 months. Speak to us today and find out how to reduce your operating
-    expenses now.</p>
+    <p class="subtitle has-margin-top-20 is-hidden-mobile">In support of our
+    industry, we are giving away our award-winning Lavanda PMS completely
+    free-of-charge for the next 3 months. Speak to us today and find out how to
+    reduce your operating expenses now.</p>
 
     <a class="button is-primary is-medium has-margin-right-10"
     href="/book-a-demo">Talk to Us</a>
