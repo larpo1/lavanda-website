@@ -44,7 +44,7 @@ highlights:
     linkTarget: ''
     imageAlign: img-left
     image: /img/crm.png
-  - titleContent: Workforce Management
+  - titleContent: How does Lavanda technology help me as a client?
     textContent: >-
       Easily add task automation to generate cleans, schedule linen drops,
       check-ins, maintenance, driver and runner tasks. Our PMS even knows the
@@ -57,7 +57,7 @@ highlights:
       from our state-of-the-art ticket management tool. Our ticket system
       integrates with your entire property portfolio, keeping all of the
       information you need ready at-a-glance.
-    titleContent: Ticket System
+    titleContent: How long will it take for me to transition my listings to Lavanda?
     imageAlign: img-left
     image: /img/operations.png
   - titleContent: Valuations
