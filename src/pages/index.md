@@ -17,7 +17,7 @@ subtitle:
 fgImage: /img/lavandagraphic.png
 bgImage: /img/blob-blue-1.svg
 ctaText: Get Started
-ctaTarget: /
+ctaTarget: /demo
 awards:
   - awardTitle: 'WINNER: Best Short-Term Rental Platform 2020'
     awardImageAlt: 'WINNER: Best Short-Term Rental Platform 2020'
