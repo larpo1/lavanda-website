@@ -9,7 +9,7 @@ subtitle:
   code: >-
     <h2 class="title lav-grey">...built by property managers.</h2> 
 
-    <p class="subtitle has-margin-top-20 is-hidden-mobile">Lavanda is an
+    <p class="subtitle has-margin-top-20 is-hidden-mobile"><b>Lavanda</b> is an
     award-winning, easy-to-use property management system, designed to
     streamline and grow property businesses across short-term rentals, assured
     short-hold tenancies, serviced apartments and more.</p>
