@@ -7,14 +7,15 @@ description: >-
 title: 'Property Management Software '
 subtitle:
   code: >-
-    <p class="subtitle is-size-5-mobile"><strong>...built by property managers.
-    </strong>Lavanda is an industry-awarded, easy-to-use property management
-    system, designed to help streamline and grow property businesses across
-    short-term rentals, assured short-hold tenancies, serviced apartments and
-    more.</p>
+    <h2 class="title lav-grey">...built by property managers.</h2> 
+
+    <p class="subtitle has-margin-top-20 is-hidden-mobile">Lavanda is an
+    award-winning, easy-to-use property management system, designed to
+    streamline and grow property businesses across short-term rentals, assured
+    short-hold tenancies, serviced apartments and more.</p>
   lang: html
 fgImage: /img/lavandagraphic.png
-bgImage: ''
+bgImage: /img/blob-blue-1.svg
 ctaText: Get Started
 ctaTarget: /
 awards:
@@ -26,6 +27,14 @@ awards:
     awardImage: /img/awards-shortz-2020.jpg
     awardImageAlt: 'WINNER: Best Property Management Solution 2020'
     awardURLTarget: /
+  - awardTitle: 'WINNER: Most Collaborative Business 2018'
+    awardImage: /img/awards-uk-proptech-association-2018.png
+    awardImageAlt: UK Proptech Awards 2018
+    awardURLTarget: /
+  - awardTitle: 'WINNER: Best Short-Term Rental Platform 2018'
+    awardImageAlt: The Serviced Apartment Awards 2018
+    awardURLTarget: /
+    awardImage: /img/awards-serviced-apartment-awards-2018.png
 highlights:
   - titleContent: Asset optimization
     textContent: >-
