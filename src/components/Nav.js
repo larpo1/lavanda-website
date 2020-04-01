@@ -1,5 +1,5 @@
-import { Link } from "gatsby";
 import React from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
 import "../../static/styles/main.scss";
 import logo from "../../static/img/lavanda-logo.svg";
 
@@ -17,7 +17,7 @@ const NavbarBurger = props => (
   </div>
 );
 
-export default class Nav extends React.Component {
+class Nav extends React.Component {
   componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
   };
@@ -41,8 +41,18 @@ export default class Nav extends React.Component {
       activeMenu: !this.state.activeMenu
     });
   };
-  
+
   render() {
+    // const featurePages = this.props.data.allMarkdownRemark.edges;
+    // const featurePageLinks = featurePages.map(page => (
+    //   <li key={page.node.fields.slug}>
+    //     <Link to={page.node.fields.slug}>{page.node.frontmatter.title}</Link>
+    //   </li>
+    // ));
+
+    const { data } = this.props;
+    const { edges: featurePages } = data.allMarkdownRemark;
+
     return (
       <nav
         className={"navbar is-fixed-top"}
@@ -70,25 +80,55 @@ export default class Nav extends React.Component {
             }`}
           >
             <div className={"navbar-end"}>
+              {/* Product Section */}
 
-            {/* Product Section */}
-
-            <div className={"navbar-item has-dropdown is-hoverable"}>
+              <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
                   className={
                     "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
-                  }>Product
-                  </Link>
+                  }
+                >
+                  Product
+                </Link>
                 <div className={"navbar-dropdown"}>
+                  {featurePages &&
+                    featurePages.map(({ node: page }) => (
+                      <Link
+                        key={page.fields.slug}
+                        to={page.fields.slug}
+                        className={"navbar-item"}
+                      >
+                        {page.frontmatter.title}
+                      </Link>
+                    ))}
+
+                  {/* <p className={"heading has-padding-left-10"}>
+                    Business Information
+                  </p>
+                  <Link to="/features/analytics" className={"navbar-item"}>
+                    Business Performance Analytics
+                  </Link>
+                  <Link
+                    to="/features/real-time-analytics"
+                    className={"navbar-item"}
+                  >
+                    Real-time Operations Analytics
+                  </Link>
                   <p className={"heading has-padding-left-10"}>Growth</p>
-                  <Link to="/features/customer-relationship-manager-crm" className={"navbar-item"}>
+                  <Link
+                    to="/features/customer-relationship-manager-crm"
+                    className={"navbar-item"}
+                  >
                     Customer Relationship Manager (CRM)
                   </Link>
                   <p className={"heading has-padding-left-10"}>Distribution</p>
-                  <Link to="/features/channel-manager" className={"navbar-item"}>
+                  <Link
+                    to="/features/channel-manager"
+                    className={"navbar-item"}
+                  >
                     Channel Manager
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -99,7 +139,9 @@ export default class Nav extends React.Component {
                   to="/"
                   className={
                     "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
-                  }>Solutions
+                  }
+                >
+                  Solutions
                 </Link>
                 <div className={"navbar-dropdown"}>
                   <Link to="/for/property-managers" className={"navbar-item"}>
@@ -128,7 +170,9 @@ export default class Nav extends React.Component {
                   to="/"
                   className={
                     "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
-                  }>Company
+                  }
+                >
+                  Company
                 </Link>
 
                 <div className={"navbar-dropdown"}>
@@ -167,3 +211,29 @@ export default class Nav extends React.Component {
     );
   }
 }
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query FeaturePagesLinks {
+        allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "feature-page" } } }
+          sort: { fields: frontmatter___category }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                category
+                templateKey
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <Nav data={data} count={count} />}
+  />
+);

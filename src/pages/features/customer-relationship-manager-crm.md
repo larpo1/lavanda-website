@@ -2,11 +2,8 @@
 templateKey: feature-page
 title: Customer Relationship Manager CRM
 category: Growth
-hero:
-  lang: html
-  code: >-
-    <p class="subtitle">Lavanda CRM is a fully integrated toolkit for growing
-    your business.</p>
+featureSubtitle: Lavanda CRM is a fully integrated toolkit for growing
+    your business.
 galleryImages:
   - /img/crm.png
 highlights:

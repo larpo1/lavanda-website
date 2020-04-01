@@ -5,64 +5,70 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
-import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Feature from "../components/Feature"
-
+import Feature from "../components/Feature";
 
 export const FeaturePageTemplate = ({
-  content,
-  contentComponent,
   description,
   tags,
   title,
   category,
   helmet,
-  hero,
+  featureSubtitle,
   logos,
   galleryImages,
   highlights
 }) => {
-  const FeatureContent = contentComponent || Content;
-
   return (
     <Layout>
       <Nav />
-      <section className="hero is-large">
+      <section className="hero is-fullheight">
         <div className="hero-body">
           {helmet || ""}
           <div className="container content">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
-              {title}
-            </h1>
-
-            {hero.code && hero.code.length ? (
-              <div
-                className="has-text-centered"
-                dangerouslySetInnerHTML={{ __html: hero.code }}
-              />
-            ) : null}
-
-            <div className="gallery">
-              {galleryImages && galleryImages.length ? (
-                <div>
-                  {galleryImages.map((image, index) => (
-                    <div key={index}>
-                      {image ? (
-                        <PreviewCompatibleImage
+            <div className="columns is-vcentered">
+              <div className="column is-half">
+                <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered-mobile ">
+                  {title}
+                </h1>
+                {featureSubtitle && featureSubtitle ? (
+                  <div
+                    className="has-text-centered-mobile subtitle has-margin-top-20"
+                    dangerouslySetInnerHTML={{ __html: featureSubtitle }}
+                  />
+                ) : null}
+              </div>
+              <div className="column is-half">
+                {galleryImages && galleryImages.length ? (
+                  <div className="gallery">
+                    {galleryImages.map((image, index) => (
+                      <div key={index} className="img-container">
+                        {/* {image ? (
+                            <PreviewCompatibleImage
+                              imageInfo={{
+                                image: image,
+                                alt: `image`
+                              }}
+                            />
+                          ) : null} */}
+                        {!!image && !!image.childImageSharp ? (
+                          <PreviewCompatibleImage
                           imageInfo={{
                             image: image,
                             alt: `image`
                           }}
-                        />
-                      ) : null}
-                    </div>
-                  ))}
-                </div>
-              ) : null}
+                          />
+                        ) : (
+                          <div className="browser-mockup with-url">
+                            <img src={image.publicURL} alt={title}  />
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
             </div>
-
-            <FeatureContent content={content} />
           </div>
         </div>
       </section>
@@ -120,7 +126,7 @@ export const FeaturePageTemplate = ({
 };
 
 FeaturePageTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
+  subtitleContent: PropTypes.func,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
@@ -133,8 +139,6 @@ const FeaturePage = ({ data }) => {
 
   return (
     <FeaturePageTemplate
-      content={feature.html}
-      contentComponent={HTMLContent}
       description={feature.frontmatter.description}
       helmet={
         <Helmet titleTemplate="%s | Page">
@@ -148,7 +152,7 @@ const FeaturePage = ({ data }) => {
       tags={feature.frontmatter.tags}
       title={feature.frontmatter.title}
       category={feature.frontmatter.category}
-      hero={feature.frontmatter.hero}
+      featureSubtitle={feature.frontmatter.featureSubtitle}
       logos={feature.frontmatter.logos}
       galleryImages={feature.frontmatter.galleryImages}
       highlights={feature.frontmatter.highlights}
@@ -172,9 +176,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        hero {
-          code
-        }
+        featureSubtitle
         galleryImages {
           childImageSharp {
             id
@@ -182,6 +184,7 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+          publicURL
         }
         highlights {
           titleContent

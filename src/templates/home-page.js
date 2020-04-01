@@ -24,32 +24,40 @@ export const IndexPageTemplate = ({
     <section className={"hero home is-fullheight wave-container"}>
       <Nav />
       <div className={"hero-body"}>
-        <div className={"container has-text-centered"}>
-          <div className={"hero-text"}>
-            <h1
-              className={"title is-size-1-tablet has-margin-bottom-35 lav-blue"}
-            >
-              {title}
-            </h1>
-            <div
-              className="subtitle"
-              dangerouslySetInnerHTML={{ __html: subtitle.code }}
-            />
-            <Link
-              to={ctaTarget}
-              className={"button is-primary is-medium has-margin-right-10"}
-            >
-              <strong>{ctaText}</strong>
-            </Link>
-            <Link to="#video" className={"button is-medium"}>
-              <strong>Learn More</strong>
-            </Link>
+        <div className={"container"}>
+          <div className="columns is-vcentered">
+            <div className="column is-half">
+              <div className={"hero-text has-text-centered-mobile "}>
+                <h1
+                  className={
+                    "title is-size-3-touch is-size-2-tablet lav-blue has-text-centered-mobile "
+                  }
+                >
+                  {title}
+                </h1>
+                <div
+                  className="subtitle is-hidden-mobile has-margin-top-20"
+                  dangerouslySetInnerHTML={{ __html: subtitle.code }}
+                />
+                <Link
+                  to={ctaTarget}
+                  className={"button is-primary is-medium has-margin-right-10"}
+                >
+                  <strong>{ctaText}</strong>
+                </Link>
+                <Link to="#video" className={"button is-medium"}>
+                  <strong>Learn More</strong>
+                </Link>
+              </div>
+            </div>
+            <div className="column is-half is-hidden-mobile">
+              <img
+                src={fgImage.childImageSharp.fluid.src}
+                alt="PMS"
+                className={""}
+              />
+            </div>
           </div>
-          <img
-            src={fgImage.childImageSharp.fluid.src}
-            alt="PMS"
-            className={"city-graphic is-hidden-mobile"}
-          />
         </div>
       </div>
 

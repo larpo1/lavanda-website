@@ -3,13 +3,7 @@ templateKey: feature-page
 logos: []
 title: Channel Manager
 category: Distribution
-hero:
-  code: >-
-    <h1 class="has-text-centered">One Channel Manager to rule them all.</h1>
-
-    <p class="subtitle has-text-centered">Every customer has their own
-    distribution strategy. We believe in giving you the freedom to choose.</p>
-  lang: html
+featureSubtitle: Every customer has their own distribution strategy. We believe in giving you the freedom to choose.
 galleryImages:
   - /img/channel-manager.png
 highlights:

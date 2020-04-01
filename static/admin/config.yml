@@ -20,9 +20,9 @@ collections:
     fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
           - {label: "Feature Title", name: "title", widget: "string"}
+          - {label: "Feature Subtitle", name: "featureSubtitle", widget: "text", required: false}
           - {label: "Category", name: "category", widget: "select", 
-            options: ["Growth", "Distribution", "Operations", "Guest Experience"]}
-          - {label: "Hero", name: "hero", widget: "code", default_language: "HTML"}
+            options: ["Analytics", "Growth", "Distribution", "Operations", "Guest Experience"]}
           - label: "Screenshot Gallery"
             label_singular: "Screenshot"
             name: "galleryImages"
@@ -34,10 +34,10 @@ collections:
             widget: "list"
             fields: 
             - {label: Title Content, name: titleContent, widget: "string"}
-            - {label: Text Content, name: textContent, widget: "string"}
+            - {label: Text Content, name: textContent, widget: "text"}
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
             - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
-            - {label: Image, name: image, widget: image}
+            - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
           - {label: "Tags", name: "tags", widget: "list"}
           - {label: "Meta Description", name: "description", widget: "text"}
 

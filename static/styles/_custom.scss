@@ -79,33 +79,6 @@ p.award-title {
   }
 }
 
-// Vertical centering by flex
-.Aligner {
-  display: flex;
-  align-items: center;
-  min-height: calc(100%);
-  justify-content: center;
-}
-.Aligner-item {
-  flex: 1;
-}
-.Aligner-item--top {
-  align-self: flex-start;
-}
-.Aligner-item--bottom {
-  align-self: flex-end;
-}
-.Aligner-item--fixed {
-  flex: none;
-  max-width: 50%;
-}
-
-.is-vertical-center {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
 .bg-blob {
   background-image: url(../img/bg-blob-green-1.svg);
   background-repeat: no-repeat;
@@ -180,9 +153,64 @@ section.feature-item {
   padding: 3.5rem 1.5rem;
 }
 
-section.feature-item .feature-image {
-  object-fit: contain;
+section.feature-item .feature-image .gatsby-image-wrapper img {
+  box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
 }
+
+.gallery .img-container img, .gallery .gatsby-image-wrapper img{
+  box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
+}
+
+ .browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  position: relative;
+  border-radius: 3px 3px 0 0
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+    
+.browser-mockup.with-tab:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -2em;
+  left: 5.5em;
+  width: 20%;
+  height: 0em;
+  border-bottom: 2em solid white;
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent;
+}
+
+.browser-mockup.with-url:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.browser-mockup > * {
+  display: block;
+}
+
+
+
 section.feature-item .feature-content {
   max-width: 480px;
 }
@@ -258,7 +286,7 @@ a.blog-roll-title {
 
 .gallery {
   max-width: 650px;
-  margin: 50px auto;
+  margin: 50px;
 }
 
 .calendly-inline-widget {

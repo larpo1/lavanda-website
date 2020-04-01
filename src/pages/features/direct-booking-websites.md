@@ -1,18 +1,30 @@
 ---
 templateKey: feature-page
 title: Direct Booking Websites
+featureSubtitle: >-
+  Clean, modern and highly SEO optimized direct booking experiences, fully
+  skinned to matched your brand. Our guest user journey has been carefully honed
+  to give the best possible booking experience.
 category: Distribution
-hero:
-  lang: HTML
-  code: '  <p>This is the subtitle</p>'
 galleryImages:
-  - /img/dashboard.png
+  - /img/direct-booking-flow.gif
 highlights:
-  - titleContent: This is a highlight
-    textContent: This is content beneath it.
-    linkTarget: /
-    imageAlign: right
-    image: /img/crm.png
+  - titleContent: Live pricing and availability
+    textContent: >-
+      Avoid cumbersome manual processes to check availability, send quotes and
+      take payment. Your fully branded direct booking site will always show up
+      to date availability and pricing. 
+    linkTarget: ''
+    imageAlign: img-left
+    image: /img/direct-booking-search-results.png
+  - image: /img/640x360.png
+    titleContent: SEO as Standard
+    textContent: >-
+      Users and google both love blistering fast page loads. We designed our
+      direct booking engine with cutting-edge server-rendering as standard. Set
+      metadata and optimize content directly in the PMS. Don't let your search
+      engine ranking be an after-thought. 
+    imageAlign: img-right
 tags:
   - Direct Booking
 description: meta
