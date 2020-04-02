@@ -22,8 +22,8 @@ collections:
     fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
           - {label: "Feature Title", name: "title", widget: "string"}
-          - {label: "Feature Subtitle", name: "featureSubtitle", widget: "text", required: false}
-          - {label: "Category", name: "category", widget: "select", 
+          - {label: "Feature Subtitle", name: "featureSubtitle", widget: "markdown", required: false}
+          - {label: "Feature Category", name: "category", widget: "select", 
             options: ["Analytics", "Growth", "Distribution", "Operations", "Guest Experience"]}
           - label: "Screenshot Gallery"
             label_singular: "Screenshot"
