@@ -7,6 +7,8 @@ import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Feature from "../components/Feature";
+import MarkdownContent from "../components/MarkdownContent"
+
 
 export const FeaturePageTemplate = ({
   description,
@@ -32,10 +34,7 @@ export const FeaturePageTemplate = ({
                   {title}
                 </h1>
                 {featureSubtitle && featureSubtitle ? (
-                  <div
-                    className="has-text-centered-mobile subtitle has-margin-top-20"
-                    dangerouslySetInnerHTML={{ __html: featureSubtitle }}
-                  />
+                  <MarkdownContent content={featureSubtitle} className={"subtitle has-margin-top-20"} />
                 ) : null}
               </div>
               <div className="column is-half">

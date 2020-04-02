@@ -12,6 +12,8 @@ publish_mode: editorial_workflow
 collections:
 
   - name: "feature-pages"
+    editor:
+      preview: false 
     label: "Feature Pages"
     label_singular: "Feature Page"
     folder: "src/pages/features"
@@ -42,6 +44,8 @@ collections:
           - {label: "Meta Description", name: "description", widget: "text"}
 
   - name: "landing-pages"
+    editor:
+      preview: false
     label: "Landing Pages"
     identifier_field: "url"
     label_singular: "Landing Page"
@@ -89,6 +93,8 @@ collections:
           - {label: "Meta Description", name: "description", widget: "text", required: true}
 
   - name: "blog"
+    editor:
+      preview: false 
     label: "Blog Posts"
     label_singular: "Blog Post"
     folder: "src/pages/blog"
@@ -105,6 +111,8 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "terms"
+    editor:
+      preview: false 
     label: "Terms"
     folder: "src/pages/terms"
     create: true
@@ -116,6 +124,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "heros"
+    editor:
+      preview: false 
     label: "Heros"
     label_singular: "Hero"
     folder: "src/content/heros"
@@ -129,6 +139,8 @@ collections:
       - {label: "Foreground Image", name: "foregroundImage", widget: "image"}
 
   - name: "testimonials"
+    editor:
+      preview: false 
     label: "Testimonials"
     label_singular: "Testimonial"
     folder: "src/content/testimonials"
@@ -146,6 +158,8 @@ collections:
 
 
   - name: "pages"
+    editor:
+      preview: false 
     label: "Pages"
     files:
     

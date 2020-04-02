@@ -38,8 +38,9 @@
     "react-happytext": "^1.0.1",
     "react-helmet": "^5.2.0",
     "react-rotating-text": "^1.4.1",
-    "react-scroll-parallax": "^2.3.1",
+    "react-scroll-parallax": "^2.3.2",
     "react-textgradient": "^0.0.2",
+    "showdown": "^1.9.1",
     "styled-components": "^5.0.1",
     "uigradients": "^1.0.0",
     "uuid": "^3.2.1"
