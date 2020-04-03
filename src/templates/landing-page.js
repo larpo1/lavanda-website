@@ -213,7 +213,8 @@ LandingPageTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   category: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
+  bgImage: PropTypes.object,
 };
 
 const LandingPage = ({ data }) => {
@@ -267,13 +268,7 @@ export const pageQuery = graphql`
         }
         heroLightOrDark
         heroSize
-        bgImage {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        bgImage
         fgImage {
           childImageSharp {
             fluid(maxWidth: 650, quality: 100) {

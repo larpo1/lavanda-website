@@ -14,7 +14,7 @@ subtitle:
     more.</p>
   lang: html
 fgImage: /img/lavandagraphic.png
-bgImage: /img/blob-blue-1.svg
+bgImage: ''
 ctaText: Get Started
 ctaTarget: /
 awards:

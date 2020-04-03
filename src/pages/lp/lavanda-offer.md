@@ -15,7 +15,7 @@ hero:
     href="/book-a-demo">Talk to Us</a>
 
     <a class="button is-medium" href="#video">Learn More</a>
-bgImage: ''
+bgImage:
 fgImage: /img/dashboard-mirrored.png
 heroLightOrDark: is-white
 heroSize: is-fullheight

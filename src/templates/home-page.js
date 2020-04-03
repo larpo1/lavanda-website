@@ -317,18 +317,7 @@ export const pageQuery = graphql`
           code
         }
         description
-        bgImage {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              base64
-              aspectRatio
-              src
-              srcSet
-              sizes
-              tracedSVG
-            }
-          }
-        }
+        bgImage
         fgImage {
           childImageSharp {
             fluid(maxWidth: 1600, quality: 100) {
