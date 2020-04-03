@@ -73,7 +73,7 @@ export const FeaturePageTemplate = ({
       </section>
 
       {highlights && highlights.length ? (
-        <div>
+        <section>
           {highlights.map(hl => (
             <Feature
               key={hl}
@@ -84,7 +84,7 @@ export const FeaturePageTemplate = ({
               featureImage={hl.image}
             />
           ))}
-        </div>
+        </section>
       ) : null}
 
       <section>

@@ -26,14 +26,6 @@ awards:
     awardImage: /img/awards-shortz-2020.jpg
     awardImageAlt: 'WINNER: Best Property Management Solution 2020'
     awardURLTarget: /
-  - awardTitle: 'WINNER: Most Collaborative Business 2018'
-    awardImage: /img/awards-uk-proptech-association-2018.png
-    awardImageAlt: UK Proptech Awards 2018
-    awardURLTarget: /
-  - awardTitle: 'WINNER: Best Short-Term Rental Platform 2018'
-    awardImageAlt: The Serviced Apartment Awards 2018
-    awardURLTarget: /
-    awardImage: /img/awards-serviced-apartment-awards-2018.png
 highlights:
   - titleContent: Asset optimization
     textContent: >-

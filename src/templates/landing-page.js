@@ -264,7 +264,7 @@ export const pageQuery = graphql`
         title
         description
         hero {
-          code
+          code  
         }
         heroLightOrDark
         heroSize
