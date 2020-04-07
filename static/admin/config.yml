@@ -94,7 +94,7 @@ collections:
 
   - name: "blog"
     editor:
-      preview: false 
+      preview: true 
     label: "Blog Posts"
     label_singular: "Blog Post"
     folder: "src/pages/blog"
@@ -117,7 +117,7 @@ collections:
 
   - name: "terms"
     editor:
-      preview: false 
+      preview: true 
     label: "Terms"
     folder: "src/pages/terms"
     create: true
@@ -126,7 +126,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
       - label: Content
         name: termsContent
         widget: ncw-tiny-mce
