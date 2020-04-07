@@ -61,10 +61,10 @@ export const LandingPageTemplate = ({
                   {title}
                 </h1>
 
-                {hero.code && hero.code.length ? (
+                {hero && hero.length ? (
                   <div
                     className="has-text-centered"
-                    dangerouslySetInnerHTML={{ __html: hero.code }}
+                    dangerouslySetInnerHTML={{ __html: hero }}
                   />
                 ) : null}
 
@@ -263,9 +263,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        hero {
-          code  
-        }
+        hero
         heroLightOrDark
         heroSize
         bgImage

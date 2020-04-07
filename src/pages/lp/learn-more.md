@@ -2,20 +2,25 @@
 templateKey: landing-page
 url: learn-more
 title: How can we help right now?
-hero:
-  lang: html
-  code: >-
-    <p class="subtitle has-margin-top-20 is-hidden-mobile">We can help solve
-    some of the toughest issues you are facing right now. From offering you 3
-    months completely free, to helping you work out a strategy to reduce costs
-    and operational effort. Schedule a call and let's figure out a way to get
-    your business through the storm.</p>
+hero: >-
+  <div class="column is-half">
 
-    <a class="button is-primary is-medium has-margin-right-10"
-    href="/book-a-demo">Talk to Us</a>
+  <h1 class="title is-size-1 has-text-weight-bold is-bold-light
+  has-text-centered ">We've got you covered</h1>
 
-    <a class="button is-medium" href="#video">Learn More</a>
-bgImage:
+  <div class="has-text-centered">
+
+  <p class="subtitle has-margin-top-20 is-hidden-mobile">In support of our
+  industry, we are giving away our award-winning Lavanda PMS completely
+  free-of-charge for the next 3 months. Speak to us today and find out how to
+  reduce your operating expenses now.</p>
+
+  <a class="button is-primary is-medium has-margin-right-10"
+  href="../book-a-demo">Talk to Us</a>&nbsp;<a class="button is-medium"
+  href="../lp/lavanda-offer#video">Learn More</a></div>
+
+  </div>
+bgImage: null
 fgImage: /img/dashboard-mirrored.png
 heroLightOrDark: is-white
 heroSize: is-fullheight

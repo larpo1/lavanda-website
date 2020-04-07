@@ -13,10 +13,11 @@ export class Control extends React.Component {
     menubar: true,
     image_advtab: true,
     plugins: [
-      'advlist autolink lists link image imagetools charmap print preview anchor',
+      'advlist autolink lists link image importcss imagetools charmap print preview anchor',
       'searchreplace visualblocks code fullscreen',
       'insertdatetime media table paste code help wordcount'
     ],
+    content_css: "../../static/styles/main.scss",
     toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help',
   }
 

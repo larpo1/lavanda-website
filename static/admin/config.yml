@@ -57,7 +57,11 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "landing-page"}
           - {label: "Custom URL", name: "url", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Hero Content", name: "hero", widget: "code", default_language: "HTML", required: false}
+          - label: Hero Content
+            name: hero
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
           - {label: Hero Background Image, name: bgImage, widget: image, required: false}
           - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
           - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}

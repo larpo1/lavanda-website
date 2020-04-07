@@ -2,20 +2,18 @@
 templateKey: landing-page
 url: lavanda-offer
 title: We've got you covered
-hero:
-  lang: html
-  code: >-
+hero: >-
+  <div class="has-text-centered">
 
-    <p class="subtitle has-margin-top-20 is-hidden-mobile">In support of our
-    industry, we are giving away our award-winning Lavanda PMS completely
-    free-of-charge for the next 3 months. Speak to us today and find out how to
-    reduce your operating expenses now.</p>
+  <p class="subtitle has-margin-top-20 is-hidden-mobile">In support of our
+  industry, we are giving away our award-winning Lavanda PMS completely
+  free-of-charge for the next 3 months. Speak to us today and find out how to
+  reduce your operating expenses now.</p>
 
-    <a class="button is-primary is-medium has-margin-right-10"
-    href="/book-a-demo">Talk to Us</a>
-
-    <a class="button is-medium" href="#video">Learn More</a>
-bgImage:
+  <a class="button is-primary is-medium has-margin-right-10"
+  href="../book-a-demo">Talk to Us</a>&nbsp;<a class="button is-medium"
+  href="../lp/lavanda-offer#video">Learn More</a></div>
+bgImage: null
 fgImage: /img/dashboard-mirrored.png
 heroLightOrDark: is-white
 heroSize: is-fullheight
@@ -71,5 +69,6 @@ highlights:
 tags:
   - Awards
   - Corona
+  - Covid-19
 description: test meta
 ---
