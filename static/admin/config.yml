@@ -107,7 +107,7 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       # - {label: "Body", name: "body", widget: "markdown"}
       - label: Content
-        name: body
+        name: postContent
         widget: ncw-tiny-mce
         tiny_config:
           apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0

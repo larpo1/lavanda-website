@@ -10,9 +10,10 @@ export class Control extends React.Component {
   config = {
     apiKey: null,
     height: 500,
-    menubar: false,
+    menubar: true,
+    image_advtab: true,
     plugins: [
-      'advlist autolink lists link image charmap print preview anchor',
+      'advlist autolink lists link image imagetools charmap print preview anchor',
       'searchreplace visualblocks code fullscreen',
       'insertdatetime media table paste code help wordcount'
     ],

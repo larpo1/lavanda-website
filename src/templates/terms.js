@@ -11,8 +11,6 @@ export const TermsTemplate = ({
   helmet,
 }) => {
   return (
-    <Layout>
-    <Nav />
     <section className="section has-margin-top-100">
       {helmet || ''}
       <div className="container content">
@@ -26,7 +24,6 @@ export const TermsTemplate = ({
         </div>
       </div>
     </section>
-    </Layout>
   )
 }
 
@@ -41,6 +38,7 @@ const Terms = ({ data }) => {
 
   return (
     <Layout>
+      <Nav />
       <TermsTemplate
         description={terms.frontmatter.description}
         helmet={

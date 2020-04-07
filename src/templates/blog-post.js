@@ -5,21 +5,15 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
-import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
   content,
-  contentComponent,
   description,
   tags,
   title,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
-
   return (
-    <Layout>
-    <Nav />
     <section className="section has-margin-top-100">
       {helmet || ''}
       <div className="container content">
@@ -28,8 +22,7 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p className="article-body">{description}</p>
-            <PostContent content={content} />
+            <div dangerouslySetInnerHTML={{ __html: content }} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -46,12 +39,11 @@ export const BlogPostTemplate = ({
         </div>
       </div>
     </section>
-    </Layout>
   )
 }
 
 BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
+  postContent: PropTypes.object,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
@@ -63,9 +55,8 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
+      <Nav />
       <BlogPostTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -73,11 +64,12 @@ const BlogPost = ({ data }) => {
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
-            />
+              />
           </Helmet>
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        content={post.frontmatter.postContent}
       />
     </Layout>
   )
@@ -101,6 +93,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        postContent
       }
     }
   }
