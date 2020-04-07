@@ -1,14 +1,14 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../../components/Layout"
-import SEO from "../../components/seo"
-import Nav from "../../components/Nav"
-import { Link } from "gatsby"
-import Feature from "../../components/Feature"
-import featureCM from "../../../static/img/features/multi-channel-manager.png"
-import featureCRM from "../../../static/img/features/CRM.png"
-import featureOps from "../../../static/img/features/feature-operations.png"
-import featureGuestComms from "../../../static/img/features/feature-guest-comms.png"
+import Layout from "../../components/Layout";
+import SEO from "../../components/seo";
+import Nav from "../../components/Nav";
+import { Link } from "gatsby";
+import Feature from "../../components/Feature";
+import featureCM from "../../../static/img/features/multi-channel-manager.png";
+import featureCRM from "../../../static/img/features/CRM.png";
+import featureOps from "../../../static/img/features/feature-operations.png";
+import featureGuestComms from "../../../static/img/features/feature-guest-comms.png";
 
 const PropertyManagersPage = () => (
   <Layout>
@@ -16,17 +16,21 @@ const PropertyManagersPage = () => (
 
     <section className={"hero property-managers is-fullheight bg-blob"}>
       <Nav />
-      <div className={"hero-body Aligner"}>
-        <div className={"hero-text Aligner-item has-text-centered"}>
-          <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
-            The PMS that actively grows your business.
-          </h1>
-          <h2 className={"subtitle"}>
-          Lavanda PMS (property management system) is a complete end-to-end management platform that unlocks efficiency while actively growing your short-term rental business.
-          </h2>
-          <Link to="/book-a-demo" className={"button is-primary is-medium"}>
-            <strong>Request A Demo</strong>
-          </Link>
+      <div className={"hero-body container"}>
+        <div className={" columns"}>
+          <div className={"hero-text column has-text-centered"}>
+            <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
+              The PMS that actively grows your business.
+            </h1>
+            <h2 className={"subtitle"}>
+              Lavanda PMS (property management system) is a complete end-to-end
+              management platform that unlocks efficiency while actively growing
+              your short-term rental business.
+            </h2>
+            <Link to="/book-a-demo" className={"button is-primary is-medium"}>
+              <strong>Request A Demo</strong>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -62,6 +66,6 @@ const PropertyManagersPage = () => (
       imageAlign="img-right"
     />
   </Layout>
-)
+);
 
-export default PropertyManagersPage
+export default PropertyManagersPage;

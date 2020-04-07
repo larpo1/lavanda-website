@@ -16,8 +16,8 @@ const ServicedApartmentsPage = () => (
     <SEO title="Student Accomodation Software" />
     <section className={"hero student is-fullheight bg-blob"}>
       <Nav />
-      <div className={"hero-body Aligner"}>
-        <div className={"hero-text Aligner-item has-text-centered"}>
+      <div className={"hero-body container"}>
+        <div className={"hero-text column has-text-centered"}>
           <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
             Optimize performance,<br/> all year round.
           </h1>

@@ -14,8 +14,8 @@ const ServicedApartmentsPage = () => (
 
     <section className={"hero home is-fullheight bg-blob"}>
       <Nav />
-      <div className={"hero-body Aligner"}>
-        <div className={"hero-text Aligner-item has-text-centered"}>
+      <div className={"hero-body container"}>
+        <div className={"column hero-text has-text-centered"}>
           <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
             Not just another<br/> Hotel Management System
           </h1>
