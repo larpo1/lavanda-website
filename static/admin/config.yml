@@ -104,11 +104,16 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
+      - label: Content
+        name: body
+        widget: ncw-tiny-mce
+        tiny_config:
+          apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
 
   - name: "terms"
     editor:
