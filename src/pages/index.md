@@ -11,8 +11,8 @@ subtitle:
 
     <p class="subtitle has-margin-top-20 is-hidden-mobile"><b>Lavanda</b> is an
     award-winning, easy-to-use property management system, designed to
-    streamline and grow property businesses across short-term rentals, assured
-    short-hold tenancies, serviced apartments and more.</p>
+    streamline and grow property businesses across short-term rentals, mid to
+    long-term rentals, serviced apartments and more.</p>
   lang: html
 fgImage: /img/lavandagraphic.png
 bgImage: /img/blob-blue-1.svg
