@@ -1,10 +1,11 @@
 ---
 templateKey: feature-page
 title: Direct Booking Websites
+h1: Win more direct bookings
 featureSubtitle: >-
-  Clean, modern and highly SEO optimized direct booking experiences, fully
-  skinned to matched your brand. Our guest user journey has been carefully honed
-  to give the best possible booking experience.
+  Clean, modern and highly SEO optimized direct booking sites, fully
+  white-labelled to match your brand. Our guest user journey has been carefully
+  honed to offer the best possible booking experience.
 category: Distribution
 galleryImages:
   - /img/direct-booking-flow.gif

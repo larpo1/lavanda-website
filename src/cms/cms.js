@@ -6,6 +6,7 @@ import AboutPagePreview from './preview-templates/AboutPagePreview'
 import FeaturePagePreview from './preview-templates/FeaturePagePreview'
 import BlogPostPreview from './preview-templates/BlogPostPreview'
 import termsPreview from './preview-templates/TermsPreview'
+import LandingPagePreview from './preview-templates/LandingPagePreview'
 
 import {Widget as TinyMCEWidget} from './widget-tiny-mce'
 
@@ -16,6 +17,7 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('terms', termsPreview)
+CMS.registerPreviewTemplate('landing-pages', LandingPagePreview)
 CMS.registerPreviewTemplate('feature', FeaturePagePreview)
 
 CMS.registerWidget(TinyMCEWidget)

@@ -91,6 +91,10 @@ p.award-title {
   transition: 0.7s;
 }
 
+section.home .hero-body {
+  margin-top: 3.25rem;
+}
+
 .hero .navbar.filled {
   background: white;
   box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07)
@@ -98,12 +102,7 @@ p.award-title {
 
 .hero-text {
   z-index: 1;
-  max-width: 530px;
   position: relative;
-}
-
-section.hero.home .hero-text {
-  max-width: 537px;
 }
 
 .hero.overlay:before {
@@ -153,8 +152,9 @@ section.feature-item {
   padding: 3.5rem 1.5rem;
 }
 
-section.feature-item .feature-image .gatsby-image-wrapper img {
+section.feature-item .feature-image .gatsby-image-wrapper picture img {
   box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
+  border-radius: 5px;
 }
 
 .gallery .img-container img, .gallery .gatsby-image-wrapper img{

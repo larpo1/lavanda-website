@@ -4,15 +4,12 @@ import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import VideoSection from "../components/VideoSection";
 import Feature from "../components/Feature";
 import logo from "../../static/img/lavanda-logo.svg";
 
 export const LandingPageTemplate = ({
-  content,
-  contentComponent,
   description,
   tags,
   title,
@@ -27,8 +24,6 @@ export const LandingPageTemplate = ({
   heroLightOrDark,
   videoSection
 }) => {
-  const LandingContent = contentComponent || Content;
-
   return (
     <Layout>
       <section
@@ -68,7 +63,6 @@ export const LandingPageTemplate = ({
                   />
                 ) : null}
 
-                <LandingContent content={content} />
               </div>
               <div className="column is-half">
                 {fgImage ? (
@@ -208,8 +202,6 @@ export const LandingPageTemplate = ({
 };
 
 LandingPageTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   category: PropTypes.string,
@@ -222,8 +214,6 @@ const LandingPage = ({ data }) => {
 
   return (
     <LandingPageTemplate
-      content={lp.html}
-      contentComponent={HTMLContent}
       description={lp.frontmatter.description}
       helmet={
         <Helmet titleTemplate="%s | Page">
@@ -259,7 +249,6 @@ export const pageQuery = graphql`
   query LandingPageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         title
         description

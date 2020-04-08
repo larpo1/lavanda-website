@@ -7,20 +7,18 @@ import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Feature from "../components/Feature";
-import MarkdownContent from "../components/MarkdownContent"
 
-
-export const FeaturePageTemplate = ({
+export const SolutionPageTemplate = ({
   description,
   tags,
   title,
-  h1,
+  solutionHeading,
   category,
   helmet,
-  featureSubtitle,
+  solutionSubtitle,
   logos,
   galleryImages,
-  highlights
+  highlights,
 }) => {
   return (
     <Layout>
@@ -32,14 +30,15 @@ export const FeaturePageTemplate = ({
             <div className="columns is-vcentered">
               <div className="column is-half">
                 <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered-mobile ">
-                  {h1}
+                  {solutionHeading}
                 </h1>
-                {featureSubtitle && featureSubtitle ? (
-                  <MarkdownContent content={featureSubtitle} className={"subtitle has-margin-top-20"} />
+                {solutionSubtitle && solutionSubtitle.length ? (
+                  <div dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
                 ) : null}
               </div>
-              <div className="column is-half">
-                {galleryImages && galleryImages.length ? (
+
+              {galleryImages && galleryImages.length ? (
+                <div className="column is-half">
                   <div className="gallery">
                     {galleryImages.map((image, index) => (
                       <div key={index} className="img-container">
@@ -53,31 +52,31 @@ export const FeaturePageTemplate = ({
                           ) : null} */}
                         {!!image && !!image.childImageSharp ? (
                           <PreviewCompatibleImage
-                          imageInfo={{
-                            image: image,
-                            alt: `image`
-                          }}
+                            imageInfo={{
+                              image: image,
+                              alt: `image`,
+                            }}
                           />
                         ) : (
                           <div className="browser-mockup with-url">
-                            <img src={image.publicURL} alt={title}  />
+                            <img src={image.publicURL} alt={title} />
                           </div>
                         )}
                       </div>
                     ))}
                   </div>
-                ) : null}
-              </div>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>
       </section>
 
       {highlights && highlights.length ? (
-        <section style={{backgroundColor: `#f4f6fc`}}>
-          {highlights.map((hl, index) => (
+        <section style={{ backgroundColor: `#f4f6fc` }}>
+          {highlights.map((hl) => (
             <Feature
-              key={index}
+              key={hl}
               titleContent={hl.titleContent}
               textContent={hl.textContent}
               linkTarget={hl.linkTarget}
@@ -98,7 +97,7 @@ export const FeaturePageTemplate = ({
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: logo.logo,
-                        alt: `logo for ${logo.title}`
+                        alt: `logo for ${logo.title}`,
                       }}
                     />
                   </div>
@@ -113,7 +112,7 @@ export const FeaturePageTemplate = ({
         <section>
           <h4>Tags</h4>
           <ul className="taglist">
-            {tags.map(tag => (
+            {tags.map((tag) => (
               <li key={tag + `tag`}>
                 <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
@@ -125,60 +124,60 @@ export const FeaturePageTemplate = ({
   );
 };
 
-FeaturePageTemplate.propTypes = {
+SolutionPageTemplate.propTypes = {
   subtitleContent: PropTypes.func,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
   category: PropTypes.string,
-  helmet: PropTypes.object
+  helmet: PropTypes.object,
 };
 
-const FeaturePage = ({ data }) => {
-  const { markdownRemark: feature } = data;
+const SolutionPage = ({ data }) => {
+  const { markdownRemark: solution } = data;
 
   return (
-    <FeaturePageTemplate
-      description={feature.frontmatter.description}
+    <SolutionPageTemplate
+      description={solution.frontmatter.description}
       helmet={
         <Helmet titleTemplate="%s | Page">
-          <title>{`${feature.frontmatter.title}`}</title>
+          <title>{`${solution.frontmatter.title}`}</title>
           <meta
             name="description"
-            content={`${feature.frontmatter.description}`}
+            content={`${solution.frontmatter.description}`}
           />
         </Helmet>
       }
-      tags={feature.frontmatter.tags}
-      title={feature.frontmatter.title}
-      h1={feature.frontmatter.h1}
-      category={feature.frontmatter.category}
-      featureSubtitle={feature.frontmatter.featureSubtitle}
-      logos={feature.frontmatter.logos}
-      galleryImages={feature.frontmatter.galleryImages}
-      highlights={feature.frontmatter.highlights}
+      tags={solution.frontmatter.tags}
+      title={solution.frontmatter.title}
+      solutionHeading={solution.frontmatter.solutionHeading}
+      category={solution.frontmatter.category}
+      solutionSubtitle={solution.frontmatter.solutionSubtitle}
+      logos={solution.frontmatter.logos}
+      galleryImages={solution.frontmatter.galleryImages}
+      highlights={solution.frontmatter.highlights}
     />
   );
 };
 
-FeaturePage.propTypes = {
+SolutionPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
-export default FeaturePage;
+export default SolutionPage;
 
 export const pageQuery = graphql`
-  query FeaturePageByID($id: String!) {
+  query SolutionPageByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
         title
-        h1
+        solutionHeading
         description
-        featureSubtitle
+        solutionSubtitle
         galleryImages {
           childImageSharp {
             id
@@ -203,7 +202,6 @@ export const pageQuery = graphql`
           }
         }
         tags
-        title
       }
     }
   }

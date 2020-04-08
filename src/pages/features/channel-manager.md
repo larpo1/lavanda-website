@@ -2,8 +2,11 @@
 templateKey: feature-page
 logos: []
 title: Channel Manager
+h1: Multi-channel distribution without the headaches
+featureSubtitle: >-
+  Full, professionally managed and maintained integrations to Airbnb,
+  Booking.com, Tripadvisor, VRBO (HomeAway), Expedia and many more.
 category: Distribution
-featureSubtitle: Every customer has their own distribution strategy. We believe in giving you the freedom to choose.
 galleryImages:
   - /img/channel-manager.png
 highlights:

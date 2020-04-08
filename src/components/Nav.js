@@ -43,16 +43,9 @@ class Nav extends React.Component {
   };
 
   render() {
-    // const featurePages = this.props.data.allMarkdownRemark.edges;
-    // const featurePageLinks = featurePages.map(page => (
-    //   <li key={page.node.fields.slug}>
-    //     <Link to={page.node.fields.slug}>{page.node.frontmatter.title}</Link>
-    //   </li>
-    // ));
 
     const { data } = this.props;
-    const { edges: featurePages } = data.allMarkdownRemark;
-
+    const { edges: pages } = data.allMarkdownRemark;
     return (
       <nav
         className={"navbar is-fixed-top"}
@@ -92,8 +85,10 @@ class Nav extends React.Component {
                   Product
                 </Link>
                 <div className={"navbar-dropdown"}>
-                  {featurePages &&
-                    featurePages.map(({ node: page }) => (
+                  {pages &&
+                    pages
+                    .filter(({node: page}) => (page.frontmatter.templateKey === "feature-page"))
+                    .map(({ node: page }) => (
                       <Link
                         key={page.fields.slug}
                         to={page.fields.slug}
@@ -102,33 +97,6 @@ class Nav extends React.Component {
                         {page.frontmatter.title}
                       </Link>
                     ))}
-
-                  {/* <p className={"heading has-padding-left-10"}>
-                    Business Information
-                  </p>
-                  <Link to="/features/analytics" className={"navbar-item"}>
-                    Business Performance Analytics
-                  </Link>
-                  <Link
-                    to="/features/real-time-analytics"
-                    className={"navbar-item"}
-                  >
-                    Real-time Operations Analytics
-                  </Link>
-                  <p className={"heading has-padding-left-10"}>Growth</p>
-                  <Link
-                    to="/features/customer-relationship-manager-crm"
-                    className={"navbar-item"}
-                  >
-                    Customer Relationship Manager (CRM)
-                  </Link>
-                  <p className={"heading has-padding-left-10"}>Distribution</p>
-                  <Link
-                    to="/features/channel-manager"
-                    className={"navbar-item"}
-                  >
-                    Channel Manager
-                  </Link> */}
                 </div>
               </div>
 
@@ -144,22 +112,18 @@ class Nav extends React.Component {
                   Solutions
                 </Link>
                 <div className={"navbar-dropdown"}>
-                  <Link to="/for/property-managers" className={"navbar-item"}>
-                    For property managers
-                  </Link>
-                  <Link to="/for/serviced-apartments" className={"navbar-item"}>
-                    For serviced apartments
-                  </Link>
-                  <Link to="/for/residential-assets" className={"navbar-item"}>
-                    For residential assets
-                  </Link>
-                  <Link to="/for/student-housing" className={"navbar-item"}>
-                    For student housing
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <Link to="/features/developer-api" className={"navbar-item"}>
-                    For integration partners
-                  </Link>
+                  {pages &&
+                    pages
+                    .filter(({node: page}) => (page.frontmatter.templateKey === "solution-page"))
+                    .map(({ node: page }) => (
+                      <Link
+                        key={page.fields.slug}
+                        to={page.fields.slug}
+                        className={"navbar-item"}
+                      >
+                        For {page.frontmatter.title}
+                      </Link>
+                    ))}
                 </div>
               </div>
 
@@ -214,9 +178,8 @@ class Nav extends React.Component {
 export default () => (
   <StaticQuery
     query={graphql`
-      query FeaturePagesLinks {
+      query PagesLinks {
         allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "feature-page" } } }
           sort: { fields: frontmatter___category }
         ) {
           edges {

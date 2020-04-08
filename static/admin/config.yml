@@ -21,7 +21,8 @@ collections:
     slug: "{{slug}}"
     fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
-          - {label: "Feature Title", name: "title", widget: "string"}
+          - {label: "Menu & Page Title", name: "title", widget: "string"}
+          - {label: "Value Statement", name: "h1", widget: "string"}
           - {label: "Feature Subtitle", name: "featureSubtitle", widget: "markdown", required: false}
           - {label: "Feature Category", name: "category", widget: "select", 
             options: ["Analytics", "Growth", "Distribution", "Operations", "Guest Experience"]}
@@ -35,10 +36,47 @@ collections:
             label_singular: "Highlight Section"
             widget: "list"
             fields: 
-            - {label: Title Content, name: titleContent, widget: "string"}
-            - {label: Text Content, name: textContent, widget: "text"}
+            - {label: Title, name: titleContent, widget: "string"}
+            - {label: Blurb, name: textContent, widget: "text"}
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
-            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
+            - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
+          - {label: "Tags", name: "tags", widget: "list"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+
+  - name: "solutions"
+    editor:
+      preview: false 
+    label: "Solutions Pages"
+    label_singular: "Solution"
+    folder: "src/pages/for"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "solution-page"}
+          - {label: "Menu & Page Title", name: "title", widget: "string"}
+          - {label: "Value Statement", name: "solutionHeading", widget: "string"}
+          - label: Subtitle
+            name: solutionSubtitle
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0          
+          - {label: "Category", name: "category", widget: "select", 
+            options: ["Property Management", "Student Accommodation", "Multi-Family", "Serviced Apartments"]}
+          - label: "Screenshot Gallery"
+            label_singular: "Screenshot"
+            name: "galleryImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+            - {label: Title, name: titleContent, widget: "string"}
+            - {label: Blurb, name: textContent, widget: "text"}
+            - {label: Link Target, name: linkTarget, widget: "string", required: false}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
             - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
           - {label: "Tags", name: "tags", widget: "list"}
           - {label: "Meta Description", name: "description", widget: "text"}
@@ -122,7 +160,7 @@ collections:
   - name: "terms"
     editor:
       preview: true 
-    label: "Terms"
+    label: "Terms & Conditions"
     folder: "src/pages/terms"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -174,7 +212,7 @@ collections:
   - name: "pages"
     editor:
       preview: false 
-    label: "Pages"
+    label: "Home Page etc."
     files:
     
       - file: "src/pages/index.md"
