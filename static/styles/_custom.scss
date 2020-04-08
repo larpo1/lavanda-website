@@ -144,8 +144,7 @@ section.home .hero-body {
   z-index: -1;
 }
 .hero-foot>svg, .wave-container>svg.falling-wave {
-  position: relative;
-  margin-bottom: -150px;
+  position: absolute;
 }
 
 
@@ -166,6 +165,12 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
 .gallery .img-container img, .gallery .gatsby-image-wrapper img{
   box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
 }
+.box-shadow {
+  box-shadow: none;
+}
+.box-shadow .gatsby-image-wrapper {
+  box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
+  }
 
  .browser-mockup {
   border-top: 2em solid rgba(230, 230, 230, 0.7);
