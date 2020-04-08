@@ -315,9 +315,6 @@ export const pageQuery = graphql`
         title
         subtitle
         description
-        bgImage {
-          publicURL
-        }
         fgImage {
           childImageSharp {
             fluid(maxWidth: 1600, quality: 100) {

@@ -255,9 +255,6 @@ export const pageQuery = graphql`
         hero
         heroLightOrDark
         heroSize
-        bgImage{
-          publicURL
-        }
         fgImage {
           childImageSharp {
             fluid(maxWidth: 650, quality: 100) {
