@@ -7841,6 +7841,14 @@ gatsby-page-utils@^0.1.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
+gatsby-plugin-google-analytics@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.2.2.tgz#b4d2a10e1863bb4c92084a1778c4a2aab53292f5"
+  integrity sha512-at0eUPTyetGuPW1ceISAv58a9fwbwsLX9V5ucwKYShs98Spil/FWviukW0f1A2LUsWOGTiVJYReS7IVVw+FlIA==
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    minimatch "3.0.4"
+
 gatsby-plugin-netlify-cms@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.2.2.tgz#1fe9b5653081ac682d4b8f3039a29c5a0d5515ce"
@@ -7903,6 +7911,11 @@ gatsby-plugin-sass@^2.2.1:
   dependencies:
     "@babel/runtime" "^7.8.7"
     sass-loader "^7.3.1"
+
+gatsby-plugin-segment-js@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-segment-js/-/gatsby-plugin-segment-js-3.1.0.tgz#df467aec38555a9cf71bacd34352b2dfbaba3687"
+  integrity sha512-oBcIY+riNehfyQXp8PEGVQTz/VPt/+k2aXCh/bNZSR4HhjEAXafcSCReS2xzs/3IJRa3gH0+NOZvRU8peXDb/w==
 
 gatsby-plugin-sharp@^2.5.4:
   version "2.5.4"
