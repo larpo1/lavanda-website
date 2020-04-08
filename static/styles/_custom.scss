@@ -249,7 +249,20 @@ $navbar-height: 5rem;
 }
 article.blog-list-item.is-child {
   text-align: center;
+  background-color: white;
+  box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
+  border-radius: 5px;
+  padding: 20px 20px 40px;
 }
+
+article.blog-list-item.is-child p {
+  padding: 0 20px;
+}
+
+.column
+  .tile {
+    height: 100% }
+
 p.post-meta {
   margin: 40px auto;
 }
