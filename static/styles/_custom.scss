@@ -143,8 +143,9 @@ section.home .hero-body {
   bottom: 0px;
   z-index: -1;
 }
-.wave-container > svg.falling-wave {
-  position: absolute;
+.hero-foot>svg, .wave-container>svg.falling-wave {
+  position: relative;
+  margin-bottom: -150px;
 }
 
 

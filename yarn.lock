@@ -14345,16 +14345,6 @@ react-frame-component@^4.1.0:
   resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-4.1.1.tgz#ea8f7c518ef6b5ad72146dd1f648752369826894"
   integrity sha512-NfJp90AvYA1R6+uSYafQ+n+UM2HjHqi4WGHeprVXa6quU9d8o6ZFRzQ36uemY82dlkZFzf2jigFx6E4UzNFajA==
 
-react-gradient-text@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-gradient-text/-/react-gradient-text-0.1.0.tgz#9537395bc10f569968c1308db060b7167f71741c"
-  integrity sha1-lTc5W8EPVplowTCNsGC3Fn9xdBw=
-
-react-happytext@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-happytext/-/react-happytext-1.0.1.tgz#3ce25b85c397849639eb44cd918b893e221ec821"
-  integrity sha512-I2SnMoAz2n29Qcs+1uH15HEGgmsIV7KcKZz5PVR1XcLad/qHbOt5chhmadzqJglEwmVvwPcPgGRiDkauXOULsg==
-
 react-helmet@^5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.1.tgz#16a7192fdd09951f8e0fe22ffccbf9bb3e591ffa"
@@ -16991,13 +16981,6 @@ tinycolor2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
   integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
-
-tinymce-react@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/tinymce-react/-/tinymce-react-1.3.2.tgz#7afacfe11c53df89201272b90d8b792e6bebf64e"
-  integrity sha1-evrP4RxT34kgEnK5DYt5Lmvr9k4=
-  dependencies:
-    uuid "^3.0.1"
 
 tmp@^0.0.33:
   version "0.0.33"
