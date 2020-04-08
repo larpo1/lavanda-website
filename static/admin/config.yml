@@ -222,7 +222,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: Meta Description, name: description, widget: string}
           - {label: Hero H1, name: title, widget: string}
-          - {label: Hero Content, name: subtitle, widget: code}
+          # - {label: Hero Content, name: subtitle, widget: code}
+          - label: Subtitle Content
+            name: subtitle
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
           - {label: Hero Foreground Image, name: fgImage, widget: image}
           - {label: Hero Background Image, name: bgImage, widget: image, required: false}
           - {label: CTA Text, name: ctaText, widget: string}

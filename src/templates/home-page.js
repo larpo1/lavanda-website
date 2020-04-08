@@ -37,7 +37,7 @@ export const IndexPageTemplate = ({
                 </h1>
                 <div
                   className="subtitle is-hidden-mobile has-margin-top-20"
-                  dangerouslySetInnerHTML={{ __html: subtitle.code }}
+                  dangerouslySetInnerHTML={{ __html: subtitle }}
                 />
                 <Link
                   to={ctaTarget}
@@ -313,9 +313,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         title
-        subtitle {
-          code
-        }
+        subtitle
         description
         bgImage
         fgImage {

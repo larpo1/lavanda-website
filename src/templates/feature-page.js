@@ -42,15 +42,7 @@ export const FeaturePageTemplate = ({
                 {galleryImages && galleryImages.length ? (
                   <div className="gallery">
                     {galleryImages.map((image, index) => (
-                      <div key={index} className="img-container">
-                        {/* {image ? (
-                            <PreviewCompatibleImage
-                              imageInfo={{
-                                image: image,
-                                alt: `image`
-                              }}
-                            />
-                          ) : null} */}
+                      <div key={index} className="img-container browser-mockup with-url">
                         {!!image && !!image.childImageSharp ? (
                           <PreviewCompatibleImage
                           imageInfo={{
@@ -59,7 +51,7 @@ export const FeaturePageTemplate = ({
                           }}
                           />
                         ) : (
-                          <div className="browser-mockup with-url">
+                          <div className="">
                             <img src={image.publicURL} alt={title}  />
                           </div>
                         )}

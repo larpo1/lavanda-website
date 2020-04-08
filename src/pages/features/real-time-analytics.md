@@ -1,7 +1,7 @@
 ---
 templateKey: feature-page
 title: Real-time Operations Analytics
-h1: Get the bigger picture
+h1: See a bigger picture
 featureSubtitle: >-
   Try real-time operational oversight the Lavanda way. With Lavanda PMS each
   user can customize their own dashboard to suit their role. Surface the data
@@ -9,7 +9,7 @@ featureSubtitle: >-
   configurations, including line and pie charts, maps and task lists.
 category: Analytics
 galleryImages:
-  - /img/dashboard-mirrored.png
+  - /img/dashboard.png
 highlights:
   - image: /img/tasks-map.png
     titleContent: See what's happening in real-time
