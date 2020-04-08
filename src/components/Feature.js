@@ -7,7 +7,7 @@ export default props => (
   <section className={"feature-item"}>
     <div className={"container"}>
       <div className={"columns is-vcentered " + props.imageAlign}>
-        <div className={"column has-padding-50 feature-image"}>
+        <div className={"column has-padding-50 feature-image " + props.imageClasses}>
           <PreviewCompatibleImage
             objectFit="contain"
             imageInfo={{

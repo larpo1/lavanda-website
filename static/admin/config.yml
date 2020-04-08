@@ -41,6 +41,7 @@ collections:
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
             - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
             - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
+            - {label: Image Classes, name: imageClasses, widget: string, default: "box-shadow", required: false}
           - {label: "Tags", name: "tags", widget: "list"}
           - {label: "Meta Description", name: "description", widget: "text"}
 

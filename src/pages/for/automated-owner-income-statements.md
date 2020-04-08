@@ -1,7 +1,7 @@
 ---
 templateKey: solution-page
 title: automated owner income reporting
-solutionHeading: Say goodbye to month-end financial headaches
+solutionHeading: No more month-end financial headaches
 solutionSubtitle: >-
   <p>We have been there. We know it goes. Calculating owner accurate owner
   financial statements can fully absorb one or more people for several days to a

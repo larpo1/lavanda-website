@@ -70,7 +70,7 @@ module.exports = {
         // To be used when `delayLoad` is set to `true`
         delayLoadTime: 1000
       }
-    }
+    },
     // {
     //   resolve: 'gatsby-source-filesystem',
     //   options: {

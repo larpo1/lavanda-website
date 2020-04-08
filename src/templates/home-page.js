@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
         <defs>
           <linearGradient id="myGradient" gradientTransform="rotate(0)">
             <stop offset="0%" stopColor="#11253b" />
@@ -146,7 +146,7 @@ export const IndexPageTemplate = ({
           </p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
         <path
           fill="#f5f5f5"
           fillOpacity="0.6"
@@ -165,7 +165,7 @@ export const IndexPageTemplate = ({
       </svg>
     </section>
 
-    <section className={"hero is-medium is-light"}>
+    {/* <section className={"hero is-medium is-light"}>
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
           <h1 className={"title is-size-1-tablet has-margin-bottom-50"}>
@@ -231,7 +231,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fillOpacity="0.9"
@@ -243,7 +243,7 @@ export const IndexPageTemplate = ({
           d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
       </svg>
-    </section>
+    </section> */}
 
     {highlights && highlights.length ? (
       <div>
@@ -315,7 +315,9 @@ export const pageQuery = graphql`
         title
         subtitle
         description
-        bgImage
+        bgImage {
+          publicURL
+        }
         fgImage {
           childImageSharp {
             fluid(maxWidth: 1600, quality: 100) {

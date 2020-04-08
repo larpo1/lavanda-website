@@ -138,11 +138,16 @@ section.home .hero-body {
   position:relative;
   overflow: hidden;
 }
-.wave-container > svg {
+.wave-container > svg.rising-wave {
   position: absolute;
   bottom: 0px;
   z-index: -1;
 }
+.wave-container > svg.falling-wave {
+  position: absolute;
+}
+
+
 .hero-foot > svg {
   position: absolute;
   bottom: 0px;
