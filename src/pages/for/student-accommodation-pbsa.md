@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: student accommodation (PBSA)
+title: Student accommodation (PBSA)
 solutionHeading: Next generation student accommodation software
 solutionSubtitle: <p>Welcome to the next generation property management system
   for purpose built student accommodation. Find out how we can streamline
