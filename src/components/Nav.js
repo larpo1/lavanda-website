@@ -155,6 +155,17 @@ class Nav extends React.Component {
                   </Link>
                 </div>
               </div>
+              
+              <div className={"navbar-item"}>
+                <Link
+                  to="lp/covid-19-survival-for-property-managers"
+                  className={
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium lav-purple"}>
+                  COVID-19
+                </Link>
+              </div>
+              
+
             </div>
 
             <div className={"navbar-end"}>

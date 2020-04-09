@@ -7,7 +7,7 @@ featureSubtitle: Tickets, tasks and charges - the holy trinity that makes
   together into a simple, integrated solution.
 category: Operations
 galleryImages:
-  - /img/640x360.png
+  - /img/feature-tickets.png
 highlights:
   - imageAlign: img-left
     image: /img/640x360.png

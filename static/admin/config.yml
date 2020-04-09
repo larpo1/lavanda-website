@@ -101,6 +101,8 @@ collections:
             widget: ncw-tiny-mce
             tiny_config:
               apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
+          - {label: CTA Text, name: lpCTAText, widget: string}
+          - {label: CTA Target, name: lpCTATarget, widget: string}
           - {label: Hero Background Image, name: bgImage, widget: image, required: false}
           - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
           - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}
@@ -110,17 +112,17 @@ collections:
             name: "awards"
             widget: "list"
             fields: 
-              - {label: Award, name: awardTitle, widget: string}
-              - {label: Image, name: awardImage, widget: image}
-              - {label: Alt, name: awardImageAlt, widget: string}
+              - {label: Award, name: awardTitle, widget: string, required: false }
+              - {label: Image, name: awardImage, widget: image, required: false }
+              - {label: Alt, name: awardImageAlt, widget: string, required: false }
               - {label: Target, name: awardURLTarget, widget: string, required: false }
           - label: "Video Section"
             name: "videoSection"
             widget: object
             fields:
-              - {label: Section Title, name: title, widget: string}
+              - {label: Section Title, name: title, widget: string, required: false }
               - {label: Subtitle, name: topText, widget: text, required: false}
-              - {label: Vimeo URL, name: vimeoURL, widget: string}
+              - {label: Vimeo URL, name: vimeoURL, widget: string, required: false }
               - {label: Bottom Text, name: bottomText, widget: text, required: false}
           - label: "Highlights"
             name: "highlights"

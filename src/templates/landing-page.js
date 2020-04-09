@@ -22,8 +22,14 @@ export const LandingPageTemplate = ({
   fgImage,
   awards,
   heroLightOrDark,
-  videoSection
+  videoSection,
+  lpCTAText,
+  lpCTATarget
 }) => {
+  // const Offset = () => {
+  //  if (!fgImage || fgImage.length === 0) return "is-offset-one-quarter"
+  // }
+
   return (
     <Layout>
       <section
@@ -33,8 +39,10 @@ export const LandingPageTemplate = ({
             !!bgImage ? bgImage.childImageSharp.fluid.src : bgImage
           })`,
           backgroundRepeat: `no-repeat`,
-          backgroundPosition: `top -200px right -300px`,
-          backgroundSize: `110vh`
+          backgroundPosition: `center`,
+          backgroundSize: `cover`,
+          // backgroundPosition: `top -200px right -300px`,
+          // backgroundSize: `110vh`,
         }}
       >
         <div className="hero-head ">
@@ -57,67 +65,73 @@ export const LandingPageTemplate = ({
                 </h1>
 
                 {hero && hero.length ? (
-                  <div
-                    className="has-text-centered"
-                    dangerouslySetInnerHTML={{ __html: hero }}
-                  />
+                  <div className="has-text-centered">
+                    <div dangerouslySetInnerHTML={{ __html: hero }} />
+                    <a
+                      href={lpCTATarget}
+                      className="button is-large is-primary has-margin-top-40"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <strong>{lpCTAText}</strong>
+                    </a>
+                  </div>
                 ) : null}
-
               </div>
-              <div className="column is-half">
-                {fgImage ? (
+              {fgImage ? (
+                <div className="column is-half">
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: fgImage,
-                      alt: `image`
+                      alt: `image`,
                     }}
                   />
-                ) : null}
-              </div>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>
 
         <div className={"hero-foot"}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <defs>
-            <linearGradient id="myGradient" gradientTransform="rotate(0)">
-              <stop offset="0%" stopColor="#11253b" />
-              <stop offset="50%" stopColor="#183656" />
-              <stop offset="100%" stopColor="#477fba" />
-            </linearGradient>
-          </defs>
-          <path
-            fill="url('#myGradient')"
-            gradientTransform="rotate(180)"
-            fillOpacity="0.5"
-            d="M0,288L80,282.7C160,277,320,267,480,250.7C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-          <path
-            fill="url('#myGradient')"
-            gradientTransform="rotate(180)"
-            fillOpacity="0.7"
-            d="M0,320L80,288C160,256,320,192,480,192C640,192,800,256,960,282.7C1120,309,1280,299,1360,293.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-          <path
-            fill="url('#myGradient')"
-            gradientTransform="rotate(180)"
-            fillOpacity="0.2"
-            d="M0,288L80,288C160,288,320,288,480,272C640,256,800,224,960,229.3C1120,235,1280,277,1360,298.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-          <path
-            fill="url('#myGradient')"
-            gradientTransform="rotate(180)"
-            fillOpacity="0.2"
-            d="M0,256L80,224C160,192,320,128,480,133.3C640,139,800,213,960,240C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-          <path
-            fill="url('#myGradient')"
-            gradientTransform="rotate(180)"
-            fillOpacity="1"
-            d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-          ></path>
-        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <defs>
+              <linearGradient id="myGradient" gradientTransform="rotate(0)">
+                <stop offset="0%" stopColor="#11253b" />
+                <stop offset="50%" stopColor="#183656" />
+                <stop offset="100%" stopColor="#477fba" />
+              </linearGradient>
+            </defs>
+            <path
+              fill="url('#myGradient')"
+              gradientTransform="rotate(180)"
+              fillOpacity="0.5"
+              d="M0,288L80,282.7C160,277,320,267,480,250.7C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+            <path
+              fill="url('#myGradient')"
+              gradientTransform="rotate(180)"
+              fillOpacity="0.7"
+              d="M0,320L80,288C160,256,320,192,480,192C640,192,800,256,960,282.7C1120,309,1280,299,1360,293.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+            <path
+              fill="url('#myGradient')"
+              gradientTransform="rotate(180)"
+              fillOpacity="0.2"
+              d="M0,288L80,288C160,288,320,288,480,272C640,256,800,224,960,229.3C1120,235,1280,277,1360,298.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+            <path
+              fill="url('#myGradient')"
+              gradientTransform="rotate(180)"
+              fillOpacity="0.2"
+              d="M0,256L80,224C160,192,320,128,480,133.3C640,139,800,213,960,240C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+            <path
+              fill="url('#myGradient')"
+              gradientTransform="rotate(180)"
+              fillOpacity="1"
+              d="M0,192L80,181.3C160,171,320,149,480,160C640,171,800,213,960,224C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+          </svg>
           <div className={"container has-text-centered-mobile"}>
             {awards && awards.length ? (
               <div className="awards has-padding-40-mobile">
@@ -127,7 +141,7 @@ export const LandingPageTemplate = ({
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: award.awardImage,
-                          alt: award.awardImageAlt
+                          alt: award.awardImageAlt,
                         }}
                       />
                     ) : null}
@@ -138,20 +152,19 @@ export const LandingPageTemplate = ({
             ) : null}
           </div>
         </div>
-
-       
       </section>
-
-      <VideoSection
-        title={videoSection.title}
-        topText={videoSection.topText}
-        vimeoURL={videoSection.vimeoURL}
-        bottomText={videoSection.bottomText}
-      />
+      {videoSection && videoSection.length ? (
+        <VideoSection
+          title={videoSection.title}
+          topText={videoSection.topText}
+          vimeoURL={videoSection.vimeoURL}
+          bottomText={videoSection.bottomText}
+        />
+      ) : null}
 
       {highlights && highlights.length ? (
         <section>
-          {highlights.map(hl => (
+          {highlights.map((hl) => (
             <Feature
               key={hl}
               titleContent={hl.titleContent}
@@ -174,7 +187,7 @@ export const LandingPageTemplate = ({
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: logo.logo,
-                        alt: `logo for ${logo.title}`
+                        alt: `logo for ${logo.title}`,
                       }}
                     />
                   </div>
@@ -189,7 +202,7 @@ export const LandingPageTemplate = ({
         <section>
           <h4>Tags</h4>
           <ul className="taglist">
-            {tags.map(tag => (
+            {tags.map((tag) => (
               <li key={tag + `tag`}>
                 <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
@@ -206,7 +219,6 @@ LandingPageTemplate.propTypes = {
   title: PropTypes.string,
   category: PropTypes.string,
   helmet: PropTypes.object,
-  bgImage: PropTypes.object,
 };
 
 const LandingPage = ({ data }) => {
@@ -227,6 +239,8 @@ const LandingPage = ({ data }) => {
       title={lp.frontmatter.title}
       category={lp.frontmatter.category}
       hero={lp.frontmatter.hero}
+      lpCTAText={lp.frontmatter.lpCTAText}
+      lpCTATarget={lp.frontmatter.lpCTATarget}
       heroSize={lp.frontmatter.heroSize}
       logos={lp.frontmatter.logos}
       highlights={lp.frontmatter.highlights}
@@ -239,8 +253,8 @@ const LandingPage = ({ data }) => {
 
 LandingPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default LandingPage;
@@ -253,8 +267,11 @@ export const pageQuery = graphql`
         title
         description
         hero
+        lpCTAText
+        lpCTATarget
         heroLightOrDark
         heroSize
+        bgImage
         fgImage {
           childImageSharp {
             fluid(maxWidth: 650, quality: 100) {
