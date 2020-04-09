@@ -247,9 +247,9 @@ export const IndexPageTemplate = ({
 
     {highlights && highlights.length ? (
       <div>
-        {highlights.map(hl => (
+        {highlights.map((hl, index) => (
           <Feature
-            key={hl}
+            key={index}
             titleContent={hl.titleContent}
             textContent={hl.textContent}
             linkTarget={hl.linkTarget}
