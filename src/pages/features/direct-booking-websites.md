@@ -12,7 +12,13 @@ highlights:
   - imageAlign: img-left
     image: /img/640x360.png
     imageClasses: box-shadow
-    titleContent: Customize the look and feel completely
+    titleContent: Get up and running in minutes, or...
+    textContent: Just set your logo and publish to have an out of the box direct
+      booking experience up and running in minutes. Alternatively...
+  - imageAlign: img-right
+    image: /img/640x360.png
+    imageClasses: box-shadow
+    titleContent: ...Customize the look and feel completely
     textContent: You can adjust your site to match your brand as much or as little
       as you want. Talk to us about building the completely custom direct
       booking experience your brand deserves.
