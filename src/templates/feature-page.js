@@ -36,7 +36,7 @@ export const FeaturePageTemplate = ({
                 {featureSubtitle && featureSubtitle ? (
                   <MarkdownContent
                     content={featureSubtitle}
-                    className={"subtitle has-margin-top-20"}
+                    className={"subtitle has-margin-top-40"}
                   />
                 ) : null}
               </div>
