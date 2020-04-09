@@ -38,6 +38,7 @@ postContent: >-
   <h1 dir="ltr">&nbsp;</h1>
 tags:
   - Airbnb
+  - Expedia
 description: Airbnb has been hit by a sharp drop in bookings because of the
   coronavirus outbreak. It isn't clear what the reason or source of this
   valuation is, but a 16% reduction seems a pretty good result in this market.
