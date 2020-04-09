@@ -139,10 +139,10 @@ export const IndexPageTemplate = ({
             allowFullScreen
           ></iframe>
           <p className="subtitle is-size-4-tablet has-margin-top-50 column is-half is-offset-one-quarter">
-            As a company who started out as a Property Manager, we understand
-            the daily pressures around managing staff, profits, advertising,
+            As a company that started out managing properties we understand
+            the daily pressures around operational complexity, profits, growth,
             guest experience and financial reporting. So, we built a platform to
-            automate your day-to-day, ready to integrate with you.
+            automate your day-to-day.
           </p>
         </div>
       </div>
@@ -275,7 +275,7 @@ IndexPageTemplate.propTypes = {
   fgImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subtitle: PropTypes.object,
+  subtitle: PropTypes.string,
   description: PropTypes.string
 };
 

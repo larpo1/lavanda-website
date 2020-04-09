@@ -29,11 +29,11 @@ export const SolutionPageTemplate = ({
           <div className="container content">
             <div className="columns is-vcentered">
               <div className="column is-half">
-                <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered-mobile ">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered-mobile">
                   {solutionHeading}
                 </h1>
                 {solutionSubtitle && solutionSubtitle.length ? (
-                  <div dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
+                  <div className="subtitle" dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
                 ) : null}
               </div>
 
@@ -111,9 +111,9 @@ export const SolutionPageTemplate = ({
             ></path>
           </svg>
 
-          {highlights.map((hl) => (
+          {highlights.map((hl, index) => (
             <Feature
-              key={hl}
+              key={index}
               titleContent={hl.titleContent}
               textContent={hl.textContent}
               linkTarget={hl.linkTarget}

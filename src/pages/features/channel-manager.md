@@ -18,6 +18,13 @@ highlights:
     image: /img/channel-manager.png
     imageAlign: img-left
     boxShadow: false
+  - imageAlign: img-right
+    image: /img/640x360.png
+    imageClasses: box-shadow
+    titleContent: Full content API integrations
+    textContent: "Push all property content to automatically, from a single,
+      powerful onboarding toolset. Sync bookings, blocks and available date,
+      pricing, property content, booking policies and more. "
 tags:
   - Channel Manager
 description: Lavanda Channel Manager is enables seamless multi-channel
