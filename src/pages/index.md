@@ -4,7 +4,7 @@ description: Lavanda is an industry-awarded, easy-to-use property management
   system, designed to help streamline and grow property businesses across
   short-term rentals, assured short-hold tenancies, serviced apartments and
   more.
-title: "Property Management Software "
+title: "Next-Generation Property Management Software "
 subtitle: <p><strong>...built by property managers.</strong>&nbsp;Lavanda is an
   award-winning, easy-to-use property management system, designed to streamline
   and grow property businesses across short-term rentals, mid to long-term
