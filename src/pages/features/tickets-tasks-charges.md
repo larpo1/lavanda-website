@@ -19,7 +19,7 @@ highlights:
       attachments, assigned team and individual and all updates are
       automatically notified to everyone involved.
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/ticket-example.png
     titleContent: Tasks
     textContent: "Automatically generate and allocate out a wide variety of tasks
       around housekeeping, check-ins, driver drops and linen deliveries, runner
