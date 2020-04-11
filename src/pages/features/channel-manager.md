@@ -19,7 +19,7 @@ highlights:
     imageAlign: img-left
     boxShadow: false
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/multi-channel.png
     imageClasses: box-shadow
     titleContent: Full content API integrations
     textContent: "Push all property content to automatically, from a single,
