@@ -10,7 +10,7 @@ galleryImages:
   - /img/feature-tickets.png
 highlights:
   - imageAlign: img-left
-    image: /img/640x360.png
+    image: /img/ticket-v3.png
     titleContent: Tickets
     textContent: Lavanda PMS comes with an integrated ticket system. Tickets can be
       represent any kind of problem, issue or note requiring action. Lightbulbs
@@ -19,7 +19,7 @@ highlights:
       attachments, assigned team and individual and all updates are
       automatically notified to everyone involved.
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/charges-example.png
     titleContent: Tasks
     textContent: "Automatically generate and allocate out a wide variety of tasks
       around housekeeping, check-ins, driver drops and linen deliveries, runner
@@ -27,7 +27,7 @@ highlights:
       team members or external contractors who can feed back updates directly
       into the app. "
   - imageAlign: img-left
-    image: /img/640x360.png
+    image: /img/charges-update.png
     titleContent: Charges
     textContent: "Raise maintenance charges, purchase orders, credits, refunds and
       whatever else you need. Every cost can be fully attributed and auditable
