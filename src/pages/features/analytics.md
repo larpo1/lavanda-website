@@ -17,7 +17,7 @@ highlights:
     boxShadow: true
     imageClasses: ""
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/cost-to-serve.png
     titleContent: Make every penny count
     textContent: Analyze cost-to-serve for every property in your portfolio. Drill
       into every unit's monthly expenses and get a forensic understanding of
