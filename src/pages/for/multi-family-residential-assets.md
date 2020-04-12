@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: multi-family residential assets
+title: Multifamily
 solutionHeading: Delight residents. Eliminate voids. Boost NOI.
 solutionSubtitle: >-
   <p class="subtitle">Lavanda is an award winning next-generation technology
