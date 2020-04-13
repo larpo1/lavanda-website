@@ -24,7 +24,7 @@ export const LandingPageTemplate = ({
   heroLightOrDark,
   videoSection,
   lpCTAText,
-  lpCTATarget
+  lpCTATarget,
 }) => {
   // const Offset = () => {
   //  if (!fgImage || fgImage.length === 0) return "is-offset-one-quarter"
@@ -48,8 +48,8 @@ export const LandingPageTemplate = ({
         <div className="hero-head ">
           <div className="container">
             <Link to="/" className={""}>
-              <div className={"logo has-margin-top-40 has-text-centered"}>
-                <img alt={"Logo"} src={logo} width="200" />
+              <div className={"logo has-margin-top-40"}>
+                <img alt={"Logo"} src={logo} width="100" />
               </div>
             </Link>
           </div>
@@ -60,7 +60,7 @@ export const LandingPageTemplate = ({
           <div className="container content">
             <div className="columns is-vcentered">
               <div className="column is-half">
-                <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered ">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
                   {title}
                 </h1>
 
@@ -69,7 +69,7 @@ export const LandingPageTemplate = ({
                     <div dangerouslySetInnerHTML={{ __html: hero }} />
                     <a
                       href={lpCTATarget}
-                      className="button is-large is-primary has-margin-top-40"
+                      className="button is-medium is-primary has-margin-top-40"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -79,7 +79,7 @@ export const LandingPageTemplate = ({
                 ) : null}
               </div>
               {fgImage ? (
-                <div className="column is-half">
+                <div className="column is-half lp-fgImage">
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: fgImage,
@@ -198,7 +198,7 @@ export const LandingPageTemplate = ({
         ) : null}
       </section>
 
-      {tags && tags.length ? (
+      {/* {tags && tags.length ? (
         <section>
           <h4>Tags</h4>
           <ul className="taglist">
@@ -209,7 +209,7 @@ export const LandingPageTemplate = ({
             ))}
           </ul>
         </section>
-      ) : null}
+      ) : null} */}
     </Layout>
   );
 };
@@ -271,7 +271,15 @@ export const pageQuery = graphql`
         lpCTATarget
         heroLightOrDark
         heroSize
-        bgImage
+        bgImage {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid
+
+            }
+          }
+          publicURL
+        }
         fgImage {
           childImageSharp {
             fluid(maxWidth: 650, quality: 100) {
@@ -283,11 +291,8 @@ export const pageQuery = graphql`
           awardImage {
             childImageSharp {
               fluid(maxWidth: 400, quality: 100, grayscale: true) {
-                src
-                sizes
-                srcSet
-                base64
-                aspectRatio
+                ...GatsbyImageSharpFluid
+
               }
             }
           }

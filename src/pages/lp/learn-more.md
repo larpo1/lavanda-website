@@ -20,7 +20,7 @@ hero: >-
   href="../lp/lavanda-offer#video">Learn More</a></div>
 
   </div>
-bgImage: null
+bgImage: /img/bg-blob-green-2x.png
 fgImage: /img/dashboard-mirrored.png
 heroLightOrDark: is-white
 heroSize: is-fullheight

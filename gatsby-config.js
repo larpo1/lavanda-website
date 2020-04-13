@@ -8,6 +8,51 @@ module.exports = {
     siteUrl: `https://getlavanda.com`
   },
   plugins: [
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          { 
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048
+            }
+          },
+          {
+            resolve: "gatsby-remark-copy-linked-files",
+            options: {
+              destinationDir: "img"
+            }
+          }
+        ]
+      }
+    },
+    {
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/img`,
+        name: "uploads"
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages"
+      }
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sass",
@@ -32,6 +77,16 @@ module.exports = {
         trackingId: "UA-55165817-4",
       },
     },
+    // {
+    //   resolve: 'remove-empty-fields',
+    //   options: {
+    //     path: `${__dirname}/src/plugins`,
+    //     fieldsToRemove: [
+    //       'image',
+    //       'bgImage',
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-segment-js`,
       options: {
@@ -71,53 +126,7 @@ module.exports = {
         delayLoadTime: 1000
       }
     },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/img`,
-    //     name: 'images',
-    //   },
-    // },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          { 
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads"
-            }
-          },
-          // {
-          //   resolve: 'gatsby-transformer-remark-frontmatter',
-          //   // default: { blacklist: [] }
-          //   options: {
-          //     // frontmatter fields to exclude, including all others
-          //     blacklist: ['templateKey']
-          //     // frontmatter fields to include, excluding all others
-          //     // whitelist: ['markdownField']
-          //   }
-          // },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048
-            }
-          },
-          {
-            resolve: "gatsby-remark-copy-linked-files",
-            options: {
-              destinationDir: "img"
-            }
-          }
-        ]
-      }
-    },
+
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {

@@ -13,7 +13,7 @@ hero: >-
   <a class="button is-primary is-medium has-margin-right-10"
   href="../book-a-demo">Talk to Us</a>&nbsp;<a class="button is-medium"
   href="../lp/lavanda-offer#video">Learn More</a></div>
-bgImage: null
+bgImage: /img/bg-blob-green-2x.png
 fgImage: /img/dashboard-mirrored.png
 heroLightOrDark: is-white
 heroSize: is-fullheight
