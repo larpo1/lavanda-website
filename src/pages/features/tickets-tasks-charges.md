@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Tickets, tasks & charges
+title: Tickets, Tasks & Charges
 h1: Track problems. Manage resolutions. Control costs.
 featureSubtitle: Tickets, tasks and charges - the trio that makes problem
   management and cost attribution a breeze. Lavanda PMS brings it all together
@@ -36,10 +36,9 @@ highlights:
 tags:
   - Tickets
   - Operations
-description: Lavanda PMS comes with an integrated ticket system. Tickets can be
-  represent any kind of problem, issue or note requiring action. Lightbulbs need
-  replacing in a property? Create a ticket. The central heating is not working?
-  Raise a ticket. Every ticket has a conversation thread, media attachments,
-  assigned team and individual and all updates are automatically notified to
-  everyone involved.
+description: Lavanda PMS has an integrated ticket system to enhance
+  collaboration. Automate cleaning and maintenance within your property
+  management business to bring efficiency to your operations. Every ticket has a
+  conversation thread, media attachments, assigned team and individual and all
+  updates are automatically notified to everyone involved.
 ---
