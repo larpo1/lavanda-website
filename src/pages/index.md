@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-description: Lavanda is an industry-awarded, easy-to-use property management
+description: Lavanda is a multi-award-winning, easy-to-use property management
   system, designed to help streamline and grow property businesses across
   short-term rentals, assured short-hold tenancies, serviced apartments and
   more.
@@ -37,8 +37,8 @@ highlights:
     linkTarget: /features/channel-manager
     imageAlign: img-right
     image: /img/channel-manager.png
-  - textContent: Build community by delivering a seamless, authentic and welcoming
-      experience for both long-term residents and short-term guests.
+  - textContent: Earn positive reviews, recommendations and loyal customers by
+      providing an authentic and welcoming experience for your guests.
     titleContent: Scaleable, Authentic Hospitality
     linkTarget: /features/guest-experience
     imageAlign: img-left
