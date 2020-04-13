@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
@@ -136,7 +136,7 @@ export const FeaturePageTemplate = ({
         ) : null}
       </section>
 
-      {tags && tags.length ? (
+      {/* {tags && tags.length ? (
         <section>
           <h4>Tags</h4>
           <ul className="taglist">
@@ -147,7 +147,7 @@ export const FeaturePageTemplate = ({
             ))}
           </ul>
         </section>
-      ) : null}
+      ) : null} */}
     </Layout>
   );
 };
