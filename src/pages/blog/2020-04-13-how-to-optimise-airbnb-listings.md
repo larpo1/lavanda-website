@@ -45,7 +45,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Airbnb also ranks you higher if you&rsquo;ve built a record of quick responses to guests enquiries. It&rsquo;s also key to note that prospective guests are seeking as much convenience as possible when finding a rental. By turning on &lsquo;Instant Booking&rsquo;, it allows them to reduce their waiting time.</span></p>
 
-  <p><br /><br /></p>
+  <p><br /><img src="https://images.unsplash.com/photo-1567899482751-c8647fda8155?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="white bedspread" /></p>
 tags:
   - airbnb
   - short term rentals
