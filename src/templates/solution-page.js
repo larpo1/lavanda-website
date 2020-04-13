@@ -33,7 +33,7 @@ export const SolutionPageTemplate = ({
                   {solutionHeading}
                 </h1>
                 {solutionSubtitle && solutionSubtitle.length ? (
-                  <div className="subtitle" dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
+                  <div className="subtitle is-hidden-mobile" dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
                 ) : null}
               </div>
 
