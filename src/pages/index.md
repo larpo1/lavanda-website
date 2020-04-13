@@ -30,7 +30,7 @@ highlights:
     linkTarget: /for/residential-assets
     imageAlign: right
     image: /img/feature-impact-assessment.png
-  - titleContent: Multi-channel management
+  - titleContent: Manage multiple channels
     textContent: Allow guests to find your property easier, across multiple
       channels. Tap into short, mid and long-term rental channels - including
       Lavanda’s unique Booking Network.
@@ -44,7 +44,8 @@ highlights:
     imageAlign: img-left
     image: /img/guest-comms.png
   - titleContent: Reduce Operational Complexity
-    textContent: "Lavanda PMS is a powerful painkiller for complex hospitality operations. "
+    textContent: "Automatically generate tasks, tickets, reports and more, freeing
+      up your time to focus upon running a successful business.  "
     linkTarget: /for/complex-hospitality-operations
     imageAlign: img-right
     image: /img/feature-operations.png
