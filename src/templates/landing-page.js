@@ -271,15 +271,6 @@ export const pageQuery = graphql`
         lpCTATarget
         heroLightOrDark
         heroSize
-        bgImage {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 100) {
-              ...GatsbyImageSharpFluid
-
-            }
-          }
-          publicURL
-        }
         fgImage {
           childImageSharp {
             fluid(maxWidth: 650, quality: 100) {

@@ -103,7 +103,7 @@ collections:
               apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
           - {label: CTA Text, name: lpCTAText, widget: string}
           - {label: CTA Target, name: lpCTATarget, widget: string}
-          - {label: Hero Background Image, name: bgImage, widget: image, required: false}
+          # - {label: Hero Background Image, name: bgImage, widget: image, required: false}
           - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
           - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}
           - {label: Hero Size, name: heroSize, widget: select, options: ["is-fullheight", "is-large", "is-medium", "is-small"]}
