@@ -10,7 +10,7 @@ lpCTATarget: https://mailchi.mp/getlavanda/cold-hard-truth/?utm_source=in&utm_me
 bgImage: ""
 fgImage: /img/covid-19-survival-guide.png
 heroLightOrDark: is-white
-heroSize: is-fullheight
+heroSize: is-medium
 tags:
   - Covid-19
   - Coronavirus
