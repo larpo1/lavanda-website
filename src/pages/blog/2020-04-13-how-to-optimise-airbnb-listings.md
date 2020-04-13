@@ -62,5 +62,5 @@ description: The short-term rental industry is undoubtedly more competitive than
   marketplace for property managers to showcase their rentals, globally. It is
   therefore essential for property listings to stand out and capture the
   attention of guests, in order to drive bookings.
-featuredpost: false
+featuredpost: true
 ---

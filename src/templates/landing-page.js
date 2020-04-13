@@ -60,7 +60,7 @@ export const LandingPageTemplate = ({
           <div className="container content">
             <div className="columns is-vcentered">
               <div className="column is-two-thirds">
-                <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
+                <h1 className="title is-size-2 is-size-4-mobile has-text-weight-bold is-bold-light has-text-centered ">
                   {title}
                 </h1>
 

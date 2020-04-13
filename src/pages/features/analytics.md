@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Business Performance Analytics
+title: Business performance analytics
 h1: Discover the metrics that matter
 featureSubtitle: Easily retrieve accurate revenue, occupancy and ADR by
   building,  property, property segment or portfolio-wide. Use insightful

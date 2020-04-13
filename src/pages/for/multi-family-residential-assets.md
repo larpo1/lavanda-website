@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: Multifamily
+title: multifamily and BTR/PRS communities
 solutionHeading: Delight residents. Eliminate voids. Boost NOI.
 solutionSubtitle: >-
   <p class="subtitle">Lavanda is an award winning next-generation technology

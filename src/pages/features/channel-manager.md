@@ -1,7 +1,7 @@
 ---
 templateKey: feature-page
 logos: []
-title: Channel Manager
+title: Channel management and distribution
 h1: Multi-channel distribution without the headaches
 featureSubtitle: Plug into our full suite of professionally managed and
   maintained integrations to Airbnb, Booking.com, Tripadvisor, VRBO (HomeAway),

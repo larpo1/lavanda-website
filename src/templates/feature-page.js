@@ -30,13 +30,13 @@ export const FeaturePageTemplate = ({
           <div className="container content">
             <div className="columns is-vcentered">
               <div className="column is-half">
-                <h1 className="title is-size-1 has-text-weight-bold is-bold-light has-text-centered-mobile ">
+                <h1 className="title is-size-1  is-size-3-mobile has-text-weight-bold is-bold-light has-text-centered-mobile ">
                   {h1}
                 </h1>
                 {featureSubtitle && featureSubtitle ? (
                   <MarkdownContent
                     content={featureSubtitle}
-                    className={"subtitle has-margin-top-40"}
+                    className={"subtitle has-margin-top-40 is-hidden-mobile"}
                   />
                 ) : null}
               </div>

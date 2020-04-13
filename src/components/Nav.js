@@ -160,7 +160,7 @@ class Nav extends React.Component {
                 <Link
                   to="lp/covid-19-survival-for-property-managers"
                   className={
-                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium lav-purple"}>
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium has-text-danger"}>
                   COVID-19
                 </Link>
               </div>

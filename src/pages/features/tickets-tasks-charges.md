@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Tickets, Tasks & Charges
+title: Tickets, tasks & charges
 h1: Track problems. Manage resolutions. Control costs.
 featureSubtitle: Tickets, tasks and charges - the trio that makes problem
   management and cost attribution a breeze. Lavanda PMS brings it all together

@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Real-time Operations Analytics
+title: Real-time operations analytics
 h1: See the bigger picture
 featureSubtitle: Get real-time, operational oversight of what’s important to
   you. Lavanda PMS gives each user the ability to customise their own dashboard

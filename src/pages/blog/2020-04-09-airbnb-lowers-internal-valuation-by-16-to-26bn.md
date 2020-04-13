@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Airbnb lowers internal valuation by 16% to $26bn
 date: "2020-04-09T12:00:58.694Z"
-featuredimage: /img/640x360.png
+featuredimage: /img/airbnb.webp
 postContent: >-
   <h1 dir="ltr" role="presentation">Airbnb lowers internal valuation by 16% to
   $26bn.</h1>

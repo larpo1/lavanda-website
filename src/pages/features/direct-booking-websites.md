@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Direct Booking Websites
+title: Direct booking websites
 h1: Win more direct bookings
 featureSubtitle: Clean, modern and highly SEO optimized direct booking sites,
   fully white-labelled to match your brand. Our guest user journey has been

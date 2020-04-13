@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: automated owner income reporting
+title: month-end income report pain
 solutionHeading: No more month-end financial headaches
 solutionSubtitle: '<p>Does the preparation of owner financial statements take
   you days of work each month? Well, no more. Find out how Lavanda PMS can
