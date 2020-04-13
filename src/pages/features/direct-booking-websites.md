@@ -4,7 +4,7 @@ title: Direct Booking Websites
 h1: Win more direct bookings
 featureSubtitle: Clean, modern and highly SEO optimized direct booking sites,
   fully white-labelled to match your brand. Our guest user journey has been
-  carefully honed to offer the best possible booking experience.
+  carefully designed to offer the best possible booking experience.
 category: Distribution
 galleryImages:
   - /img/direct-booking-flow.gif
@@ -13,19 +13,19 @@ highlights:
     image: /img/640x360.png
     imageClasses: box-shadow
     titleContent: Get up and running in minutes, or...
-    textContent: Just set your logo and publish to have an out of the box direct
-      booking experience up and running in minutes. Alternatively...
+    textContent: "Just set your logo and publish to have a direct booking experience
+      up and running in minutes, out-of-the-box. "
   - imageAlign: img-right
     image: /img/640x360.png
     imageClasses: box-shadow
-    titleContent: ...Customize the look and feel completely
+    titleContent: ...Customise the look and feel completely
     textContent: You can adjust your site to match your brand as much or as little
       as you want. Talk to us about building the completely custom direct
       booking experience your brand deserves.
   - titleContent: Live pricing and availability
     textContent: "Avoid cumbersome manual processes to check availability, send
       quotes and take payment. Your fully branded direct booking site will
-      always show up to date availability and pricing. "
+      always show up-to-date availability and pricing. "
     linkTarget: ""
     imageAlign: img-left
     image: /img/direct-booking-search-results.png
@@ -34,9 +34,10 @@ highlights:
     imageClasses: box-shadow
     titleContent: 120+ Payment Gateways
     textContent: >
-      Use the default integrated Stripe checkout, or choose your own gateway. We
-      can support 120+ different payment gateways and offer a best in class
-      payment processing solution for almost every country in the world.
+      Use the default integrated Stripe checkout, or choose your own gateway.
+      Not only do we support 120+ different payment gateways, we also offer a
+      secure, best-in-class payment processing solution for almost every country
+      in the world.
   - image: /img/640x360.png
     titleContent: SEO as Standard
     textContent: "Users and google both love blistering fast page loads. We designed
