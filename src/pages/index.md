@@ -39,7 +39,7 @@ highlights:
     image: /img/channel-manager.png
   - textContent: Earn positive reviews, recommendations and loyal customers by
       providing an authentic and welcoming experience for your guests.
-    titleContent: Scaleable, Authentic Hospitality
+    titleContent: "Delight Guests "
     linkTarget: /features/guest-experience
     imageAlign: img-left
     image: /img/guest-comms.png
