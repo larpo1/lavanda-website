@@ -12,8 +12,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">As a short-term rental property manager, it is critical that you stay well informed about industry changes and predictions, in order to best optimize your business during this difficult time.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>What Do I Need to Stay Informed About?</strong></p>
 
   <ul>
@@ -27,8 +25,6 @@ postContent: >-
   <li style="font-weight: 400;"><strong>Market Projections: </strong>What data is there to indicate the recovery of the market; what can I expect when this happens; and how can I prepare for this?</li>
 
   </ul>
-
-  <p>&nbsp;</p>
 
   <p><strong>What Sources Should I Look At?</strong></p>
 
@@ -44,15 +40,11 @@ postContent: >-
 
   </ul>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Most importantly, only read the information that is relevant to</span><em><span style="font-weight: 400;"> your </span></em><span style="font-weight: 400;">business. It&rsquo;s easy to get snowed under with the wealth of information available right now. We are all in survival mode. Each business will handle this differently, and you have to strategically make decisions which are best and most viable for </span><em><span style="font-weight: 400;">your</span></em><span style="font-weight: 400;"> business and </span><em><span style="font-weight: 400;">your </span></em><span style="font-weight: 400;">future in the industry.</span></p>
 
   <p><span style="font-weight: 400;">We will be releasing more information about your options for survival during this pandemic - from financial optimisation, to infrastructural optimisation.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">As experienced property managers, we know how tough it can be to run a highly-operational business, and how easily revenues can be impacted by external market changes, like this one. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. So please don&rsquo;t hesitate to </span><a href="mailto:hello@getlavanda.com"><span style="font-weight: 400;">reach out to us,</span></a><span style="font-weight: 400;"> we're in this together.</span></p>
-
-  <p>&nbsp;</p>
 
   <p><img src="https://images.unsplash.com/photo-1585069034379-8e4362790d60?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="black iphone 7 on brown wooden table" /></p>
 
