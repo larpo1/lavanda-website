@@ -95,5 +95,8 @@ highlights:
       business.
 tags:
   - Direct Booking
-description: meta
+description: Clean, modern and highly SEO optimized direct booking sites for
+  Airbnb property managers, fully white-labelled to match your brand. Our guest
+  user journey has been carefully designed to offer the best possible booking
+  experience.
 ---
