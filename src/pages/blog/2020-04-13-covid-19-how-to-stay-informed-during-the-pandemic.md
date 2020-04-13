@@ -51,6 +51,14 @@ postContent: >-
   <p><span style="font-weight: 400;">We will be releasing more information about your options for survival during this pandemic - from financial optimisation, to infrastructural optimisation.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">As experienced property managers, we know how tough it can be to run a highly-operational business, and how easily revenues can be impacted by external market changes, like this one. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. So please don&rsquo;t hesitate to </span><a href="mailto:hello@getlavanda.com"><span style="font-weight: 400;">reach out to us,</span></a><span style="font-weight: 400;"> we're in this together.</span></p>
+
+  <p>&nbsp;</p>
+
+  <p><img src="https://images.unsplash.com/photo-1585069034379-8e4362790d60?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="black iphone 7 on brown wooden table" /></p>
+
+  <p>&nbsp;</p>
+
+  <p>&nbsp;</p>
 tags:
   - airbnb
   - covid-19
