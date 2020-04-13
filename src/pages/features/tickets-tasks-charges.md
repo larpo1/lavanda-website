@@ -21,17 +21,18 @@ highlights:
   - imageAlign: img-right
     image: /img/charges-example.png
     titleContent: Tasks
-    textContent: "Automatically generate and allocate out a wide variety of tasks
-      around housekeeping, check-ins, driver drops and linen deliveries, runner
-      visits and maintenance. Every task can be assigned out to your internal
-      team members or external contractors who can feed back updates directly
-      into the app. "
+    textContent: Automatically generate and allocate a wide variety of tasks around
+      housekeeping, check-ins, driver drops, linen deliveries, runner visits and
+      maintenance. Every task can be assigned to your internal team members or
+      external contractors, who can feed back their updates directly into the
+      app.
   - imageAlign: img-left
     image: /img/charges-update.png
     titleContent: Charges
-    textContent: "Raise maintenance charges, purchase orders, credits, refunds and
-      whatever else you need. Every cost can be fully attributed and auditable
-      right back to its initial ticket. "
+    textContent: "Raising maintenance charges, purchase orders, credits, refunds and
+      whatever else you need is a snap. Every cost can be fully attributed and
+      auditable right back to its initial ticket, so you always know exactly how
+      much and who to charge. "
 tags:
   - Tickets
   - Operations
