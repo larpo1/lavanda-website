@@ -23,7 +23,7 @@ awards:
     awardImageAlt: "WINNER: Best Property Management Solution 2020"
     awardURLTarget: /
 highlights:
-  - titleContent: Asset optimization
+  - titleContent: Optimise Assets
     textContent: "Discover hidden value across your residential portfolio. Gain an
       in-depth understanding of where you can increase revenue, reduce costs or
       both. "
@@ -39,7 +39,7 @@ highlights:
     image: /img/channel-manager.png
   - textContent: Earn positive reviews, recommendations and loyal customers by
       providing an authentic and welcoming experience for your guests.
-    titleContent: "Delight Guests "
+    titleContent: Delight every guest
     linkTarget: /features/guest-experience
     imageAlign: img-left
     image: /img/guest-comms.png
