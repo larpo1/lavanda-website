@@ -3,17 +3,19 @@ templateKey: feature-page
 logos: []
 title: Channel Manager
 h1: Multi-channel distribution without the headaches
-featureSubtitle: Full, professionally managed and maintained integrations to
-  Airbnb, Booking.com, Tripadvisor, VRBO (HomeAway), Expedia and many more.
+featureSubtitle: Plug into our full suite of professionally managed and
+  maintained integrations to Airbnb, Booking.com, Tripadvisor, VRBO (HomeAway),
+  Expedia and many more. Avoid double-bookings, using our multi-calendar
+  feature.
 category: Distribution
 galleryImages:
   - /img/channel-integrations.png
 highlights:
   - titleContent: |
       Multi-channel rental strategies
-    textContent: Optimize the distribution of your residential units across short,
-      medium and long-term rental channels - including Lavanda’s unique Booking
-      Network
+    textContent: Use Lavanda PMS to strategically distribute your residential units
+      across short, mid and long-term rental channels - including Lavanda’s
+      unique Booking Network.
     linkTarget: ""
     image: /img/channel-manager.png
     imageAlign: img-left
@@ -21,10 +23,12 @@ highlights:
   - imageAlign: img-right
     image: /img/multi-channel.png
     imageClasses: box-shadow
-    titleContent: Full content API integrations
-    textContent: "Push all property content to automatically, from a single,
-      powerful onboarding toolset. Sync bookings, blocks and available date,
-      pricing, property content, booking policies and more. "
+    titleContent: Integrate everything, with APIs
+    textContent: There’s no need to post different amenities and information across
+      different channels, with Lavanda PMS. You can post all property content,
+      automatically, from a single, powerful property onboarding experience.
+      Sync bookings, blocks and available dates, pricing, imagery, booking
+      policies and more, with just a few clicks.
 tags:
   - Channel Manager
 description: Lavanda Channel Manager is enables seamless multi-channel
