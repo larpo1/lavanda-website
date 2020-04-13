@@ -30,10 +30,10 @@ highlights:
     linkTarget: /for/residential-assets
     imageAlign: right
     image: /img/feature-impact-assessment.png
-  - titleContent: Multi-channel Short-Term Rentals
-    textContent: Optimize the distribution of your residential units across short,
-      medium and long-term rental channels - including Lavanda’s unique Booking
-      Network.
+  - titleContent: Multi-channel advertising
+    textContent: Allow guests to find your property easier, across multiple
+      channels. Tap into short, mid and long-term rental channels - including
+      Lavanda’s unique Booking Network.
     linkTarget: /features/channel-manager
     imageAlign: img-right
     image: /img/channel-manager.png
