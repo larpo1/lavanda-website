@@ -24,9 +24,9 @@ awards:
     awardURLTarget: /
 highlights:
   - titleContent: Asset optimization
-    textContent: Our industry experts leverage proprietary data to conduct a bespoke
-      Impact Analysis that quantifies the unrealized value across your
-      residential portfolio.
+    textContent: "Discover hidden value across your residential portfolio. Gain an
+      in-depth understanding of where you can increase revenue, reduce costs or
+      both. "
     linkTarget: /for/residential-assets
     imageAlign: right
     image: /img/feature-impact-assessment.png
