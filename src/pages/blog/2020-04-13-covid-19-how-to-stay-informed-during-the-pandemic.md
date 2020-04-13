@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "COVID-19: How To Stay Informed During The Pandemic."
+title: "COVID-19: How To Stay Informed During The Pandemic"
 date: "2020-04-13T13:59:48.482Z"
 featuredimage: /img/lavanda-2-.jpeg
 postContent: >-
