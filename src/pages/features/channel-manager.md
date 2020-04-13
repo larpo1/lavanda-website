@@ -23,10 +23,12 @@ highlights:
   - imageAlign: img-right
     image: /img/multi-channel.png
     imageClasses: box-shadow
-    titleContent: Full content API integrations
-    textContent: "Push all property content to automatically, from a single,
-      powerful onboarding toolset. Sync bookings, blocks and available date,
-      pricing, property content, booking policies and more. "
+    titleContent: Integrate everything, with APIs
+    textContent: There’s no need to post different amenities and information across
+      different channels, with Lavanda PMS. You can post all property content,
+      automatically, from a single, powerful property onboarding experience.
+      Sync bookings, blocks and available dates, pricing, imagery, booking
+      policies and more, with just a few clicks.
 tags:
   - Channel Manager
 description: Lavanda Channel Manager is enables seamless multi-channel
