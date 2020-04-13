@@ -11,43 +11,25 @@ postContent: >-
   listings to stand out and capture the attention of guests, in order to drive
   bookings.</span></p>
 
-  <h5>&nbsp;</h5>
-
-  <h5><strong><em>&ldquo;Airbnb&rsquo;s ranking algorithm places hosts higher up in the search results if they&rsquo;ve got great reviews. The happier the guest is, the higher you rank.&rdquo;</em></strong></h5>
-
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">As experienced property managers, Lavanda has pulled together our tips on how to best optimise your Airbnb listings, in order to be one step ahead of your competition, by attracting more guests and accumulating higher revenues.</span></p>
-
-  <p>&nbsp;</p>
 
   <h3><strong>Pricing&nbsp;&nbsp;</strong></h3>
 
   <p><span style="font-weight: 400;">It goes without saying that price is a huge factor when guests are looking for a place to stay. You can manage your pricing either manually, or with a pricing software tool. Whichever you choose, it is essential that your prices are accurate according to the location, season, property condition and amenities offered.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">A dynamic pricing tool is a great way to reliably and competitively price your properties, based on real-time industry data, such as events going on in your area, or the prices of comparable nearby rentals.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">On the other hand, if you are manually pricing your properties, amending your prices as frequently as every day is a </span><em><span style="font-weight: 400;">must.</span></em><span style="font-weight: 400;"> To accurately price them, you will need to regularly research events going on nearby, in order to estimate the demand, and thus adjust prices accordingly. Higher rental prices can often be set during peak times, such as Christmas, or when a popular event is happening in the area. You can best estimate these price points by reviewing local competitors.</span></p>
 
   <p><span style="font-weight: 400;">Whether you manage your pricing manually or through a tool, it is recommended that you regularly modify around with the prices, in order to improve your exposure on Airbnb.&nbsp;</span></p>
-
-  <p>&nbsp;</p>
 
   <h3><strong>Photos</strong></h3>
 
   <p><span style="font-weight: 400;">Getting professional photographs can enhance the visual value of your listing, and ensures that the guest can clearly see the property and its amenities. When taking the photographs, dress the rental up to give it a welcoming and homely feel. This can be as simple as a decorative throw and pillows on the bed, from an open book or pot of tea on the kitchen table.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">In regard to the order of your photos on the listing, research has found that the best order of photos to stimulate more clicks and listing viewings is: Living Room, Bedroom, Bathroom, Kitchen, Shared Spaces.</span></p>
-
-  <p>&nbsp;</p>
 
   <h3><strong>Title&nbsp;</strong></h3>
 
   <p><span style="font-weight: 400;">Ensure your title is catchy and includes keywords. You may even choose to include distinct characteristics or locations of the property - like &lsquo;Beautiful Victorian Home Overlooking Bustling City&rsquo;. Again, you may wish to adjust this regularly to test the engagement of the words you are using.</span></p>
-
-  <p>&nbsp;</p>
 
   <h3><strong>Listing Content</strong></h3>
 
@@ -55,13 +37,9 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Remember to periodically update your listing. With Airbnb, your increased listing editing activity can boost your search ranking, and stimulate your booking conversion rate. Try amending the listing daily - for instance, updating the price, changing the order of the images, or even adding a little bit to the description.</span></p>
 
-  <p>&nbsp;</p>
-
   <h3><strong>Reviews</strong></h3>
 
   <p><span style="font-weight: 400;">Always ask happy guests to leave you a review. Airbnb&rsquo;s ranking algorithm places hosts higher up in the search results if they&rsquo;ve got great reviews. The happier the guest is, the higher you rank.</span></p>
-
-  <p>&nbsp;</p>
 
   <h3><strong>Bookings</strong></h3>
 
