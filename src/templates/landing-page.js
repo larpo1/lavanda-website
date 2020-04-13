@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
+// import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
@@ -48,8 +48,8 @@ export const LandingPageTemplate = ({
         <div className="hero-head ">
           <div className="container">
             <Link to="/" className={""}>
-              <div className={"logo has-margin-top-40"}>
-                <img alt={"Logo"} src={logo} width="100" />
+              <div className={"logo has-margin-top-40 has-text-centered"}>
+                <img alt={"Logo"} src={logo} width="180" />
               </div>
             </Link>
           </div>
@@ -59,7 +59,7 @@ export const LandingPageTemplate = ({
 
           <div className="container content">
             <div className="columns is-vcentered">
-              <div className="column is-half">
+              <div className="column is-two-thirds">
                 <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-centered ">
                   {title}
                 </h1>
@@ -79,7 +79,7 @@ export const LandingPageTemplate = ({
                 ) : null}
               </div>
               {fgImage ? (
-                <div className="column is-half lp-fgImage">
+                <div className="column is-one-third lp-fgImage">
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: fgImage,
