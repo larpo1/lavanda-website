@@ -16,8 +16,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Margins can be thin, so let&rsquo;s talk about how we can maximise them.</span></p>
 
-  <p>&nbsp;</p>
-
   <h2>Kaizen - a Japanese philosophy</h2>
 
   <p><span style="font-weight: 400;">Heard of the Japanese term &lsquo;Kaizen&rsquo;? It&rsquo;s a principle of continuous improvement which is something all of us should strive towards in business. Especially with short-term property management, which is an operations heavy business model. </span><span style="font-weight: 400;">There&rsquo;s 5 simple principles to remember.</span></p>
