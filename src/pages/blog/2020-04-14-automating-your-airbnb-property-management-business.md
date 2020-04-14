@@ -20,21 +20,15 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Heard of the Japanese term &lsquo;Kaizen&rsquo;? It&rsquo;s a principle of continuous improvement which is something all of us should strive towards in business. Especially with short-term property management, which is an operations heavy business model. </span><span style="font-weight: 400;">There&rsquo;s 5 simple principles to remember.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>1. Standardise processes to make them easily repeatable</strong></p>
 
   <p><span style="font-weight: 400;">Determine where your time and energy is wasted across the business. Do you find yourself or your employees typing out the same messages to guests day after day? Set automatic messages that answers the questions before they even asked.</span></p>
 
   <p><span style="font-weight: 400;">If you spend too much time planning which cleaners should go to which property - automate it through smart software that pairs up cleaners with properties every morning in the most efficient manner.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>2. Focus on measurability</strong></p>
 
   <p><span style="font-weight: 400;">Keep measurable goals - whether it is occupancy rates or operational objectives. Start by setting yourself a company wide target to increase your Net Promoter Score (NPS).</span></p>
-
-  <p>&nbsp;</p>
 
   <p><strong>3. Compare your results against your requirements/targets&nbsp;</strong></p>
 
@@ -42,27 +36,19 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Measure the time spent daily planning and organising the operational work such as cleaners and check in staff - set a target to reduce it by x hours each week.&nbsp;</span><span style="font-weight: 400;">Follow progress to ensuring that your property management business is on track.</span></p>
 
-  <p><span style="font-weight: 400;">&nbsp;</span></p>
-
-  <p><strong>4. Innovating to improve results</strong></p>
+  <p><span style="font-weight: 400;">&nbsp;</span><strong>4. Innovating to improve results</strong></p>
 
   <p><span style="font-weight: 400;">Innovation is crucial in this industry. Consider setting aside time to work on innovating to put your business ahead of the competition.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">Start by having great software to manage your business. The most impactful improvements in efficiency come from having a great property management system (PMS) and multi-channel listings. Let them do the innovation behind the scenes for you to drive operational efficiency.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>5. Response to changing circumstances and evolve methods</strong></p>
 
   <p><span style="font-weight: 400;">The short-term rental industry is moving very fast. You must move fast too. Don&rsquo;t fall behind because those who experience the fastest growth are those leading the market and capitalising on new opportunities.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>Empower your team</strong></p>
 
-  <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span><br /><br /></p>
-
-  <p>&nbsp;</p>
+  <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span></p>
 
   <p><strong><em>About the author</em></strong></p>
 
