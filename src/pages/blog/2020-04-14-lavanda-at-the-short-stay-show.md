@@ -9,6 +9,8 @@ postContent: >-
 
   <p>&nbsp;</p>
 
+  <p>&lt;image&gt;</p>
+
   <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar), Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span><br /><br /></p>
 
   <p><strong>What is The Short Stay Show?</strong></p>
@@ -17,9 +19,11 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>What Happens on the Day?</strong></p>
+  <p><strong>What Happened on the Day?</strong></p>
 
   <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day, full of networking and knowledge sharing.</span></p>
+
+  <p>&lt;image&gt;</p>
 
   <p><br /><br /><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
 
