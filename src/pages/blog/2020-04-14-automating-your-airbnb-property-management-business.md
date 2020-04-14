@@ -4,8 +4,7 @@ title: Automating Your Airbnb Property Management Business
 date: "2020-04-14T08:15:38.227Z"
 featuredimage: /img/curology-ycekaheao5u-unsplash.jpg
 postContent: >-
-  <h2><span style="font-weight: 400;">It&rsquo;s not as complicated as you
-  think.</span></h2>
+  <h2><strong>It&rsquo;s not as complicated as you think.</strong></h2>
 
   <p><span style="font-weight: 400;">We know it isn&rsquo;t easy being a property manager. If your portfolio on Airbnb, Booking.com and such platforms is starting to grow, you might be starting to feel the pressure. Property management can be stressful at times and automation might seem to be light years away. This is not entirely true.&nbsp;</span></p>
 
@@ -19,7 +18,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <h2><strong>Kaizen - a Japanese philosophy</strong></h2>
+  <h2>Kaizen - a Japanese philosophy</h2>
 
   <p><span style="font-weight: 400;">Heard of the Japanese term &lsquo;Kaizen&rsquo;? It&rsquo;s a principle of continuous improvement which is something all of us should strive towards in business. Especially with short-term property management, which is an operations heavy business model. </span><span style="font-weight: 400;">There&rsquo;s 5 simple principles to remember.</span></p>
 
