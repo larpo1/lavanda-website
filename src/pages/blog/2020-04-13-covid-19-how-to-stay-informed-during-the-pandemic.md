@@ -46,9 +46,19 @@ postContent: >-
 
   <p><span style="font-weight: 400;">As experienced property managers, we know how tough it can be to run a highly-operational business, and how easily revenues can be impacted by external market changes, like this one. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. So please don&rsquo;t hesitate to </span><a href="mailto:hello@getlavanda.com"><span style="font-weight: 400;">reach out to us,</span></a><span style="font-weight: 400;"> we're in this together.</span></p>
 
+  <p>&nbsp;</p>
+
   <p><img src="https://images.unsplash.com/photo-1585069034379-8e4362790d60?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="black iphone 7 on brown wooden table" /></p>
 
   <p>&nbsp;</p>
+
+  <p><strong><em>About the Author</em></strong></p>
+
+  <p><span style="font-weight: 400;">Lavanda is a next generation short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
+
+  <p><span style="font-weight: 400;">Lavanda was a property management company, until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. </span><span style="font-weight: 400;">Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
+
+  <p><span style="font-weight: 400;">Get one step ahead, <a href="https://getlavanda.com/book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.&nbsp;</span></p>
 
   <p>&nbsp;</p>
 tags:
