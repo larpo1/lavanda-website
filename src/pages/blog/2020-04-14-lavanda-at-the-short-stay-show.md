@@ -7,25 +7,15 @@ postContent: >-
   <p><strong>The Lavanda team exhibited at this year's Short Stay Show at ExCeL
   London - an event that celebrates short-term rental businesses.</strong></p>
 
-  <p><strong><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=d8e3ca05fb&amp;attid=0.0.1&amp;permmsgid=msg-a:r2703721701032042501&amp;th=171787d3d184dddf&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ9yP03f4T1jeKFk-_imG4u0REWNpfuCCox91vHKj4TjZjiTx0dPD8dJj8VJ40xlv788X8Bz65FHTs5J5p37eHJzQKkVjX632EDlvPprKUXEdoFbs206-XvkSeg&amp;disp=emb&amp;realattid=ii_k8zu3bqk1" alt="IMG_0069.JPG" /></strong></p>
-
-  <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar) and Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span><br /><br /></p>
+  <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar) and Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span></p>
 
   <p><strong>What is The Short Stay Show?</strong></p>
 
   <p><span style="font-weight: 400;">The Short-Stay Show is an annual event held in London. It is designed for entrepreneurs, technologists, property specialists, innovators and companies looking for inspiration and opportunity.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>What Happened on the Day?</strong></p>
 
   <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day full of networking and knowledge sharing.</span></p>
-
-  <p>&nbsp;</p>
-
-  <p><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=d8e3ca05fb&amp;attid=0.1&amp;permmsgid=msg-a:r-1119616901071700174&amp;th=171787e1739aff04&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ919Eygz9mH8OgB4UItT4R5RgYvmMmKZzw_n3VFvvls7LaH-3sevrj-9YrfSO7J29vypvyEM6XpIu4wb5YgLCpcQ0sRSSNYCDChKZAN0ykyptGQkgTvCGpLFyA&amp;disp=emb&amp;realattid=ii_k8zu4j170" alt="IMG_0111.JPG" /></p>
-
-  <p>&nbsp;</p>
 
   <p><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
 
@@ -35,8 +25,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">The three discussed the sweet spot between the three giants of property, hospitality and travel, and to stay ahead of the game, it needs to serve all three in abundance. Thought-provoking points were raised about current and future demands these sectors place on our fledgling industry, and the potentially huge impact of COVID-19.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>The Impact of COVID-19&nbsp;</strong></p>
 
   <p><span style="font-weight: 400;">Despite the event still going ahead as scheduled, it was clear that all exhibitors and guests were taking extra precautions to stay safe throughout the day. The venue, ExCeL had prepared hand sanitiser stations at the entrance, and amongst the crowd there were handshakes being exchanged for elbow bumps.</span></p>
@@ -44,8 +32,6 @@ postContent: >-
   <p><span style="font-weight: 400;">As the day went on, it was clear what the main topic of discussion was: </span><em><span style="font-weight: 400;">How will COVID-19 affect my business? </span></em><span style="font-weight: 400;">As the organisers picked up on this talking point, they decided to announce a last minute stage session with industry experts, discussing the projected impact of the coronavirus. The talk gathered the attraction of many attendees, and understandably - as it is the biggest impact on the industry to date.</span></p>
 
   <p><span style="font-weight: 400;">Although there were fewer attendees than the event had originally anticipated due to the impact of COVID-19, there was an overall positive atmosphere throughout the day. It was undoubtedly a fantastic opportunity to connect with short-term rental professionals, particularly during a new complex time for the industry.</span></p>
-
-  <p>&nbsp;</p>
 
   <p><strong><em>About the Author</em></strong></p>
 
