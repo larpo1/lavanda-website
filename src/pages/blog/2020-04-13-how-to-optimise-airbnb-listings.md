@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: How to Optimise Airbnb Listings
-date: "2020-04-13T14:24:23.295Z"
+date: "2020-04-03T14:24:23.295Z"
 featuredimage: /img/aw-creative-b87_egh5mos-unsplash.jpg
 postContent: >-
   <p><span style="font-weight: 400;">The short-term rental industry is
