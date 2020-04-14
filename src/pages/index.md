@@ -5,7 +5,7 @@ description: Multi-award-winning, vacation rental software - property management
 title: "Award-winning Property Management Software "
 subtitle: <p><strong>...built by property managers.</strong> Lavanda is an
   easy-to-use property management system, designed to automate and grow property
-  businesses across short-term rentals, vacation rentals, mid-term, serviced
+  businesses across vacation rentals, short and medium-term rentals, serviced
   apartments and more.</p>
 fgImage: /img/lavandagraphic.png
 bgImage: ""
@@ -21,14 +21,15 @@ awards:
     awardImageAlt: "WINNER: Best Property Management Solution 2020"
     awardURLTarget: /
 highlights:
-  - titleContent: Reduce Operational Complexity
-    textContent: "Automatically generate tasks, tickets, reports and more, freeing
-      up your time to focus upon running a successful business.  "
+  - titleContent: Reduce operational complexity
+    textContent: "Automatically generate tasks, tickets, reports and more,
+      increasing your team's productivity and freeing up your time to focus upon
+      running a successful business.  "
     linkTarget: /for/complex-hospitality-operations
     imageAlign: img-right
     image: /img/feature-operations.png
-  - titleContent: Manage multiple channels
-    textContent: Allow guests to find your property easier, across multiple
+  - titleContent: Manage multiple booking channels
+    textContent: Allow guests to find your property more easily, across multiple
       channels. Tap into short, mid and long-term rental channels - including
       Lavanda’s unique Booking Network.
     linkTarget: /features/channel-manager
@@ -40,7 +41,7 @@ highlights:
     linkTarget: /features/guest-experience
     imageAlign: img-right
     image: /img/guest-comms.png
-  - titleContent: Optimise Assets
+  - titleContent: Optimise residential assets
     textContent: "Discover hidden value across your residential portfolio. Gain an
       in-depth understanding of where you can increase revenue, reduce costs or
       both. "
