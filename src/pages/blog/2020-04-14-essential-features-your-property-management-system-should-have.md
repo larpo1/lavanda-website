@@ -48,7 +48,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>Unified inbox</strong></p>
+  <p><strong>Unified Inbox</strong></p>
 
   <p><span style="font-weight: 400;">Tired of being asked for the Wifi password? Don&rsquo;t waste your time logging in and out of various accounts - it&rsquo;s time consuming and just frustrating.&nbsp;</span></p>
 
@@ -64,11 +64,15 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>About Author</strong></p>
+  <p>&nbsp;</p>
 
-  <p><span style="font-weight: 400;">Lavanda is a next generation enterprise short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
+  <p><strong><em>About the Author</em></strong></p>
 
-  <p><br /><br /><br /></p>
+  <p><span style="font-weight: 400;">Lavanda is a next generation short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
+
+  <p><span style="font-weight: 400;">Lavanda was a property management company, until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. </span><span style="font-weight: 400;">Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
+
+  <p><span style="font-weight: 400;">Get one step ahead, <a href="https://getlavanda.com/book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.&nbsp;</span></p>
 tags:
   - property management
   - property manager
