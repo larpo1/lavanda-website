@@ -49,7 +49,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><em><strong>About Lavanda</strong></em></p>
+  <p><em><strong>About the Author&nbsp;</strong></em></p>
 
   <p><em><span style="font-weight: 400;">Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is </span><span style="font-weight: 400;">designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation. </span></em></p>
 
