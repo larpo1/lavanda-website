@@ -10,13 +10,13 @@ galleryImages:
   - /img/direct-booking-flow.gif
 highlights:
   - imageAlign: img-left
-    image: /img/640x360.png
-    imageClasses: box-shadow
+    image: /img/create-website.png
+    imageClasses: ""
     titleContent: Get up and running in minutes, or...
     textContent: "Just set your logo and publish to have a direct booking experience
       up and running in minutes, out-of-the-box. "
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/customize-website-sections.png
     imageClasses: box-shadow
     titleContent: ...Customise the look and feel completely
     textContent: You can adjust your site to match your brand as much or as little
@@ -29,8 +29,9 @@ highlights:
     linkTarget: ""
     imageAlign: img-left
     image: /img/direct-booking-search-results.png
+    imageClasses: box-shadow
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/payment-processors.png
     imageClasses: box-shadow
     titleContent: 120+ payment gateways
     textContent: >
