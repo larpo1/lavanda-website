@@ -26,8 +26,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Managing tasks can be hard work. Ensuring cleaners are at the right property at the right time and maintenance tasks are followed up as soon as possible - is essential to minimise disruption.&nbsp;</span></p>
 
-  <p><span style="font-weight: 400; background-color: #f1c40f;">[ILLUSTRATION]</span></p>
-
   <p>&nbsp;</p>
 
   <p><strong>Sales Toolkit</strong></p>
@@ -36,23 +34,17 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Having a CRM tool and easy to use website - along with a valuation tool for property owners can be invaluable for finding and then following up leads. Use a PMS that actively helps with growth, or sign up to an additional CRM package to keep track of your leads.&nbsp;</span></p>
 
-  <p><span style="font-weight: 400; background-color: #f1c40f;">[LIVE DEMO OF WIDGET? Or Illustration]</span></p>
-
   <p>&nbsp;</p>
 
   <p><strong>Multi-calendar</strong></p>
 
   <p><span style="font-weight: 400;">The ultimate view for every revenue manager! And quite rightly, one of the most important tools for your property management business. See exactly when properties are booked or available all on one screen. Adjust prices to fill voids and ensure occupancy is maximised.&nbsp;</span></p>
 
-  <p><span style="font-weight: 400; background-color: #f1c40f;">[ILLUSTRATION]</span></p>
-
   <p>&nbsp;</p>
 
   <p><strong>Dynamic Pricing&nbsp;</strong></p>
 
   <p><span style="font-weight: 400;">A property manager is as good as their pricing! Maximise your revenues with a dynamic pricing tool. It&rsquo;ll enable you to ensure occupancy rates are as high as they can be and nightly rates are as high as possible - whilst minimising the time spent changing nightly rates manually.&nbsp;</span></p>
-
-  <p><span style="font-weight: 400; background-color: #f1c40f;">[ILLUSTRATION]</span></p>
 
   <p>&nbsp;</p>
 
