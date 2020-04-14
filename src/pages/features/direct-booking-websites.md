@@ -2,7 +2,7 @@
 templateKey: feature-page
 title: Direct booking websites
 h1: Win more direct bookings
-featureSubtitle: Clean, modern and highly SEO optimized direct booking sites,
+featureSubtitle: Clean, modern and highly SEO optimised direct booking sites,
   fully white-labelled to match your brand. Our guest user journey has been
   carefully designed to offer the best possible booking experience.
 category: Distribution
@@ -39,7 +39,7 @@ highlights:
       secure, best-in-class payment processing solution for almost every country
       in the world.
   - image: /img/640x360.png
-    titleContent: SEO, ready to go
+    titleContent: Appear in Google searches
     textContent: Users and search engines, such as Google and Bing, love blistering
       fast page loads. However, making that happen can be hard work. So, we
       designed our direct booking engine with cutting-edge server technology, as
@@ -49,7 +49,7 @@ highlights:
   - imageAlign: img-right
     image: /img/640x360.png
     imageClasses: box-shadow
-    titleContent: Custom domain name
+    titleContent: Use your own domain name
     textContent: >
       Host your site on any domain you choose. This can be a main domain
       (www.*yourcompanywebsite*.com) or subdomain of your main domain
