@@ -24,7 +24,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>1. Standardise processes to make them easily repeatable.</strong></p>
+  <p><strong>1. Standardise processes to make them easily repeatable</strong></p>
 
   <p><span style="font-weight: 400;">Determine where your time and energy is wasted across the business. Do you find yourself or your employees typing out the same messages to guests day after day? Set automatic messages that answers the questions before they even asked.</span></p>
 
@@ -32,7 +32,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>2. Focus on measurability.</strong></p>
+  <p><strong>2. Focus on measurability</strong></p>
 
   <p><span style="font-weight: 400;">Keep measurable goals - whether it is occupancy rates or operational objectives. Start by setting yourself a company wide target to increase your Net Promoter Score (NPS).</span></p>
 
@@ -46,7 +46,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">&nbsp;</span></p>
 
-  <p><strong>4. Innovating to improve results.</strong></p>
+  <p><strong>4. Innovating to improve results</strong></p>
 
   <p><span style="font-weight: 400;">Innovation is crucial in this industry. Consider setting aside time to work on innovating to put your business ahead of the competition.&nbsp;</span></p>
 
@@ -54,7 +54,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong>5. Response to changing circumstances and evolve methods.&nbsp;</strong></p>
+  <p><strong>5. Response to changing circumstances and evolve methods</strong></p>
 
   <p><span style="font-weight: 400;">The short-term rental industry is moving very fast. You must move fast too. Don&rsquo;t fall behind because those who experience the fastest growth are those leading the market and capitalising on new opportunities.</span></p>
 
