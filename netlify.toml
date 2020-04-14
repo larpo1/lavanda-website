@@ -5,3 +5,10 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+[[redirects]]
+  from = "/covid-truth"
+  to = "https://mailchi.mp/getlavanda/cold-hard-truth"
+  status = 302
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
