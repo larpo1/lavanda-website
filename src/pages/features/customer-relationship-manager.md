@@ -16,7 +16,7 @@ highlights:
     textContent: Lavanda PMS provides you with a sales toolkit, an owner sales
       funnel and more! All the tools you need to activate growth when you’re
       ready to expand your portfolio.
-  - imageAlign: img-left
+  - imageAlign: img-right
     image: /img/lead-generator.png
     imageClasses: ""
     titleContent: Generate leads directly on your website
