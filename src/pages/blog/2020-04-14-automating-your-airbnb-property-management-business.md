@@ -7,59 +7,47 @@ postContent: >-
   <h2><span style="font-weight: 400;">It&rsquo;s not as complicated as you
   think.</span></h2>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">We know it isn&rsquo;t easy being a property manager. If your portfolio on Airbnb, Booking.com and such platforms is starting to grow, you might be starting to feel the pressure. Property management can be stressful at times and automation might seem to be light years away. This is not entirely true.&nbsp;</span></p>
-
-  <p>&nbsp;</p>
 
   <p><span style="font-weight: 400;">Automation is the golden goose of every rentalpreneur. It is good practice to value your time as the owner or manager of a property management company (or any business for that matter).</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Focus on growing the business, finding new properties and improving internal operations to strive for operational efficiency. Automation will play a big part in taking hands off operations to free up your time.</span></p>
-
-  <p>&nbsp;</p>
 
   <p><span style="font-weight: 400;">Property management software / multi-channel listings will help to cut down on your work load significantly and automate as much as possible.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Margins can be thin, so let&rsquo;s talk about how we can maximise them.</span></p>
 
-  <h2><span style="font-weight: 400;">Kaizen - a Japanese philosophy</span></h2>
+  <p>&nbsp;</p>
+
+  <h2><strong>Kaizen - a Japanese philosophy</strong></h2>
+
+  <p><span style="font-weight: 400;">Heard of the Japanese term &lsquo;Kaizen&rsquo;? It&rsquo;s a principle of continuous improvement which is something all of us should strive towards in business. Especially with short-term property management, which is an operations heavy business model. </span><span style="font-weight: 400;">There&rsquo;s 5 simple principles to remember.</span></p>
 
   <p>&nbsp;</p>
 
-  <p><span style="font-weight: 400;">Heard of the Japanese term &lsquo;Kaizen&rsquo;? It&rsquo;s a principle of continuous improvement which is something all of us should strive towards in business. Especially with short-term property management, which is an operations heavy business model.</span></p>
-
-  <p>&nbsp;</p>
-
-  <p><span style="font-weight: 400;">There&rsquo;s 5 simple principles to remember.</span></p>
-
-  <h3><span style="font-weight: 400;">1. Standardise processes to make them easily repeatable.</span></h3>
+  <p><strong>1. Standardise processes to make them easily repeatable.</strong></p>
 
   <p><span style="font-weight: 400;">Determine where your time and energy is wasted across the business. Do you find yourself or your employees typing out the same messages to guests day after day? Set automatic messages that answers the questions before they even asked.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">If you spend too much time planning which cleaners should go to which property - automate it through smart software that pairs up cleaners with properties every morning in the most efficient manner.&nbsp;</span></p>
 
-  <h3><span style="font-weight: 400;">2. Focus on measurability.</span></h3>
+  <p>&nbsp;</p>
+
+  <p><strong>2. Focus on measurability.</strong></p>
 
   <p><span style="font-weight: 400;">Keep measurable goals - whether it is occupancy rates or operational objectives. Start by setting yourself a company wide target to increase your Net Promoter Score (NPS).</span></p>
 
-  <h3><span style="font-weight: 400;">3. Compare your results against your requirements/targets&nbsp;</span></h3>
+  <p>&nbsp;</p>
+
+  <p><strong>3. Compare your results against your requirements/targets&nbsp;</strong></p>
 
   <p><span style="font-weight: 400;">Review what is working and what isn&rsquo;t on a regular basis. Focus on what&rsquo;s working well.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Measure the time spent daily planning and organising the operational work such as cleaners and check in staff - set a target to reduce it by x hours each week.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
+  <p><span style="font-weight: 400;">Follow progress to ensuring that your property management business is on track.</span></p>
 
-  <p><span style="font-weight: 400;">Follow progress to ensuring that your property management business is on track.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">&nbsp;</span></p>
 
   <h3><span style="font-weight: 400;">4. Innovating to improve results.</span></h3>
 
