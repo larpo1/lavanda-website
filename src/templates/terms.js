@@ -4,19 +4,13 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Nav from '../components/Nav'
-import Content, { HTMLContent } from '../components/Content'
 
 export const TermsTemplate = ({
   content,
-  contentComponent,
   title,
   helmet,
 }) => {
-  const TermsContent = contentComponent || Content
-
   return (
-    <Layout>
-    <Nav />
     <section className="section has-margin-top-100">
       {helmet || ''}
       <div className="container content">
@@ -25,20 +19,18 @@ export const TermsTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <TermsContent content={content} />
+            <div dangerouslySetInnerHTML={{ __html: content }} />
           </div>
         </div>
       </div>
     </section>
-    </Layout>
   )
 }
 
 TermsTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  termsContent: PropTypes.object,
 }
 
 const Terms = ({ data }) => {
@@ -46,9 +38,8 @@ const Terms = ({ data }) => {
 
   return (
     <Layout>
+      <Nav />
       <TermsTemplate
-        content={terms.html}
-        contentComponent={HTMLContent}
         description={terms.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Terms">
@@ -61,6 +52,7 @@ const Terms = ({ data }) => {
         }
         tags={terms.frontmatter.tags}
         title={terms.frontmatter.title}
+        content={terms.frontmatter.termsContent}
       />
     </Layout>
   )
@@ -83,6 +75,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         tags
+        termsContent
       }
     }
   }

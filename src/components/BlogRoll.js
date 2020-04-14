@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <div className="columns is-multiline">
@@ -15,48 +15,45 @@ class BlogRoll extends React.Component {
             <div className="is-parent column is-4" key={post.id}>
               <article
                 className={`blog-list-item tile is-child ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
+                  post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${
-                            post.frontmatter.title
-                          }`,
-                        }}
-                      />
-                    {/* <img src={post.frontmatter.featuredimage} alt={`featured image for post ` + post.frontmatter.title} /> */}
-                    </div>
-                  ) : null}
+                <Link to={post.fields.slug}>
+                  <header>
+                    {post.frontmatter.featuredimage ? (
+                      <div className="featured-thumbnail">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          }}
+                        />
+                      </div>
+                    ) : null}
+                  </header>
+                </Link>
+                <div className="has-padding-30">
                   <p className="post-meta">
-                    <Link
-                      className="blog-roll-title"
-                      to={post.fields.slug}
-                    >
+                    <Link className="blog-roll-title" to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <p className="subtitle is-size-5 has-margin-top-20 is-block">
+                    {post.frontmatter.date}
+                  </p>
+                  {/* <p className="subtitle">{post.excerpt}</p> */}
+                  {/* <Link
+                    className="button has-margin-top-40"
+                    to={post.fields.slug}
+                  >
                     Keep Reading →
-                  </Link>
-                </p>
+                  </Link> */}
+                </div>
               </article>
             </div>
           ))}
       </div>
-    )
+    );
   }
 }
 
@@ -66,7 +63,7 @@ BlogRoll.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-}
+};
 
 export default () => (
   <StaticQuery
@@ -103,4 +100,4 @@ export default () => (
     `}
     render={(data, count) => <BlogRoll data={data} count={count} />}
   />
-)
+);

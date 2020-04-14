@@ -1,13 +1,147 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: staging
+# when using the default proxy server port
+local_backend: true
 
+site_url: https://getlavanda.com
+logo_url: https://raw.githubusercontent.com/larpo1/lavanda-blog/master/static/img/lavanda-logo.svg?sanitize=true
 media_folder: static/img
 public_folder: /img
-
+publish_mode: editorial_workflow  
 collections:
+
+  - name: "feature-pages"
+    editor:
+      preview: false 
+    label: "Feature Pages"
+    label_singular: "Feature Page"
+    folder: "src/pages/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
+          - {label: "Menu & Page Title", name: "title", widget: "string"}
+          - {label: "Value Statement", name: "h1", widget: "string"}
+          - {label: "Feature Subtitle", name: "featureSubtitle", widget: "markdown", required: false}
+          - {label: "Feature Category", name: "category", widget: "select", 
+            options: ["Analytics", "Growth", "Distribution", "Operations", "Guest Experience"]}
+          - label: "Screenshot Gallery"
+            label_singular: "Screenshot"
+            name: "galleryImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+            - {label: Title, name: titleContent, widget: "string"}
+            - {label: Blurb, name: textContent, widget: "text"}
+            - {label: Link Target, name: linkTarget, widget: "string", required: false}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
+            - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
+            - {label: Image Classes, name: imageClasses, widget: string, default: "box-shadow", required: false}
+          - {label: "Tags", name: "tags", widget: "list"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+
+  - name: "solutions"
+    editor:
+      preview: false 
+    label: "Solutions Pages"
+    label_singular: "Solution"
+    folder: "src/pages/for"
+    create: true
+    slug: "{{slug}}"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "solution-page"}
+          - {label: "Menu & Page Title", name: "title", widget: "string"}
+          - {label: "Value Statement", name: "solutionHeading", widget: "string"}
+          - label: Subtitle
+            name: solutionSubtitle
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0          
+          - {label: "Category", name: "category", widget: "select", 
+            options: ["Property Management", "Student Accommodation", "Multi-Family", "Serviced Apartments"]}
+          - label: "Screenshot Gallery"
+            label_singular: "Screenshot"
+            name: "galleryImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+            - {label: Title, name: titleContent, widget: "string"}
+            - {label: Blurb, name: textContent, widget: "text"}
+            - {label: Link Target, name: linkTarget, widget: "string", required: false}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
+            - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
+          - {label: "Tags", name: "tags", widget: "list"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+
+  - name: "landing-pages"
+    editor:
+      preview: false
+    label: "Landing Pages"
+    identifier_field: "url"
+    label_singular: "Landing Page"
+    folder: "src/pages/lp"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "lp/{{slug}}"
+    fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "landing-page"}
+          - {label: "Custom URL", name: "url", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - label: Hero Content
+            name: hero
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
+          - {label: CTA Text, name: lpCTAText, widget: string}
+          - {label: CTA Target, name: lpCTATarget, widget: string}
+          # - {label: Hero Background Image, name: bgImage, widget: image, required: false}
+          - {label: Hero Foreground Image, name: fgImage, widget: image, required: false}
+          - {label: Hero Light or Dark, name: heroLightOrDark, widget: select, options: ["is-white", "is-dark"]}
+          - {label: Hero Size, name: heroSize, widget: select, options: ["is-fullheight", "is-large", "is-medium", "is-small"]}
+          - label: "Awards"
+            label_singular: "Award"
+            name: "awards"
+            widget: "list"
+            fields: 
+              - {label: Award, name: awardTitle, widget: string, required: false }
+              - {label: Image, name: awardImage, widget: image, required: false }
+              - {label: Alt, name: awardImageAlt, widget: string, required: false }
+              - {label: Target, name: awardURLTarget, widget: string, required: false }
+          - label: "Video Section"
+            name: "videoSection"
+            widget: object
+            fields:
+              - {label: Section Title, name: title, widget: string, required: false }
+              - {label: Subtitle, name: topText, widget: text, required: false}
+              - {label: Vimeo URL, name: vimeoURL, widget: string, required: false }
+              - {label: Bottom Text, name: bottomText, widget: text, required: false}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+            - {label: Title Content, name: titleContent, widget: "string", required: false}
+            - {label: Text Content, name: textContent, widget: "string", required: false}
+            - {label: Link Target, name: linkTarget, widget: "string", required: false}
+            - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], required: false}
+            - {label: Image, name: image, widget: image, required: false}
+          - {label: "Tags", name: "tags", widget: "list", required: false}
+          - {label: "Meta Description", name: "description", widget: "text", required: true}
+
   - name: "blog"
-    label: "Blog"
+    editor:
+      preview: true 
+    label: "Blog Posts"
+    label_singular: "Blog Post"
     folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -15,14 +149,21 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
+      - label: Content
+        name: postContent
+        widget: ncw-tiny-mce
+        tiny_config:
+          apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
 
   - name: "terms"
-    label: "Terms"
+    editor:
+      preview: true 
+    label: "Terms & Conditions"
     folder: "src/pages/terms"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -30,42 +171,114 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Body", name: "body", widget: "markdown"}
+      - label: Content
+        name: termsContent
+        widget: ncw-tiny-mce
+        tiny_config:
+          apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
+
+  # - name: "heros"
+  #   editor:
+  #     preview: false 
+  #   label: "Heros"
+  #   label_singular: "Hero"
+  #   folder: "src/content/heros"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "heros"}
+  #     - {label: "H1", name: "title", widget: "string"}
+  #     - {label: "Subtitle", name: "subtitle", widget: "string"}
+  #     - {label: "Background Image", name: "backgroundImage", widget: "image"}
+  #     - {label: "Foreground Image", name: "foregroundImage", widget: "image"}
+
+  # - name: "testimonials"
+  #   editor:
+  #     preview: false 
+  #   label: "Testimonials"
+  #   label_singular: "Testimonial"
+  #   folder: "src/content/testimonials"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Author Image", name: "image", widget: "image"}
+  #     - {label: "Testimonial", name: "testimonial", widget: "markdown"}
+  #     - {label: "Author", name: "author", widget: "string"}
+  #     - {label: "Company", name: "company", widget: "string"}
+  #     - {label: "URL", name: "url", widget: "string"}
+
 
   - name: "pages"
-    label: "Pages"
+    editor:
+      preview: false 
+    label: "Home Page etc."
     files:
+    
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Home Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: Meta Description, name: description, widget: string}
+          - {label: Hero H1, name: title, widget: string}
+          # - {label: Hero Content, name: subtitle, widget: code}
+          - label: Subtitle Content
+            name: subtitle
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
+          - {label: Hero Foreground Image, name: fgImage, widget: image}
+          - {label: Hero Background Image, name: bgImage, widget: image, required: false}
+          - {label: CTA Text, name: ctaText, widget: string}
+          - {label: CTA Target, name: ctaTarget, widget: string}
+          - label: "Awards"
+            label_singular: "Award"
+            name: "awards"
+            widget: "list"
+            fields: 
+              - {label: Award, name: awardTitle, widget: string}
+              - {label: Image, name: awardImage, widget: image}
+              - {label: Alt, name: awardImageAlt, widget: string}
+              - {label: Target, name: awardURLTarget, widget: string}
+          - label: "Highlights"
+            name: "highlights"
+            label_singular: "Highlight Section"
+            widget: "list"
+            fields: 
+              - {label: Title Content, name: titleContent, widget: "string"}
+              - {label: Text Content, name: textContent, widget: "string"}
+              - {label: Link Target, name: linkTarget, widget: "string", required: false}
+              - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
+              - {label: Image, name: image, widget: image}
+
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - label: Content
+            name: body
+            widget: ncw-tiny-mce
+            tiny_config:
+              apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
+
+          
+      # - file: "src/pages/products/index.md"
+      #   label: "Products Page"
+      #   name: "products"
+      #   fields:
+      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Image, name: image, widget: image}
+      #     - {label: Heading, name: heading, widget: string}
+      #     - {label: Description, name: description, widget: string}
+      #     - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      #     - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      #     - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+      #     - {label: Full_image, name: full_image, widget: image}
+      #     - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}

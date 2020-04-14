@@ -4,7 +4,7 @@ import { TermsTemplate } from '../../templates/terms'
 
 const TermsPreview = ({ entry, widgetFor }) => (
   <TermsTemplate
-    content={widgetFor('body')}
+    content={entry.getIn(['data','termsContent'])}
     description={entry.getIn(['data', 'description'])}
     tags={entry.getIn(['data', 'tags'])}
     title={entry.getIn(['data', 'title'])}

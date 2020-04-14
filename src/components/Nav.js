@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
-import React from "react"
-import "../../static/styles/main.scss"
-import logo from "../../static/img/logo.svg"
+import React from "react";
+import { Link, StaticQuery, graphql } from "gatsby";
+import "../../static/styles/main.scss";
+import logo from "../../static/img/lavanda-logo.svg";
 
 const NavbarBurger = props => (
   <div
@@ -15,33 +15,37 @@ const NavbarBurger = props => (
     <span />
     <span />
   </div>
-)
+);
 
-export default class Nav extends React.Component {
+class Nav extends React.Component {
+  componentDidMount = () => {
+    window.addEventListener("scroll", this.handleScroll);
+  };
 
-componentDidMount = () => {
-    window.addEventListener('scroll', this.handleScroll);
-}
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll);
+  };
 
-componentWillUnmount = () => {
-    window.removeEventListener('scroll', this.handleScroll);
-}
-
-handleScroll = () => {
-    let position = window.scrollY
-    const nav = document.querySelector('#navbar');
-    if(position <= 200) nav.classList.remove('filled'); else nav.classList.add('filled');
-  }
+  handleScroll = () => {
+    let position = window.scrollY;
+    const nav = document.querySelector("#navbar");
+    if (position <= 200) nav.classList.remove("filled");
+    else nav.classList.add("filled");
+  };
 
   state = {
-    activeMenu: false,
-  }
+    activeMenu: false
+  };
   toggleMenu = () => {
     this.setState({
-      activeMenu: !this.state.activeMenu,
-    })
-  }
+      activeMenu: !this.state.activeMenu
+    });
+  };
+
   render() {
+
+    const { data } = this.props;
+    const { edges: pages } = data.allMarkdownRemark;
     return (
       <nav
         className={"navbar is-fixed-top"}
@@ -69,32 +73,34 @@ handleScroll = () => {
             }`}
           >
             <div className={"navbar-end"}>
+              {/* Product Section */}
+
               <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
-                  className={ "navbar-link is-uppercase is-family-secondary has-text-weight-medium" }>
-                  Solutions
+                  className={
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
+                  }
+                >
+                  Product
                 </Link>
-
                 <div className={"navbar-dropdown"}>
-                  <Link to="/for/property-managers" className={"navbar-item"}>
-                    For property managers
-                  </Link>
-                  <Link to="/for/serviced-apartments" className={"navbar-item"}>
-                    For serviced apartments
-                  </Link>
-                  <Link to="/for/residential-assets" className={"navbar-item"}>
-                    For residential assets
-                  </Link>
-                  <Link to="/for/student-housing" className={"navbar-item"}>
-                    For student housing
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <Link to="/features/developer-api" className={"navbar-item"}>
-                    For integration partners
-                  </Link>
+                  {pages &&
+                    pages
+                    .filter(({node: page}) => (page.frontmatter.templateKey === "feature-page"))
+                    .map(({ node: page }) => (
+                      <Link
+                        key={page.fields.slug}
+                        to={page.fields.slug}
+                        className={"navbar-item"}
+                      >
+                        {page.frontmatter.title}
+                      </Link>
+                    ))}
                 </div>
               </div>
+
+              {/*  Solutions section */}
 
               {/* <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
@@ -103,63 +109,25 @@ handleScroll = () => {
                     "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
                   }
                 >
-                  Features
+                  Solutions
                 </Link>
-
                 <div className={"navbar-dropdown"}>
-                  <p className={"heading has-padding-left-10"}>Growth</p>
-                  <Link to="/" className={"navbar-item"}>
-                    CRM
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Integrated Valuations
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Web Sales Toolkit
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>Distribution</p>
-                  <Link to="/" className={"navbar-item"}>
-                    Channel Manager
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Corporate Travel
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Lavanda Affiliate Network
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>Operations</p>
-                  <Link to="/" className={"navbar-item"}>
-                    Multi-Calendar
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Integrated Tickets
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Task Automation
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Workflow Automation
-                  </Link>
-                  <hr className={"navbar-divider"} />
-                  <p className={"heading has-padding-left-10"}>
-                    Guest Experience
-                  </p>
-                  <Link to="/" className={"navbar-item"}>
-                    Direct Booking Website
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Unified Inbox
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Automated Guest Messaging
-                  </Link>
-                  <Link to="/" className={"navbar-item"}>
-                    Guest Interface
-                  </Link>
+                  {pages &&
+                    pages
+                    .filter(({node: page}) => (page.frontmatter.templateKey === "solution-page"))
+                    .map(({ node: page }) => (
+                      <Link
+                        key={page.fields.slug}
+                        to={page.fields.slug}
+                        className={"navbar-item"}
+                      >
+                        For {page.frontmatter.title}
+                      </Link>
+                    ))}
                 </div>
               </div> */}
+
+              {/* Company Section */}
 
               <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
@@ -187,13 +155,24 @@ handleScroll = () => {
                   </Link>
                 </div>
               </div>
+              
+              <div className={"navbar-item"}>
+                <Link
+                  to="lp/covid-19-survival-for-property-managers"
+                  className={
+                    "is-uppercase is-family-secondary has-text-weight-medium has-text-danger"}>
+                  COVID-19
+                </Link>
+              </div>
+              
+
             </div>
 
             <div className={"navbar-end"}>
               <div className={"navbar-item"}>
                 <div className={"buttons"}>
                   <Link to="/book-a-demo" className={"button is-primary"}>
-                    <strong>Request A Demo</strong>
+                    <strong>Talk to Us</strong>
                   </Link>
                   <Link to="/apps" className={"button is-light"}>
                     Sign In
@@ -204,6 +183,31 @@ handleScroll = () => {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query PagesLinks {
+        allMarkdownRemark(
+          sort: { fields: frontmatter___category }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                category
+                templateKey
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <Nav data={data} count={count} />}
+  />
+);

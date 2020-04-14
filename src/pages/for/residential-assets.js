@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../../components/Layout"
-import SEO from "../../components/seo"
-import Nav from "../../components/Nav"
-import { Link } from "gatsby"
-import Feature from "../../components/Feature"
-import featureCM from "../../../static/img/features/multi-channel-manager.png"
-import featureIA from "../../../static/img/features/feature-ia.png"
+import Layout from "../../components/Layout";
+import SEO from "../../components/seo";
+import Nav from "../../components/Nav";
+import { Link } from "gatsby";
+import Feature from "../../components/Feature";
+import featureCM from "../../../static/img/features/multi-channel-manager.png";
+import featureIA from "../../../static/img/features/feature-ia.png";
 
 const ServicedApartmentsPage = () => (
   <Layout>
@@ -14,21 +14,25 @@ const ServicedApartmentsPage = () => (
 
     <section className={"hero residential is-fullheight bg-blob"}>
       <Nav />
-      <div className={"hero-body Aligner"}>
-        <div className={"hero-text Aligner-item has-text-centered"}>
-          <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
-            Delight residents. <br />
-            Eliminate voids. <br />
-            Boost NOI.
-          </h1>
-          <h2 className={"subtitle"}>
-            Lavanda is an award winning next-generation technology platform,
-            designed from inception to optimize residential assets and realize
-            hidden value across multifamily and build-to-rent (BTR) portfolios.
-          </h2>
-          <Link to="/book-a-demo" className={"button is-primary is-medium"}>
-            <strong>Request A Callback</strong>
-          </Link>
+      <div className={"hero-body container"}>
+        <div className={"columns "}>
+          <div
+            className={"column hero-text has-text-centered"}>
+            <h1 className={"title has-margin-bottom-35 is-size-1-tablet"}>
+              Delight residents. <br />
+              Eliminate voids. <br />
+              Boost NOI.
+            </h1>
+            <h2 className={"subtitle"}>
+              Lavanda is an award winning next-generation technology platform,
+              designed from inception to optimize residential assets and realize
+              hidden value across multifamily and build-to-rent (BTR)
+              portfolios.
+            </h2>
+            <Link to="/book-a-demo" className={"button is-primary is-medium"}>
+              <strong>Request A Callback</strong>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -52,7 +56,10 @@ const ServicedApartmentsPage = () => (
     <section className={"hero is-medium is-light"}>
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
-          <h1 className={"title is-size-1"}>One platform. <br/>Three powerful solutions.</h1>
+          <h1 className={"title is-size-1"}>
+            One platform. <br />
+            Three powerful solutions.
+          </h1>
           <div className={"columns"}>
             <div className={"column"}>
               <div className={"card"}>
@@ -88,7 +95,10 @@ const ServicedApartmentsPage = () => (
               </div>
             </div>
           </div>
-          <p className={"subtitle"}>Find the yield maximising strategy for your multifamily portfolio. Book a free discovery consultation with one of our experts.</p>
+          <p className={"subtitle"}>
+            Find the yield maximising strategy for your multifamily portfolio.
+            Book a free discovery consultation with one of our experts.
+          </p>
           <Link to={"/book-a-demo"} className={"button is-primary is-medium"}>
             <strong>Request a Callback</strong>
           </Link>
@@ -96,6 +106,6 @@ const ServicedApartmentsPage = () => (
       </div>
     </section>
   </Layout>
-)
+);
 
-export default ServicedApartmentsPage
+export default ServicedApartmentsPage;

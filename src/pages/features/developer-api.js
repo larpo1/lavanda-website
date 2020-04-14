@@ -4,8 +4,6 @@ import Layout from "../../components/Layout"
 import SEO from "../../components/seo"
 import Nav from "../../components/Nav"
 import { Link } from "gatsby"
-//import Feature from "../../components/feature"
-//import PlaceholderImage from "../../../static/img/placeholders/350x250.png"
 
 const ServicedApartmentsPage = () => (
   <Layout>
@@ -29,21 +27,6 @@ const ServicedApartmentsPage = () => (
 
       <div className={"hero-foot"} />
     </section>
-
-    {/* <Feature
-      titleContent="Reach New Audiences"
-      textContent="Access a wider set of customers by offering your SaaS product as an integration across the Lavanda platform."
-      linkTarget="/"
-      featureImage={PlaceholderImage}
-      imageAlign="img-left"
-    />
-    <Feature
-      titleContent="Fast Support"
-      textContent="Our dedicated team of API integration specialists are on hand to help guide your team."
-      linkTarget="/"
-      featureImage={PlaceholderImage}
-      imageAlign="img-right"
-    /> */}
 
   </Layout>
 )
