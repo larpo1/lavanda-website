@@ -25,6 +25,7 @@ highlights:
       inside the PMS. "
 tags:
   - CRM
+  - customer relationship management
 description: Lavanda PMS has a fully integrated CRM (Customer Relationship
   Management) toolkit for your growing business. Capture leads in a variety of
   ways and manage them through a sales pipeline fully integrated into our PMS.
