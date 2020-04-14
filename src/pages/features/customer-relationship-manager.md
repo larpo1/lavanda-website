@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Customer Relationship Manager
+title: Customer relationship manager
 h1: Drive growth in your core market
 featureSubtitle: Lavanda PMS has a fully integrated CRM (Customer Relationship
   Management) toolkit for your growing business. Capture leads in a variety of
