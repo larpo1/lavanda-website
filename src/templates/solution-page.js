@@ -33,7 +33,7 @@ export const SolutionPageTemplate = ({
                   {solutionHeading}
                 </h1>
                 {solutionSubtitle && solutionSubtitle.length ? (
-                  <div className="subtitle is-hidden-mobile" dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
+                  <div className="subtitle is-hidden-mobile has-margin-top-30" dangerouslySetInnerHTML={{ __html: solutionSubtitle }} />
                 ) : null}
               </div>
 
@@ -50,7 +50,7 @@ export const SolutionPageTemplate = ({
                               }}
                             />
                           ) : null} */}
-                        {!!image && !!image.childImageSharp ? (
+                        {image && image.childImageSharp ? (
                           <PreviewCompatibleImage
                             imageInfo={{
                               image: image,
@@ -59,7 +59,9 @@ export const SolutionPageTemplate = ({
                           />
                         ) : (
                           <div className="browser-mockup with-url">
-                            <img src={image.publicURL} alt={title} />
+                            {image ? (
+                              <img src={image.publicURL} alt={title} />
+                            ) : null}
                           </div>
                         )}
                       </div>

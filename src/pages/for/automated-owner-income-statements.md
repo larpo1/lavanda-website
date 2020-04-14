@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: month-end income report pain
+title: month-end financial reporting headaches
 solutionHeading: No more month-end financial headaches
 solutionSubtitle: '<p>Does the preparation of owner financial statements take
   you days of work each month? Well, no more. Find out how Lavanda PMS can
@@ -9,7 +9,7 @@ solutionSubtitle: '<p>Does the preparation of owner financial statements take
   landlords.&nbsp;</p>'
 category: Property Management
 galleryImages:
-  - /img/640x360.png
+  - /img/accounting-hell.jpg
 highlights: []
 tags:
   - Income Reporting

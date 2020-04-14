@@ -18,7 +18,7 @@ export default props => (
         </div>
         <div className={"column has-padding-50"}>
           <div className={"feature-content has-text-centered-mobile"}>
-            <h2 className={"title"}>{props.titleContent}</h2>
+            <h2 className={"title is-spaced"}>{props.titleContent}</h2>
             <p className={"subtitle"}>{props.textContent}</p>
             {props.linkTarget && props.linkTarget.length ? (
               <Link to={props.linkTarget} className={"button is-secondary"}>

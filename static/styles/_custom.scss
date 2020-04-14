@@ -21,6 +21,11 @@ iframe.video-frame {
   max-width: 100%;
 }
 
+.subtitle {
+  color: #7f8fa4;
+  line-height: 1.75rem;
+}
+
 .react-rotating-text-cursor {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
     infinite;
