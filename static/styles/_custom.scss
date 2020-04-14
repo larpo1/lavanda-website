@@ -1,9 +1,9 @@
-html, body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 // footer styles
 
@@ -43,10 +43,16 @@ iframe.video-frame {
   }
 }
 
-.button {font-weight: 900}
+.button {
+  font-weight: 900;
+}
 
-.box-shadow { box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07) }
-.box-shadow-light { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05) }
+.box-shadow {
+  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
+}
+.box-shadow-light {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+}
 
 section.segmenter {
   padding: 1.5rem;
@@ -60,7 +66,9 @@ section.segmenter {
   overflow-x: auto;
   bottom: 0;
 }
-.awards::-webkit-scrollbar {display: none;}
+.awards::-webkit-scrollbar {
+  display: none;
+}
 .award {
   min-width: 175px;
   width: 150px;
@@ -102,7 +110,7 @@ section.home .hero-body {
 
 .hero .navbar.filled {
   background: white;
-  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07)
+  box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
 }
 
 .hero-text {
@@ -135,12 +143,17 @@ section.home .hero-body {
 }
 
 .hero.is-dark {
-  background: rgb(17,37,59);
-  background: linear-gradient(90deg, rgba(17,37,59,1) 0%, rgba(24,54,86,1) 51%, rgba(71,127,186,1) 100%);
+  background: rgb(17, 37, 59);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 37, 59, 1) 0%,
+    rgba(24, 54, 86, 1) 51%,
+    rgba(71, 127, 186, 1) 100%
+  );
 }
 
 .wave-container {
-  position:relative;
+  position: relative;
   overflow: hidden;
 }
 .wave-container > svg.rising-wave {
@@ -148,10 +161,10 @@ section.home .hero-body {
   bottom: 0px;
   z-index: -1;
 }
-.hero-foot>svg, .wave-container>svg.falling-wave {
+.hero-foot > svg,
+.wave-container > svg.falling-wave {
   position: absolute;
 }
-
 
 .hero-foot > svg {
   position: absolute;
@@ -167,7 +180,9 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
   border-radius: 5px;
 }
 
-.gallery .img-container img, .gallery .gatsby-image-wrapper img, .lp-fgImage .gatsby-image-wrapper {
+.gallery .img-container img,
+.gallery .gatsby-image-wrapper img,
+.lp-fgImage .gatsby-image-wrapper {
   box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
 }
 .box-shadow {
@@ -175,18 +190,26 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
 }
 .box-shadow .gatsby-image-wrapper {
   box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
-  }
+}
 
- .browser-mockup {
+article.blog-content {
+  padding: 10vw 5vw;
+  position: relative;
+  top: -200px;
+  background: white;
+  box-shadow: 0 50px 50px -30px rgba(34, 42, 72, 0.22);
+}
+
+.browser-mockup {
   border-top: 2em solid rgba(230, 230, 230, 0.7);
   position: relative;
-  border-radius: 3px 3px 0 0
+  border-radius: 3px 3px 0 0;
 }
 
 .browser-mockup:before {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   top: -1.25em;
   left: 1em;
   width: 0.5em;
@@ -195,11 +218,11 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
   background-color: #f44;
   box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
 }
-    
+
 .browser-mockup.with-tab:after {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   top: -2em;
   left: 5.5em;
   width: 20%;
@@ -212,7 +235,7 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
 .browser-mockup.with-url:after {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   top: -1.6em;
   left: 5.5em;
   width: calc(100% - 6em);
@@ -224,8 +247,6 @@ section.feature-item .feature-image .gatsby-image-wrapper picture img {
 .browser-mockup > * {
   display: block;
 }
-
-
 
 section.feature-item .feature-content {
   max-width: 480px;
@@ -280,24 +301,24 @@ article.blog-list-item.is-child p {
   padding: 0 20px;
 }
 
-.column
-  .tile {
-    height: 100% }
+.column .tile {
+  height: 100%;
+}
 
 p.post-meta {
   margin: 40px auto;
 }
-a.blog-roll-title { 
+a.blog-roll-title {
   font-family: $bg;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: .065em;
-    color: #3373b4;
-    text-transform: uppercase;
-    font-weight: 700;
-    max-width: 270px;
-    margin: 40px auto;
-    text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.065em;
+  color: #3373b4;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 270px;
+  margin: 40px auto;
+  text-align: center;
 }
 .article-body p:first-child:first-letter {
   color: #3373b4;
