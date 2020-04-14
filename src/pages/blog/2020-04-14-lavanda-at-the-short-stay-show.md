@@ -4,12 +4,12 @@ title: Lavanda at the Short Stay Show
 date: "2020-04-14T11:25:55.836Z"
 featuredimage: /img/img_0069.jpg
 postContent: >-
-  <p><strong>The Lavanda team exhibited at this years Short Stay Show at ExCeL
+  <p><strong>The Lavanda team exhibited at this year's Short Stay Show at ExCeL
   London - an event that celebrates short-term rental businesses.</strong></p>
 
   <p><strong><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=d8e3ca05fb&amp;attid=0.0.1&amp;permmsgid=msg-a:r2703721701032042501&amp;th=171787d3d184dddf&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ9yP03f4T1jeKFk-_imG4u0REWNpfuCCox91vHKj4TjZjiTx0dPD8dJj8VJ40xlv788X8Bz65FHTs5J5p37eHJzQKkVjX632EDlvPprKUXEdoFbs206-XvkSeg&amp;disp=emb&amp;realattid=ii_k8zu3bqk1" alt="IMG_0069.JPG" /></strong></p>
 
-  <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar), Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span><br /><br /></p>
+  <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar) and Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span><br /><br /></p>
 
   <p><strong>What is The Short Stay Show?</strong></p>
 
@@ -19,7 +19,7 @@ postContent: >-
 
   <p><strong>What Happened on the Day?</strong></p>
 
-  <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day, full of networking and knowledge sharing.</span></p>
+  <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day full of networking and knowledge sharing.</span></p>
 
   <p>&nbsp;</p>
 
@@ -29,11 +29,11 @@ postContent: >-
 
   <p><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
 
-  <p><span style="font-weight: 400;">Lavanda&rsquo;s exhibitor stand was located at the front of the venue. Our team took the day to catch up with our property manager clients and partners. We also had the pleasure of meeting a wealth of new property managers and professionals in the field.</span></p>
+  <p><span style="font-weight: 400;">Lavanda&rsquo;s exhibitor stand was located at the front of the venue, and our team took the day to catch up with our property manager clients and partners. We also had the pleasure of meeting a wealth of new property managers and professionals in the field.</span></p>
 
   <p><span style="font-weight: 400;">Over at the Premium Access Stage, Fred Lerche-Lerchenburg, Lavanda&rsquo;s CEO, led the panel &lsquo;when property, hospitality and travel collide&rsquo;, alongside Matthew Ede from Greystar and Marcus Angell from SilverDoor Apartments.&nbsp;</span></p>
 
-  <p><span style="font-weight: 400;">The three discussed the sweet spot between the three giants of property, hospitality and travel and to stay ahead of the game, it needs to serve all three in abundance. Thought-provoking points were raised about current and future demands these sectors place on our fledgling industry, and the potentially huge impact that COVID-19 may have.</span></p>
+  <p><span style="font-weight: 400;">The three discussed the sweet spot between the three giants of property, hospitality and travel, and to stay ahead of the game, it needs to serve all three in abundance. Thought-provoking points were raised about current and future demands these sectors place on our fledgling industry, and the potentially huge impact of COVID-19.</span></p>
 
   <p>&nbsp;</p>
 
