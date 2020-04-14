@@ -43,45 +43,35 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Review what is working and what isn&rsquo;t on a regular basis. Focus on what&rsquo;s working well.</span></p>
 
-  <p><span style="font-weight: 400;">Measure the time spent daily planning and organising the operational work such as cleaners and check in staff - set a target to reduce it by x hours each week.&nbsp;</span></p>
-
-  <p><span style="font-weight: 400;">Follow progress to ensuring that your property management business is on track.</span></p>
+  <p><span style="font-weight: 400;">Measure the time spent daily planning and organising the operational work such as cleaners and check in staff - set a target to reduce it by x hours each week.&nbsp;</span><span style="font-weight: 400;">Follow progress to ensuring that your property management business is on track.</span></p>
 
   <p><span style="font-weight: 400;">&nbsp;</span></p>
 
-  <h3><span style="font-weight: 400;">4. Innovating to improve results.</span></h3>
+  <p><strong>4. Innovating to improve results.</strong></p>
 
   <p><span style="font-weight: 400;">Innovation is crucial in this industry. Consider setting aside time to work on innovating to put your business ahead of the competition.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Start by having great software to manage your business. The most impactful improvements in efficiency come from having a great property management system (PMS) and multi-channel listings. Let them do the innovation behind the scenes for you to drive operational efficiency.&nbsp;</span></p>
 
-  <h3><span style="font-weight: 400;">5. Response to changing circumstances and evolve methods.&nbsp;</span></h3>
+  <p>&nbsp;</p>
+
+  <p><strong>5. Response to changing circumstances and evolve methods.&nbsp;</strong></p>
 
   <p><span style="font-weight: 400;">The short-term rental industry is moving very fast. You must move fast too. Don&rsquo;t fall behind because those who experience the fastest growth are those leading the market and capitalising on new opportunities.</span></p>
 
   <p>&nbsp;</p>
 
-  <h3><span style="font-weight: 400;">Empower your team</span></h3>
+  <p><strong>Empower your team</strong></p>
 
-  <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span></p>
-
-  <p><br /><br /><br /><br /><br /><br /><br /><br /></p>
+  <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span><br /><br /></p>
 
   <p><strong><em>About the author</em></strong></p>
 
   <p><span style="font-weight: 400;">Lavanda is a next generation enterprise short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
 
-  <p>&nbsp;</p>
-
   <p><span style="font-weight: 400;">Lavanda was a property management company until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
 
-  <p>&nbsp;</p>
-
-  <p><span style="font-weight: 400;">Get one step ahead, book a discovery call to see how we can help turbocharge your property management company.&nbsp;</span></p>
-
-  <p><br /><br /><br /><br /><br /><br /></p>
+  <p><span style="font-weight: 400;">Get one step ahead, book a discovery call to see how we can help turbocharge your property management company.&nbsp;</span><br /><br /><br /></p>
 tags:
   - airbnb
   - property manager
