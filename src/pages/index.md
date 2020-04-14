@@ -25,7 +25,7 @@ highlights:
     textContent: "Automatically generate tasks, tickets, reports and more,
       increasing your team's productivity and freeing up your time to focus upon
       running a successful business.  "
-    linkTarget: /for/complex-hospitality-operations
+    linkTarget: /features/tickets-tasks-charges/
     imageAlign: img-right
     image: /img/feature-operations.png
   - titleContent: Manage multiple booking channels
@@ -45,7 +45,7 @@ highlights:
     textContent: "Discover hidden value across your residential portfolio. Gain an
       in-depth understanding of where you can increase revenue, reduce costs or
       both. "
-    linkTarget: /for/residential-assets
+    linkTarget: ""
     imageAlign: img-left
     image: /img/feature-impact-assessment.png
 ---
