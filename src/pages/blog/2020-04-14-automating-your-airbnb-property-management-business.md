@@ -62,13 +62,15 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span><br /><br /></p>
 
+  <p>&nbsp;</p>
+
   <p><strong><em>About the author</em></strong></p>
 
-  <p><span style="font-weight: 400;">Lavanda is a next generation enterprise short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
+  <p><span style="font-weight: 400;">Lavanda is a next generation short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
 
-  <p><span style="font-weight: 400;">Lavanda was a property management company until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
+  <p><span style="font-weight: 400;">Lavanda was a property management company, until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. </span><span style="font-weight: 400;">Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
 
-  <p><span style="font-weight: 400;">Get one step ahead, book a discovery call to see how we can help turbocharge your property management company.&nbsp;</span><br /><br /><br /></p>
+  <p><span style="font-weight: 400;">Get one step ahead, <a href="https://getlavanda.com/book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.&nbsp;</span></p>
 tags:
   - airbnb
   - property manager
