@@ -49,13 +49,13 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <p><strong><em>About the Author</em></strong></p>
+  <p><em><strong>About Lavanda</strong></em></p>
 
-  <p><span style="font-weight: 400;">Lavanda is a next generation short-term rental property management system (PMS). Discover a comprehensive SaaS toolkit designed to unlock scale and profitability, whilst accelerating your growth through industry partnerships.</span></p>
+  <p><em><span style="font-weight: 400;">Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is </span><span style="font-weight: 400;">designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation. </span></em></p>
 
-  <p><span style="font-weight: 400;">Lavanda was a property management company, until transitioning to a software platform in 2018. We have years of experience as one of the first property managers in London - growing from 1 to 500 properties over time. </span><span style="font-weight: 400;">Operational efficiency is what we strived for and now we&rsquo;re here to help others to do the same, through a toolkit which is here to change the game.</span></p>
+  <p><em><span style="font-weight: 400;">Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. </span><span style="font-weight: 400;">Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</span></em></p>
 
-  <p><span style="font-weight: 400;">Get one step ahead, <a href="https://getlavanda.com/book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.&nbsp;</span></p>
+  <p><em><span style="font-weight: 400;">Get one step ahead, <a href="https://getlavanda.com/book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.&nbsp;</span></em></p>
 tags:
   - airbnb
   - short term rentals
