@@ -57,7 +57,9 @@ export const FeaturePageTemplate = ({
                           />
                         ) : (
                           <div className="">
-                            <img src={image.publicURL} alt={title} />
+                            {image ? (
+                              <img src={image.publicURL} alt={title} />
+                            ) : null}
                           </div>
                         )}
                       </div>

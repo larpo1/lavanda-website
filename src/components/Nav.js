@@ -102,7 +102,7 @@ class Nav extends React.Component {
 
               {/*  Solutions section */}
 
-              <div className={"navbar-item has-dropdown is-hoverable"}>
+              {/* <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
                   className={
@@ -125,7 +125,7 @@ class Nav extends React.Component {
                       </Link>
                     ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Company Section */}
 
