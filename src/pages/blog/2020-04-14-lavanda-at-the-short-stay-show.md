@@ -7,9 +7,7 @@ postContent: >-
   <p><strong>The Lavanda team exhibited at this years Short Stay Show at ExCeL
   London - an event that celebrates short-term rental businesses.</strong></p>
 
-  <p>&nbsp;</p>
-
-  <p>&lt;image&gt;</p>
+  <p><strong><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=d8e3ca05fb&amp;attid=0.0.1&amp;permmsgid=msg-a:r2703721701032042501&amp;th=171787d3d184dddf&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ9yP03f4T1jeKFk-_imG4u0REWNpfuCCox91vHKj4TjZjiTx0dPD8dJj8VJ40xlv788X8Bz65FHTs5J5p37eHJzQKkVjX632EDlvPprKUXEdoFbs206-XvkSeg&amp;disp=emb&amp;realattid=ii_k8zu3bqk1" alt="IMG_0069.JPG" /></strong></p>
 
   <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar), Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span><br /><br /></p>
 
