@@ -21,9 +21,13 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day, full of networking and knowledge sharing.</span></p>
 
-  <p>&lt;image&gt;</p>
+  <p>&nbsp;</p>
 
-  <p><br /><br /><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
+  <p><img src="https://mail.google.com/mail/u/0?ui=2&amp;ik=d8e3ca05fb&amp;attid=0.1&amp;permmsgid=msg-a:r-1119616901071700174&amp;th=171787e1739aff04&amp;view=fimg&amp;sz=s0-l75-ft&amp;attbid=ANGjdJ919Eygz9mH8OgB4UItT4R5RgYvmMmKZzw_n3VFvvls7LaH-3sevrj-9YrfSO7J29vypvyEM6XpIu4wb5YgLCpcQ0sRSSNYCDChKZAN0ykyptGQkgTvCGpLFyA&amp;disp=emb&amp;realattid=ii_k8zu4j170" alt="IMG_0111.JPG" /></p>
+
+  <p>&nbsp;</p>
+
+  <p><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
 
   <p><span style="font-weight: 400;">Lavanda&rsquo;s exhibitor stand was located at the front of the venue. Our team took the day to catch up with our property manager clients and partners. We also had the pleasure of meeting a wealth of new property managers and professionals in the field.</span></p>
 
