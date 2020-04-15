@@ -108,6 +108,10 @@ section.home .hero-body {
   margin-top: 3.25rem;
 }
 
+.hero-body {
+  z-index: 5
+}
+
 .hero .navbar.filled {
   background: white;
   box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
