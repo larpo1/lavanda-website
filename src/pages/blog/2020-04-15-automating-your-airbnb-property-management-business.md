@@ -54,8 +54,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Your business is only as good as your team and efficiency starts with them. Embedding a company culture of improvement is key, so empower all of your employees to focus on finding inefficiencies and reward them for doing so.&nbsp;</span></p>
 
-  <p>&nbsp;</p>
-
   <p><strong>About Lavanda</strong></p>
 
   <p>Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation.</p>
