@@ -10,7 +10,7 @@ postContent: >-
 
   <p>Despite initial predictions of 2020 being a boom year, the industry finds itself struggling to cope in the face of a "black swan" event, prompted by global lockdowns and travel restrictions.</p>
 
-  <p>As a short-term rental property manager, it's now more critical than ever that you stay well informed about industry trends in order to best optimize your business during this difficult time.</p>
+  <p>As a short-term rental property manager, it's now more critical than ever that you stay well informed about industry trends, in order to best optimize your business during this difficult time.</p>
 
   <p><strong>What Do I Need to Stay Informed About?</strong></p>
 
@@ -32,7 +32,7 @@ postContent: >-
 
   <p><strong>Search Engines:</strong> You may wish to set up Google Alerts for keywords like &lsquo;Airbnb&rsquo; or &lsquo;Short-Term Rentals&rsquo;. This will essentially send you a regular email of the new reports to do with the key-words you&rsquo;ve set up. Be sure to filter through the results that are sent to you, to find those from the most reliable sources.</p>
 
-  <p>It&rsquo;s easy to get snowed under with the wealth of information available right now, so most important of al is only to act upon information as it is relevant to your business. The world is in survival mode, and businesses will all choose to cope with this differently. Be sure to make the decisions that are right fit for your business and the aspirations that you have within this industry.</p>
+  <p>It&rsquo;s easy to get snowed under with the wealth of information available right now, so most importantly of all, only act upon information that is relevant to your business. The world is in survival mode, and businesses will all choose to cope with this differently. Be sure to make the decisions that are right fit for your business and the aspirations that you have within this industry.</p>
 
   <p>We will be releasing more information about your options for survival during this pandemic - from financial optimisation, through to optimising the infrastructure that underpins your business.</p>
 
