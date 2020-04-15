@@ -26,7 +26,7 @@ postContent: >-
 
   <p><strong>OTAs:</strong> For any news regarding specific OTAs (Airbnb, Booking.com, HomeAway, etc.), we recommend you acquire all information directly from them. This is to ensure you get the most accurate and up to date information about any changes and how this will affect your business. For instance, Airbnb have a help centre where hosts can enquire and seek support directly.</p>
 
-  <p><strong>Industry Data and Projections:</strong> Sources like AirDNA offer reliable and objective data that is directly relevant to short-term rental managers. Although you may have to pay for some of their data/reports, they've released a number free reports focused on COVID-19. Their most recent one is available here.</p>
+  <p><strong>Industry Data and Projections:</strong> Sources like AirDNA offer reliable and objective data that is directly relevant to short-term rental managers. Although you may have to pay for some of their data/reports, they've released a number free reports focused on COVID-19. Their most recent one is available <a href="https://www.airdna.co/blog/coronavirus-impact-on-global-short-term-rental-markets" target="_blank" rel="noopener">here</a>.</p>
 
   <p><strong>Industry Forums:</strong> A key source of news and best practice is in specific forums and communities. We recommend The Professional Host Alliance, who have a highly-vetted community of short-term rental property managers comitted to informing and shaping the future of the industry. They hold webinars sharing relevant information and thought leadership, allow members to seek specific operational advice and post topics for discusson. They also post a weekly digest of industry news and its specific impact on short-term rental property managers.</p>
 
@@ -36,7 +36,7 @@ postContent: >-
 
   <p>We will be releasing more information about your options for survival during this pandemic - from financial optimisation, through to optimising the infrastructure that underpins your business.</p>
 
-  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to reach out to us. We're all in this together.</p>
+  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="../contact" target="_blank" rel="noopener">reach out to us</a>. We're all in this together.</p>
 
   <p><strong>About Lavanda</strong></p>
 
