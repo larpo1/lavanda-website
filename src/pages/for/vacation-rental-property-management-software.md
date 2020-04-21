@@ -39,9 +39,10 @@ highlights:
     textContent: Visit our product page for the complete feature set. Most
       importantly, our London based customer success team is there to help you
       along the way as your business flourishes.
-tags:
-  - airbnb management system
+metaTitle: Vacation Rental & Property Management Software | Lavanda
 description: "Lavanda is a property management system that automates your Airbnb
   vacation rental property management business. Streamline your operations,
   increase your direct bookings and grow your portfolio quicker and easier. "
+tags:
+  - airbnb management system
 ---
