@@ -26,7 +26,7 @@ highlights:
       housekeeping, check-in, driver, linen, runner and maintenance tasks all
       laid out for you. "
     imageClasses: box-shadow
-metaTitle: Real-time operations analytics | Lavanda
+metaTitle: Real-time operations analytics
 description: Lavanda's powerful vacation rental and short term rental analytics
   features help your business outperform the competition.
 tags:
