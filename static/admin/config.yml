@@ -42,8 +42,14 @@ collections:
             - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
             - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
             - {label: Image Classes, name: imageClasses, widget: string, default: "box-shadow", required: false}
-          - {label: "Tags", name: "tags", widget: "list"}
-          - {label: "Meta Description", name: "description", widget: "text"}
+          - label: "Page SEO"
+            name: "seo"
+            widget: "list"
+            allow_add: false
+            fields: 
+            - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+            - {label: "Meta Description", name: "description", widget: "text", required: true}
+            - {label: "Keywords", name: "tags", widget: "list", required: false}
 
   - name: "solutions"
     editor:
@@ -79,8 +85,14 @@ collections:
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
             - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], default: "img-left"}
             - {label: Image, name: image, widget: image, default: "/img/640x360.png"}
-          - {label: "Tags", name: "tags", widget: "list"}
-          - {label: "Meta Description", name: "description", widget: "text"}
+          - label: "Page SEO"
+            name: "seo"
+            widget: "list"
+            allow_add: false
+            fields: 
+            - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+            - {label: "Meta Description", name: "description", widget: "text", required: true}
+            - {label: "Keywords", name: "tags", widget: "list", required: false}
 
   - name: "landing-pages"
     editor:
@@ -134,8 +146,14 @@ collections:
             - {label: Link Target, name: linkTarget, widget: "string", required: false}
             - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"], required: false}
             - {label: Image, name: image, widget: image, required: false}
-          - {label: "Tags", name: "tags", widget: "list", required: false}
-          - {label: "Meta Description", name: "description", widget: "text", required: true}
+          - label: "Page SEO"
+            name: "seo"
+            widget: "list"
+            allow_add: false
+            fields: 
+            - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+            - {label: "Meta Description", name: "description", widget: "text", required: true}
+            - {label: "Keywords", name: "tags", widget: "list", required: false}
 
   - name: "blog"
     editor:
@@ -157,8 +175,14 @@ collections:
         tiny_config:
           apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
+      - label: "Page SEO"
+        name: "seo"
+        widget: "list"
+        allow_add: false
+        fields: 
+        - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+        - {label: "Meta Description", name: "description", widget: "text", required: true}
 
   - name: "terms"
     editor:
@@ -178,38 +202,25 @@ collections:
         tiny_config:
           apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
 
-  # - name: "heros"
-  #   editor:
-  #     preview: false 
-  #   label: "Heros"
-  #   label_singular: "Hero"
-  #   folder: "src/content/heros"
-  #   create: true
-  #   slug: "{{slug}}"
-  #   fields:
-  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "heros"}
-  #     - {label: "H1", name: "title", widget: "string"}
-  #     - {label: "Subtitle", name: "subtitle", widget: "string"}
-  #     - {label: "Background Image", name: "backgroundImage", widget: "image"}
-  #     - {label: "Foreground Image", name: "foregroundImage", widget: "image"}
+  - name: "testimonials"
+    editor:
+    preview: false 
+    label: "Testimonials"
+    label_singular: "Testimonial"
+    folder: "src/content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author Image", name: "image", widget: "image"}
+      - {label: "Testimonial", name: "testimonial", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Company", name: "company", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Keywords", name: "tags", widget: "list", required: false}
 
-  # - name: "testimonials"
-  #   editor:
-  #     preview: false 
-  #   label: "Testimonials"
-  #   label_singular: "Testimonial"
-  #   folder: "src/content/testimonials"
-  #   create: true
-  #   slug: "{{slug}}"
-  #   fields:
-  #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonials"}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Author Image", name: "image", widget: "image"}
-  #     - {label: "Testimonial", name: "testimonial", widget: "markdown"}
-  #     - {label: "Author", name: "author", widget: "string"}
-  #     - {label: "Company", name: "company", widget: "string"}
-  #     - {label: "URL", name: "url", widget: "string"}
 
 
   - name: "pages"
@@ -254,6 +265,13 @@ collections:
               - {label: Link Target, name: linkTarget, widget: "string", required: false}
               - {label: Align Image, name: imageAlign, widget: "select", options: ["img-left", "img-right"]}
               - {label: Image, name: image, widget: image}
+          - label: "Page SEO"
+            name: "seo"
+            widget: "list"
+            allow_add: false
+            fields: 
+            - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+            - {label: "Meta Description", name: "description", widget: "text", required: true}
 
       - file: "src/pages/about/index.md"
         label: "About"
@@ -266,19 +284,11 @@ collections:
             widget: ncw-tiny-mce
             tiny_config:
               apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
-
-          
-      # - file: "src/pages/products/index.md"
-      #   label: "Products Page"
-      #   name: "products"
-      #   fields:
-      #     - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Image, name: image, widget: image}
-      #     - {label: Heading, name: heading, widget: string}
-      #     - {label: Description, name: description, widget: string}
-      #     - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-      #     - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-      #     - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-      #     - {label: Full_image, name: full_image, widget: image}
-      #     - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - label: "Page SEO"
+            name: "seo"
+            widget: "list"
+            allow_add: false
+            fields: 
+            - {label: "<title> Tag", name: "metaTitle", widget: "text", required: true}
+            - {label: "Meta Description", name: "description", widget: "text", required: true}
+        
