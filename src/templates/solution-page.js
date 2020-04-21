@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
+import SEO from "../components/seo";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
@@ -19,9 +20,11 @@ export const SolutionPageTemplate = ({
   logos,
   galleryImages,
   highlights,
+  metaTitle
 }) => {
   return (
     <Layout>
+      <SEO title={metaTitle} description={description} />
       <Nav />
       <section className="hero is-fullheight wave-container">
         <div className="hero-body">
@@ -189,6 +192,7 @@ const SolutionPage = ({ data }) => {
       }
       tags={solution.frontmatter.tags}
       title={solution.frontmatter.title}
+      metaTitle={solution.frontmatter.metaTitle}
       solutionHeading={solution.frontmatter.solutionHeading}
       category={solution.frontmatter.category}
       solutionSubtitle={solution.frontmatter.solutionSubtitle}
@@ -214,6 +218,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        metaTitle
         solutionHeading
         description
         solutionSubtitle

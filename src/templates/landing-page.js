@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
+import SEO from "../components/seo";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
@@ -25,6 +26,7 @@ export const LandingPageTemplate = ({
   videoSection,
   lpCTAText,
   lpCTATarget,
+  metaTitle
 }) => {
   // const Offset = () => {
   //  if (!fgImage || fgImage.length === 0) return "is-offset-one-quarter"
@@ -32,6 +34,7 @@ export const LandingPageTemplate = ({
 
   return (
     <Layout>
+      <SEO title={metaTitle} description={description} />
       <section
         className={heroLightOrDark + " hero wave-container overlay " + heroSize}
         style={{
@@ -247,6 +250,7 @@ const LandingPage = ({ data }) => {
       awards={lp.frontmatter.awards}
       heroLightOrDark={lp.frontmatter.heroLightOrDark}
       videoSection={lp.frontmatter.videoSection}
+      metaTitle={lp.frontmatter.metaTitle}
     />
   );
 };
@@ -265,6 +269,7 @@ export const pageQuery = graphql`
       id
       frontmatter {
         title
+        metaTitle
         description
         hero
         lpCTAText
@@ -283,7 +288,6 @@ export const pageQuery = graphql`
             childImageSharp {
               fluid(maxWidth: 400, quality: 100, grayscale: true) {
                 ...GatsbyImageSharpFluid
-
               }
             }
           }
