@@ -23,10 +23,12 @@ highlights:
     textContent: "Offer prospective clients a quick and accurate property valuation,
       right from your website and capture their details as a lead - all from
       inside the PMS. "
+metaTitle: Customer relationship manager | Lavanda
+description: Lavanda PMS has a fully integrated CRM (Customer Relationship
+  Management) toolkit for your growing property management business. Capture
+  leads in a variety of ways and manage them through a sales pipeline fully
+  integrated into our PMS.
 tags:
   - CRM
   - customer relationship management
-description: Lavanda PMS has a fully integrated CRM (Customer Relationship
-  Management) toolkit for your growing business. Capture leads in a variety of
-  ways and manage them through a sales pipeline fully integrated into our PMS.
 ---
