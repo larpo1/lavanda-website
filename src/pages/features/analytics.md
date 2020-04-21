@@ -24,7 +24,7 @@ highlights:
       understanding of where costs arise.
     boxShadow: true
     imageClasses: ""
-metaTitle: Business performance analytics | Lavanda
+metaTitle: Business performance analytics
 description: Lavanda's powerful vacation rental and short term rental analytics
   features help your business outperform the competition.
 tags:
