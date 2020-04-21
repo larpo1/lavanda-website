@@ -59,8 +59,9 @@ tags:
   - airdna
   - cottages
   - sykes
+featuredpost: true
+metaTitle: "COVID-19: How To Stay Informed During The Pandemic"
 description: There is currently an abundance of information around the impact of
   COVID-19 on the short-term rental industry, and it is easy to feel
   overwhelmed.
-featuredpost: false
 ---
