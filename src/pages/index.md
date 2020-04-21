@@ -48,5 +48,5 @@ highlights:
     linkTarget: ""
     imageAlign: img-left
     image: /img/feature-impact-assessment.png
-metaTitle: Test title tag
+metaTitle: "Lavanda: Short-term & Vacation Property Management Software"
 ---
