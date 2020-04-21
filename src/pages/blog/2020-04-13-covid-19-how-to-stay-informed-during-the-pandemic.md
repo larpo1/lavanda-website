@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "COVID-19: How To Stay Informed During The Pandemic"
+title: "COVID-19: How to stay informed during the pandemic"
 date: "2020-04-13T13:59:48.482Z"
 featuredimage: /img/lavanda-2-.jpeg
 postContent: >-
@@ -60,7 +60,7 @@ tags:
   - cottages
   - sykes
 featuredpost: true
-metaTitle: "COVID-19: How To Stay Informed During The Pandemic"
+metaTitle: "COVID-19: How to stay informed during the pandemic"
 description: There is currently an abundance of information around the impact of
   COVID-19 on the short-term rental industry, and it is easy to feel
   overwhelmed.
