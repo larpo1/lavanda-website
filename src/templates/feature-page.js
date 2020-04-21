@@ -184,7 +184,7 @@ const FeaturePage = ({ data }) => {
     <FeaturePageTemplate
       description={feature.frontmatter.description}
       helmet={
-        <Helmet titleTemplate="%s | Page">
+        <Helmet titleTemplate="%s | Lavanda PMS">
           <title>{`${feature.frontmatter.title}`}</title>
           <meta
             name="description"

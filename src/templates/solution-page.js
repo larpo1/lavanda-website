@@ -182,7 +182,7 @@ const SolutionPage = ({ data }) => {
     <SolutionPageTemplate
       description={solution.frontmatter.description}
       helmet={
-        <Helmet titleTemplate="%s | Page">
+        <Helmet titleTemplate="%s | Lavanda PMS">
           <title>{`${solution.frontmatter.title}`}</title>
           <meta
             name="description"

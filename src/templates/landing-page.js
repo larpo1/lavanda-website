@@ -231,7 +231,7 @@ const LandingPage = ({ data }) => {
     <LandingPageTemplate
       description={lp.frontmatter.description}
       helmet={
-        <Helmet titleTemplate="%s | Page">
+        <Helmet titleTemplate="%s | Lavanda PMS">
           <title>{`${lp.frontmatter.title}`}</title>
           <meta name="description" content={`${lp.frontmatter.description}`} />
         </Helmet>
