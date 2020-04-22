@@ -36,7 +36,7 @@ postContent: >-
 
   <p>We will be releasing more information about your options for survival during this pandemic - from financial optimisation, through to optimising the infrastructure that underpins your business.</p>
 
-  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="../contact" target="_blank" rel="noopener">reach out to us</a>. We're all in this together.</p>
+  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="../contact">reach out to us</a>. We're all in this together.</p>
 
   <p><strong>About Lavanda</strong></p>
 
