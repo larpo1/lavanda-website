@@ -53,7 +53,7 @@ postContent: >-
 
   <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
 
-  <p>Get one step ahead, <a href="../book-a-demo" target="_blank" rel="noopener">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
+  <p>Get one step ahead, <a href="/book-a-demo" target="_blank" rel="noopener">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
 tags:
   - airbnb
   - short term rentals
