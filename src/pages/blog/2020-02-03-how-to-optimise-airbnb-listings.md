@@ -53,7 +53,7 @@ postContent: >-
 
   <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
 
-  <p>Get one step ahead, <a href="../book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
+  <p>Get one step ahead, <a href="../book-a-demo" target="_blank" rel="noopener">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
 tags:
   - airbnb
   - short term rentals
@@ -65,10 +65,11 @@ tags:
   - airdna
   - cottages
   - sykes
+featuredpost: true
+metaTitle: How to Optimise Airbnb Listings
 description: The short-term rental industry is undoubtedly more competitive than
   ever. With companies like Airbnb, Booking.com and HomeAway leading a
   marketplace for property managers to showcase their rentals, globally. It is
   therefore essential for property listings to stand out and capture the
   attention of guests, in order to drive bookings.
-featuredpost: true
 ---
