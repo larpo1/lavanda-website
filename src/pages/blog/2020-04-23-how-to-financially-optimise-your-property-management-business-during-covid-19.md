@@ -6,21 +6,22 @@ featuredimage: /img/covid-19-cover.png
 postContent: >-
   <p><span style="font-weight: 400;">Optimising your cost base is a crucial
   activity for any business, particularly during times of market
-  uncertainty.&nbsp;</span></p>
-
-  <p><span style="font-weight: 400;">This post aims to help you uncover, reduce and eliminate all unnecessary costs in your property management business. By reducing your costs, whilst maintaining the same level of output, your profit will naturally strengthen, and therefore your business becomes more financially attractive and your long-term viability can increase.</span></p>
+  uncertainty.&nbsp;</span><span style="font-weight: 400;">This post aims to
+  help you uncover, reduce and eliminate all unnecessary costs in your property
+  management business. By reducing your costs, whilst maintaining the same level
+  of output, your profit will naturally strengthen, and therefore your business
+  becomes more financially attractive and your long-term viability can
+  increase.</span></p>
 
   <p><strong>Furlough staff</strong></p>
 
   <p><span style="font-weight: 400;">At present, the UK g</span><span style="font-weight: 400;">overnment is offering support packages to companies to help weather the storm. In order to prevent job losses due to the colossal impact COVID-19, the government have introduced a Coronavirus Job Retention Scheme, whereby they will cover 80% of employees wages who would otherwise be made redundant (capped at &pound;2,500pm).</span></p>
 
-  <p><span style="font-weight: 400;">In order to be eligible for this scheme, your employee/s must be put on furlough leave, and therefore cannot work. The leave must be a minimum of 3 weeks, in order to receive the government support.</span></p>
-
-  <p><span style="font-weight: 400;">The scheme aims to help companies that have been affected by pandemic to retain their talent, allowing their team to return to work when it is right to do so.</span></p>
+  <p><span style="font-weight: 400;">In order to be eligible for this scheme, your employee/s must be put on furlough leave, and therefore cannot work. The leave must be a minimum of 3 weeks, in order to receive the government support. </span><span style="font-weight: 400;">The scheme aims to help companies that have been affected by pandemic to retain their talent; allowing their team to return to work when it is right to do so.</span></p>
 
   <p><span style="font-weight: 400;">If you are outside the UK, have a look at what types of schemes your government may be offering during this period.</span></p>
 
-  <p><span style="font-weight: 400;">For many property management companies, your operational staff are essential to the everyday runnings of your business. It may be worth automating many of your operational processes. Property management software / multi-channel listings will help to cut down on your work load significantly and automate as much as possible. Lavanda&rsquo;s PMS offers time-saving features such as automated messaging, a unified inbox and task allocations.By using this time to financially optimise your business by streamlining and automating many of your processes, can prove beneficial in the long term.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">For many property management companies, your operational staff are essential to the everyday runnings of your business. It may be worth automating many of your operational processes. Property management software will help to cut down on your work load significantly and automate as much as possible. Lavanda&rsquo;s PMS offers time-saving features such as automated messaging, a unified inbox and task allocations. Talk to our team about how these can benefit your business <a href="../book-a-demo">through a discovery call</a>.&nbsp; Use this time to financially optimise your business, by streamlining and automating your processes.</span></p>
 
   <p><strong>Eliminate all non-essential costs</strong></p>
 
@@ -40,13 +41,13 @@ postContent: >-
 
   <li><span style="font-weight: 400;">Explore if you are able defer payment of any taxes due.</span></li>
 
-  <li><span style="font-weight: 400;"> Explore if you are eligible for a business continuity loan. Many governments </span>are offering attractive loan facilities to support companies that are significantly <span>impacted by COVID-19, enabling them to avoid making redundancies and </span><span>contributing to raised unemployment levels.</span></li>
+  <li><span style="font-weight: 400;"> Explore if you are eligible for a business continuity loan. Many governments </span>are offering attractive loan facilities to support companies that are significantly impacted by COVID-19, enabling them to avoid making redundancies and contributing to raised unemployment levels.</li>
 
   </ul>
 
   <p><strong>We're here to help</strong></p>
 
-  <p>At such a critical time for our industry, with so much speculative advice, we are also providing a data-led, factual guide, summarising the realistic options available to property managers and where to focus today. Yo<span>u can access the free guide <a href="../lp/covid-19-survival-for-property-managers" target="_blank" rel="noopener">here.</a>&nbsp;</span></p>
+  <p>At such a critical time for our industry, with so much speculative advice, we are also providing a data-led, factual guide, summarising the realistic options available to property managers and where to focus today. You can access the free guide <a href="../lp/covid-19-survival-for-property-managers" target="_blank" rel="noopener">here.</a>&nbsp;</p>
 
   <p><strong>About Lavanda</strong></p>
 
