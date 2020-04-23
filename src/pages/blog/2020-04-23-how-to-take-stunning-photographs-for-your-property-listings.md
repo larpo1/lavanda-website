@@ -20,7 +20,7 @@ postContent: >-
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">No overly edited images in post production</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Photos of every room, excluding the hallway, unless it is a key feature of the property.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Photos of every room, excluding the hallway, unless it is a key feature of the property</span></li>
 
   </ul>
 
@@ -52,11 +52,11 @@ postContent: >-
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Make sure that any wires from appliances are hidden</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">If there are too many utensils or appliances on the kitchen side, consider hiding some items in the cupboards so that the room doesn&rsquo;t look cluttered.&nbsp;</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">If there are too many utensils or appliances on the kitchen side, consider hiding some items in the cupboards so that the room doesn&rsquo;t look cluttered&nbsp;</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Create a food/dining display with the food items you have bought. Use the property&rsquo;s plates, cutlery and glasses.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Create a food/dining display with the food items you have bought. Use the property&rsquo;s plates, cutlery and glasses</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Put the fresh flowers out on the dining table, if the property has one.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Put the fresh flowers out on the dining table, if the property has one</span></li>
 
   </ul>
 
@@ -78,7 +78,7 @@ postContent: >-
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Wardrobe doors are shut&nbsp;</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Towels folded neatly on the bed can be a nice touch if the stylist is confident in presenting neatly.</span></li>
+  <li style="font-weight: 400;"><span style="font-weight: 400;">Towels folded neatly on the bed can be a nice touch if the stylist is confident in presenting neatly</span></li>
 
   </ul>
 
@@ -86,9 +86,9 @@ postContent: >-
 
   <ul>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Remove the toilet brush and bin&nbsp;</span></li>
+  <li><span style="font-weight: 400;">Make sure the towels are straight and it all looks neat and tidy</span></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Make sure the towels are straight and it all looks neat and tidy.</span></li>
+  <li><span style="font-weight: 400;">Remove the toilet brush and bin&nbsp;</span></li>
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Make sure that any toiletries are visible</span></li>
 
