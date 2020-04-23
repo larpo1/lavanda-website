@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How to Optimise Your Infrastructure During COVID-19
 date: "2020-04-23T14:04:18.744Z"
-featuredimage: /img/covid-19-survival-guide.png
+featuredimage: /img/taylor-simpson-gxdo5jxcerw-unsplash.jpg
 postContent: >-
   <p><span style="font-weight: 400;">Infrastructure is what determines your
   efficiency as a business - both in terms of </span><span style="font-weight:
