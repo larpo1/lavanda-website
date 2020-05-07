@@ -51,6 +51,16 @@ postContent: >-
   <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and providing you with a place to manage your own content is all you need to get going in this brave new world.</span></p>
 
   <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, well this </span><a href="https://www.cnbc.com/2020/05/06/airbnb-hosts-are-building-their-own-direct-booking-websites-in-revolt.html"><span style="font-weight: 400;">CNBC article</span></a><span style="font-weight: 400;"> makes mention of one company I know that could help. Here&rsquo;s an example I found online: *insert Lavanda DBW*</span></p>
+
+  <p><span style="font-weight: 400;">---------------</span></p>
+
+  <p><strong>About Lavanda</strong></p>
+
+  <p>Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation.</p>
+
+  <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
+
+  <p>Get one step ahead,&nbsp;<a href="../book-a-demo" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
 tags:
   - Direct Booking Website
 featuredpost: true
