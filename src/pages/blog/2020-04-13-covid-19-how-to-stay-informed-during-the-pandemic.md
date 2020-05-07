@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "COVID-19: How To Stay Informed During The Pandemic"
+title: "COVID-19: How to stay informed during the pandemic"
 date: "2020-04-13T13:59:48.482Z"
 featuredimage: /img/lavanda-2-.jpeg
 postContent: >-
@@ -36,7 +36,7 @@ postContent: >-
 
   <p>We will be releasing more information about your options for survival during this pandemic - from financial optimisation, through to optimising the infrastructure that underpins your business.</p>
 
-  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="../contact" target="_blank" rel="noopener">reach out to us</a>. We're all in this together.</p>
+  <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="/contact">reach out to us</a>. We're all in this together.</p>
 
   <p><strong>About Lavanda</strong></p>
 
@@ -59,8 +59,9 @@ tags:
   - airdna
   - cottages
   - sykes
+featuredpost: true
+metaTitle: "COVID-19: How to stay informed during the pandemic."
 description: There is currently an abundance of information around the impact of
   COVID-19 on the short-term rental industry, and it is easy to feel
   overwhelmed.
-featuredpost: false
 ---

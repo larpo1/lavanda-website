@@ -16,10 +16,11 @@ export const IndexPageTemplate = ({
   ctaText,
   ctaTarget,
   awards,
-  highlights
+  highlights,
+  metaTitle
 }) => (
   <Layout>
-    <SEO title={description} />
+    <SEO title={metaTitle} description={description} />
 
     <section className={"hero home is-fullheight wave-container"}>
       <Nav />
@@ -287,6 +288,7 @@ const IndexPage = ({ data }) => {
       bgImage={frontmatter.bgImage}
       fgImage={frontmatter.fgImage}
       title={frontmatter.title}
+      metaTitle={frontmatter.metaTitle}
       subtitle={frontmatter.subtitle}
       description={frontmatter.description}
       ctaText={frontmatter.ctaText}
@@ -313,6 +315,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
       frontmatter {
         title
+        metaTitle
         subtitle
         description
         fgImage {

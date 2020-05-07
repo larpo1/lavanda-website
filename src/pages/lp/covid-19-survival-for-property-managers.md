@@ -10,9 +10,11 @@ lpCTATarget: https://mailchi.mp/getlavanda/cold-hard-truth/?utm_source=ws&utm_me
 fgImage: /img/covid-19-survival-guide.png
 heroLightOrDark: is-white
 heroSize: is-medium
+metaTitle: Download Lavanda's survival guide for property managers struggling to
+  cope with the Covid-19 pandemic, and its impact on your business.
+description: Download Lavanda's survival guide for property managers struggling
+  to cope with the Covid-19 pandemic, and its impact on your business.
 tags:
   - Covid-19
   - Coronavirus
-description: Download Lavanda's survival guide for property managers struggling
-  to cope with the Covid-19 pandemic, and its impact on your business.
 ---

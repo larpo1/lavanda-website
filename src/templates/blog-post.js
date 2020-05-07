@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import SEO from "../components/seo";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
@@ -15,9 +16,11 @@ export const BlogPostTemplate = ({
   featuredImage,
   helmet,
   date,
+  metaTitle
 }) => {
   return (
     <Layout>
+    <SEO title={metaTitle} description={description} />
       <section
         className="hero"
         style={{
@@ -113,6 +116,7 @@ const BlogPost = ({ data }) => {
       date={post.frontmatter.date}
       content={post.frontmatter.postContent}
       featuredImage={post.frontmatter.featuredimage}
+      metaTitle={post.frontmatter.metaTitle}
     />
   );
 };
@@ -133,6 +137,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        metaTitle
         description
         tags
         featuredpost

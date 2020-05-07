@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 // import { kebabCase } from "lodash";
+import SEO from "../components/seo";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
@@ -20,9 +21,11 @@ export const FeaturePageTemplate = ({
   logos,
   galleryImages,
   highlights,
+  metaTitle
 }) => {
   return (
     <Layout>
+      <SEO title={metaTitle} description={description} />
       <Nav />
       <section className="hero is-fullheight wave-container">
         <div className="hero-body">
@@ -71,7 +74,11 @@ export const FeaturePageTemplate = ({
           </div>
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="rising-wave"
+          viewBox="0 0 1440 320"
+        >
           <path
             fill="#72c4b9"
             gradientTransform="rotate(180)"
@@ -89,8 +96,15 @@ export const FeaturePageTemplate = ({
       </section>
 
       {highlights && highlights.length ? (
-        <section className="wave-container" style={{ backgroundColor: `#f4f6fc` }}>
-          <svg xmlns="http://www.w3.org/2000/svg" className="falling-wave" viewBox="0 0 1440 320">
+        <section
+          className="wave-container"
+          style={{ backgroundColor: `#f4f6fc` }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="falling-wave"
+            viewBox="0 0 1440 320"
+          >
             <path
               fill="#72c4b9"
               fillOpacity="0.3"
@@ -186,6 +200,8 @@ const FeaturePage = ({ data }) => {
       logos={feature.frontmatter.logos}
       galleryImages={feature.frontmatter.galleryImages}
       highlights={feature.frontmatter.highlights}
+      metaTitle={feature.frontmatter.metaTitle}
+
     />
   );
 };
@@ -205,6 +221,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        metaTitle
         h1
         description
         featureSubtitle
