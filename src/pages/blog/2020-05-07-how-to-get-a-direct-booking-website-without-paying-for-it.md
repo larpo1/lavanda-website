@@ -6,7 +6,7 @@ featuredimage: /img/website-blog-header.jpeg
 postContent: >-
   <p>&nbsp;</p>
 
-  <p><span style="font-weight: 400;">A recent CNBC article highlights how more and more vacation rental companies are building direct-booking websites in defiance of new guidelines being introduced by OTAs such as Airbnb, Vrbo, HomeAway and Booking.com.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">A <a href="https://www.cnbc.com/2020/05/06/airbnb-hosts-are-building-their-own-direct-booking-websites-in-revolt.html" target="_blank" rel="noopener">recent CNBC article</a> highlights how more and more vacation rental companies are building direct-booking websites in defiance of new guidelines being introduced by OTAs such as Airbnb, Vrbo, HomeAway and Booking.com.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">With so many flocking to stake out on their own, in a post-pandemic world, how do you ensure you can stay competitive - especially if you have limited financial resources? You get someone else to do it for you, for free! While that might seem far-fetched, you actually can get your business a direct-booking website and it may not cost you anything more than time. But before you rush to add a direct-booking capability to your short-term rental business, be sure to take these 5 steps into account on your journey.</span></p>
 
@@ -50,7 +50,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and listings is all you need to get going in this brave new world.</span></p>
 
-  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the perfect direct-booking website solution today</span><span style="font-weight: 400;">.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the <a href="../features/direct-booking-websites/">perfect direct-booking website solution</a> today</span><span style="font-weight: 400;">.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">---------------</span></p>
 
