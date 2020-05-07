@@ -42,7 +42,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and listings is all you need to get going in this brave new world.</span></p>
 
-  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the <a href="../features/direct-booking-websites/">perfect direct-booking website solution</a> today</span><span style="font-weight: 400;">.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the <a href="/features/direct-booking-websites/">perfect direct-booking website solution</a> today</span><span style="font-weight: 400;">.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">---------------</span></p>
 
@@ -52,7 +52,7 @@ postContent: >-
 
   <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
 
-  <p>Get one step ahead,&nbsp;<a href="../book-a-demo/">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
+  <p>Get one step ahead,&nbsp;<a href="/book-a-demo/">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
 tags:
   - Direct Booking Website
 featuredpost: true
