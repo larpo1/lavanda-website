@@ -22,7 +22,7 @@ postContent: >-
 
   <h3><strong>Step 3</strong><span style="font-weight: 400;">: Ensure your site is ready for users on the move. </span></h3>
 
-  <p><span style="font-weight: 400;">A recent global study by Statista on web traffic shows that, since 2017, 52% of website traffic is from a mobile device. Perhaps even more relevant: our data suggests over 60% of last minute bookings are made on mobile devices. When evaluating your direct-booking website, you need to ensure that your site meets criteria such as:</span></p>
+  <p><span style="font-weight: 400;">A recent <a href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/" target="_blank" rel="noopener">global study by Statista</a>, on web traffic, shows that since 2017, 52% of website traffic is from a mobile device. Perhaps even more relevant: our data suggests over 60% of last minute bookings are made on mobile devices. When evaluating your direct-booking website, you need to ensure that your site meets criteria such as:</span></p>
 
   <p><span style="font-weight: 400;"><strong>Mobile layout: </strong>Your site should not just look like a mini version of its desktop equivalent. Evaluate if the layout will change, text will become larger and navigation will become suited to touchscreens - out of the way and hidden in a hamburger menu (the three little lines seen here).</span></p>
 
@@ -34,7 +34,7 @@ postContent: >-
 
   <p>&nbsp;</p>
 
-  <h3><strong>Step 4</strong><span style="font-weight: 400;">: If content is king, SEO is the crown. </span></h3>
+  <h3><strong>Step 4</strong><span style="font-weight: 400;">: Remember: If content is king, SEO is the crown. </span></h3>
 
   <p><span style="font-weight: 400;">Keywords are important to ensuring your users can find what they&rsquo;re looking for in a search. However, so is security, site speed, links, mobile responsiveness and several other factors. Mastering every single one of those would be extremely difficult on your own, especially if you have limited knowledge around those areas. However, ensure your direct-booking website is SEO-compliant - meaning it is built with those areas already in mind. For instance, a site with an https in front of it will automatically outrank a site with an http, sounds like basic security but it&rsquo;s already a step in the right direction. A site that loads quickly and is designed to adapt to different screen sizes makes the search engine&rsquo;s job easier, therefore rewarding your site by serving it to more people.</span></p>
 
@@ -44,13 +44,13 @@ postContent: >-
 
   <h3><strong>Step 5</strong><span style="font-weight: 400;">: Don&rsquo;t get too bogged down in making it your own. </span></h3>
 
-  <p><span style="font-weight: 400;">If you have a brand that you&rsquo;ve been building up over years and a solid customer base, then you should absolutely consider having a site that reflects the elements that your customers have grown to know and love. However, if you are starting out or have not been regularly advertising, avoid the pitfalls of slowing yourself down and focusing on things such as custom fonts, fancy animations and a dog in sunnies in the corner of every image (though that does sound kinda cool).</span></p>
+  <p><span style="font-weight: 400;">If you have a brand that you&rsquo;ve been building up over years and a solid customer base, then you should absolutely consider having a site that reflects the elements that your customers have grown to know and love. However, if you are starting out or have not been regularly advertising, avoid the pitfalls of slowing yourself down and focusing on things such as custom fonts, fancy animations and a dog in sunnies in the corner of every image (though that does sound kinda cool). You can add all of those things as you grow.</span></p>
 
   <p>&nbsp;</p>
 
-  <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and providing you with a place to manage your own content is all you need to get going in this brave new world.</span></p>
+  <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and listings is all you need to get going in this brave new world.</span></p>
 
-  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, well this </span><a href="https://www.cnbc.com/2020/05/06/airbnb-hosts-are-building-their-own-direct-booking-websites-in-revolt.html"><span style="font-weight: 400;">CNBC article</span></a><span style="font-weight: 400;"> makes mention of one company I know that could help. Here&rsquo;s an example I found online: *insert Lavanda DBW*</span></p>
+  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, well this </span><a href="https://www.cnbc.com/2020/05/06/airbnb-hosts-are-building-their-own-direct-booking-websites-in-revolt.html" target="_blank" rel="noopener"><span style="font-weight: 400;">CNBC article</span></a><span style="font-weight: 400;"> makes mention of one Property Management Solution that can help today.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">---------------</span></p>
 
