@@ -24,7 +24,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">A recent <a href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/" target="_blank" rel="noopener">global study by Statista</a>, on web traffic, shows that since 2017, 52% of website traffic is from a mobile device. Perhaps even more relevant: our data suggests over 60% of last minute bookings are made on mobile devices. When evaluating your direct-booking website, you need to ensure that your site meets criteria such as:</span></p>
 
-  <p><span style="font-weight: 400;"><strong>Mobile layout: </strong>Your site should not just look like a mini version of its desktop equivalent. Evaluate if the layout will change, text will become larger and navigation will become suited to touchscreens - out of the way and hidden in a hamburger menu (the three little lines seen here).</span></p>
+  <p><span style="font-weight: 400;"><strong>Mobile layout: </strong>Your site should not just look like a mini version of its desktop equivalent. Evaluate if the layout will change, text will become larger and navigation will become suited to touchscreens - out of the way and hidden in a hamburger menu (the three little horizontal lines seen at the top of most mobile esperiences).</span></p>
 
   <p><span style="font-weight: 400;"><strong>Speed:</strong> Ensure images will load quickly and adapt their sizes to a smaller screen. Speed is critical to ranking but, more importantly, to your user. Website visitors, on average, grant less than 15 seconds of their time, for your site to hold their attention. In a competitive market, you can&rsquo;t afford to waste 4 seconds of it, loading images. The goal here is less than 1 second of load time.</span></p>
 
