@@ -1,6 +1,6 @@
 ---
 templateKey: solution-page
-title: Make the most of your voids
+title: Filling voids in PBSA
 solutionHeading: Introduce a short-term rental strategy to drive higher net
   operating income (NOI) in your PBSA portfolio.
 solutionSubtitle: >-
