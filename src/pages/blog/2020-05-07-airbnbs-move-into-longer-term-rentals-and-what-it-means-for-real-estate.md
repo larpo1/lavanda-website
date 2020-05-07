@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Airbnb's move into longer-term rentals, and what it means for real estate.
 date: "2020-05-05T13:54:00.000Z"
-featuredimage: /img/640x360.png
+featuredimage: /img/airbnb-desk.jpeg
 postContent: >-
   <p>&nbsp;</p>
 
@@ -17,6 +17,8 @@ postContent: >-
   <p>To date the only legitimate solution has been to rent out your unit on a mid/long-term basis (anecdotally this is why Lavanda has offered longer-term rental solutions from day one). But the professional host (or their property manager) has had to go through the clunky process of taking the property off Airbnb, listing it on a separate long-term channel (i.e. Rightmove or Zoopla in UK), and consequently Airbnb losing out on that share of wallet.</p>
 
   <p>This recent launch lays the groundwork to remove that point of friction entirely, whilst at the same time providing consumers with a simpler and easier way to discover and rent properties more flexibly online. Professional hosts are finally able to legitimately rent properties 365 days a year on Airbnb, intelligently optimising yield through a combination of short and longer-stays. This new feature gives a core group of super users exactly what they want/need in order to survive and thrive in an otherwise highly challenging regulatory context. It creates a far stickier product experience that will nurture them into dyed-in-the-wool Airbnb advocates, creating an important competitive moat around the platform.</p>
+
+  <h3>&nbsp;</h3>
 
   <h3>A solution for real estate</h3>
 
@@ -42,15 +44,20 @@ postContent: >-
 
   <p>This is a big and bold play by Airbnb, and should be recognised as such. It&rsquo;s key to winning in the hotly contested urban markets over the longer-term, and it'll be fascinating to see how its competitors and naysayers now respond. I&rsquo;ll certainly be watching this space closely...</p>
 
+  <p>&nbsp;</p>
+
   <p>Guy Westlake, Founder of Lavanda</p>
 
-  <p>---------------------------------------------------------------------------------------------------------------</p>
+  <p>&nbsp;</p>
+
+  <p>--------------</p>
 
   <p>About Lavanda<br />Lavanda is an award-winning SaaS platform used by the world's leading student and multifamily operators to increase NOI through short and medium term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</p>
 tags:
   - Airbnb
   - long-term rentals
 featuredpost: false
-metaTitle: Hold
-description: Hold
+metaTitle: Lavanda | Airbnb's move into longer-term rentals | Blog
+description: Lavanda's Guy Westlake looks at what Airbnb's move into longer-term
+  rentals means for real estate.
 ---
