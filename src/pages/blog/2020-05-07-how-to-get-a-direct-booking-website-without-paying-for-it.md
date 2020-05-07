@@ -10,8 +10,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">With so many flocking to stake out on their own, in a post-pandemic world, how do you ensure you can stay competitive - especially if you have limited financial resources? You get someone else to do it for you, for free! While that might seem far-fetched, you actually can get your business a direct-booking website and it may not cost you anything more than time. But before you rush to add a direct-booking capability to your short-term rental business, be sure to take these 5 steps into account on your journey.</span></p>
 
-  <p>&nbsp;</p>
-
   <h3><strong>Step 1</strong><span style="font-weight: 400;">: Embrace technology. </span></h3>
 
   <p><span style="font-weight: 400;">Not embrace it, as in use Google (though we&rsquo;ll talk about that later), use technology to drive your short-term rental business. A solid Property Management System (PMS) provider will offer you a direct-booking website. Some even offer to provide you with one free-of-charge with your subscription...</span></p>
@@ -32,21 +30,15 @@ postContent: >-
 
   <p><span style="font-weight: 400;">If your mobile site cannot meet at least these three criteria, it is not truly mobile-responsive, and you may want to re-evaluate before going out to compete against better-equipped sites.</span></p>
 
-  <p>&nbsp;</p>
-
   <h3><strong>Step 4</strong><span style="font-weight: 400;">: Remember: If content is king, SEO is the crown. </span></h3>
 
   <p><span style="font-weight: 400;">Keywords are important to ensuring your users can find what they&rsquo;re looking for in a search. However, so is security, site speed, links, mobile responsiveness and several other factors. Mastering every single one of those would be extremely difficult on your own, especially if you have limited knowledge around those areas. However, ensure your direct-booking website is SEO-compliant - meaning it is built with those areas already in mind. For instance, a site with an https in front of it will automatically outrank a site with an http, sounds like basic security but it&rsquo;s already a step in the right direction. A site that loads quickly and is designed to adapt to different screen sizes makes the search engine&rsquo;s job easier, therefore rewarding your site by serving it to more people.</span></p>
 
   <p><span style="font-weight: 400;">When it comes to keywords, just be yourself. Write like a human being and try not to get too clever. Search engines adapt to the way we speak, so you don&rsquo;t need to stuff keywords in at every turn, it can take your users out of their booking mindset. How many people do you think are expecting to get excited about a &ldquo;house with optimal lighting for indoor leisure activities&rdquo; on a listing? But a &ldquo;Games room, where the family can spend time together on rainy days and make memories,&rdquo; that sounds more enticing.</span></p>
 
-  <p>&nbsp;</p>
-
   <h3><strong>Step 5</strong><span style="font-weight: 400;">: Don&rsquo;t get too bogged down in making it your own. </span></h3>
 
   <p><span style="font-weight: 400;">If you have a brand that you&rsquo;ve been building up over years and a solid customer base, then you should absolutely consider having a site that reflects the elements that your customers have grown to know and love. However, if you are starting out or have not been regularly advertising, avoid the pitfalls of slowing yourself down and focusing on things such as custom fonts, fancy animations and a dog in sunnies in the corner of every image (though that does sound kinda cool). You can add all of those things as you grow.</span></p>
-
-  <p>&nbsp;</p>
 
   <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and listings is all you need to get going in this brave new world.</span></p>
 
@@ -60,7 +52,7 @@ postContent: >-
 
   <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
 
-  <p>Get one step ahead,&nbsp;<a href="../book-a-demo/" target="_blank" rel="noopener">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
+  <p>Get one step ahead,&nbsp;<a href="../book-a-demo/">book a discovery call</a> to see how we can help turbocharge your property management company.</p>
 tags:
   - Direct Booking Website
 featuredpost: true
