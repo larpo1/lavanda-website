@@ -50,7 +50,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">A direct-booking website that is ready-to-go and takes into account the above elements, while allowing you to add your logo, address, images and listings is all you need to get going in this brave new world.</span></p>
 
-  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the perfect direct-booking website solution today</span><span style="font-weight: 400;">.&nbsp;</span></p>
+  <p><span style="font-weight: 400;">If you need help getting started or are struggling to find a partner to help you, Lavanda can offer you the <a href="../features/direct-booking-websites/">perfect direct-booking website solution</a> today</span><span style="font-weight: 400;">.&nbsp;</span></p>
 
   <p><span style="font-weight: 400;">---------------</span></p>
 
