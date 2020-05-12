@@ -44,7 +44,7 @@ postContent: >-
 
   <p><strong>Be responsible</strong></p>
 
-  <span style="font-weight: 400;">"Safe &amp; Healthy" will be the mantra of the new traveller. Ensure to provide clear information on when and how your property is cleaned, ready to share at a moment&rsquo;s notice. If you have yet to embrace technology to keep this information in real-time, now is the perfect opportunity. Travellers (and possibly governments) will likely expect to see your operation is handled through time-stamped logs and strong audit trails.</span><span style="font-weight: 400;"><br /><br /></span></li>
+  <span style="font-weight: 400;">"Safe &amp; Healthy" will be the mantra of the new traveller. Ensure to provide clear information on when and how your property is cleaned, ready to share at a moment&rsquo;s notice. For guidance around cleaning procedures, see <a href="https://news.airbnb.com/en-us/airbnbs-enhanced-cleaning-initiative-for-the-future-of-travel/" target="_blank" rel="noopener">Airbnb's Enhanced Cleaning Protocol</a> or <a href="https://www.vrma.org/safehome" target="_blank" rel="noopener">VRMA's SafeHome Cleaning Guidelines</a>. If you have yet to embrace technology to keep this information in real-time, now is the perfect opportunity. Travellers (and possibly governments) will likely expect to see your operation is handled through time-stamped logs and strong audit trails.</span><span style="font-weight: 400;"><br /><br /></span></li>
 
   <li style="font-weight: 400;">
 
