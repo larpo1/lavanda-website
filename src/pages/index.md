@@ -45,7 +45,7 @@ highlights:
     textContent: "Discover hidden value across your residential portfolio. Gain an
       in-depth understanding of where you can increase revenue, reduce costs or
       both. "
-    linkTarget: ""
+    linkTarget: /features/analytics/
     imageAlign: img-left
     image: /img/feature-impact-assessment.png
 metaTitle: "Lavanda: Short-term & Vacation Property Management Software"
