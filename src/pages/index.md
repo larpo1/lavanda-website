@@ -38,14 +38,14 @@ highlights:
   - textContent: Earn positive reviews, recommendations and loyal customers by
       providing an authentic and welcoming experience for your guests.
     titleContent: Delight every guest
-    linkTarget: /features/guest-experience
+    linkTarget: /features/direct-booking-websites/
     imageAlign: img-right
     image: /img/guest-comms.png
   - titleContent: Optimise residential assets
     textContent: "Discover hidden value across your residential portfolio. Gain an
       in-depth understanding of where you can increase revenue, reduce costs or
       both. "
-    linkTarget: ""
+    linkTarget: /features/analytics/
     imageAlign: img-left
     image: /img/feature-impact-assessment.png
 metaTitle: "Lavanda: Short-term & Vacation Property Management Software"
