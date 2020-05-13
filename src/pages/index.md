@@ -38,7 +38,7 @@ highlights:
   - textContent: Earn positive reviews, recommendations and loyal customers by
       providing an authentic and welcoming experience for your guests.
     titleContent: Delight every guest
-    linkTarget: /features/guest-experience
+    linkTarget: /features/direct-booking-websites/
     imageAlign: img-right
     image: /img/guest-comms.png
   - titleContent: Optimise residential assets
