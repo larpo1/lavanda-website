@@ -7,8 +7,6 @@ postContent: >-
   <p>The Lavanda team exhibited at this years Short Stay Show at ExCeL London -
   an event that celebrates short-term rental businesses.</p>
 
-  <p>&lt;image&gt;</p>
-
   <p><span style="font-weight: 400;">Fred Lerche-Lerchenburg (CEO, Lavanda), Matthew Ede (Sales and Marketing Director, Greystar), Marcus Angell (Managing Director, SilverDoor Apartments).&nbsp;</span></p>
 
   <p><strong>What is The Short Stay Show?</strong></p>
@@ -18,8 +16,6 @@ postContent: >-
   <p><strong>What Happens on the Day?</strong></p>
 
   <p><span style="font-weight: 400;">Lavanda were amongst the 100+ exhibitors there on the day. Within the venue, there were 5 stages, hosting over 100 speakers - ranging from founders of short-term rental businesses, to experienced marketeers. With 2,000 registered visitors, it was a valuable day, full of networking and knowledge sharing.</span></p>
-
-  <p><span style="font-weight: 400;">&lt;image&gt;</span></p>
 
   <p><strong>Lavanda&rsquo;s Presence at The Short Stay Show</strong></p>
 
@@ -51,8 +47,9 @@ tags:
   - pms
   - property management
   - proptech
+featuredpost: true
+metaTitle: Lavanda at The Short Stay Show
 description: The Short-Stay Show is an annual event held in London. It is
   designed for entrepreneurs, technologists, property specialists, innovators
   and companies looking for inspiration and opportunity.
-featuredpost: false
 ---
