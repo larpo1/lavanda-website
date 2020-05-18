@@ -102,7 +102,7 @@ class Nav extends React.Component {
 
               {/*  Solutions section */}
 
-              {/* <div className={"navbar-item has-dropdown is-hoverable"}>
+              <div className={"navbar-item has-dropdown is-hoverable"}>
                 <Link
                   to="/"
                   className={
@@ -125,7 +125,7 @@ class Nav extends React.Component {
                       </Link>
                     ))}
                 </div>
-              </div> */}
+              </div>
 
               {/* Company Section */}
 
@@ -140,9 +140,6 @@ class Nav extends React.Component {
                 </Link>
 
                 <div className={"navbar-dropdown"}>
-                  <Link to="/blog" className={"navbar-item"}>
-                    Blog
-                  </Link>
                   <Link to="/about" className={"navbar-item"}>
                     About Lavanda
                   </Link>
@@ -158,7 +155,29 @@ class Nav extends React.Component {
                   </Link>
                 </div>
               </div>
-              
+              {/* Company Section */}
+
+              <div className={"navbar-item has-dropdown is-hoverable"}>
+                <Link
+                  to="/blog"
+                  className={
+                    "navbar-link is-uppercase is-family-secondary has-text-weight-medium"
+                  }
+                >
+                  Resources
+                </Link>
+
+                <div className={"navbar-dropdown"}>
+                  <Link to="/blog" className={"navbar-item"}>
+                    Blog
+                  </Link>
+                  <a href="https://help.lavanda.app" target="_blank" className={"navbar-item"}>
+                    Help Center
+                  </a>
+                </div>
+              </div>
+            
+
               <div className={"navbar-item"}>
                 <Link
                   to="lp/covid-19-survival-for-property-managers"
