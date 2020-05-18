@@ -40,15 +40,7 @@ postContent: >-
 
   <p><span style="font-weight: 400;">If your portfolio has properties that could be montised immediately by deploying short-term lets, we are the go-to partner for many asset owners given our starling reputation and industry knowledge.</span></p>
 
-  <p><span style="font-weight: 400;">Thank you to all that attended the event, if you wish to find out more about how we can maximise yields on your assets - book a discovery call </span><a href="../book-a-demo"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.&nbsp;</span></p>
-
-  <p><strong>About Lavanda</strong></p>
-
-  <p>Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation.</p>
-
-  <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
-
-  <p>Get one step ahead,&nbsp;<a href="../book-a-demo" target="_blank" rel="noopener">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
+  <p><span style="font-weight: 400;">Thank you to all that attended the event, if you wish to find out more about how we can maximise yields on your assets - book a discovery call.</span></p>
 tags:
   - property management system
   - property managers
