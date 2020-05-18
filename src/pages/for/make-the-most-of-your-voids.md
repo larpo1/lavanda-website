@@ -45,4 +45,9 @@ highlights:
 metaTitle: Lavanda | PBSA
 description: Lavanda offers PBSA operators a way to fill voids with short-term
   letting solutions.
+tags:
+  - PBSA
+  - Void Filling
+  - Student Accommodation
+  - ""
 ---
