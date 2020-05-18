@@ -33,12 +33,13 @@ highlights:
       whatever else you need is a snap. Every cost can be fully attributed and
       auditable right back to its initial ticket, so you always know exactly how
       much and who to charge. "
-tags:
-  - Tickets
-  - Operations
+metaTitle: Tickets, tasks & charges
 description: Lavanda PMS has an integrated ticket system to enhance
   collaboration. Automate cleaning and maintenance within your property
   management business to bring efficiency to your operations. Every ticket has a
   conversation thread, media attachments, assigned team and individual and all
   updates are automatically notified to everyone involved.
+tags:
+  - Tickets
+  - Operations
 ---
