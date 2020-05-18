@@ -143,6 +143,9 @@ class Nav extends React.Component {
                   <Link to="/blog" className={"navbar-item"}>
                     Blog
                   </Link>
+                  <Link to="/about" className={"navbar-item"}>
+                    About Lavanda
+                  </Link>
                   <Link to="/careers" className={"navbar-item"}>
                     Work at Lavanda
                   </Link>
