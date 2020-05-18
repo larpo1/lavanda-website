@@ -78,6 +78,18 @@ postContent: >-
   <p><span style="font-weight: 400;">If increased summer demand is on the cards, an automated technology solution could be the difference between an asset sitting empty for weeks (possibly months) or generating revenue during a tough recovery period, which could last quite some time. Regardless of where you are on your journey to make the most out of the upcoming summer, Lavanda is happy to share our knowledge to help you find the solution that works best for your assets. </span><span style="font-weight: 400;"><br /></span></p>
 
   <p><span style="font-weight: 400;">Have a suggestion for an area you would like us to explore further in this blog series or have further questions? We are always happy to talk, contact us on </span><a href="mailto:info@getlavanda.com"><span style="font-weight: 400;">info@getlavanda.com</span></a><span style="font-weight: 400;">.&nbsp; Be sure to join us for our next blog focused on filling available units during term time.</span></p>
+
+  <p>&nbsp;</p>
+
+  <p>---------------</p>
+
+  <p>&nbsp;</p>
+
+  <p><strong>About Lavanda</strong></p>
+
+  <p>Lavanda is an award-winning SaaS platform used by the world's leading vacation rental, student and multifamily operators to increase NOI through short and medium term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</p>
+
+  <p>Get one step ahead,&nbsp;<a href="../book-a-demo/">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
 tags:
   - PBSA
   - Student accommodation
