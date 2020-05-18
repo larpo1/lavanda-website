@@ -4,7 +4,6 @@ title: Airbnb's move into longer-term rentals, and what it means for real estate
 date: "2020-05-05T13:54:00.000Z"
 featuredimage: /img/airbnb-desk.jpeg
 postContent: >-
-  <p>&nbsp;</p>
 
   <p>Airbnb recently announced a concerted move into &ldquo;long-term reservations&rdquo; - stays defined as between 28 days and 6 months. With all eyes analysing COVID-19&rsquo;s immediate and longer-term impact upon Airbnb&rsquo;s core business, it&rsquo;s all too easy to overlook the strategic importance of this play and the opportunities that it unlocks; both for Airbnb itself, and for the real estate sector that it so desperately needs to partner with.&nbsp;</p>
 
@@ -18,15 +17,13 @@ postContent: >-
 
   <p>This recent launch lays the groundwork to remove that point of friction entirely, whilst at the same time providing consumers with a simpler and easier way to discover and rent properties more flexibly online. Professional hosts are finally able to legitimately rent properties 365 days a year on Airbnb, intelligently optimising yield through a combination of short and longer-stays. This new feature gives a core group of super users exactly what they want/need in order to survive and thrive in an otherwise highly challenging regulatory context. It creates a far stickier product experience that will nurture them into dyed-in-the-wool Airbnb advocates, creating an important competitive moat around the platform.</p>
 
-  <h3>&nbsp;</h3>
-
   <h3>A solution for real estate</h3>
 
   <p>In real estate terminology, a tenancy of between 1 and ~6+ months is broadly considered a &ldquo;mid-term&rdquo; rental. A steady and reliable source of mid-term rental demand is generally considered something of a holy grail; significantly less operational and more costly than a hospitality-led short stay, yet ~15%+ higher yielding than a traditional 12-month long-term rental due to the increased flexibility that it offers the tenant. It&rsquo;s also considered to better meet the needs of the modern day renter; the remote working &ldquo;digital nomad&rdquo; who values experience, and whose lifestyle more typically revolves around multiple urban centres.</p>
 
   <p>Mid-term renting is fast becoming key to optimising the core economics of institutional real estate; specifically multifamily, co-living, serviced apartment (specifically the &ldquo;extended stay&rdquo; segment) and PBSA (Purpose Built Student Accommodation) assets. Establishing a channel of mid-term rental demand alongside its core short-term rental demand (i.e stays between 1 night and 1 month in duration) - which can, in turn, be effortlessly tapped into in order to plug voids within buildings - lays an all important foundation upon which Airbnb can build to develop deeper, industry-specific solutions that unlock accretive value for landlords. A bold strategy to become the partner of choice for institutional real estate, and for its platform to become structurally embraced within buildings.&nbsp;</p>
 
-  <h3><br />A solution for corporate relocation&nbsp;</h3>
+  <h3>A solution for corporate relocation&nbsp;</h3>
 
   <p>Corporate relocation is a huge market, and moreover one with a value chain that begs to be consolidated, streamlined and digitised. Furthermore - irrespective of whether we&rsquo;re talking about short, mid or long-term guests - corporate executives are considered to be the cr&egrave;me-de-la-cr&egrave;me; well behaved, business-like types who pay their rent on time. Global corporations are the classic mid-term rental use case; they value flexibility, are keen to avoid the high cost of a hotel over a prolonged period, but are frequently unable to commit to a long-term lease due to the nature of the projects that are being resourced.&nbsp;</p>
 
@@ -36,7 +33,7 @@ postContent: >-
 
   <p>Corporate executives aside, mid-term renters are more traditionally perceived (albeit generically) to be &ldquo;trusted young professionals&rdquo; - another audience that's highly sought after by landlords. Developing a channel of hugely attractive tenants will equally help Airbnb shake off the reputation it's garnered amongst the more traditional real estate sector as a source of troublesome guests - albeit this has been shaped by countless unsubstantiated media anecdotes, and further fuelled by the aggressive hotel lobby. Nevertheless this reputation has to date put off many key industry players from more readily embracing Airbnb as a strategic partner.</p>
 
-  <h3><br />Conclusion</h3>
+  <h3><Conclusion</h3>
 
   <p>Although definitely not its original mission as a business, Airbnb has fully understood the opportunity it now has to radically transform residential real estate by creating a holistic solution that allows landlords to tap into short and mid-term rental demand alongside longer-term tenancies. To do full justice to this opportunity, however, first of all requires Airbnb to legitimise its core business and mature as a brand - a project that is evidently well underway.</p>
 
@@ -44,14 +41,9 @@ postContent: >-
 
   <p>This is a big and bold play by Airbnb, and should be recognised as such. It&rsquo;s key to winning in the hotly contested urban markets over the longer-term, and it'll be fascinating to see how its competitors and naysayers now respond. I&rsquo;ll certainly be watching this space closely...</p>
 
-  <p>&nbsp;</p>
-
   <p>Guy Westlake, Founder of Lavanda</p>
 
-  <p>&nbsp;</p>
-
-  <p>--------------</p>
-
+  <hr/>
   <p>About Lavanda<br />Lavanda is an award-winning SaaS platform used by the world's leading student and multifamily operators to increase NOI through short and medium term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</p>
 tags:
   - Airbnb

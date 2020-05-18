@@ -38,13 +38,12 @@ postContent: >-
 
   <p>As experienced property managers ourselves, we know just how tough it is to run a complex human operation, and how sensitive underlying profitability is to external market changes. That is why we are here to help you during this time, even if it&rsquo;s just for a chat. We want to help, so please don&rsquo;t hesitate to <a href="/contact">reach out to us</a>. We're all in this together.</p>
 
-  <p><strong>About Lavanda</strong></p>
+  <h2>About Lavanda</h2>
 
   <p>Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation.</p>
 
   <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
 
-  <p>Get one step ahead, book a discovery call to see how we can help turbocharge your property management company.</p>
 tags:
   - airbnb
   - covid-19

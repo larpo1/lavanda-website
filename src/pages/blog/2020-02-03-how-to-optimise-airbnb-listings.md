@@ -45,15 +45,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Airbnb also ranks you higher if you&rsquo;ve built a record of quick responses to guests enquiries. It&rsquo;s also key to note that prospective guests are seeking as much convenience as possible when finding a rental. By turning on &lsquo;Instant Booking&rsquo;, it allows them to reduce their waiting time.</span></p>
 
-  <p><br /><img src="https://images.unsplash.com/photo-1567899482751-c8647fda8155?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="white bedspread" /></p>
-
-  <p><strong>About Lavanda</strong></p>
-
-  <p>Lavanda is a next generation property management system (PMS) for urban and rural short-term rental operators. Our SaaS platform is designed to unlock scale and profitability, whilst accelerating growth through industry partnerships. We're backed by leading venture capital investors, and have so far invested $10m+ into short-term rental technology and innovation.</p>
-
-  <p>Our award-winning technology is different because it has been honed through our first-hand experience of managing a short-term rental portfolio at scale. Operational efficiency is what we strive for, so we set about creating the missing toolkit. We're here to change your game.</p>
-
-  <p>Get one step ahead, <a href="/book-a-demo" target="_blank" rel="noopener">book a discovery call</a>&nbsp;to see how we can help turbocharge your property management company.</p>
 tags:
   - airbnb
   - short term rentals

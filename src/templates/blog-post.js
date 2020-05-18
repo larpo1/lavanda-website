@@ -16,11 +16,11 @@ export const BlogPostTemplate = ({
   featuredImage,
   helmet,
   date,
-  metaTitle
+  metaTitle,
 }) => {
   return (
     <Layout>
-    <SEO title={metaTitle} description={description} />
+      <SEO title={metaTitle} description={description} />
       <section
         className="hero"
         style={{
@@ -38,14 +38,12 @@ export const BlogPostTemplate = ({
         }}
       >
         <Nav />
-        <div className="hero-body">
-          &nbsp;
-        </div>
+        <div className="hero-body">&nbsp;</div>
       </section>
       <section className="has-background-light">
         <article className="container blog-content">
-        {helmet || ""}
-        {/* {featuredImage && featuredImage.childImageSharp ? (
+          {helmet || ""}
+          {/* {featuredImage && featuredImage.childImageSharp ? (
           <PreviewCompatibleImage
             imageInfo={{
               image: featuredImage,
@@ -59,29 +57,39 @@ export const BlogPostTemplate = ({
             ) : null}
           </div>
         )} */}
-        <div className="container content">
-          <div className="columns">
-            <div className="column is-8 is-offset-2">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
-              <p className="subtitle">{date}</p>
-              <div dangerouslySetInnerHTML={{ __html: content }} />
-              {tags && tags.length ? (
-                <div style={{ marginTop: `4rem` }}>
-                  <h4>Tags</h4>
-                  <ul className="taglist">
-                    {tags.map((tag) => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
+          <div className="container content">
+            <div className="columns">
+              <div className="column is-8 is-offset-2">
+                <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+                </h1>
+                <p className="subtitle">{date}</p>
+                <div dangerouslySetInnerHTML={{ __html: content }} />
+                <div className="blog-cta">
+                  <h2>Book a discovery call</h2>
+                  <p>
+                    Get one step ahead, book a discovery call to see how we can
+                    help turbocharge your business.
+                  </p>
+                  <Link to="/book-a-demo" className={"button is-primary"}>
+                    <strong>Talk to Us</strong>
+                  </Link>
                 </div>
-              ) : null}
+                {tags && tags.length ? (
+                  <div style={{ marginTop: `4rem` }}>
+                    <h4>Tags</h4>
+                    <ul className="taglist">
+                      {tags.map((tag) => (
+                        <li key={tag + `tag`}>
+                          <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
             </div>
           </div>
-        </div>
         </article>
       </section>
     </Layout>
