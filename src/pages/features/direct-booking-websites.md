@@ -15,6 +15,7 @@ highlights:
     titleContent: Get up and running in minutes...
     textContent: "Just set your logo and publish to have a direct booking experience
       up and running in minutes, out-of-the-box. "
+    linkTarget: /book-a-demo
   - imageAlign: img-left
     image: /img/dbw-customize-aplh.jpg
     imageClasses: box-shadow
@@ -87,10 +88,12 @@ highlights:
       Increase conversions with an integrated live chat tool like Intercom,
       Hubspot, where visitors can ask questions, learn more or get peace-of-mind
       before booking.
-tags:
-  - Direct Booking
+metaTitle: Direct booking websites for short term and vacation rentals
+  management companies
 description: Clean, modern and highly SEO optimized direct booking sites for
   Airbnb property managers, fully white-labelled to match your brand. Our guest
   user journey has been carefully designed to offer the best possible booking
   experience.
+tags:
+  - Direct Booking
 ---

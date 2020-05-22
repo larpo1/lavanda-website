@@ -17,6 +17,10 @@ export const BlogPostTemplate = ({
   helmet,
   date,
   metaTitle,
+  blogCtaTitle,
+  blogCtaText,
+  blogCtaButtonText,
+  blogCtaButtonTarget
 }) => {
   return (
     <Layout>
@@ -65,16 +69,15 @@ export const BlogPostTemplate = ({
                 </h1>
                 <p className="subtitle">{date}</p>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
-                <div className="blog-cta">
-                  <h2>Book a discovery call</h2>
+                {blogCtaTitle && blogCtaTitle.length ? (<div className="blog-cta">
+                  <h3>{blogCtaTitle}</h3>
                   <p>
-                    Get one step ahead, book a discovery call to see how we can
-                    help turbocharge your business.
+                    {blogCtaText}
                   </p>
-                  <Link to="/book-a-demo" className={"button is-primary"}>
-                    <strong>Talk to Us</strong>
+                  <Link to={blogCtaButtonTarget} className={"button is-primary"}>
+                    <strong>{blogCtaButtonText}</strong>
                   </Link>
-                </div>
+                </div>) :null}
                 {tags && tags.length ? (
                   <div style={{ marginTop: `4rem` }}>
                     <h4>Tags</h4>
@@ -124,6 +127,10 @@ const BlogPost = ({ data }) => {
       date={post.frontmatter.date}
       content={post.frontmatter.postContent}
       featuredImage={post.frontmatter.featuredimage}
+      blogCtaTitle={post.frontmatter.blogCtaTitle}
+      blogCtaText={post.frontmatter.blogCtaText}
+      blogCtaButtonText={post.frontmatter.blogCtaButtonText}
+      blogCtaButtonTarget={post.frontmatter.blogCtaButtonTarget}
       metaTitle={post.frontmatter.metaTitle}
     />
   );
@@ -147,6 +154,10 @@ export const pageQuery = graphql`
         title
         metaTitle
         description
+        blogCtaTitle
+        blogCtaText
+        blogCtaButtonText
+        blogCtaButtonTarget
         tags
         featuredpost
         featuredimage {

@@ -160,6 +160,10 @@ collections:
         tiny_config:
           apiKey: eggjfwpfqttxreo9qdadx7tewi8o72za3k1q676mrpocd1y0
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "CTA Box Title", name: "blogCtaTitle", widget: "string", required: false, default: "Book a discover call"}
+      - {label: "CTA Box Text", name: "blogCtaText", widget: "text", required: false, default: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."}
+      - {label: "CTA Button Text", name: "blogCtaButtonText", widget: "string", required: false, default: "Talk To Us"}
+      - {label: "CTA Button Target", name: "blogCtaButtonTarget", widget: "string", required: false, default: "/book-a-demo"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false, required: false}
       - {label: "SEO <title> Tag", name: "metaTitle", widget: "text", required: true}
       - {label: "SEO Meta Description", name: "description", widget: "text", required: true}

@@ -14,12 +14,13 @@ highlights:
       Distribution to the key channels such as Airbnb, Booking.com &
       TripAdvisor.
   - imageAlign: img-right
-    image: /img/640x360.png
+    image: /img/dbw-hostpitality-laptop.png
     titleContent: Increasing direct bookings can be easier.
     textContent: We offer a beautiful direct booking website to all clients, it’s
       easy to use and is well optimised for search engines (SEO) so that you are
       ranking where you belong on Google. Advanced customisation is available
       upon request.
+    linkTarget: /features/direct-booking-websites/
   - imageAlign: img-left
     image: /img/640x360.png
     titleContent: Operations. Sorted.

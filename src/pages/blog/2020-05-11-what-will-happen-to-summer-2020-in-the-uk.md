@@ -67,6 +67,10 @@ tags:
   - student
   - residential
   - short-term rental
+blogCtaTitle: "blah"
+blogCtaText: "blah"
+blogCtaButtonText: "blah"
+blogCtaButtonTarget: "blah"
 featuredpost: false
 metaTitle: Lavanda | What will happen to UK Summer 2020? | Blog
 description: Lavanda examines how Summer 2020 in the UK will look and how
