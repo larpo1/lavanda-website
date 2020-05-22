@@ -2,10 +2,9 @@
 templateKey: blog-post
 title: "Beyond the pandemic: how to maximise your PBSA assets"
 date: "2020-05-18T13:24:50.693Z"
-featuredimage: /img/pbsa.jpeg
+featuredimage: /img/pbsa-blog-featured.jpeg
 postContent: >-
-  <h2 style="text-align: center;">Part 1:
-  Summer</h2>
+  <h2 style="text-align: center;">Part 1: Summer</h2>
 
   <p>Student operators are facing a projected dramatic decrease of 230,000 first-year students in the upcoming academic year, half of which are international, according to a <a href="https://www.ucu.org.uk/media/10871/LE_report_on_covid19_and_university_finances/pdf/LEreportoncovid19anduniversityfinances">study by London Economics</a>. However, the current crisis actually creates new opportunities for PBSA asset owners. In this blog series we will take a closer look at the issues and opportunities facing PBSA:</p>
 
@@ -84,7 +83,6 @@ postContent: >-
   <h2>About Lavanda</h2>
 
   <p>Lavanda is an award-winning SaaS platform used by the world's leading vacation rental, student and multifamily operators to increase NOI through short and medium term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</p>
-
 tags:
   - PBSA
   - Student accommodation
