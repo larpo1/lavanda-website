@@ -77,6 +77,9 @@ tags:
   - PBSA
   - Student accommodation
   - Short-term rentals
+blogCtaTitle: Want to know more about PBSA
+blogCtaText: Test
+blogCtaButtonText: Speak to lavanda
 featuredpost: false
 metaTitle: "How to maximise your PBSA assets - term time occupancy | Blog | Lavanda "
 description: Lavanda examines how student accommodation operators can protect
