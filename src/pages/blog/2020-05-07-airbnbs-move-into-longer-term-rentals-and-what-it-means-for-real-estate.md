@@ -48,6 +48,10 @@ postContent: >-
 tags:
   - Airbnb
   - long-term rentals
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 featuredpost: false
 metaTitle: Lavanda | Airbnb's move into longer-term rentals | Blog
 description: Lavanda's Guy Westlake looks at what Airbnb's move into longer-term

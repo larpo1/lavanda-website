@@ -150,6 +150,10 @@ postContent: >-
   </blockquote>
 tags:
   - Professional Host Alliance
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 description: >-
   At Lavanda our mission is to develop, enable and accelerate a trusted,
   professional and sustainable short-term rental sector.

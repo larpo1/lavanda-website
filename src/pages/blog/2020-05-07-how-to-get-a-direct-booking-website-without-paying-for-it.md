@@ -54,6 +54,10 @@ postContent: >-
 
 tags:
   - Direct Booking Website
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 featuredpost: true
 metaTitle: Lavanda | How to get a direct-booking website, without paying for it | Blog
 description: Lavanda showcases how a direct booking website can help to

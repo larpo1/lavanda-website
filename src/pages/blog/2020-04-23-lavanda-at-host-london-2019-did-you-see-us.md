@@ -49,6 +49,10 @@ tags:
   - guardhog
   - airbnb
   - booking.com
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 featuredpost: false
 metaTitle: "Lavanda at HOST London 2019: Did You See Us? "
 description: After working and live testing for years behind the scenes, Host

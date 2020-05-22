@@ -66,6 +66,10 @@ tags:
   - Booking.com
   - Airbnb
   - distribution
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 description: " The short-term rental industry is experiencing a phase of
   astronomical growth. This is further boosted by macro societal trends; the
   unstoppable rise of the sharing economy, the growing need to monetise property

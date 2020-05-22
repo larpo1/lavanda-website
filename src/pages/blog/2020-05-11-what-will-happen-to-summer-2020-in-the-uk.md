@@ -67,10 +67,10 @@ tags:
   - student
   - residential
   - short-term rental
-blogCtaTitle: "blah"
-blogCtaText: "blah"
-blogCtaButtonText: "blah"
-blogCtaButtonTarget: "blah"
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 featuredpost: false
 metaTitle: Lavanda | What will happen to UK Summer 2020? | Blog
 description: Lavanda examines how Summer 2020 in the UK will look and how

@@ -56,6 +56,11 @@ tags:
   - airdna
   - cottages
   - sykes
+
+blogCtaTitle: "Book a discover call"
+blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
+blogCtaButtonText: "Talk To Us"
+blogCtaButtonTarget: "/book-a-demo"
 featuredpost: true
 metaTitle: How to Optimise Airbnb Listings
 description: The short-term rental industry is undoubtedly more competitive than
