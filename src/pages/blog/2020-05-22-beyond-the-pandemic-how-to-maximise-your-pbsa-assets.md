@@ -22,7 +22,7 @@ postContent: >-
 
   </ul>
 
-  <p><span style="font-weight: 400;">Covered in this installment: I examine how to optimise term time occupancy and bolster your assets for a wave of uncertainty come September 2020.</span><span style="font-weight: 400;"><br /></span></p>
+  <p><span style="font-weight: 400;">Covered in this installment: We examine how to optimise term time occupancy and bolster your assets for a wave of uncertainty come September 2020.</span><span style="font-weight: 400;"><br /></span></p>
 
   <h3>Dreams deferred&nbsp;</h3>
 
