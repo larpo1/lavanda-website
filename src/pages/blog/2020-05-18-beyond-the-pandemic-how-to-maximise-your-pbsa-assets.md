@@ -88,7 +88,7 @@ tags:
   - Student accommodation
   - Short-term rentals
 featuredpost: false
-metaTitle: "How to maximise your PBSA assets | Blog | Lavanda "
+metaTitle: "How to maximise your PBSA assets - summer | Blog | Lavanda "
 description: Lavanda examines how student accommodation operators can get the
   most from the Summer 2020, some strategies to explore and next steps to
   prepare.
