@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: "Beyond the pandemic: how to maximise your PBSA assets"
+title: "How to maximise your PBSA assets: part 1 - summer"
 date: "2020-05-18T13:24:50.693Z"
 featuredimage: /img/pbsa-blog-featured.jpeg
 postContent: >-
-  <h2 style="text-align: center;">Part 1: Summer</h2>
+  <h2 style="text-align: center;">&nbsp;</h2>
 
   <p>Student operators are facing a projected dramatic decrease of 230,000 first-year students in the upcoming academic year, half of which are international, according to a <a href="https://www.ucu.org.uk/media/10871/LE_report_on_covid19_and_university_finances/pdf/LEreportoncovid19anduniversityfinances">study by London Economics</a>. However, the current crisis actually creates new opportunities for PBSA asset owners. In this blog series we will take a closer look at the issues and opportunities facing PBSA:</p>
 
@@ -48,7 +48,7 @@ postContent: >-
 
   <ol>
 
-  <li>Having to manage distribution across multiple channels separately, across many websites - each with their own logins and layouts. </li>
+  <li>Having to manage distribution across multiple channels separately, across many websites - each with their own logins and layouts.</li>
 
   <li>Turning around units for short-term, at the end of term time, is complicated and does not fit well with the current setup, cleaning schedules or business structure.</li>
 
@@ -74,11 +74,11 @@ postContent: >-
 
   <p>The ideal partner is one that provides a way to simplify and automate distribution across multiple channels from a single technology platform that can be used by a single in-house team. Additionally, if operational fit is the key issue, the option to outsource the entire short-term rental business to a trusted operator is important - 100% hassle-free.</p>
 
-  <p>If increased summer demand is on the cards, an automated technology solution could be the difference between an asset sitting empty for weeks (possibly months) or generating revenue during a tough recovery period, which could last quite some time. Regardless of where you are on your journey to make the most out of the upcoming summer, Lavanda is happy to share our knowledge to help you find the solution that works best for your assets. </p>
+  <p>If increased summer demand is on the cards, an automated technology solution could be the difference between an asset sitting empty for weeks (possibly months) or generating revenue during a tough recovery period, which could last quite some time. Regardless of where you are on your journey to make the most out of the upcoming summer, Lavanda is happy to share our knowledge to help you find the solution that works best for your assets.</p>
 
   <p>Have a suggestion for an area you would like us to explore further in this blog series or have further questions? We are always happy to talk, contact us on <a href="mailto:info@getlavanda.com">info@getlavanda.com</a>.&nbsp; Be sure to join us for our next blog focused on filling available units during term time.</p>
 
-  <hr/>
+  <hr />
 
   <h2>About Lavanda</h2>
 
@@ -87,10 +87,11 @@ tags:
   - PBSA
   - Student accommodation
   - Short-term rentals
-blogCtaTitle: "Book a discover call"
-blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
-blogCtaButtonText: "Talk To Us"
-blogCtaButtonTarget: "/book-a-demo"
+blogCtaTitle: Book a discover call
+blogCtaText: Get one step ahead, book a discovery call to see how we can help
+  turbocharge your business.
+blogCtaButtonText: Talk To Us
+blogCtaButtonTarget: /book-a-demo
 featuredpost: false
 metaTitle: "How to maximise your PBSA assets - summer | Blog | Lavanda "
 description: Lavanda examines how student accommodation operators can get the
