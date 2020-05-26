@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: " Beyond the pandemic: how to maximise your PBSA assets"
+title: "How to maximise your PBSA assets: part 2 - term time occupancy"
 date: "2020-05-22T11:39:49.583Z"
 featuredimage: /img/pbsa-blog-featured.jpeg
 postContent: >-
-  <h2 style="text-align: center;">Part 2: Term time occupancy</h2>
+  <h2 style="text-align: center;">&nbsp;</h2>
 
   <p><span style="font-weight: 400;">Student accommodation providers are right to be concerned about how social distancing measures and remote learning will shape student needs over the next academic year, and the projected rise in deferrals. As the Bank of England announces an </span><a href="https://www.bbc.co.uk/news/business-52566030"><span style="font-weight: 400;">expected UK GDP shrinkage of 14% for this year</span></a><span style="font-weight: 400;"> and many universities offering more online courses for the next academic year, how can PBSA operators acclimatise to a &ldquo;new normal&rdquo; during term time? In this blog series we will take a closer look at the issues and opportunities facing PBSA:</span></p>
 
