@@ -1,7 +1,5 @@
 ---
 templateKey: blog-post
-blogCtaTitle: ""
-blogCtaButtonText: ""
 title: "How to maximise your PBSA assets: part 3 - leasing up new buildings"
 date: "2020-06-05T06:59:24.492Z"
 featuredimage: /img/pbsa-blog-featured.jpeg
@@ -12,9 +10,9 @@ postContent: >-
 
   <ul>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Part 1 - Maximising the summer period for PBSA assets</span></li>
+  <li style="font-weight: 400;"><a href="../blog/2020-05-18-beyond-the-pandemic-how-to-maximise-your-pbsa-assets/"><span style="font-weight: 400;">Part 1 - Maximising the summer period for PBSA assets</span></a></li>
 
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Part 2 - Filling available PBSA units during term time&nbsp;</span></li>
+  <li style="font-weight: 400;"><a href="../blog/2020-05-22-beyond-the-pandemic-how-to-maximise-your-pbsa-assets/"><span style="font-weight: 400;">Part 2 - Filling available PBSA units during term time&nbsp;</span></a></li>
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Part 3 - Leasing up new PBSA assets</span></li>
 
@@ -104,18 +102,20 @@ postContent: >-
 
   <h2><strong>About Lavanda</strong></h2>
 
-  <p><span style="font-weight: 400;"><a href="https://getlavanda.com/" target="_blank" rel="noopener">Lavanda</a> is an award-winning SaaS platform used by the world's leading vacation rental, student and multifamily operators to increase net operating income through short and medium-term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</span></p>
+  <p><span style="font-weight: 400;"><a href="../" target="_blank" rel="noopener">Lavanda</a> is an award-winning SaaS platform used by the world's leading vacation rental, student and multifamily operators to increase net operating income through short and medium-term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</span></p>
 
   <p>&nbsp;</p>
 tags:
   - PBSA
   - Student accommodation
   - Short-term rentals
+blogCtaTitle: ""
+blogCtaText: ""
+blogCtaButtonText: ""
+featuredpost: false
+metaTitle: "How to maximise your PBSA assets - term time occupancy | Blog | Lavanda "
 description: Lavanda examines how student accommodation operators can protect
   their businesses from student reduction numbers, explore why councils are open
   to changes in use class and how Lavanda is already making that happen for
   other PBSA operators.
-featuredpost: false
-metaTitle: "How to maximise your PBSA assets - term time occupancy | Blog | Lavanda "
-blogCtaText: ""
 ---
