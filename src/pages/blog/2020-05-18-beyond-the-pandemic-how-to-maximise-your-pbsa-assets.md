@@ -1,8 +1,16 @@
 ---
 templateKey: blog-post
+blogCtaTitle: ""
+blogCtaButtonText: ""
 title: "How to maximise your PBSA assets: part 1 - summer"
 date: "2020-05-18T13:24:50.693Z"
 featuredimage: /img/pbsa-blog-featured.jpeg
+description: Lavanda examines how student accommodation operators can get the
+  most from the Summer 2020, some strategies to explore and next steps to
+  prepare.
+featuredpost: false
+blogCtaButtonTarget: ""
+metaTitle: "How to maximise your PBSA assets - summer | Blog | Lavanda "
 postContent: >-
   <h2 style="text-align: center;">&nbsp;</h2>
 
@@ -15,8 +23,6 @@ postContent: >-
   <li>Filling available units during term time&nbsp;</li>
 
   <li>New PBSA assets in construction</li>
-
-  <li>Future of nominations and students in HMOs</li>
 
   <li>Increasing the long-term trading value of PBSA assets</li>
 
@@ -87,13 +93,5 @@ tags:
   - PBSA
   - Student accommodation
   - Short-term rentals
-blogCtaTitle: ""
 blogCtaText: ""
-blogCtaButtonText: ""
-blogCtaButtonTarget: ""
-featuredpost: false
-metaTitle: "How to maximise your PBSA assets - summer | Blog | Lavanda "
-description: Lavanda examines how student accommodation operators can get the
-  most from the Summer 2020, some strategies to explore and next steps to
-  prepare.
 ---
