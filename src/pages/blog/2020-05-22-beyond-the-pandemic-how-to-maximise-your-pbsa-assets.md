@@ -1,5 +1,7 @@
 ---
 templateKey: blog-post
+blogCtaTitle: ""
+blogCtaButtonText: ""
 title: "How to maximise your PBSA assets: part 2 - term time occupancy"
 date: "2020-05-22T11:39:49.583Z"
 featuredimage: /img/pbsa-blog-featured.jpeg
@@ -15,8 +17,6 @@ postContent: >-
   <li style="font-weight: 400;"><span style="font-weight: 400;">Filling available units during term time&nbsp;</span></li>
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">New PBSA assets in construction</span></li>
-
-  <li style="font-weight: 400;"><span style="font-weight: 400;">Future of nominations and students in HMOs</span></li>
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Increasing the long-term trading value of PBSA assets</span></li>
 
@@ -77,13 +77,11 @@ tags:
   - PBSA
   - Student accommodation
   - Short-term rentals
-blogCtaTitle: ""
-blogCtaText: ""
-blogCtaButtonText: ""
-featuredpost: false
-metaTitle: "How to maximise your PBSA assets - term time occupancy | Blog | Lavanda "
 description: Lavanda examines how student accommodation operators can protect
   their businesses from student reduction numbers, explore why councils are open
   to changes in use class and how Lavanda is already making that happen for
   other PBSA operators.
+featuredpost: false
+metaTitle: "How to maximise your PBSA assets - term time occupancy | Blog | Lavanda "
+blogCtaText: ""
 ---
