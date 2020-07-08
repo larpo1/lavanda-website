@@ -20,8 +20,6 @@ postContent: >-
 
   <p><span style="font-weight: 400;">Lavanda&rsquo;s CEO - Fred Lerche-Lerchenborg, spoke on Friday on a panel hosted by GUARDHOG about the importance of trust in the short-term rental space - explaining how Lavanda is working tirelessly to change the perceptions in the real estate industry.&nbsp;</span></p>
 
-  <p><span style="font-weight: 400;">Fred explained how the Lavanda Home Guarantee, a comprehensive and global insurance policy has been implemented for all bookings through the Lavanda platform to ensure that both the property and its contents are protected every time - providing landlords with increased trust and peace of mind that was previously a massive issue industry issue.</span></p>
-
   <p><strong>A Huge Thank You</strong></p>
 
   <p><span style="font-weight: 400;">Thank you to all those that visited our stand at HOST. Lavanda has truly developed a groundbreaking and intuitive Property Management System, which led to fantastic feedback during the event - as we continually work to make property management easier.&nbsp;</span></p>
@@ -49,10 +47,11 @@ tags:
   - guardhog
   - airbnb
   - booking.com
-blogCtaTitle: "Book a discover call"
-blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
-blogCtaButtonText: "Talk To Us"
-blogCtaButtonTarget: "/book-a-demo"
+blogCtaTitle: Book a discover call
+blogCtaText: Get one step ahead, book a discovery call to see how we can help
+  turbocharge your business.
+blogCtaButtonText: Talk To Us
+blogCtaButtonTarget: /book-a-demo
 featuredpost: false
 metaTitle: "Lavanda at HOST London 2019: Did You See Us? "
 description: After working and live testing for years behind the scenes, Host
