@@ -230,14 +230,6 @@ termsContent: >-
 
   <p><span style="font-weight: 400;">9.3 Lavanda offers an optional bespoke trust and safety service to our customers called the Lavanda Home Guarantee (the &ldquo;LHG&rdquo;). This includes features like:</span></p>
 
-  <ol>
-
-  <li style="list-style-type: none;">
-
-  <ol>
-
-  <li style="list-style-type: none;">
-
   <ol style="list-style-type: upper-roman;">
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Enhanced vetting;</span></li>
@@ -251,14 +243,6 @@ termsContent: >-
   <li style="font-weight: 400;"><span style="font-weight: 400;">If these fail, the back-up is then free membership of the Guardhog insurance policy (policy document available upon request).</span></li>
 
   <li style="font-weight: 400;"><span style="font-weight: 400;">Lavanda will arrange this service to cover all Bookings for each night that the Property is occupied by the Guest, and charges will be deducted from the Guest Fees in accordance with Schedule 3 (the &ldquo;Lavanda Home Guarantee&rdquo;). For the avoidance of doubt, Lavanda will not be a party to such contract and Lavanda will not accept any liability arising out of or in connection with such arrangements. </span></li>
-
-  </ol>
-
-  </li>
-
-  </ol>
-
-  </li>
 
   </ol>
 
