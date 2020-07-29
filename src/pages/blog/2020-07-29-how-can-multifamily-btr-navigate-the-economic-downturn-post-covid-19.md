@@ -1,19 +1,14 @@
 ---
 templateKey: blog-post
-title: How can Multifamily/BTR navigate the economic downturn post COVID-19?
+title: How can UK Build-to-rent navigate the economic downturn post COVID-19?
 date: "2020-07-29T16:06:16.358Z"
 featuredimage: /img/1569848463111-80147b38-e3bb-453e-9de9-1b485cb6d547.jpeg
 postContent: >-
-  <p><span style="font-weight: 400;">Fred Lerche-Lerchenborg, CEO of </span><a
-  href="../"><span style="font-weight: 400;">Lavanda</span></a><span
-  style="font-weight: 400;">, recently led a webinar session in partnership with
-  the </span><a href="https://www.ukaa.org.uk/"><span style="font-weight:
-  400;">UKAA</span></a><span style="font-weight: 400;"> looking at how
-  multifamily and build-to-rent (BTR) operators can optimize their assets in the
-  context of the current highly unpredictable and turbulent
-  market.&nbsp;</span></p>
+  <p>&nbsp;</p>
 
-  <p><strong>The presentation followed the following agenda:</strong></p>
+  <p><span style="font-weight: 400;">Fred Lerche-Lerchenborg, CEO of </span><a href="../"><span style="font-weight: 400;">Lavanda</span></a><span style="font-weight: 400;">, recently led a webinar session in partnership with the </span><a href="https://www.ukaa.org.uk/"><span style="font-weight: 400;">UKAA</span></a><span style="font-weight: 400;"> looking at how multifamily and build-to-rent (BTR) operators can optimize their assets in the context of the current highly unpredictable and turbulent market.&nbsp;</span></p>
+
+  <h3><strong>The presentation follows the following agenda:</strong></h3>
 
   <ol>
 
@@ -45,7 +40,7 @@ postContent: >-
 
   </ol>
 
-  <p><strong>Flick through the slides on Slideshare, or watch the full recorded session on Youtube. </strong></p>
+  <h3><strong>Flick through the slides on Slideshare, or watch the full recorded session on Youtube. </strong></h3>
 
   <p><iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/key/3IAspHRdMwCY4m" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe></p>
 
