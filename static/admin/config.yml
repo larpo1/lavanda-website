@@ -219,7 +219,6 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Meta Description, name: description, widget: string}
           - {label: Hero H1, name: title, widget: string}
           # - {label: Hero Content, name: subtitle, widget: code}
           - label: Subtitle Content

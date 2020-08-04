@@ -1,11 +1,16 @@
 ---
 templateKey: blog-post
 title: Airbnb's move into longer-term rentals, and what it means for real estate.
-date: "2020-05-05T13:54:00.000Z"
+date: 2020-05-05T13:54:00.000Z
 featuredimage: /img/airbnb-desk.jpeg
 postContent: >-
-
-  <p>Airbnb recently announced a concerted move into &ldquo;long-term reservations&rdquo; - stays defined as between 28 days and 6 months. With all eyes analysing COVID-19&rsquo;s immediate and longer-term impact upon Airbnb&rsquo;s core business, it&rsquo;s all too easy to overlook the strategic importance of this play and the opportunities that it unlocks; both for Airbnb itself, and for the real estate sector that it so desperately needs to partner with.&nbsp;</p>
+  <p>Airbnb recently announced a concerted move into &ldquo;long-term
+  reservations&rdquo; - stays defined as between 28 days and 6 months. With all
+  eyes analysing COVID-19&rsquo;s immediate and longer-term impact upon
+  Airbnb&rsquo;s core business, it&rsquo;s all too easy to overlook the
+  strategic importance of this play and the opportunities that it unlocks; both
+  for Airbnb itself, and for the real estate sector that it so desperately needs
+  to partner with.&nbsp;</p>
 
   <p>In this article I want to briefly highlight how I believe this move epitomises one of Airbnb&rsquo;s key competitive advantages; its voracious appetite to understand and solve pain points experienced by its primary stakeholder groups, further weaponised by a willingness to conduct bold experiments. Traditional real estate players have much to get excited about, whilst OTA competitors (Booking, Expedia, VRBO, Ctrip, etc.) should sit up and take note.</p>
 
@@ -33,25 +38,27 @@ postContent: >-
 
   <p>Corporate executives aside, mid-term renters are more traditionally perceived (albeit generically) to be &ldquo;trusted young professionals&rdquo; - another audience that's highly sought after by landlords. Developing a channel of hugely attractive tenants will equally help Airbnb shake off the reputation it's garnered amongst the more traditional real estate sector as a source of troublesome guests - albeit this has been shaped by countless unsubstantiated media anecdotes, and further fuelled by the aggressive hotel lobby. Nevertheless this reputation has to date put off many key industry players from more readily embracing Airbnb as a strategic partner.</p>
 
-  <h3><Conclusion</h3>
+  <h3>Conclusion</h3>
 
   <p>Although definitely not its original mission as a business, Airbnb has fully understood the opportunity it now has to radically transform residential real estate by creating a holistic solution that allows landlords to tap into short and mid-term rental demand alongside longer-term tenancies. To do full justice to this opportunity, however, first of all requires Airbnb to legitimise its core business and mature as a brand - a project that is evidently well underway.</p>
 
   <p>This most recent development is a hugely significant and timely move towards building a deeper, more strategic relationship with institutional real estate portfolios - specifically owners of PBSA, multifamily, co-living and serviced apartment assets. Exploring a more diversified rental strategy, particularly with a view to occupying voids resulting from the COVID-19 lockdown, is currently a priority agenda item for most residential portfolios. As an Asset Manager, thanks to Airbnb, the toolkit available to you has just had a major upgrade. To ignore it and continue to bury your head in the sand is, in effect, to leave critical value on the table.</p>
 
-  <p>This is a big and bold play by Airbnb, and should be recognised as such. It&rsquo;s key to winning in the hotly contested urban markets over the longer-term, and it'll be fascinating to see how its competitors and naysayers now respond. I&rsquo;ll certainly be watching this space closely...</p>
+  <p>This is a big and bold play by Airbnb, and should be recognised as such. It&rsquo;s key to winning in the hotly contested urban markets over the longer-term, and it'll be fascinating to see how its competitors and naysayers now respond. I&rsquo;ll certainly be watching this space closely.</p>
 
   <p>Guy Westlake, Founder of Lavanda</p>
 
-  <hr/>
+  <hr />
+
   <p>About Lavanda<br />Lavanda is an award-winning SaaS platform used by the world's leading student and multifamily operators to increase NOI through short and medium term rentals. Clients include Greystar, CA Ventures, JLL, Savills and LaSalle amongst others.</p>
 tags:
   - Airbnb
   - long-term rentals
-blogCtaTitle: "Book a discover call"
-blogCtaText: "Get one step ahead, book a discovery call to see how we can help turbocharge your business."
-blogCtaButtonText: "Talk To Us"
-blogCtaButtonTarget: "/book-a-demo"
+blogCtaTitle: Book a discover call
+blogCtaText: Get one step ahead, book a discovery call to see how we can help
+  turbocharge your business.
+blogCtaButtonText: Talk To Us
+blogCtaButtonTarget: /book-a-demo
 featuredpost: false
 metaTitle: Lavanda | Airbnb's move into longer-term rentals | Blog
 description: Lavanda's Guy Westlake looks at what Airbnb's move into longer-term
