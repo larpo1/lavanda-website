@@ -1,5 +1,5 @@
 ---
-title: This is a new title
+title: Omnichannel Real Estate
 templateKey: home-page
 description: >-
   Multi-award-winning, vacation rental software - property management for

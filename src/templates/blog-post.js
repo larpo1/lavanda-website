@@ -7,6 +7,10 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import { remarkForm } from "gatsby-tinacms-remark"
+import { Wysiwyg } from "@tinacms/fields"
+import { TinaField } from "tinacms"
+import { Button as TinaButton } from "@tinacms/styles"
 
 export const BlogPostTemplate = ({
   content,
@@ -20,7 +24,9 @@ export const BlogPostTemplate = ({
   blogCtaTitle,
   blogCtaText,
   blogCtaButtonText,
-  blogCtaButtonTarget
+  blogCtaButtonTarget,
+  isEditing,
+  setIsEditing
 }) => {
   return (
     <Layout>
@@ -68,7 +74,16 @@ export const BlogPostTemplate = ({
                   {title}
                 </h1>
                 <p className="subtitle">{date}</p>
+                <TinaField name="rawMarkdownBody" Component={Wysiwyg}>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
+                </TinaField>
+
+                {process.env.NODE_ENV !== "production" && (
+                  <TinaButton primary onClick={() => setIsEditing((p) => !p)}>
+                    {isEditing ? "Preview" : "Edit"}
+                  </TinaButton>
+                )}
+
                 {blogCtaTitle && blogCtaTitle.length ? (<div className="blog-cta">
                   <h3>{blogCtaTitle}</h3>
                   <p>
@@ -107,6 +122,24 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
+
+const BlogPostForm = {
+  fields: [
+    {
+      label: "Title",
+      name: "post.frontmatter.title",
+      description: "Enter the title of the post here",
+      component: "text",
+    },
+    {
+      label: "Description",
+      name: "post.frontmatter.postContent",
+      description: "Enter the post description",
+      component: "html",
+    },
+  ],
+}
+
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
@@ -142,7 +175,7 @@ BlogPost.propTypes = {
   }),
 };
 
-export default BlogPost;
+export default remarkForm(BlogPost, BlogPostForm);
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -170,6 +203,8 @@ export const pageQuery = graphql`
         }
         postContent
       }
+
+      ...TinaRemark
     }
   }
 `;
