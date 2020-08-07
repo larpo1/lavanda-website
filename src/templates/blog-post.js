@@ -7,7 +7,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { remarkForm } from "gatsby-tinacms-remark"
+import { liveRemarkForm } from "gatsby-tinacms-remark"
 import { Wysiwyg } from "@tinacms/fields"
 import { TinaField } from "tinacms"
 import { Button as TinaButton } from "@tinacms/styles"
@@ -175,7 +175,7 @@ BlogPost.propTypes = {
   }),
 };
 
-export default remarkForm(BlogPost, BlogPostForm);
+export default liveRemarkForm(BlogPost, BlogPostForm);
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
