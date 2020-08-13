@@ -7,10 +7,9 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Nav from "../components/Nav";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { liveRemarkForm } from "gatsby-tinacms-remark"
-import { Wysiwyg } from "@tinacms/fields"
-import { TinaField } from "tinacms"
-import { Button as TinaButton } from "@tinacms/styles"
+import { useForm, usePlugin } from "tinacms";
+import { InlineForm } from "react-tinacms-inline";
+import ReactMarkdown from 'react-markdown'
 
 export const BlogPostTemplate = ({
   content,
@@ -25,8 +24,7 @@ export const BlogPostTemplate = ({
   blogCtaText,
   blogCtaButtonText,
   blogCtaButtonTarget,
-  isEditing,
-  setIsEditing
+  form,
 }) => {
   return (
     <Layout>
@@ -74,25 +72,20 @@ export const BlogPostTemplate = ({
                   {title}
                 </h1>
                 <p className="subtitle">{date}</p>
-                <TinaField name="rawMarkdownBody" Component={Wysiwyg}>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
-                </TinaField>
+                {blogCtaTitle && blogCtaTitle.length ? (
+                  <div className="blog-cta">
+                    <h3>{blogCtaTitle}</h3>
+                    <p>{blogCtaText}</p>
+                    <Link
+                      to={blogCtaButtonTarget}
+                      className={"button is-primary"}
+                    >
+                      <strong>{blogCtaButtonText}</strong>
+                    </Link>
+                  </div>
+                ) : null}
 
-                {process.env.NODE_ENV !== "production" && (
-                  <TinaButton primary onClick={() => setIsEditing((p) => !p)}>
-                    {isEditing ? "Preview" : "Edit"}
-                  </TinaButton>
-                )}
-
-                {blogCtaTitle && blogCtaTitle.length ? (<div className="blog-cta">
-                  <h3>{blogCtaTitle}</h3>
-                  <p>
-                    {blogCtaText}
-                  </p>
-                  <Link to={blogCtaButtonTarget} className={"button is-primary"}>
-                    <strong>{blogCtaButtonText}</strong>
-                  </Link>
-                </div>) :null}
                 {tags && tags.length ? (
                   <div style={{ marginTop: `4rem` }}>
                     <h4>Tags</h4>
@@ -122,50 +115,36 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-
-const BlogPostForm = {
-  fields: [
-    {
-      label: "Title",
-      name: "post.frontmatter.title",
-      description: "Enter the title of the post here",
-      component: "text",
-    },
-    {
-      label: "Description",
-      name: "post.frontmatter.postContent",
-      description: "Enter the post description",
-      component: "html",
-    },
-  ],
-}
-
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { markdownRemark: post } = data
+  const [post, form] = useForm(data)
+  usePlugin(form)
 
   return (
-    <BlogPostTemplate
-      description={post.frontmatter.description}
-      helmet={
-        <Helmet titleTemplate="%s | Blog">
-          <title>{`${post.frontmatter.title}`}</title>
-          <meta
-            name="description"
-            content={`${post.frontmatter.description}`}
-          />
-        </Helmet>
-      }
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-      date={post.frontmatter.date}
-      content={post.frontmatter.postContent}
-      featuredImage={post.frontmatter.featuredimage}
-      blogCtaTitle={post.frontmatter.blogCtaTitle}
-      blogCtaText={post.frontmatter.blogCtaText}
-      blogCtaButtonText={post.frontmatter.blogCtaButtonText}
-      blogCtaButtonTarget={post.frontmatter.blogCtaButtonTarget}
-      metaTitle={post.frontmatter.metaTitle}
-    />
+    <InlineForm form={form}>
+      <BlogPostTemplate
+        description={post.frontmatter.description}
+        helmet={
+          <Helmet titleTemplate="%s | Blog">
+            <title>{`${post.frontmatter.title}`}</title>
+            <meta
+              name="description"
+              content={`${post.frontmatter.description}`}
+            />
+          </Helmet>
+        }
+        tags={post.frontmatter.tags}
+        title={post.frontmatter.title}
+        date={post.frontmatter.date}
+        content={post.frontmatter.postContent}
+        featuredImage={post.frontmatter.featuredimage}
+        blogCtaTitle={post.frontmatter.blogCtaTitle}
+        blogCtaText={post.frontmatter.blogCtaText}
+        blogCtaButtonText={post.frontmatter.blogCtaButtonText}
+        blogCtaButtonTarget={post.frontmatter.blogCtaButtonTarget}
+        metaTitle={post.frontmatter.metaTitle}
+      />
+    </InlineForm>
   );
 };
 
@@ -175,11 +154,12 @@ BlogPost.propTypes = {
   }),
 };
 
-export default liveRemarkForm(BlogPost, BlogPostForm);
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      ...TinaRemark
       id
       html
       frontmatter {
@@ -203,8 +183,6 @@ export const pageQuery = graphql`
         }
         postContent
       }
-
-      ...TinaRemark
     }
   }
 `;

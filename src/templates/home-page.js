@@ -7,10 +7,6 @@ import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Feature from "../components/Feature";
-import { remarkForm } from "gatsby-tinacms-remark";
-import { Wysiwyg } from "@tinacms/fields";
-import { TinaField } from "tinacms";
-import { Button as TinaButton } from "@tinacms/styles"
 
 
 export const IndexPageTemplate = ({
@@ -22,9 +18,7 @@ export const IndexPageTemplate = ({
   ctaTarget,
   awards,
   highlights,
-  metaTitle,
-  isEditing,
-  setIsEditing
+  metaTitle
 }) => (
   <Layout>
     <SEO title={metaTitle} description={description} />
@@ -36,15 +30,13 @@ export const IndexPageTemplate = ({
           <div className="columns is-vcentered">
             <div className="column is-half">
               <div className={"hero-text has-text-centered-mobile "}>
-                <TinaField name="frontmatter.title" Component={Wysiwyg}>
-                  <h1
-                    className={
-                      "title is-size-3-touch is-size-2-tablet lav-blue has-text-centered-mobile "
-                    }
-                  >
-                    {title}
-                  </h1>
-                </TinaField>
+                <h1
+                  className={
+                    "title is-size-3-touch is-size-2-tablet lav-blue has-text-centered-mobile "
+                  }
+                >
+                  {title}
+                </h1>
                 <div
                   className="subtitle is-hidden-mobile has-margin-top-20"
                   dangerouslySetInnerHTML={{ __html: subtitle }}
@@ -58,12 +50,6 @@ export const IndexPageTemplate = ({
                 <Link to="#video" className={"button is-medium"}>
                   <strong>Learn More</strong>
                 </Link>
-                
-                {process.env.NODE_ENV !== "production" && (
-                  <TinaButton primary onClick={() => setIsEditing((p) => !p)}>
-                    {isEditing ? "Preview" : "Edit"}
-                  </TinaButton>
-                )}
               </div>
             </div>
             <div className="column is-half is-hidden-mobile">
@@ -87,7 +73,7 @@ export const IndexPageTemplate = ({
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: award.awardImage,
-                        alt: award.awardImageAlt,
+                        alt: award.awardImageAlt
                       }}
                     />
                   ) : null}
@@ -99,11 +85,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
 
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="rising-wave"
-        viewBox="0 0 1440 320"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
         <defs>
           <linearGradient id="myGradient" gradientTransform="rotate(0)">
             <stop offset="0%" stopColor="#11253b" />
@@ -159,18 +141,14 @@ export const IndexPageTemplate = ({
             allowFullScreen
           ></iframe>
           <p className="subtitle is-size-4-tablet has-margin-top-50 column is-half is-offset-one-quarter">
-            As a company that started out managing properties we understand the
-            daily pressures around operational complexity, profits, growth,
+            As a company that started out managing properties we understand
+            the daily pressures around operational complexity, profits, growth,
             guest experience and financial reporting. So, we built a platform to
             automate your day-to-day.
           </p>
         </div>
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="rising-wave"
-        viewBox="0 0 1440 320"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
         <path
           fill="#f5f5f5"
           fillOpacity="0.6"
@@ -188,6 +166,86 @@ export const IndexPageTemplate = ({
         ></path>
       </svg>
     </section>
+
+    {/* <section className={"hero is-medium is-light"}>
+      <div className={"hero-body"}>
+        <div className={"container has-text-centered"}>
+          <h1 className={"title is-size-1-tablet has-margin-bottom-50"}>
+            What's your biggest challenge?
+          </h1>
+          <p className="subtitle">
+            Let us show you a pain free way to grow your business.
+          </p>
+          <div className={"columns"}>
+            <div className={"column is-half-tablet"}>
+              <article className={"is-child notification box-shadow is-white"}>
+                <h2 className={"title is-size-3"}>Operational Complexity</h2>
+                <p className={"subtitle"}>
+                  So much complexity! Keeping track of the problems is a 24 hour
+                  a day, 365 days a year headache.
+                </p>
+                <Link to="/tags/operations" className={"button is-secondary"}>
+                  I Feel the Pain &#10511;
+                </Link>
+              </article>
+            </div>
+            <div className={"column is-half-tablet"}>
+              <article className={"is-child notification box-shadow is-white"}>
+                <h2 className={"title is-size-3"}>Pain Point #2</h2>
+                <p className={"subtitle"}>
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our owner leads funnel.
+                </p>
+                <Link to="/tags/growth" className={"button is-secondary"}>
+                  Learn More &#10511;
+                </Link>
+              </article>
+            </div>
+          </div>
+          <div className={"columns"}>
+            <div className={"column is-half-tablet"}>
+              <article className={"is-child notification box-shadow is-white"}>
+                <h2 className={"title is-size-3"}>Pain Point #3</h2>
+                <p className={"subtitle"}>
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our direct bookings sites.
+                </p>
+                <Link
+                  to="/tags/direct-bookings"
+                  className={"button is-secondary"}
+                >
+                  Learn More &#10511;
+                </Link>
+              </article>
+            </div>
+            <div className={"column is-half-tablet"}>
+              <article className={"is-child notification box-shadow is-white"}>
+                <h2 className={"title is-size-3"}>Pain Point #4</h2>
+                <p className={"subtitle"}>
+                  Lots of problems and excruciating pain that we can solve with
+                  something clever like our owner workflow tools.
+                </p>
+                <Link to="/tags/workflows" className={"button is-secondary"}>
+                  Learn More &#10511;
+                </Link>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" className="rising-wave" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fillOpacity="0.9"
+          d="M0,192L80,213.3C160,235,320,277,480,272C640,267,800,213,960,192C1120,171,1280,181,1360,186.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+        <path
+          fill="#ffffff"
+          fillOpacity="0.5"
+          d="M0,224L80,213.3C160,203,320,181,480,192C640,203,800,245,960,272C1120,299,1280,309,1360,314.7L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section> */}
 
     {highlights && highlights.length ? (
       <div>
@@ -214,16 +272,13 @@ export const IndexPageTemplate = ({
   </Layout>
 );
 
-
-
-
 IndexPageTemplate.propTypes = {
   bgImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   fgImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subtitle: PropTypes.string,
-  description: PropTypes.string,
+  description: PropTypes.string
 };
 
 const IndexPage = ({ data }) => {
@@ -249,29 +304,12 @@ IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
-      frontmattermd: PropTypes.object,
-    }),
-  }),
+      frontmattermd: PropTypes.object
+    })
+  })
 };
 
-const IndexPageForm = {
-  fields: [
-    {
-      label: "Headline",
-      name: "frontmatter.title",
-      description: "Enter the h1 here",
-      component: "text",
-    },
-    {
-      label: "Blurb",
-      name: "frontmatter.subtitle",
-      description: "Enter the subtext here",
-      component: "html",
-    },
-  ],
-};
-
-export default remarkForm(IndexPage, IndexPageForm);
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -328,8 +366,6 @@ export const pageQuery = graphql`
           }
         }
       }
-
-      ...TinaRemark
     }
   }
 `;
