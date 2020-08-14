@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Refactor code leveraging TDD even without writing tests
-date: 2020-08-14T08:16:47.672Z
+date: 2020-07-24T08:16:47.672Z
 featuredimage: /img/kevin-ku-w7zyugynprq-unsplash.jpg
 postContent: >-
   <p>It all starts fairly simple. You have a day based representation of a
