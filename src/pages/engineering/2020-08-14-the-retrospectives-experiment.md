@@ -112,7 +112,8 @@ postContent: >-
 
   <p>We hope that was fun to read and hopefully an inspiration for you to try some of the formats above with your team(s) and take your retrospective game into the next level.</p>
 tags:
-  - retro retrospective agile product
+  - retrospective
+  - agile
 blogCtaTitle: Book a discovery call
 blogCtaText: Get one step ahead, book a discovery call to see how we can help
   turbocharge your business.
