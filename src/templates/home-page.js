@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
   <Layout>
     <SEO title={metaTitle} description={description} />
 
-    <section className={"hero home is-fullheight wave-container"}>
+    <section className={"hero home is-medium wave-container"}>
       <Nav />
       <div className={"hero-body"}>
         <div className={"container"}>
@@ -125,7 +125,7 @@ export const IndexPageTemplate = ({
       </svg>
     </section>
 
-    <section className={"hero is-fullheight is-dark wave-container"} id="video">
+    <section className={"hero is-medium is-dark wave-container"} id="video">
       <div className={"hero-body"}>
         <div className={"container has-text-centered"}>
           <h1 className={"title is-size-1 has-margin-bottom-50"}>
