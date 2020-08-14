@@ -114,7 +114,9 @@ postContent: >-
 
   <p>TDD for the win!</p>
 tags:
-  - refactoring tdd engineering
+  - refactoring
+  - tdd
+  - engineering
 blogCtaTitle: Book a discover call
 blogCtaText: Get one step ahead, book a discovery call to see how we can help
   turbocharge your business.
