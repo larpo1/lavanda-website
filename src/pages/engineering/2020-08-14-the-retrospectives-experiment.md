@@ -18,7 +18,7 @@ postContent: >-
 
   <p>There's no much novelty in most of the formats we tried and will describe below - except for one or two where we created our own variations inspired by existing formats. What's perhaps novel and we thought worth this blog post is the series that we went on for a few months.</p>
 
-  <p>The experiment lead us to <strong>the retrospective experiment </strong>- a 20 week long cycle of retrospectives where every member of the team conducted one using a different format each time. We had a lot of fun along the way and decided to share the experience, some information about each format tried and some conclusions about the experiment.</p>
+  <p>The experiment led us to the retrospective experiment - a 20 weeks long cycle of retrospectives where every member of the team conducted one using a different format each time. We had a lot of fun along the way and decided to share the experience, some information about each format tried and some conclusions about the experiment.</p>
 
   <h3>The one word retrospective</h3>
 
