@@ -4,13 +4,9 @@ title: The retrospectives experiment
 date: 2020-08-14T09:33:09.660Z
 featuredimage: /img/you-x-ventures-oalh2mojuuk-unsplash.jpg
 postContent: >-
-  <p>&nbsp;</p>
-
-  <h1>The retrospectives experiment</h1>
-
-  <p>&nbsp;</p>
-
-  <p>Every fortnight, we conduct retrospective meetings. We gather as a team and look back into our recent successes and failures with a view to improve our development process.</p>
+  <p>Every fortnight, we conduct retrospective meetings. We gather as a team and
+  look back into our recent successes and failures with a view to improve our
+  development process.</p>
 
   <p>After a few years using the same Lean Coffee format as the base format of the retrospective meetings, we decided to try something new.</p>
 
@@ -28,10 +24,6 @@ postContent: >-
 
   <p>We started by discussing the image used as the background of the retro board - it was a paradisal image from a Greek beach. We then used it as a basis to navigate our travel through different subjects and used a traditional pipeline to drive the discussion including the stages:</p>
 
-  <p>&nbsp;</p>
-
-  <p>&nbsp;</p>
-
   <ul>
 
   <li>To Discuss</li>
@@ -46,11 +38,7 @@ postContent: >-
 
   </ul>
 
-  <p>&nbsp;</p>
-
   <h3>The 3 little pigs retro</h3>
-
-  <p>&nbsp;</p>
 
   <p>Using the theme of the 3 little pigs tale, we used the houses of straw, sticks and bricks as a metaphor to discuss where we're doing great, where we can do even better and where we clearly need to improve.</p>
 
@@ -70,10 +58,6 @@ postContent: >-
 
   <p>In this one, we used Pacman as the theme and applied a phased approach to the discussion:</p>
 
-  <p>&nbsp;</p>
-
-  <p>&nbsp;</p>
-
   <ol>
 
   <li>Draw your mood</li>
@@ -87,8 +71,6 @@ postContent: >-
   <li>Actions</li>
 
   </ol>
-
-  <p>&nbsp;</p>
 
   <h3>The Super Mario retrospective</h3>
 
@@ -112,8 +94,6 @@ postContent: >-
 
   <p>If it's not clear already, this 20-week long retrospective series made the process far more enjoyable, engaging and creative. It also led to an environment where people could truly feel vulnerable and speak their minds and develop mutual empathy, even though some of us never met in person. We felt this was particularly important for us as a remote team and the context we&rsquo;re all experiencing these days. We think the fact that everyone put effort into conducting the sessions made this a very engaging experiment to everyone involved - every single format had its good share of fun. For us, as a relatively young team, this experiment has helped in the following ways:</p>
 
-  <p>&nbsp;</p>
-
   <ul>
 
   <li>Encouraging creativity across the team</li>
@@ -128,20 +108,12 @@ postContent: >-
 
   </ul>
 
-  <p>&nbsp;</p>
-
   <p>Having exhausted many different retrospective methods, maybe our next creativity will be thinking of what format to try next. In addition, in our next cycle we may be paying greater attention to the actions that we come up with, and hopefully getting some reinforcement that we are well on our way to improving our ways of working&nbsp;🤞</p>
 
-  <p>&nbsp;</p>
-
   <p>We hope that was fun to read and hopefully an inspiration for you to try some of the formats above with your team(s) and take your retrospective game into the next level.</p>
-
-  <p>&nbsp;</p>
-
-  <p>&nbsp;</p>
 tags:
   - retro retrospective agile product
-blogCtaTitle: Book a discover call
+blogCtaTitle: Book a discovery call
 blogCtaText: Get one step ahead, book a discovery call to see how we can help
   turbocharge your business.
 blogCtaButtonText: Talk To Us
