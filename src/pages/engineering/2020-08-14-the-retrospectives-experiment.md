@@ -122,6 +122,6 @@ blogCtaButtonTarget: /book-a-demo
 featuredpost: false
 metaTitle: The retrospectives experiment
 description: The retrospectives experiment, a 20 week long cycle of team
-  retrospectives each time conducted by a different team member with a different
-  format
+  retrospectives conducted by a different team member with a different format
+  each time
 ---
