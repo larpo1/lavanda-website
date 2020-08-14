@@ -11,7 +11,6 @@ import { StaticQuery, graphql } from "gatsby";
 
 import Header from "../components/Header";
 import Footer from "./Footer";
-import { ParallaxProvider } from "react-scroll-parallax";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,11 +24,11 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <ParallaxProvider>
+      <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <Footer />
-      </ParallaxProvider>
+      </>
     )}
   />
 );
