@@ -50,7 +50,7 @@ postContent: >-
 
   <p>In this retrospective, we used Harry Potter spells and artifacts to brainstorm and improve. Felix Felicis: The good things that happened in the sprint. Baruffio's Brain Elixir: The things we learned. Petrificus Totalus: What did slow us down? Triwizard Cup: Shout-outs for the team members.</p>
 
-  <p>Retro against Humanity</p>
+  <h3>Retro against Humanity</h3>
 
   <p>Inspired by the card game, in this retrospective we used cards with incomplete sentences, completed them collectively and discussed the different perspectives.</p>
 
