@@ -5,7 +5,7 @@ subtitle: <p><!--(figmeta)eyJmaWxlS2V5Ijoid0I4MVg4SGk2emtqb0lnY1dDSm96biIsInBhc3
   property management software &amp; services allow you to benefit from a
   flexible mix of short, medium and long-term rental strategies. Welcome to
   renting <strong>omnichannel</strong>.</p>
-fgImage: /img/home-hero-image.svg
+fgImage: /img/home-hero-image-2x.png
 bgImage: ""
 ctaText: Get in touch
 ctaTarget: /book-a-demo
@@ -25,20 +25,20 @@ highlights:
       bookings.
     linkTarget: ""
     imageAlign: img-right
-    image: /img/pseudo-ui-distribution.svg
+    image: /img/pseudo-ui-distribution-2x.png
   - titleContent: Cross-channel revenue management
     textContent: Understand and access the full spectrum of short, medium and
       long-term rental demand for each unit, capitalizing on seasonal peaks and
       monetizing voids.
     linkTarget: ""
     imageAlign: img-left
-    image: /img/pseudo-ui-rev-mgmt.svg
+    image: /img/pseudo-ui-rev-mgmt-2x.png
   - textContent: Delight residents and short-term guests with a consistent
       omnichannel experience, automate core operations and drive down cost.
     titleContent: Customer experience automation
     linkTarget: ""
     imageAlign: img-right
-    image: /img/pseudo-ui-customer-experience.svg
+    image: /img/pseudo-ui-customer-experience-2x.png
 metaTitle: "Lavanda: Property Management Software for short-term, student
   accommodation, PBSA, and vacation rentals"
 description: Multi-award-winning property management software for short-term
